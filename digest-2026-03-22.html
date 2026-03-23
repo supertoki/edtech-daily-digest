@@ -39,12 +39,18 @@
     header {
       text-align: center;
       margin-bottom: 2.5rem;
-      padding: 1.5rem 0;
+      padding: 1.5rem 0 1.5rem;
       border-bottom: 3px solid var(--accent-career);
       background: var(--primary);
       border-radius: 8px;
       margin-top: -2rem;
       padding-top: 2rem;
+    }
+
+    header .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 0.75rem;
     }
 
     header h1 {
@@ -53,8 +59,14 @@
       color: #ffffff;
     }
 
-    header .date {
+    header .subtitle {
       font-size: 1rem;
+      color: var(--accent-career);
+      margin-top: 0.25rem;
+    }
+
+    header .date {
+      font-size: 0.9rem;
       color: var(--accent-human);
       margin-top: 0.25rem;
     }
@@ -210,7 +222,21 @@
   <div class="container">
 
     <header>
+      <div class="logo">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Rounded screen shape -->
+          <rect x="10" y="30" width="180" height="140" rx="40" ry="40" fill="white"/>
+          <rect x="30" y="48" width="140" height="104" rx="8" ry="8" fill="#2ec4a5"/>
+          <!-- Graduation cap -->
+          <polygon points="100,68 60,90 100,112 140,90" fill="none" stroke="#ffd600" stroke-width="6" stroke-linejoin="round"/>
+          <polyline points="100,112 100,130" fill="none" stroke="#ffd600" stroke-width="5"/>
+          <line x1="140" y1="90" x2="140" y2="120" stroke="#ffd600" stroke-width="5"/>
+          <!-- Hexagon accent on cap -->
+          <polygon points="100,78 85,87 85,100 100,108 115,100 115,87" fill="none" stroke="#ffd600" stroke-width="4" stroke-linejoin="round"/>
+        </svg>
+      </div>
       <h1>EdTech Daily Digest</h1>
+      <div class="subtitle">Daily education technology research from 11 curated sources</div>
       <div class="date">March 22, 2026</div>
     </header>
 
