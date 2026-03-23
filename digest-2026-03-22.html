@@ -6,19 +6,19 @@
   <title>EdTech Daily Digest — March 22, 2026</title>
   <style>
     :root {
-      --primary: #1a56db;
-      --primary-light: #e8effc;
-      --bg: #f8f9fa;
+      --primary: #3d4f5f;
+      --primary-light: #eef2f4;
+      --bg: #f5f6f7;
       --card-bg: #ffffff;
-      --text: #1f2937;
-      --text-muted: #6b7280;
-      --border: #e5e7eb;
-      --accent-ai: #7c3aed;
-      --accent-cyber: #dc2626;
-      --accent-equity: #059669;
-      --accent-career: #d97706;
-      --accent-data: #2563eb;
-      --accent-human: #db2777;
+      --text: #3d4f5f;
+      --text-muted: #5a6f7e;
+      --border: #dde3e7;
+      --accent-ai: #5a6f7e;
+      --accent-cyber: #e8553a;
+      --accent-equity: #2ec4a5;
+      --accent-career: #ffd600;
+      --accent-data: #2e5e5a;
+      --accent-human: #7ba5a0;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -39,26 +39,30 @@
     header {
       text-align: center;
       margin-bottom: 2.5rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 2px solid var(--primary);
+      padding: 1.5rem 0;
+      border-bottom: 3px solid var(--accent-career);
+      background: var(--primary);
+      border-radius: 8px;
+      margin-top: -2rem;
+      padding-top: 2rem;
     }
 
     header h1 {
       font-size: 2rem;
       font-weight: 700;
-      color: var(--primary);
+      color: #ffffff;
     }
 
     header .date {
       font-size: 1rem;
-      color: var(--text-muted);
+      color: var(--accent-human);
       margin-top: 0.25rem;
     }
 
     /* Executive Summary */
     .summary {
-      background: var(--primary-light);
-      border-left: 4px solid var(--primary);
+      background: #eaf6f3;
+      border-left: 4px solid var(--accent-equity);
       border-radius: 0 8px 8px 0;
       padding: 1.25rem 1.5rem;
       margin-bottom: 2.5rem;
@@ -67,7 +71,7 @@
     .summary h2 {
       font-size: 1.1rem;
       margin-bottom: 0.5rem;
-      color: var(--primary);
+      color: var(--accent-data);
     }
 
     .summary p {
@@ -97,7 +101,7 @@
     .theme-tag.ai { background: var(--accent-ai); }
     .theme-tag.cyber { background: var(--accent-cyber); }
     .theme-tag.equity { background: var(--accent-equity); }
-    .theme-tag.career { background: var(--accent-career); }
+    .theme-tag.career { background: var(--accent-career); color: var(--primary); }
     .theme-tag.data { background: var(--accent-data); }
     .theme-tag.human { background: var(--accent-human); }
 
@@ -112,12 +116,13 @@
       gap: 0.75rem;
       margin-bottom: 0.75rem;
       padding-bottom: 0.4rem;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 2px solid var(--accent-career);
     }
 
     .source-header h3 {
       font-size: 1.15rem;
       font-weight: 700;
+      color: var(--accent-data);
     }
 
     .source-header .source-url {
@@ -135,7 +140,8 @@
     }
 
     .article-card:hover {
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(46,94,90,0.12);
+      border-left: 3px solid var(--accent-equity);
     }
 
     .article-card h4 {
@@ -145,11 +151,12 @@
     }
 
     .article-card h4 a {
-      color: var(--primary);
+      color: var(--accent-data);
       text-decoration: none;
     }
 
     .article-card h4 a:hover {
+      color: var(--accent-cyber);
       text-decoration: underline;
     }
 
@@ -166,13 +173,14 @@
     .themes-detail h2 {
       font-size: 1.3rem;
       margin-bottom: 1rem;
-      color: var(--primary);
+      color: var(--accent-data);
     }
 
     .theme-block {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-left: 3px solid var(--accent-human);
+      border-radius: 0 8px 8px 0;
       padding: 1.25rem;
       margin-bottom: 0.75rem;
     }

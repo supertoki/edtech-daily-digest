@@ -6,13 +6,17 @@
   <title>EdTech Daily Digest — Archive</title>
   <style>
     :root {
-      --primary: #1a56db;
-      --primary-light: #e8effc;
-      --bg: #f8f9fa;
+      --primary: #3d4f5f;
+      --primary-light: #eef2f4;
+      --bg: #f5f6f7;
       --card-bg: #ffffff;
-      --text: #1f2937;
-      --text-muted: #6b7280;
-      --border: #e5e7eb;
+      --text: #3d4f5f;
+      --text-muted: #5a6f7e;
+      --border: #dde3e7;
+      --yellow: #ffd600;
+      --teal: #2ec4a5;
+      --dark-teal: #2e5e5a;
+      --sage: #7ba5a0;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -25,11 +29,15 @@
     header {
       text-align: center;
       margin-bottom: 2.5rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 2px solid var(--primary);
+      padding: 1.5rem 0;
+      border-bottom: 3px solid var(--yellow);
+      background: var(--primary);
+      border-radius: 8px;
+      margin-top: -2rem;
+      padding-top: 2rem;
     }
-    header h1 { font-size: 2rem; font-weight: 700; color: var(--primary); }
-    header p { font-size: 1rem; color: var(--text-muted); margin-top: 0.25rem; }
+    header h1 { font-size: 2rem; font-weight: 700; color: #ffffff; }
+    header p { font-size: 1rem; color: var(--sage); margin-top: 0.25rem; }
     .digest-list { list-style: none; }
     .digest-list li {
       background: var(--card-bg);
@@ -38,7 +46,10 @@
       margin-bottom: 0.6rem;
       transition: box-shadow 0.15s;
     }
-    .digest-list li:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .digest-list li:hover {
+      box-shadow: 0 2px 8px rgba(46,94,90,0.12);
+      border-left: 3px solid var(--teal);
+    }
     .digest-list a {
       display: flex;
       justify-content: space-between;
@@ -47,8 +58,8 @@
       text-decoration: none;
       color: var(--text);
     }
-    .digest-list .date { font-weight: 600; color: var(--primary); }
-    .digest-list .arrow { color: var(--text-muted); font-size: 1.2rem; }
+    .digest-list .date { font-weight: 600; color: var(--dark-teal); }
+    .digest-list .arrow { color: var(--teal); font-size: 1.2rem; }
     .empty {
       text-align: center;
       color: var(--text-muted);
