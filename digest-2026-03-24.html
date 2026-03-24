@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdTech Daily Digest — March 24, 2026</title>
+  <style>
+    :root {
+      --primary: #3d4f5f;
+      --primary-light: #eef2f4;
+      --bg: #f5f6f7;
+      --card-bg: #ffffff;
+      --text: #3d4f5f;
+      --text-muted: #5a6f7e;
+      --border: #dde3e7;
+      --accent-ai: #5a6f7e;
+      --accent-cyber: #e8553a;
+      --accent-equity: #2ec4a5;
+      --accent-career: #ffd600;
+      --accent-data: #2e5e5a;
+      --accent-human: #7ba5a0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding: 1.5rem 0 1.5rem;
+      border-bottom: 3px solid var(--accent-career);
+      background: var(--primary);
+      border-radius: 8px;
+      margin-top: -2rem;
+      padding-top: 2rem;
+    }
+
+    header .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 0.75rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    header .subtitle {
+      font-size: 1rem;
+      color: var(--accent-career);
+      margin-top: 0.25rem;
+    }
+
+    header .date {
+      font-size: 0.9rem;
+      color: var(--accent-human);
+      margin-top: 0.25rem;
+    }
+
+    /* Executive Summary */
+    .summary {
+      background: #eaf6f3;
+      border-left: 4px solid var(--accent-equity);
+      border-radius: 0 8px 8px 0;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .summary h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent-data);
+    }
+
+    .summary p {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    /* Theme Tags */
+    .themes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .theme-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .theme-tag.ai { background: var(--accent-ai); }
+    .theme-tag.cyber { background: var(--accent-cyber); }
+    .theme-tag.equity { background: var(--accent-equity); }
+    .theme-tag.career { background: var(--accent-career); color: var(--primary); }
+    .theme-tag.data { background: var(--accent-data); }
+    .theme-tag.human { background: var(--accent-human); }
+
+    /* Source Sections */
+    .source-section {
+      margin-bottom: 2rem;
+    }
+
+    .source-header {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--accent-career);
+    }
+
+    .source-header h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--accent-data);
+    }
+
+    .source-header .source-url {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .article-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.6rem;
+      transition: box-shadow 0.15s;
+    }
+
+    .article-card:hover {
+      box-shadow: 0 2px 8px rgba(46,94,90,0.12);
+      border-left: 3px solid var(--accent-equity);
+    }
+
+    .article-card h4 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .article-card h4 a {
+      color: var(--accent-data);
+      text-decoration: none;
+    }
+
+    .article-card h4 a:hover {
+      color: var(--accent-cyber);
+      text-decoration: underline;
+    }
+
+    .article-card p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .article-card.unavailable {
+      background: #fafafa;
+      border-style: dashed;
+    }
+
+    .article-card.unavailable p {
+      font-style: italic;
+    }
+
+    /* Key Themes Detail */
+    .themes-detail {
+      margin-top: 2.5rem;
+    }
+
+    .themes-detail h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: var(--accent-data);
+    }
+
+    .theme-block {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent-human);
+      border-radius: 0 8px 8px 0;
+      padding: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .theme-block h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+
+    .theme-block p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">
+        <img src="edtech.png" alt="EdTech Daily Digest" width="80" height="80">
+      </div>
+      <h1>EdTech Daily Digest</h1>
+      <div class="subtitle">Daily education technology research from 11 curated sources</div>
+      <div class="date">March 24, 2026</div>
+    </header>
+
+    <section class="summary">
+      <h2>Executive Summary</h2>
+      <p>A Brookings Institution survey published March 23 raises urgent alarms about a significant decline in teacher working conditions — a sobering counterpoint to the industry's AI-first momentum. Simultaneously, SETDA releases a free EdTech Quality Action Toolkit to help districts evaluate products more rigorously, and Anthropic announces it will formally study the risks and economic effects of advanced AI, signaling a broad pivot from enthusiasm to accountability. Across sources today, the tension between AI-driven efficiency and the human foundations of education grows sharper.</p>
+    </section>
+
+    <div class="themes">
+      <span class="theme-tag human">Teacher Wellbeing</span>
+      <span class="theme-tag ai">AI Governance</span>
+      <span class="theme-tag cyber">Shadow AI / Security</span>
+      <span class="theme-tag career">Career Pathways</span>
+      <span class="theme-tag equity">Digital Equity</span>
+      <span class="theme-tag data">Data Infrastructure</span>
+    </div>
+
+    <!-- Source 1 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Education Technology Insights</h3>
+        <span class="source-url">educationtechnologyinsights.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/cloud-school-software-as-the-backbone-of-nextgeneration-learning-environments-nid-3214.html" target="_blank">Cloud School Software As the Backbone of Next-Generation Learning Environments</a></h4>
+        <p>Examines how cloud-native school software platforms are becoming the foundational infrastructure for modern, flexible, and scalable learning environments.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/the-microlearning-revolution-reshaping-digital-education-one-module-at-a-time-nid-3325.html" target="_blank">The Microlearning Revolution: Reshaping Digital Education One Module at a Time</a></h4>
+        <p>Explores how bite-sized, on-demand content delivery is transforming corporate and K-12 digital learning programs with measurable engagement gains.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/canada-s-strategic-shift-toward-universal-auditory-access-nid-3397.html" target="_blank">Canada's Strategic Shift Toward Universal Auditory Access</a></h4>
+        <p>Canada moves to expand universal auditory access in education, prioritizing inclusive design and assistive technology for students with hearing differences.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/the-career-tech-renaissance-platforms-reshaping-education-and-employment-nid-3324.html" target="_blank">The Career Tech Renaissance: Platforms Reshaping Education and Employment</a></h4>
+        <p>Emerging career technology platforms are closing the gap between education outcomes and employer expectations across K-12 and higher ed.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/how-stem-education-is-shaping-the-next-generation-nid-3210.html" target="_blank">How STEM Education Is Shaping the Next Generation</a></h4>
+        <p>Reviews how STEM-focused curricula and tools are positioning students for careers in an increasingly technical global economy.</p>
+      </div>
+    </section>
+
+    <!-- Source 2 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>1EdTech Events</h3>
+        <span class="source-url">1edtech.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/what-if-learners-were-recognized-for-the-credentials-they-earn" target="_blank">What If Learners Were Recognized for the Credentials They Earn?</a></h4>
+        <p>Webinar (held March 19) exploring how learner credential recognition could be systematically embedded across institutions and workforce systems.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/2026-upcea-annual-conference" target="_blank">2026 UPCEA Annual Conference</a></h4>
+        <p>April 15-17 industry gathering focused on professional and continuing education trends across higher education institutions.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/what-if-skills-became-the-shared-infrastructure-of-learning" target="_blank">What If Skills Became the Shared Infrastructure of Learning?</a></h4>
+        <p>Webinar (April 23) examining skills as a common framework spanning education ecosystems, workforce pathways, and credential recognition systems.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/webinar-a-streamlined-approach-to-evaluating-edtech-hosted-by-educause" target="_blank">A Streamlined Approach to Evaluating EdTech (with EDUCAUSE)</a></h4>
+        <p>Joint session April 28 presenting efficient methods for evaluating educational technology products, vendor communication, and procurement decisions.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/event/li/2026" target="_blank">Learning Impact Conference 2026</a></h4>
+        <p>Flagship annual conference June 1-3 in San Francisco, CA — "Connecting the power of the edtech community" for standards, interoperability, and innovation.</p>
+      </div>
+    </section>
+
+    <!-- Source 3 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Week</h3>
+        <span class="source-url">edtechweek.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechweek.com/" target="_blank">EdTech Week 2026 — October 12–15, Columbia University, NYC</a></h4>
+        <p>The annual flagship EdTech event returns to New York City with 200+ world-class speakers and 300+ investors. Programming includes the StartEd CEO Summit (Oct 12-13), AI for Educators Summit, Gallery of Innovation expo, and a Shark Tank startup pitch competition. Speaker applications are open through May 19.</p>
+      </div>
+    </section>
+
+    <!-- Source 4 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Ed-Fi Alliance Impact Stories</h3>
+        <span class="source-url">ed-fi.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/keeping-students-in-school-and-funding-on-track/" target="_blank">Keeping Students in School and Funding on Track</a></h4>
+        <p>South Carolina educators use real-time Ed-Fi dashboards to spot attendance issues early and intervene before students fall behind — linking attendance to both student welfare and district funding stability.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/how-texas-is-setting-teachers-and-students-up-for-success/" target="_blank">How Texas Is Setting Teachers — and Students — Up for Success</a></h4>
+        <p>Texas leverages Ed-Fi data infrastructure to simultaneously support teacher effectiveness and drive improved student outcomes across the state.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/michigan-student-transfers/" target="_blank">Snack-Pack: Turning School Transfers into Seamless Hand-Offs</a></h4>
+        <p>Michigan uses the Ed-Fi standard to make student transfers between schools faster and less disruptive for families and the educators receiving them.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/" target="_blank">Real-Time Data, Real College and Career Results</a></h4>
+        <p>Illustrates how timely access to student data translates directly into improved college and career preparation outcomes at the district level.</p>
+      </div>
+    </section>
+
+    <!-- Source 5 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdSurge</h3>
+        <span class="source-url">edsurge.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-16-beyond-the-classroom-how-school-districts-are-building-real-world-career-pathways" target="_blank">Beyond the Classroom: How School Districts Are Building Real-World Career Pathways</a></h4>
+        <p>Ellen Ullman reports on districts creating authentic career preparation experiences that connect classroom learning to real professional opportunities for students. (Mar 16)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-13-when-a-box-is-no-longer-a-castle-restoring-wonder-in-a-screen-filled-world" target="_blank">When a Box Is No Longer a Castle: Restoring Wonder in a Screen-Filled World</a></h4>
+        <p>Hema Khatri reflects on rekindling childhood imagination and curiosity amid increasing screen dependency in classrooms and at home. (Mar 13)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-09-screen-free-schools-some-legislators-push-for-a-new-normal" target="_blank">Screen-Free Schools? Some Legislators Push for a New Normal</a></h4>
+        <p>Lauren Coffey covers legislative efforts across multiple states advocating for reduced or restricted technology use in K-12 school settings. (Mar 9)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-03-with-teens-comfortable-confiding-in-ai-should-schools-embrace-it-for-mental-health-care" target="_blank">With Teens Comfortable Confiding in AI, Should Schools Embrace It for Mental Health Care?</a></h4>
+        <p>Daniel Mollenkamp examines growing teen openness to AI disclosure and the implications of formally adopting AI in school mental health support programs. (Mar 3)</p>
+      </div>
+    </section>
+
+    <!-- Source 6 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>THE Journal</h3>
+        <span class="source-url">thejournal.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/03/16/SETDA-Releases-Free-EdTech-Quality-Action-Toolkit.aspx" target="_blank">SETDA Releases Free EdTech Quality Action Toolkit</a></h4>
+        <p>The State Educational Technology Directors Association publishes a free toolkit offering evaluation frameworks for edtech products, compliance guidance, and templates for vendor communication. (Mar 16)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/03/16/Anthropic-to-Study-Risks-and-Economic-Effects-of-Advanced-AI.aspx" target="_blank">Anthropic to Study Risks and Economic Effects of Advanced AI</a></h4>
+        <p>Anthropic formally announces dedicated research into the societal challenges and economic disruptions posed by increasingly capable AI systems. (Mar 16)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/03/10/OpenAI-Intros-Interactive-Math-and-Science-Learning-Tools-for-ChatGPT.aspx" target="_blank">OpenAI Intros Interactive Math and Science Learning Tools for ChatGPT</a></h4>
+        <p>New ChatGPT features guide learners through STEM concepts by dynamically showing how formulas and mathematical relationships work in real time. (Mar 10)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/02/25/Shadow-AI-Is-Quietly-Becoming-K12s-Biggest-Cybersecurity-Risk.aspx" target="_blank">Shadow AI Is Quietly Becoming K-12's Biggest Cybersecurity Risk</a></h4>
+        <p>AI-powered tools are spreading faster than school IT policies can adapt, creating unsanctioned "shadow AI" vulnerabilities across K-12 districts. (Feb 25)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/02/20/Teacher-Workload-and-Staff-Vacancies-Remain-Top-Challenges-for-Schools.aspx" target="_blank">Teacher Workload and Staff Vacancies Remain Top Challenges for Schools</a></h4>
+        <p>PowerSchool's 2026 K-12 EdTech Pulse report, based on surveys of 1,300+ educators, identifies administrative burden and staffing shortages as the dominant challenges for schools. (Feb 20)</p>
+      </div>
+    </section>
+
+    <!-- Source 7 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Magazine</h3>
+        <span class="source-url">edtechmagazine.com</span>
+      </div>
+      <div class="article-card unavailable">
+        <h4>Source Unavailable Today</h4>
+        <p>EdTech Magazine's homepage returned only navigation structure (K-12 and Higher Ed sections) without rendered article content. No specific articles could be extracted from the live page today.</p>
+      </div>
+    </section>
+
+    <!-- Source 8 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Inside Higher Ed</h3>
+        <span class="source-url">insidehighered.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/03/23/canvas-unrolls-ai-teaching-agent" target="_blank">Canvas Unrolls AI Teaching Agent</a></h4>
+        <p>Instructure's new AI tool targets routine faculty tasks, though experts warn about the risks of automating core classroom functions and the implications for pedagogical autonomy. (Mar 23)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/03/16/writing-faculty-push-right-refuse-ai" target="_blank">Writing Faculty Push for the Right to Refuse AI</a></h4>
+        <p>Instructors in composition and writing programs are formally advocating for institutional protection to exclude AI tools from their classrooms and assignments. (Mar 16)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/tech-innovation/alternative-credentials/2026/03/23/apprenticeship-glow" target="_blank">The Apprenticeship (R)Evolution</a></h4>
+        <p>Apprenticeships are expanding beyond traditional trades into healthcare, AI, business services, and advanced manufacturing — reshaping how skills-based credentials are earned and recognized. (Mar 23)</p>
+      </div>
+    </section>
+
+    <!-- Source 9 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>ISTE</h3>
+        <span class="source-url">iste.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/making-it-personal-the-future-of-professional-learning" target="_blank">Making It Personal: The Future of Professional Learning</a></h4>
+        <p>Personalized online professional learning gives educators greater ownership over their own development trajectories, increasing agency and relevance for practitioners at all levels.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/ai-in-the-classroom-moving-beyond-challenges-to-innovation" target="_blank">AI in the Classroom — Moving Beyond Challenges to Innovation</a></h4>
+        <p>Educator Rachelle Dené Poth explores how thoughtful, ethical AI implementation can transform rather than disrupt learning environments across grade levels.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/5-tactics-for-future-proofing-district-wide-asset-management-systems" target="_blank">5 Tactics for Future-Proofing District-Wide Asset Management Systems</a></h4>
+        <p>Addresses protecting technology investments through strategic planning in an environment of rapid change and increasingly constrained district budgets.</p>
+      </div>
+    </section>
+
+    <!-- Source 10 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Brookings Institution</h3>
+        <span class="source-url">brookings.edu</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/survey-shows-alarming-drop-in-working-conditions-for-teachers-what-are-we-doing-about-it/" target="_blank">Survey Shows Alarming Drop in Working Conditions for Teachers: What Are We Doing About It?</a></h4>
+        <p>Sofia P. Baker and Cory Koedel analyze survey data revealing a significant deterioration in teacher workplace conditions and discuss urgently needed policy responses. (Mar 23)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/chalk-courage-and-climate-change-how-educators-in-eastern-and-southern-africa-are-transforming-challenges-into-action/" target="_blank">Chalk, Courage, and Climate Change: How Educators in Eastern and Southern Africa Are Transforming Challenges Into Action</a></h4>
+        <p>Ellen Chigwanda examines how African educators are integrating climate challenges into transformative, community-rooted educational practice. (Mar 20)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/collection/understanding-the-student-loan-landscape/" target="_blank">Understanding the Student Loan Landscape</a></h4>
+        <p>A Brookings collection examining the full complexity of student loan policy and its evolving political and economic trajectory under current administration priorities. (Mar 19)</p>
+      </div>
+    </section>
+
+    <!-- Source 11 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Digest</h3>
+        <span class="source-url">edtechdigest.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/19/connected-or-left-behind-reimagining-access-in-the-age-of-ai-learning/" target="_blank">Connected or Left Behind: Reimagining Access in the Age of AI Learning</a></h4>
+        <p>Mark Colwell of Mission Telecom argues that seamless connectivity is invisible infrastructure — and without it, AI learning tools actively deepen the equity divide for underserved students. (Mar 19)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/13/higher-eds-netflix-moment-is-here/" target="_blank">Higher Ed's 'Netflix Moment' Is Here</a></h4>
+        <p>Pathify's Shana Holman argues that Campus Experience Platforms are becoming a decisive competitive differentiator in higher ed enrollment and student retention. (Mar 13)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/13/inside-families-first-impressions-of-the-ai-age/" target="_blank">Inside Families' First Impressions of the AI Age</a></h4>
+        <p>Common Sense Media research reveals how families across demographics are experiencing and reacting to AI tools embedded in daily life and their children's learning. (Mar 13)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/11/the-attendance-crisis-tech-cant-solve-alone/" target="_blank">The Attendance Crisis Tech Can't Solve Alone</a></h4>
+        <p>Human-centered approaches to chronic absenteeism must work alongside — and must not be displaced by — technological interventions and attendance-tracking tools. (Mar 11)</p>
+      </div>
+    </section>
+
+    <!-- Key Themes -->
+    <section class="themes-detail">
+      <h2>Key Themes &amp; Trends</h2>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-human);">1. Teacher Wellbeing Is the Industry's Blind Spot</h4>
+        <p>Brookings' new survey (Mar 23) documenting an alarming drop in teacher working conditions arrives as AI vendors race to automate classroom tasks. Writing faculty are simultaneously pushing for the formal right to refuse AI, and PowerSchool's 2026 Pulse report flags workload as educators' top burden. The data converges on a question the industry is not adequately answering: if teaching conditions continue to deteriorate, who remains to teach?</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-ai);">2. AI Accountability Is Becoming Structural</h4>
+        <p>Anthropic's announcement that it will formally study AI's risks and economic effects (THE Journal, Mar 16) and SETDA's free EdTech Quality Action Toolkit (Mar 16) mark a notable turn: both commercial and policy actors are shifting from product launches toward governance infrastructure. This complements Canvas's new AI Teaching Agent — a product whose reception has been mixed precisely because accountability frameworks are still catching up to deployment speed.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-cyber);">3. Shadow AI Remains an Unresolved Governance Gap</h4>
+        <p>THE Journal's coverage of shadow AI as K-12's biggest cybersecurity risk continues to reverberate with no clear resolution in sight. The problem is structural: teachers and students adopt tools faster than IT departments can evaluate them. The SETDA toolkit is timely — but requires districts to have the capacity and staff to actually use it.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-data);">4. Microlearning and Modular Formats Are Gaining Ground</h4>
+        <p>Education Technology Insights highlights the microlearning revolution gaining momentum in digital education. Combined with the broader shift toward bite-sized credentials and stackable skills (tracked across 1EdTech's entire event series), modular learning formats are increasingly the design default — not the exception — in both corporate and K-12 settings.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-career);">5. Career Pathways Are Reshaping the K-12 and Higher Ed Value Proposition</h4>
+        <p>EdSurge and Inside Higher Ed both report on structural changes to how education connects to employment — districts building real-world pathways, apprenticeships expanding into AI and healthcare sectors, and career tech platforms bridging the gap. The credential is no longer assumed to follow education automatically; it must be earned, portable, and legible to employers.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-equity);">6. Equity as Infrastructure, Not Afterthought</h4>
+        <p>Canada's auditory access initiative (Education Technology Insights) and EdTech Digest's connectivity-as-infrastructure argument both frame equity not as a supplemental goal but as prerequisite infrastructure. Without reliable connectivity and inclusive design, AI-era educational innovations are exclusive by default — a message growing louder as AI tool deployment accelerates.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>EdTech Daily Digest &mdash; Compiled March 24, 2026 &mdash; 10 of 11 sources successfully scanned (EdTech Magazine returned navigation only)</p>
+    </footer>
+
+  </div>
+</body>
+</html>
