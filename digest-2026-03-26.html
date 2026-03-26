@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdTech Daily Digest — March 26, 2026</title>
+  <style>
+    :root {
+      --primary: #3d4f5f;
+      --primary-light: #eef2f4;
+      --bg: #f5f6f7;
+      --card-bg: #ffffff;
+      --text: #3d4f5f;
+      --text-muted: #5a6f7e;
+      --border: #dde3e7;
+      --accent-ai: #5a6f7e;
+      --accent-cyber: #e8553a;
+      --accent-equity: #2ec4a5;
+      --accent-career: #ffd600;
+      --accent-data: #2e5e5a;
+      --accent-human: #7ba5a0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding: 1.5rem 0 1.5rem;
+      border-bottom: 3px solid var(--accent-career);
+      background: var(--primary);
+      border-radius: 8px;
+      margin-top: -2rem;
+      padding-top: 2rem;
+    }
+
+    header .logo { width: 80px; height: 80px; margin: 0 auto 0.75rem; }
+    header h1 { font-size: 2rem; font-weight: 700; color: #ffffff; }
+    header .subtitle { font-size: 1rem; color: var(--accent-career); margin-top: 0.25rem; }
+    header .date { font-size: 0.9rem; color: var(--accent-human); margin-top: 0.25rem; }
+
+    .summary {
+      background: #eaf6f3;
+      border-left: 4px solid var(--accent-equity);
+      border-radius: 0 8px 8px 0;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .summary h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--accent-data); }
+    .summary p { font-size: 0.95rem; color: var(--text); }
+
+    .themes { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 2.5rem; }
+    .theme-tag {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.4rem 0.85rem; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 600; color: #fff;
+    }
+    .theme-tag.ai { background: var(--accent-ai); }
+    .theme-tag.cyber { background: var(--accent-cyber); }
+    .theme-tag.equity { background: var(--accent-equity); }
+    .theme-tag.career { background: var(--accent-career); color: var(--primary); }
+    .theme-tag.data { background: var(--accent-data); }
+    .theme-tag.human { background: var(--accent-human); }
+
+    .source-section { margin-bottom: 2rem; }
+    .source-header {
+      display: flex; align-items: baseline; gap: 0.75rem;
+      margin-bottom: 0.75rem; padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--accent-career);
+    }
+    .source-header h3 { font-size: 1.15rem; font-weight: 700; color: var(--accent-data); }
+    .source-header .source-url { font-size: 0.8rem; color: var(--text-muted); }
+
+    .article-card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 0.6rem;
+      transition: box-shadow 0.15s;
+    }
+    .article-card:hover {
+      box-shadow: 0 2px 8px rgba(46,94,90,0.12);
+      border-left: 3px solid var(--accent-equity);
+    }
+    .article-card h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.3rem; }
+    .article-card h4 a { color: var(--accent-data); text-decoration: none; }
+    .article-card h4 a:hover { color: var(--accent-cyber); text-decoration: underline; }
+    .article-card p { font-size: 0.88rem; color: var(--text-muted); }
+    .article-card.unavailable { background: #fafafa; border-style: dashed; }
+    .article-card.unavailable p { font-style: italic; }
+
+    .themes-detail { margin-top: 2.5rem; }
+    .themes-detail h2 { font-size: 1.3rem; margin-bottom: 1rem; color: var(--accent-data); }
+    .theme-block {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-left: 3px solid var(--accent-human);
+      border-radius: 0 8px 8px 0; padding: 1.25rem; margin-bottom: 0.75rem;
+    }
+    .theme-block h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .theme-block p { font-size: 0.9rem; color: var(--text-muted); }
+
+    footer {
+      text-align: center; margin-top: 3rem; padding-top: 1rem;
+      border-top: 1px solid var(--border); font-size: 0.8rem; color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">
+        <img src="edtech.png" alt="EdTech Daily Digest" width="80" height="80">
+      </div>
+      <h1>EdTech Daily Digest</h1>
+      <div class="subtitle">Daily education technology research from 11 curated sources</div>
+      <div class="date">March 26, 2026</div>
+    </header>
+
+    <section class="summary">
+      <h2>Executive Summary</h2>
+      <p>Federal higher education policy continues to fracture: the Education Department excludes minority-serving institution programs from new grant eligibility, area studies centers wither as Title VI funding evaporates, and law schools are launching their own lending programs to fill gaps left by federal loan caps under OBBBA. Brookings' accompanying March 25 analysis adds structural depth to the student loan landscape. Meanwhile, the Department of Labor has formally defined five key areas of AI literacy — a signal that AI competency is shifting from an industry preference to a workforce policy standard — while the University of Richmond's new Center for Liberal Arts and AI demonstrates institutional momentum toward embedding AI across non-STEM disciplines.</p>
+    </section>
+
+    <div class="themes">
+      <span class="theme-tag human">Federal Policy Fracture</span>
+      <span class="theme-tag ai">AI Literacy Standard</span>
+      <span class="theme-tag cyber">Screen Time Debate</span>
+      <span class="theme-tag equity">Equity Fault Lines</span>
+      <span class="theme-tag career">Student Finance</span>
+      <span class="theme-tag data">Data Infrastructure</span>
+    </div>
+
+    <!-- Source 1 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Education Technology Insights</h3>
+        <span class="source-url">educationtechnologyinsights.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/advancing-accountability-in-student-arrival-and-dismissal-nid-3737.html" target="_blank">Advancing Accountability in Student Arrival and Dismissal</a></h4>
+        <p>Technology solutions for tracking student attendance and pickup procedures help districts improve safety and administrative accountability at school entry and exit points.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/huawei-debuts-smart-education-courses-for-nextgen-ict-at-mwc-2026-nid-3736.html" target="_blank">Huawei Debuts Smart Education Courses for Next-Gen ICT at MWC 2026</a></h4>
+        <p>Huawei unveils smart education training programs for next-generation ICT professionals at Mobile World Congress 2026, expanding its footprint in global technical workforce education.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/empowering-educators-with-datadriven-mtss-insights-nid-3419.html" target="_blank">Empowering Educators with Data-Driven MTSS Insights</a></h4>
+        <p>Explores how data analytics tools support multi-tiered systems of support, enabling educators to identify and intervene early for at-risk students before challenges escalate.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/the-strategic-role-of-cocurricular-platforms-in-european-schools-nid-3436.html" target="_blank">The Strategic Role of Co-Curricular Platforms in European Schools</a></h4>
+        <p>Examines how co-curricular technology platforms are being strategically implemented in European educational institutions to extend learning beyond core academic subjects.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/marketing-strategies-to-boost-student-enrollment-effectively-nid-3212.html" target="_blank">Marketing Strategies to Boost Student Enrollment Effectively</a></h4>
+        <p>Reviews data-driven marketing approaches helping institutions attract and convert prospective students in an increasingly competitive enrollment environment.</p>
+      </div>
+    </section>
+
+    <!-- Source 2 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>1EdTech Events</h3>
+        <span class="source-url">1edtech.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/what-if-skills-became-the-shared-infrastructure-of-learning" target="_blank">What If Skills Became the Shared Infrastructure of Learning?</a></h4>
+        <p>Webinar (April 23, 11:30 AM–12:30 PM EDT) examining how skills could function as common infrastructure across education ecosystems, workforce systems, and credential recognition frameworks.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/webinar-a-streamlined-approach-to-evaluating-edtech-hosted-by-educause" target="_blank">A Streamlined Approach to Evaluating EdTech (with EDUCAUSE)</a></h4>
+        <p>Joint session (April 28, 3–4 PM EDT) presenting efficient methods for evaluating educational technology products, vendor communication, and procurement guidance for institutions.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/2026-upcea-annual-conference" target="_blank">2026 UPCEA Annual Conference</a></h4>
+        <p>April 15-17, 2026 — industry gathering focused on professional and continuing education trends across higher education institutions.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/event/li/2026" target="_blank">Learning Impact Conference 2026</a></h4>
+        <p>Flagship annual conference June 1-3 in San Francisco, CA connecting the edtech community around standards, interoperability, and innovation in learning technology.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/event/europe/2026" target="_blank">Learning Impact Europe 2026</a></h4>
+        <p>September 15-17, 2026 in Thessaloniki, Greece — regional conference extending the Learning Impact community to European institutions and standards bodies.</p>
+      </div>
+    </section>
+
+    <!-- Source 3 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Week</h3>
+        <span class="source-url">edtechweek.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechweek.com/" target="_blank">EdTech Week 2026 — October 12–15, Columbia University, NYC</a></h4>
+        <p>The annual flagship EdTech event returns to New York City featuring the StartEd CEO Summit (Oct 12-13, invitation-only), an AI for Educators Summit, the Gallery of Innovation expo, and a Shark Tank startup pitch competition. Speaker applications open through May 19, 2026.</p>
+      </div>
+    </section>
+
+    <!-- Source 4 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Ed-Fi Alliance Impact Stories</h3>
+        <span class="source-url">ed-fi.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/keeping-students-in-school-and-funding-on-track/" target="_blank">Keeping Students in School and Funding on Track</a></h4>
+        <p>South Carolina educators use real-time Ed-Fi dashboards to spot attendance issues early, linking student welfare directly to district funding stability and compliance.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/how-texas-is-setting-teachers-and-students-up-for-success/" target="_blank">How Texas Is Setting Teachers — and Students — Up for Success</a></h4>
+        <p>Texas leverages Ed-Fi data infrastructure to simultaneously support teacher effectiveness and drive improved student outcomes across the state.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/early-literacy-support-that-reaches-every-student/" target="_blank">Early Literacy Support That Reaches Every Student</a></h4>
+        <p>Examines how Ed-Fi data infrastructure enables districts to identify and support early literacy gaps at scale, reaching students who might otherwise go undetected until later grades.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/michigan-student-transfers/" target="_blank">Snack-Pack: Turning School Transfers into Seamless Hand-Offs</a></h4>
+        <p>Michigan uses the Ed-Fi standard to make student transfers between schools faster and less disruptive for families and the receiving educators.</p>
+      </div>
+    </section>
+
+    <!-- Source 5 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdSurge</h3>
+        <span class="source-url">edsurge.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-24-screens-in-schools-what-the-new-screen-time-debate-means-for-educators" target="_blank">Screens in Schools: What the New Screen-Time Debate Means for Educators</a></h4>
+        <p>Mi Aniefuna examines the intensifying national screen-time conversation and what it practically means for classroom teachers navigating contradictory pressures from policymakers, parents, and researchers. (Mar 24)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-18-what-happens-when-employers-co-design-the-cybersecurity-classroom" target="_blank">What Happens When Employers Co-Design the Cybersecurity Classroom</a></h4>
+        <p>Explores outcomes when industry partners actively shape cybersecurity curriculum rather than simply reviewing graduates after the fact. Sponsored by Digital Promise. (Mar 18)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-16-beyond-the-classroom-how-school-districts-are-building-real-world-career-pathways" target="_blank">Beyond the Classroom: How School Districts Are Building Real-World Career Pathways</a></h4>
+        <p>Ellen Ullman reports on districts creating authentic career preparation experiences connecting classroom learning to real professional opportunities for students. (Mar 16)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-03-09-screen-free-schools-some-legislators-push-for-a-new-normal" target="_blank">Screen-Free Schools? Some Legislators Push for a New Normal</a></h4>
+        <p>Lauren Coffey covers legislative efforts across multiple states advocating for reduced or restricted technology use in K-12 school settings. (Mar 9)</p>
+      </div>
+    </section>
+
+    <!-- Source 6 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>THE Journal</h3>
+        <span class="source-url">thejournal.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/03/05/Department-of-Labor-Report-Defines-5-Key-Areas-of-AI-Literacy.aspx" target="_blank">Department of Labor Report Defines 5 Key Areas of AI Literacy</a></h4>
+        <p>The DOL releases a framework outlining five essential AI literacy competencies for workers and guidance on effective training delivery — signaling AI competency is becoming a formal workforce policy priority. (Mar 5)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/03/16/SETDA-Releases-Free-EdTech-Quality-Action-Toolkit.aspx" target="_blank">SETDA Releases Free EdTech Quality Action Toolkit</a></h4>
+        <p>SETDA publishes a free toolkit offering evaluation frameworks for edtech products, compliance guidance, and vendor communication templates for districts. (Mar 16)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/03/10/OpenAI-Intros-Interactive-Math-and-Science-Learning-Tools-for-ChatGPT.aspx" target="_blank">OpenAI Intros Interactive Math and Science Learning Tools for ChatGPT</a></h4>
+        <p>New ChatGPT features guide learners through STEM concepts by dynamically showing how formulas and mathematical relationships behave in real time. (Mar 10)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/Articles/2026/02/25/Shadow-AI-Is-Quietly-Becoming-K12s-Biggest-Cybersecurity-Risk.aspx" target="_blank">Shadow AI Is Quietly Becoming K-12's Biggest Cybersecurity Risk</a></h4>
+        <p>AI-powered tools are spreading faster than school IT policies can adapt, creating unsanctioned shadow AI vulnerabilities across K-12 districts with few governance guardrails. (Feb 25)</p>
+      </div>
+    </section>
+
+    <!-- Source 7 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Magazine</h3>
+        <span class="source-url">edtechmagazine.com</span>
+      </div>
+      <div class="article-card unavailable">
+        <h4>Source Unavailable Today</h4>
+        <p>EdTech Magazine's homepage returned only JavaScript initialization and navigation structure with no rendered article content. No articles could be extracted.</p>
+      </div>
+    </section>
+
+    <!-- Source 8 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Inside Higher Ed</h3>
+        <span class="source-url">insidehighered.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/business/academic-programs/2026/03/26/area-studies-once-vital-wither-without-funding" target="_blank">Area Studies, Once Vital, Wither Without Funding</a></h4>
+        <p>Area studies centers established after WWII as national security assets face elimination as the Trump administration withdraws Title VI support, threatening irreplaceable language and regional expertise. (Mar 26)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/government/politics-elections/2026/03/26/ed-leaves-msi-programs-out-grant-eligibility" target="_blank">Education Department Leaves MSI Programs Out of Grant Eligibility</a></h4>
+        <p>The ED's move to exclude minority-serving institution programs from new grant eligibility may signal plans to redirect MSI funding to other underresourced college programs, alarming advocates. (Mar 26)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/students/financial-aid/2026/03/26/law-schools-become-lenders-response-obbba-loan-limits" target="_blank">Law Schools Launch Loan Programs to Fill Graduate Funding Gap</a></h4>
+        <p>Law schools are creating their own institutional lending programs in response to federal loan limitations under OBBBA, effectively stepping into the role of lender for their own students. (Mar 26)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/student-success/academic-life/2026/03/26/richmond-integrates-ai-across-liberal-arts" target="_blank">Integrating AI Across the Liberal Arts</a></h4>
+        <p>The University of Richmond launches a new Center for Liberal Arts and AI to explore ethical AI integration across humanities and social science disciplines — a model for non-STEM AI embedding. (Mar 26)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/global/2026/03/26/ukraines-universities-push-restore-campus-life" target="_blank">Ukraine's Universities Push to Restore Campus Life</a></h4>
+        <p>Ukrainian universities are actively rebuilding in-person attendance as a form of national resilience, even as campus damage and ongoing conflict continue. (Mar 26)</p>
+      </div>
+    </section>
+
+    <!-- Source 9 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>ISTE</h3>
+        <span class="source-url">iste.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/making-it-personal-the-future-of-professional-learning" target="_blank">Making It Personal: The Future of Professional Learning</a></h4>
+        <p>Personalized online professional learning gives educators greater ownership over their own development, increasing relevance and agency for practitioners at all levels.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/ai-in-the-classroom-moving-beyond-challenges-to-innovation" target="_blank">AI in the Classroom — Moving Beyond Challenges to Innovation</a></h4>
+        <p>Educator Rachelle Dené Poth explores how thoughtful, ethical AI implementation can transform rather than disrupt learning environments across grade levels.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/5-tactics-for-future-proofing-district-wide-asset-management-systems" target="_blank">5 Tactics for Future-Proofing District-Wide Asset Management Systems</a></h4>
+        <p>Strategies for protecting technology investments through strategic planning in an environment of rapid change and increasingly constrained district budgets.</p>
+      </div>
+    </section>
+
+    <!-- Source 10 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Brookings Institution</h3>
+        <span class="source-url">brookings.edu</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/the-future-of-the-federal-student-loan-program-after-obbba/" target="_blank">The Future of the Federal Student Loan Program After OBBBA</a></h4>
+        <p>Sasha Snyder examines the structural implications of recent legislation for student lending policy, assessing what OBBBA means for borrowers, institutions, and federal loan administration long-term. (Mar 25)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/why-affordability-will-be-a-key-issue-in-the-2026-midterm-elections/" target="_blank">Why Affordability Will Be a Key Issue in the 2026 Midterm Elections</a></h4>
+        <p>William Galston examines how cost-of-living concerns — including education costs — will shape the 2026 midterm electoral landscape and higher education's political salience. (Mar 25)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/survey-shows-alarming-drop-in-working-conditions-for-teachers-what-are-we-doing-about-it/" target="_blank">Survey Shows Alarming Drop in Working Conditions for Teachers: What Are We Doing About It?</a></h4>
+        <p>Sofia P. Baker and Cory Koedel analyze data revealing a significant deterioration in teacher workplace conditions and discuss urgently needed policy responses. (Mar 23)</p>
+      </div>
+    </section>
+
+    <!-- Source 11 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Digest</h3>
+        <span class="source-url">edtechdigest.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/24/how-to-fix-the-digital-ghosting-epidemic/" target="_blank">How to Fix the Digital Ghosting Epidemic</a></h4>
+        <p>Coins "digital ghosting" for students physically present but mentally absent, arguing that device blocking and filtering fail to address the underlying engagement problem. (Mar 24)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/19/connected-or-left-behind-reimagining-access-in-the-age-of-ai-learning/" target="_blank">Connected or Left Behind: Reimagining Access in the Age of AI Learning</a></h4>
+        <p>Mission Telecom's Mark Colwell argues seamless connectivity is prerequisite infrastructure — without it, AI learning tools actively deepen the equity divide for underserved students. (Mar 19)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/18/cutting-through-the-ai-noise/" target="_blank">Cutting Through the AI Noise</a></h4>
+        <p>Three essential priorities for K-12 IT leaders navigating a crowded, rapidly changing AI implementation landscape without clear governance guardrails. (Mar 18)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/13/inside-families-first-impressions-of-the-ai-age/" target="_blank">Inside Families' First Impressions of the AI Age</a></h4>
+        <p>Common Sense Media research reveals how families across demographics are experiencing and reacting to AI tools embedded in daily life and their children's learning. (Mar 13)</p>
+      </div>
+    </section>
+
+    <!-- Key Themes -->
+    <section class="themes-detail">
+      <h2>Key Themes &amp; Trends</h2>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-human);">1. Federal Higher Ed Policy Is Actively Contracting</h4>
+        <p>Today's Inside Higher Ed cluster is the most consequential: MSI programs cut from grant eligibility, area studies centers losing Title VI funding, and law schools forced to become their own lenders under OBBBA loan caps. Brookings' OBBBA student loan analysis adds structural depth — this is not a series of isolated cuts but a coordinated reshaping of federal higher education investment. Institutions serving underrepresented students are bearing disproportionate impact.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-ai);">2. AI Literacy Is Becoming a Workforce Policy Standard</h4>
+        <p>The Department of Labor's five-area AI literacy framework (THE Journal, March 5) represents a milestone: AI competency is no longer just an industry preference but is entering formal workforce policy. Combined with the University of Richmond's new Center for Liberal Arts and AI — which deliberately embeds AI into non-STEM disciplines — the field is moving toward broad-based AI literacy as an institutional expectation, not a specialty track.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-cyber);">3. Screen Time: From Editorial to Legislative Battleground</h4>
+        <p>EdSurge's continued screen-time coverage reflects a real policy shift underway. The debate has moved from educator opinion to active legislative chambers in multiple states. The tension for districts is acute: federal and state technology initiatives continue pushing device adoption, while a separate wave of state legislators is actively restricting it. Districts are caught between contradictory mandates with no clear federal guidance.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-equity);">4. The Equity Fault Lines Are Widening Simultaneously</h4>
+        <p>Three distinct equity pressures converge today: MSI funding exclusions (Inside Higher Ed), connectivity-as-prerequisite-for-AI-access (EdTech Digest), and the screen-time legislative push which disproportionately affects under-resourced districts that rely more heavily on school devices. The simultaneity matters — equity is not one problem but several compounding at once.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-ai);">5. AI Governance: Noise Management Before Implementation</h4>
+        <p>Both EdTech Digest ("Cutting Through the AI Noise") and THE Journal's shadow AI coverage frame the same problem differently: institutions are drowning in AI vendor claims and unsanctioned tool adoption before governance frameworks exist. The SETDA toolkit addresses evaluation; the DOL framework addresses competency; but the gap between policy and practice in individual districts remains wide.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4 style="color: var(--accent-data);">6. Data Infrastructure as a Durable District-Controlled Asset</h4>
+        <p>Ed-Fi's impact stories — attendance dashboards in South Carolina, teacher support in Texas, literacy tracking, seamless transfers in Michigan — continue to demonstrate that data standardization produces concrete, measurable student outcomes. As federal investment contracts in other areas, the case for data infrastructure as a locally-owned, durable asset grows stronger by contrast.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>EdTech Daily Digest &mdash; Compiled March 26, 2026 &mdash; 10 of 11 sources successfully scanned (EdTech Magazine unavailable)</p>
+    </footer>
+
+  </div>
+</body>
+</html>
