@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdTech Daily Digest — April 19, 2026</title>
+  <style>
+    :root {
+      --primary: #3d4f5f;
+      --primary-light: #eef2f4;
+      --bg: #f5f6f7;
+      --card-bg: #ffffff;
+      --text: #3d4f5f;
+      --text-muted: #5a6f7e;
+      --border: #dde3e7;
+      --accent-ai: #5a6f7e;
+      --accent-cyber: #e8553a;
+      --accent-equity: #2ec4a5;
+      --accent-career: #ffd600;
+      --accent-data: #2e5e5a;
+      --accent-human: #7ba5a0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding: 1.5rem 0 1.5rem;
+      border-bottom: 3px solid var(--accent-career);
+      background: var(--primary);
+      border-radius: 8px;
+      margin-top: -2rem;
+      padding-top: 2rem;
+    }
+
+    header .logo { width: 80px; height: 80px; margin: 0 auto 0.75rem; }
+    header h1 { font-size: 2rem; font-weight: 700; color: #ffffff; }
+    header .subtitle { font-size: 1rem; color: var(--accent-career); margin-top: 0.25rem; }
+    header .date { font-size: 0.9rem; color: var(--accent-human); margin-top: 0.25rem; }
+
+    .summary {
+      background: #eaf6f3;
+      border-left: 4px solid var(--accent-equity);
+      border-radius: 0 8px 8px 0;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .summary h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--accent-data); }
+    .summary p { font-size: 0.95rem; color: var(--text); }
+
+    .themes { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 2.5rem; }
+    .theme-tag {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.4rem 0.85rem; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 600; color: #fff;
+    }
+    .theme-tag.ai { background: var(--accent-ai); }
+    .theme-tag.cyber { background: var(--accent-cyber); }
+    .theme-tag.equity { background: var(--accent-equity); }
+    .theme-tag.career { background: var(--accent-career); color: var(--primary); }
+    .theme-tag.data { background: var(--accent-data); }
+    .theme-tag.human { background: var(--accent-human); }
+
+    .source-section { margin-bottom: 2rem; }
+    .source-header {
+      display: flex; align-items: baseline; gap: 0.75rem;
+      margin-bottom: 0.75rem; padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--accent-career);
+    }
+    .source-header h3 { font-size: 1.15rem; font-weight: 700; color: var(--accent-data); }
+    .source-header .source-url { font-size: 0.8rem; color: var(--text-muted); }
+
+    .article-card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 0.6rem;
+      transition: box-shadow 0.15s;
+    }
+    .article-card:hover {
+      box-shadow: 0 2px 8px rgba(46,94,90,0.12);
+      border-left: 3px solid var(--accent-equity);
+    }
+    .article-card h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.3rem; }
+    .article-card h4 a { color: var(--accent-data); text-decoration: none; }
+    .article-card h4 a:hover { color: var(--accent-cyber); text-decoration: underline; }
+    .article-card p { font-size: 0.88rem; color: var(--text-muted); }
+    .article-card.unavailable { background: #fafafa; border-style: dashed; }
+    .article-card.unavailable p { font-style: italic; }
+    .article-card .new-badge {
+      display: inline-block; background: var(--accent-cyber); color: #fff;
+      font-size: 0.7rem; font-weight: 700; padding: 0.1rem 0.45rem;
+      border-radius: 4px; margin-left: 0.4rem; vertical-align: middle;
+    }
+    .article-card .soon-badge {
+      display: inline-block; background: var(--accent-equity); color: #fff;
+      font-size: 0.7rem; font-weight: 700; padding: 0.1rem 0.45rem;
+      border-radius: 4px; margin-left: 0.4rem; vertical-align: middle;
+    }
+    .article-card .today-badge {
+      display: inline-block; background: var(--accent-career); color: var(--primary);
+      font-size: 0.7rem; font-weight: 700; padding: 0.1rem 0.45rem;
+      border-radius: 4px; margin-left: 0.4rem; vertical-align: middle;
+    }
+
+    .themes-detail { margin-top: 2.5rem; }
+    .themes-detail h2 { font-size: 1.3rem; margin-bottom: 1rem; color: var(--accent-data); }
+    .theme-block {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-left: 3px solid var(--accent-human);
+      border-radius: 0 8px 8px 0; padding: 1.25rem; margin-bottom: 0.75rem;
+    }
+    .theme-block h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .theme-block p { font-size: 0.9rem; color: var(--text-muted); }
+
+    footer {
+      text-align: center; margin-top: 3rem; padding-top: 1rem;
+      border-top: 1px solid var(--border); font-size: 0.8rem; color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">
+        <img src="edtech.png" alt="EdTech Daily Digest" width="80" height="80">
+      </div>
+      <h1>EdTech Daily Digest</h1>
+      <div class="subtitle">Daily education technology research from 11 curated sources</div>
+      <div class="date">April 19, 2026</div>
+    </header>
+
+    <section class="summary">
+      <h2>Executive Summary</h2>
+      <p>Today's digest is headlined by EdTech Magazine's CoSN2026 conference coverage — rich field reports on AI deployment, cybersecurity strategies for under-resourced districts, and future-ready learning environments that give the week's abstract policy debates concrete district-level grounding. The CoSN coverage arrives alongside a compounding ADA Title II compliance crisis now confirmed across multiple sources: the accessibility deadline has passed, most schools remain exposed, and the gap between legal requirement and institutional readiness is generating both liability pressure and a vendor opportunity. Cybersecurity emerges as the dominant operational theme of the week — EdTech Magazine's CoSN sessions, Microsoft's AI-powered phishing research, and ransomware threat reports converge on a single message: K-12 security infrastructure is underbuilt relative to the threat environment it now faces.</p>
+    </section>
+
+    <div class="themes">
+      <span class="theme-tag cyber">CoSN2026 District AI</span>
+      <span class="theme-tag ai">ADA Compliance Crisis</span>
+      <span class="theme-tag data">Cybersecurity at Scale</span>
+      <span class="theme-tag equity">AI Trust Deficit</span>
+      <span class="theme-tag human">IES &amp; Evidence Base</span>
+      <span class="theme-tag career">Skills as Infrastructure</span>
+    </div>
+
+    <!-- Source 1 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Education Technology Insights</h3>
+        <span class="source-url">educationtechnologyinsights.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/why-stem-education-is-key-to-global-leadership-nid-3270.html" target="_blank">Why STEM Education Is Key to Global Leadership</a></h4>
+        <p>Global economic competition is repositioning STEM from curriculum preference to national strategy — with implications for how EdTech vendors frame workforce-aligned tools to district buyers navigating federal priorities.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/empowering-europe-s-workforce-the-rise-of-practical-ai-learning-nid-3455.html" target="_blank">Empowering Europe's Workforce: The Rise of Practical AI Learning</a></h4>
+        <p>Europe is scaling skills-oriented AI education at pace — a contrast to US debates still largely anchored on governance rather than workforce-aligned deployment, offering a model for practical AI literacy at scale.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/modern-learning-transformed-by-online-tutoring-solutions-nid-3478.html" target="_blank">Modern Learning Transformed by Online Tutoring Solutions</a></h4>
+        <p>AI-powered and human-augmented online tutoring is reshaping personalized learning delivery, with significant implications for access equity and instructional quality beyond traditional classroom walls.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/how-virtual-field-trips-serve-as-a-tool-for-better-classroom-control-nid-3251.html" target="_blank">How Virtual Field Trips Serve as a Tool for Better Classroom Control</a></h4>
+        <p>Immersive virtual experiences are proving effective for classroom engagement and management — offering an alternative to punitive device bans in high-distraction, device-rich learning environments.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/empowering-educators-and-earning-trust-the-real-path-to-aienhanced-learning-nid-3281.html" target="_blank">Empowering Educators and Earning Trust: The Real Path to AI-Enhanced Learning</a></h4>
+        <p>Argues that sustainable AI adoption in education requires earning educator trust first — through transparency, professional development, and genuine teacher agency in tool selection and deployment decisions.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.educationtechnologyinsights.com/news/enhancing-projectbased-learning-with-digital-tools-nid-3247.html" target="_blank">Enhancing Project-Based Learning with Digital Tools</a></h4>
+        <p>Digital tools are extending PBL beyond classroom walls — enabling collaborative, real-world problem-solving at scale and integrating authentic assessment into project workflows.</p>
+      </div>
+    </section>
+
+    <!-- Source 2 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>1EdTech Events</h3>
+        <span class="source-url">1edtech.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/steps-to-building-a-connected-efficient-k-12-ecosystem" target="_blank">Steps to Building a Connected, Efficient K–12 Ecosystem <span class="soon-badge">APR 21</span></a></h4>
+        <p>April 21 | 11:30 AM–3 PM EDT. Half-day virtual workshop on technology interoperability and operational efficiency for K-12 districts navigating post-ESSER tool consolidation pressures. Two days away.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/what-if-skills-became-the-shared-infrastructure-of-learning" target="_blank">Webinar: What If Skills Became the Shared Infrastructure of Learning? <span class="soon-badge">APR 23</span></a></h4>
+        <p>April 23 | 11:30 AM–12:30 PM EDT. Explores how skills frameworks can function as interoperable infrastructure across institutions — a forward-looking credentials architecture discussion with broad workforce implications.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/webinar-a-streamlined-approach-to-evaluating-edtech-hosted-by-educause" target="_blank">Webinar: A Streamlined Approach to Evaluating EdTech (EDUCAUSE) <span class="soon-badge">APR 28</span></a></h4>
+        <p>April 28 | 3–4 PM EDT. Practical procurement and evaluation frameworks for institutional EdTech decision-making — valuable as institutions rationalize tool stacks under sustained budget pressure.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/event/li/2026" target="_blank">Learning Impact Conference 2026 <span class="soon-badge">JUN 1–3</span></a></h4>
+        <p>June 1–3 | San Francisco. 1EdTech's flagship annual conference on interoperability standards, learning technology, and the future of connected educational infrastructure.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/events/2026-engage-learning-conference" target="_blank">2026 Engage Learning Conference <span class="soon-badge">JUN 9–10</span></a></h4>
+        <p>June 9–10. Professional development conference for learning leaders focused on sustainable implementation of technology in teaching and learning environments.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.1edtech.org/event/europe/2026" target="_blank">Learning Impact Europe 2026 <span class="soon-badge">SEP 15–17</span></a></h4>
+        <p>September 15–17 | Thessaloniki, Greece. European regional conference for educational technology collaboration and interoperability standards adoption across institutions.</p>
+      </div>
+    </section>
+
+    <!-- Source 3 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Week</h3>
+        <span class="source-url">edtechweek.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechweek.com/" target="_blank">EdTech Week 2026 — October 12–15 | Columbia University &amp; Teachers College, NYC</a></h4>
+        <p>200+ speakers, 300+ investors; features StartEd CEO Summit (Oct 12–13, invitation-only), AI for Educators Summit (educators only), EdTech Shark Tank for global startup pitches, and open Expo. Speaker applications open through May 19, 2026.</p>
+      </div>
+    </section>
+
+    <!-- Source 4 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Ed-Fi Alliance Impact Stories</h3>
+        <span class="source-url">ed-fi.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/keeping-students-in-school-and-funding-on-track/" target="_blank">Keeping Students in School and Funding on Track (South Carolina)</a></h4>
+        <p>Educators use real-time Ed-Fi dashboards to identify attendance issues early — directly linking student monitoring to district funding stability and reducing chronic absenteeism at scale.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/how-texas-is-setting-teachers-and-students-up-for-success/" target="_blank">How Texas Is Setting Teachers — and Students — Up for Success</a></h4>
+        <p>Texas deploys Ed-Fi data infrastructure statewide to improve teacher effectiveness and student outcomes simultaneously — a model for scaling data-driven practice beyond individual districts.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/michigan-student-transfers/" target="_blank">Snack-Pack: Turning School Transfers into Seamless Hand-Offs (Michigan)</a></h4>
+        <p>Michigan uses the Ed-Fi standard to make student transfers faster and less disruptive — a portable data model ensuring continuity of student care across district boundaries.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/early-literacy-support-that-reaches-every-student/" target="_blank">Early Literacy Support That Reaches Every Student</a></h4>
+        <p>Ed-Fi infrastructure connects early literacy screening to timely intervention — helping districts act before gaps compound into long-term achievement deficits that become harder and costlier to address.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/keeping-students-on-track-for-graduation-and-beyond/" target="_blank">Keeping Students on Track for Graduation and Career Success</a></h4>
+        <p>Data-driven tracking helps students meet graduation and professional readiness goals — demonstrating concrete career outcomes from sustained Ed-Fi data standard investment.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/" target="_blank">Real-Time Data, Real College and Career Results</a></h4>
+        <p>Documents how Ed-Fi-enabled real-time data visibility translates into measurable improvements in college and career readiness outcomes — making the ROI case for data standard investment at the state level.</p>
+      </div>
+    </section>
+
+    <!-- Source 5 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdSurge</h3>
+        <span class="source-url">edsurge.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-04-16-the-digital-accessibility-deadline-is-here-schools-aren-t-ready" target="_blank">The Digital Accessibility Deadline Is Here. Schools Aren't Ready. <span class="new-badge">APR 16</span></a></h4>
+        <p>Daniel Mollenkamp: The ADA digital accessibility compliance deadline has passed and most schools remain unprepared — creating immediate liability exposure and urgent procurement pressure for vendors whose products don't meet WCAG standards.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-04-15-more-california-4-year-olds-are-in-publicly-funded-preschool-than-ever" target="_blank">More California 4-Year-Olds Are in Publicly Funded Preschool Than Ever <span class="new-badge">APR 15</span></a></h4>
+        <p>Yuxuan Xie (EdSource): California reaches a record high in publicly funded pre-K enrollment — with downstream implications for early learning EdTech, curriculum, and family engagement platforms.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-04-08-why-the-social-media-addiction-case-isn-t-over-yet" target="_blank">Why the Social Media Addiction Case Isn't Over Yet <span class="new-badge">APR 8</span></a></h4>
+        <p>Nadia Tamez-Robledo: Legal challenges regarding social media addiction and youth harm continue beyond initial rulings — keeping platform liability, digital wellness, and school-based mental health in the regulatory spotlight.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-04-08-some-advocates-concerned-as-states-push-for-cameras-in-special-education-classrooms" target="_blank">Some Advocates Concerned as States Push for Cameras in Special Education Classrooms</a></h4>
+        <p>Lauren Coffey: Disability rights advocates raise serious privacy objections to state-mandated classroom surveillance in special education — a flashpoint for EdTech policy, student rights, and monitoring technology governance. (Apr 8)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edsurge.com/news/2026-04-15-teaching-showed-me-education-isn-t-the-great-equalizer" target="_blank">Teaching Showed Me Education Isn't the Great Equalizer <span class="new-badge">APR 15</span></a></h4>
+        <p>Avery Thrush: Voices of Change piece exploring how students' lives outside the classroom fundamentally shape educational opportunity — a structural equity argument with implications for how EdTech positions its impact claims.</p>
+      </div>
+    </section>
+
+    <!-- Source 6 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>THE Journal</h3>
+        <span class="source-url">thejournal.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/articles/2026/04/14/ferpa-was-written-for-file-cabinets-not-cloud-servers.aspx" target="_blank">FERPA Was Written for File Cabinets, Not Cloud Servers</a></h4>
+        <p>Sharp analysis arguing FERPA was never designed to govern cloud platforms, AI data flows, or third-party vendor ecosystems — its structural inadequacy for modern EdTech constitutes an active student privacy crisis requiring legislative intervention. (Apr 14)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/articles/2026/04/15/goguardian-launches-ed-tech-compliance-and-risk-management-tool.aspx" target="_blank">GoGuardian Launches Ed Tech Compliance and Risk Management Tool <span class="new-badge">APR 15</span></a></h4>
+        <p>New product gives district technology leaders unified visibility into tool usage, compliance risk, and EdTech spending — addressing the regulatory complexity gap as AI and privacy pressures simultaneously mount on district IT teams.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/articles/2026/04/13/report-fast-moving-ransomware-router-based-espionage-threats.aspx" target="_blank">Report: Fast-Moving Ransomware and Router-Based Espionage Threats Target Education</a></h4>
+        <p>Microsoft warns of active ransomware campaigns and Russian espionage operations targeting education networks through compromised routers — elevating security tooling to district procurement priority. (Apr 13)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://thejournal.com/articles/2026/04/13/ai-driven-campaign-compromises-accounts-more-effectively-than-traditional-phishing-attacks.aspx" target="_blank">AI-Driven Campaign Compromises Accounts More Effectively than Traditional Phishing <span class="new-badge">APR 13</span></a></h4>
+        <p>Microsoft uncovered a sophisticated AI-powered phishing campaign using automation and legitimate authentication to compromise accounts at scale — directly threatening district IT environments that EdTech systems depend on.</p>
+      </div>
+    </section>
+
+    <!-- Source 7 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Magazine</h3>
+        <span class="source-url">edtechmagazine.com/k12</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/cosn2026-3-ways-districts-are-using-artificial-intelligence" target="_blank">CoSN2026: 3 Ways Districts Are Using Artificial Intelligence <span class="new-badge">APR 2026</span></a></h4>
+        <p>AI is saving end users time and making operations more efficient — CoSN field reports on practical district-level AI deployment strategies that move beyond pilots to operational use.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/cosn2026-practical-cybersecurity-strategies-small-and-midsize-districts" target="_blank">CoSN2026: Practical Cybersecurity Strategies for Small and Midsize Districts <span class="new-badge">APR 2026</span></a></h4>
+        <p>K–12 security leaders shared actionable steps under-resourced districts can take to protect assets — moving beyond aspirational frameworks to implementable tactics for limited-budget environments.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/cosn2026-exploring-trends-driving-innovation-k-12-education" target="_blank">CoSN2026: Exploring the Trends Driving Innovation in K–12 Education <span class="new-badge">APR 2026</span></a></h4>
+        <p>Conference coverage of the macro trends — AI, data governance, infrastructure modernization — that CoSN technology leaders identified as driving the next cycle of K-12 EdTech investment.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/cosn2026-ed-tech-leaders-collaborate-future-ready-learning-environments" target="_blank">CoSN2026: Ed Tech Leaders to Collaborate on Future-Ready Learning Environments <span class="new-badge">APR 2026</span></a></h4>
+        <p>CoSN session on building learning environments designed for adaptability — collaborative space planning, technology integration, and infrastructure that supports pedagogical evolution over time.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/5-things-k-12-districts-should-know-about-ada-title-ii-compliance" target="_blank">4 Things K–12 Districts Should Know About ADA Title II Compliance</a></h4>
+        <p>Practical guidance on ADA Title II digital accessibility obligations for K-12 — arriving as the compliance deadline has passed and most districts face active exposure without knowing it.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/google-class-tools-help-teachers-manage-devices-and-distraction" target="_blank">Google Class Tools Help Teachers Manage Devices and Distraction</a></h4>
+        <p>New Google tools give teachers in-class controls for device management and attention focus — a tech-forward alternative to phone bans that puts control in the hands of educators rather than administrators.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/empowering-learners-ai-classrooms-careers" target="_blank">Empowering Learners With AI: From Classrooms to Careers</a></h4>
+        <p>Bridges AI skills learned in school to career readiness outcomes — connecting classroom AI literacy directly to workforce preparation at the K-12 level.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/how-k-12-schools-should-approach-cyber-readiness" target="_blank">How K–12 Schools Should Approach Cyber Readiness</a></h4>
+        <p>Structured framework for district-level cybersecurity preparedness — covering governance, incident response, and staffing realities in K-12 environments with limited dedicated security personnel.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/parents-divided-artificial-intelligence-heres-how-schools-can-build-trust" target="_blank">With Parents Divided on Artificial Intelligence, Here's How Schools Can Build Trust</a></h4>
+        <p>Addresses the emerging parental AI trust problem — split parent opinions create a political and community relations challenge for districts trying to move quickly on AI adoption.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://edtechmagazine.com/k12/article/2026/04/dedicated-k-12-technology-centers-provide-diverse-range-cte-options" target="_blank">Dedicated K–12 Technology Centers Provide Diverse Range of CTE Options</a></h4>
+        <p>Specialized technology learning centers are expanding career and technical education pathways — connecting K-12 infrastructure investment to workforce pipelines and CTE credential attainment.</p>
+      </div>
+    </section>
+
+    <!-- Source 8 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Inside Higher Ed</h3>
+        <span class="source-url">insidehighered.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/04/08/which-jobs-are-most-risk-age-ai" target="_blank">Which Jobs Are Most at Risk in the Age of AI? <span class="new-badge">APR 8</span></a></h4>
+        <p>Explores job vulnerability as AI advances across sectors — with direct implications for how higher ed institutions frame career preparation and which programs face pressure to reorient curriculum.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/students/academics/2025/08/29/survey-college-students-views-ai" target="_blank">How AI Is Changing — Not 'Killing' — College</a></h4>
+        <p>Survey findings show generative AI adoption hasn't diminished college's perceived value among students — though concerns about critical thinking development signal a long-term institutional quality challenge.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/news/deep-dives/2026/03/10/presidents-feel-pressure-trumps-second-term" target="_blank">Presidents Feel Pressure in Trump's Second Term</a></h4>
+        <p>Examination of institutional pressures facing university leadership — including AI implementation challenges, research funding uncertainty, and navigating politically charged campus policy decisions.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.insidehighered.com/podcasts/campus/2026/04/13/where-research-meets-enterprise-lessons-successful-spin-out-founder" target="_blank">Where Research Meets Enterprise: Lessons From a Successful Spin-Out Founder <span class="new-badge">APR 13</span></a></h4>
+        <p>Academic entrepreneurship and launching technology ventures from university research — with lessons applicable to EdTech startups navigating the institutional-to-commercial transition.</p>
+      </div>
+    </section>
+
+    <!-- Source 9 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>ISTE</h3>
+        <span class="source-url">iste.org</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/making-it-personal-the-future-of-professional-learning" target="_blank">Making It Personal: The Future of Professional Learning</a></h4>
+        <p>Personalized online professional development offers educators greater autonomy — increasingly critical as PD budgets tighten and one-size-fits-all training demonstrably fails to translate into classroom practice change.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/ai-in-the-classroom-moving-beyond-challenges-to-innovation" target="_blank">AI in the Classroom — Moving Beyond Challenges to Innovation</a></h4>
+        <p>Educator Rachelle Dené Poth makes the case for moving from defensive AI avoidance to structured, purposeful adoption — a call for institutional AI maturity over continued paralysis in the face of uncertainty.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/why-future-proofing-students-may-require-an-increased-focus-on-our-humanity" target="_blank">Why Tech Advancements Make Human Problem-Solving Skills Even More Important</a></h4>
+        <p>As AI handles routine cognitive tasks, preparing students requires renewed emphasis on creativity, empathy, and collaborative reasoning — the human capacities automation cannot replicate at scale.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/5-tactics-for-future-proofing-district-wide-asset-management-systems" target="_blank">5 Tactics for Future-Proofing District-Wide Asset Management Systems</a></h4>
+        <p>Practical strategies for protecting technology investments through methodical asset management — grounded in real district operations where procurement decisions outlast the budgets that fund them.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://iste.org/blog/a-fast-and-fun-educator-starter-guide-to-using-an-ai-chatbot" target="_blank">A Fast and Fun Educator Starter Guide to Using an AI Chatbot</a></h4>
+        <p>Beginner-friendly guide with sample prompts for educators new to AI chatbot tools — a practical entry point for districts building educator AI literacy from the ground up.</p>
+      </div>
+    </section>
+
+    <!-- Source 10 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>Brookings Institution</h3>
+        <span class="source-url">brookings.edu</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/nigeria-education-usaid-exit-responses/" target="_blank">USAID's Aid Freeze: Implications for Nigeria's Education Sector <span class="today-badge">APR 17</span></a></h4>
+        <p>Judith-Ann Walker: First detailed country-level analysis of the USAID aid freeze's effect on Nigerian schools — documenting near-term disruptions and what local leadership and external partners might do in the absence of federal support.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/americas-rural-future-mississippi-delta-2026/" target="_blank">America's Rural Future: Mississippi Delta Site Visits <span class="today-badge">APR 17</span></a></h4>
+        <p>Junjie Ren &amp; Adam Aley: Site visits underscore that rural educational development depends on trusted local leadership, capital access, and institutional capacity — lessons directly applicable to rural EdTech adoption strategies.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/financial-aid-for-students-without-financial-need-how-widespread-is-it/" target="_blank">Financial Aid for Students Without Financial Need: How Widespread Is It? <span class="new-badge">APR 16</span></a></h4>
+        <p>Phillip Levine examines the prevalence of merit aid for affluent students — questioning whether non-need-based awards serve equity goals with downstream implications for access-focused EdTech markets.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.brookings.edu/articles/rebuilding-ies-to-amplify-the-impact-of-education-research-on-student-outcomes/" target="_blank">Rebuilding IES to Amplify the Impact of Education Research on Student Outcomes <span class="new-badge">APR 14</span></a></h4>
+        <p>Bassok, Jackson, and Kurlaender propose structural reforms to the Institute of Education Sciences so rigorous research more reliably reaches classroom practice — a response to active IES budget threats under the current administration.</p>
+      </div>
+    </section>
+
+    <!-- Source 11 -->
+    <section class="source-section">
+      <div class="source-header">
+        <h3>EdTech Digest</h3>
+        <span class="source-url">edtechdigest.com</span>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/04/14/the-discovery-education-connected-ecosystem/" target="_blank">The Discovery Education Connected Ecosystem <span class="new-badge">APR 14</span></a></h4>
+        <p>Addresses how education leaders can consolidate multiple AI platforms into a unified system — Discovery Education's case for integrated ecosystems over point-solution sprawl that burdens teachers with tool-switching overhead.</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/04/07/the-ai-lessons-classrooms-havent-learned-yet/" target="_blank">The AI Lessons Classrooms Haven't Learned Yet</a></h4>
+        <p>Explores the widening gap between student AI adoption outside school and institutional readiness to manage it — framed as a structural implementation failure requiring urgency from administrators, not just individual educators. (Apr 7)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/04/02/from-fragmentation-to-flow-in-education/" target="_blank">From Fragmentation to Flow in Education</a></h4>
+        <p>Todd Brekhus on unifying data, AI, and curriculum into coherent systems that give teachers real-time insights — the vendor-side answer to district stack consolidation pressure and the demand for demonstrable ROI. (Apr 2)</p>
+      </div>
+      <div class="article-card">
+        <h4><a href="https://www.edtechdigest.com/2026/03/31/the-edtech-awards-2026-finalists-winners-announced/" target="_blank">The EdTech Awards 2026 Finalists &amp; Winners Announced</a></h4>
+        <p>Annual recognition of the most impactful innovations in educational technology — a useful landscape survey of what the industry considers breakthrough work this cycle. (Mar 31)</p>
+      </div>
+    </section>
+
+    <!-- Key Themes -->
+    <section class="themes-detail">
+      <h2>Key Themes &amp; Trends</h2>
+
+      <div class="theme-block">
+        <h4>1. CoSN2026: Grounding AI Ambition in District Reality</h4>
+        <p>Today's most distinctive addition is EdTech Magazine's CoSN2026 conference coverage — four articles in a single day giving concrete field reporting on what K-12 technology leaders are actually doing with AI, cybersecurity, and infrastructure. The contrast with last week's more abstract policy coverage is striking: where the White House AI framework offered four pages of guardrails, CoSN practitioners are sharing "3 ways districts are using AI" and "practical cybersecurity strategies for small districts." This practitioner-to-practitioner knowledge transfer through conference coverage serves as a leading indicator for district procurement priorities: what gets celebrated at CoSN tends to become RFP language within 12–18 months. The future-ready learning environments session and the AI-to-careers pipeline story suggest CoSN 2026 was less about whether to adopt AI and more about architecture — how to build district systems that can evolve without constant rearchitecting.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4>2. The Double Accessibility Crisis: ADA Compliance Meets the Digital Divide</h4>
+        <p>Two separate accessibility threads are converging this week. The first is the ADA Title II compliance deadline, now confirmed as having passed across two independent sources — EdSurge reporting that "schools aren't ready" and EdTech Magazine's K-12 guide on what districts should know. The second is the device and connectivity access gap, where bundled curriculum-plus-connectivity solutions represent one emerging response model. Together they define accessibility in two registers: legal/technical (WCAG compliance, ADA Title II) and physical (connectivity, device access). Districts facing both simultaneously are in a difficult position — the compliance burden is mounting while the resource infrastructure to address it is unevenly distributed. Vendors who can demonstrate accessibility certification AND offer deployment pathways for under-resourced environments will have a meaningful procurement advantage in the cycle ahead.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4>3. Cybersecurity at Every Level: From Microsoft Threat Reports to CoSN Sessions</h4>
+        <p>The cybersecurity signal this week is exceptionally strong across multiple independent sources. Microsoft's documented AI-powered phishing campaign (THE Journal, Apr 13), the ransomware and router-based espionage warnings (THE Journal, Apr 13), CoSN2026's dedicated cybersecurity sessions for small and midsize districts (EdTech Magazine), and GoGuardian's compliance and risk management launch (THE Journal, Apr 15) form a coherent picture: K-12 cybersecurity is failing at multiple levels simultaneously. The attack surface is growing (AI-powered phishing, compromised routers), the regulatory pressure is mounting (compliance tools are now a market category), and the smallest districts — which are most under-resourced — are being explicitly targeted. CoSN's practitioner sessions suggest the field is developing practical responses, but the gap between what the threat environment requires and what most districts can fund remains wide.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4>4. The AI Trust Deficit: Parents, Educators, and the Adoption Barrier Nobody's Solving</h4>
+        <p>A quieter but important pattern across today's sources: trust in AI has become the adoption variable that product quality alone cannot solve. EdTech Magazine's piece on parents divided on AI captures a community-relations dimension that districts underestimate — political resistance at the school board level has stalled AI programs in multiple districts even where technology teams are ready to deploy. EdTech Insights' educator trust piece and EdTech Digest's "AI lessons classrooms haven't learned yet" amplify this from the classroom angle: teachers who feel AI was imposed without meaningful agency find workarounds rather than deploy. ISTE's materials on moving beyond AI challenges to innovation suggest the professional community is aware of the gap but struggling to close it. The implication for vendors: trust infrastructure (transparency tools, educator onboarding, community engagement resources) is now product infrastructure, not marketing.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4>5. IES Under Threat: The Evidence Base for EdTech May Be Shrinking</h4>
+        <p>Brookings' April 14 piece on rebuilding the Institute of Education Sciences is easy to overlook in a day full of conference coverage and compliance news, but it may be one of the most consequential stories of the week. IES funds the gold-standard randomized controlled trials and large-scale evaluations that anchor EdTech efficacy claims — the "research says" foundation that vendors and district procurement teams both rely on. If IES faces sustained budget cuts (which the Brookings piece frames as an active threat), the evidence base for distinguishing effective EdTech from ineffective EdTech will erode over time. For vendors whose competitive advantage rests on rigorous outcome data, this is a threat worth monitoring. For districts making evidence-based purchasing decisions, a weakened IES eventually makes those decisions harder to ground.</p>
+      </div>
+
+      <div class="theme-block">
+        <h4>6. Skills, Credentials, and the Next Interoperability Layer</h4>
+        <p>1EdTech's back-to-back upcoming events — K-12 connected ecosystems on Apr 21, skills as infrastructure on Apr 23 — continue building toward the same destination: a future where skills and competencies function as portable, interoperable infrastructure. EdTech Magazine's CTE technology centers article and the AI-to-careers piece both connect K-12 infrastructure investment to workforce outcomes, which is the demand-side pressure driving the supply-side standards work 1EdTech is doing. Europe's practical AI literacy scaling (EdTech Insights) and the EdTech Week AI for Educators Summit (October) suggest this isn't a domestic-only conversation. The next meaningful standards layer in education will be competency-based, not just data-format-based — and the race to define those standards is already underway.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>EdTech Daily Digest — Compiled April 19, 2026 — All 11 sources successfully scanned (EdTech Magazine K-12 now available with CoSN2026 coverage)</p>
+    </footer>
+
+  </div>
+</body>
+</html>
