@@ -17,7 +17,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,5 +25,34 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+
+      # First deploy attempt. Pages occasionally returns a transient
+      # "Deployment failed, try again later", so don't fail the job yet.
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      # Wait a bit, then retry once if the first attempt failed.
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      # If we get here after a failed first attempt without a retry step
+      # having succeeded, the job is already failing; notify Slack.
+      - name: Notify Slack on deploy failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL secret not set; skipping notification."
+            exit 0
+          fi
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -s -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-type: application/json' \
+            -d "{\"text\":\":rotating_light: *EdTech Digest — GitHub Pages deploy failed* (after retry) for commit \`${GITHUB_SHA:0:7}\`. The site is still serving the previous version. <${RUN_URL}|View run> and re-run, or run \`gh run rerun ${GITHUB_RUN_ID}\`.\"}"
