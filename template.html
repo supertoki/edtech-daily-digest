@@ -27,8 +27,9 @@ h1,h2,h3,h4{font-family:var(--fd);font-weight:600;margin:0;letter-spacing:-.01em
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 .stage{max-width:1280px;margin:0 auto}
-.brandmark{display:inline-flex;align-items:center;gap:9px;font-family:var(--fd);font-weight:600}
-.logo-node{width:30px;height:30px;border-radius:8px;border:2px solid var(--teal);display:grid;place-items:center;color:var(--teal-d);position:relative}
+.brandmark{display:inline-flex;align-items:center;gap:9px;font-family:var(--fd);font-weight:400;font-size:14px;color:var(--slate)}
+.brandmark b{font-weight:600}
+.logo-node{width:30px;height:30px;border-radius:8px;border:2px solid var(--teal);background:#ecfdf5;display:grid;place-items:center;color:var(--teal-d);position:relative}
 .logo-node::before,.logo-node::after{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background:var(--teal)}
 .logo-node::before{left:-3px;top:50%;transform:translateY(-50%)}
 .logo-node::after{right:-3px;top:50%;transform:translateY(-50%)}
@@ -371,7 +372,7 @@ function renderAtlas2(){
     <header class="cover cover2">
       <div class="inner cover2-grid">
         <div class="covertext">
-          <span class="brandmark"><span class="logo-node"><i class="ti ti-affiliate" style="font-size:14px"></i></span>EdTech Daily Digest</span>
+          <span class="brandmark"><span class="logo-node"><i class="ti ti-school" style="font-size:16px"></i></span><b>EdTech</b> · Daily Digest</span>
           <h1>${ATLAS_HEADLINE}</h1>
           <p class="thesis">${ATLAS_THESIS}</p>
         </div>
