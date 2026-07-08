@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-07-08T16:20:54Z",
+  "daily": {
+    "date": "2026-07-08",
+    "topThemeKey": "human",
+    "topThemeTitle": "Defending Human Learning — and Its Integrity",
+    "topThemeBody": "Integrity moves to center stage: a Brown professor suspects most of his class cheated with AI on a take-home exam, while Inside Higher Ed's Human Intelligence Labs, a campus \"AI Kitchen,\" a Socratic revival, and an EdSurge podcast on teacher instinct all insist some learning must stay human.",
+    "themes": [
+      {
+        "k": "human",
+        "title": "Defending Human Learning — and Its Integrity",
+        "weight": 10
+      },
+      {
+        "k": "skills",
+        "title": "Profiling the AI-Ready Graduate",
+        "weight": 10
+      },
+      {
+        "k": "dataready",
+        "title": "From Data Collection to Data Use",
+        "weight": 10
+      },
+      {
+        "k": "legal",
+        "title": "Governance Goes Legal",
+        "weight": 10
+      },
+      {
+        "k": "sustain",
+        "title": "Funding, Equity & Global Scale",
+        "weight": 8
+      },
+      {
+        "k": "futureecon",
+        "title": "Reskilling & the AI Economy",
+        "weight": 4
+      }
+    ]
+  },
+  "heroWeek": {
+    "weekKey": "2026-07-08",
+    "status": "needed",
+    "currentImage": "assets/illustrations/hero.png",
+    "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
+    "themeKey": "human",
+    "themeTitle": "Defending Human Learning — and Its Integrity",
+    "themeBody": "Integrity moves to center stage: a Brown professor suspects most of his class cheated with AI on a take-home exam, while Inside Higher Ed's Human Intelligence Labs, a campus \"AI Kitchen,\" a Socratic revival, and an EdSurge podcast on teacher instinct all insist some learning must stay human.",
+    "themeProp": "two cupped hands or a heart-handshake",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Defending Human Learning — and Its Integrity - Integrity moves to center stage: a Brown professor suspects most of his class cheated with AI on a take-home exam, while Inside Higher Ed's Human Intelligence Labs, a campus \"AI Kitchen,\" a Socratic revival, and an EdSurge podcast on teacher instinct all insist some learning must stay human.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: two cupped hands or a heart-handshake; airy with negative space; no text."
+  }
+}

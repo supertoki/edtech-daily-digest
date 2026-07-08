@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "description": "Brand + art-direction contract for the EdTech Daily Digest hero illustration. Consumed by the Hermes agent (Matilda) when generating the weekly hero. This is the single source of truth for palette, composition, and output spec.",
+  "oneLineStyle": "flat, minimal, geometric editorial vector illustration - airy, lots of negative space, thin rounded strokes, a soft teal circular backdrop, and a friendly 'graduated AI' motif",
+  "palette": {
+    "teal": "#17a394",
+    "tealDeep": "#0e7a6e",
+    "tealWash": "#e4f4f1",
+    "tealLine": "#bfe5df",
+    "tealSoft": "#5fccbd",
+    "ink": "#1b2a31",
+    "ink2": "#243640",
+    "slate": "#5d6f76",
+    "amber": "#e0a23c",
+    "surface": "#ffffff"
+  },
+  "composition": "single centered subject on a soft teal disc; a friendly 'graduated AI' network motif (nodes + thin connecting strokes) with an optional graduation cap; 3-5 accent nodes; at most one theme prop; generous negative space; symmetrical, calm balance",
+  "constraints": {
+    "do": [
+      "flat vector shapes with thin, rounded strokes",
+      "use only the palette colors",
+      "keep it airy with lots of negative space",
+      "transparent or plain-white background",
+      "one clear focal subject"
+    ],
+    "avoid": [
+      "text or lettering",
+      "gradients, drop shadows, glows",
+      "3D or photorealism",
+      "busy or cluttered scenes",
+      "off-palette colors",
+      "brand logos of third parties"
+    ]
+  },
+  "negativePrompt": "text, words, letters, watermark, signature, gradient, drop shadow, glow, 3d render, photorealistic, photograph, clutter, busy background, extra fingers, low quality, jpeg artifacts",
+  "spec": {
+    "format": "webp",
+    "canvasWidth": 880,
+    "canvasHeight": 980,
+    "maxKB": 150,
+    "background": "transparent"
+  },
+  "themeProps": {
+    "skills": "graduation cap over a small network of nodes",
+    "dataready": "tidy stacked data cylinders feeding a single node",
+    "legal": "a simple gavel or balanced scales",
+    "threats": "a shield with a small keyhole",
+    "human": "two cupped hands or a heart-handshake",
+    "global": "a simple globe with orbiting nodes",
+    "govern": "a gavel beside a checklist",
+    "security": "a shield with a keyhole",
+    "data": "stacked data cylinders",
+    "infra": "a stylized server or cloud",
+    "consolidation": "two arrows merging into one node",
+    "default": "the graduated-AI network mascot with no extra prop"
+  }
+}
