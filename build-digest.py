@@ -30,6 +30,8 @@ import re
 import sys
 from datetime import date as _date
 
+import hero_select
+
 ISLAND_RE = re.compile(
     r'(<script id="digest-data" type="application/json">)(.*?)(</script>)',
     re.S,
@@ -137,11 +139,26 @@ def main() -> int:
     ap.add_argument("data", help="path to the digest data JSON file")
     ap.add_argument("--template", default="template.html", help="template HTML (default: template.html)")
     ap.add_argument("--outdir", default=".", help="output directory (default: current dir)")
+    ap.add_argument("--no-hero-select", action="store_true",
+                    help="skip weekly hero selection (use data.illustration / template default)")
     args = ap.parse_args()
 
     with open(args.data, encoding="utf-8") as fh:
         data = json.load(fh)
     validate(data)
+
+    # Weekly hero: only auto-select when the data didn't pin an explicit image.
+    # Missing/failed heroes fall back inside select_hero (and finally to the
+    # template's built-in default), so this never blocks a build.
+    if not args.no_hero_select and not data.get("illustration"):
+        assets_dir = os.path.join(args.outdir, "assets", "illustrations")
+        manifest = hero_select.load_manifest(os.path.join(assets_dir, "heroes.json"))
+        web, wk, used = hero_select.select_hero(data["date"], manifest, assets_dir)
+        if web:
+            data["illustration"] = web
+            print("Hero: week %s -> %s (from week %s)" % (wk, web, used))
+        else:
+            print("Hero: week %s has no approved image; using template default" % wk)
 
     with open(args.template, encoding="utf-8") as fh:
         template = fh.read()

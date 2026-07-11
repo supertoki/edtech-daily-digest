@@ -1,0 +1,122 @@
+name: Promote approved hero
+
+# Matilda (Hermes) approves a weekly hero by committing it to
+# assets/illustrations/candidates/hero-<weekKey>.png. Committing the candidate
+# IS the approval. This Action promotes it: optimize to WebP as
+# assets/illustrations/hero-<weekKey>.webp, update heroes.json + the theme
+# endpoint, delete the raw candidate PNG, commit, and deploy Pages in the same
+# run. workflow_dispatch allows manually promoting an existing candidate.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/illustrations/candidates/**'
+  workflow_dispatch:
+    inputs:
+      weekKey:
+        description: Hero week (Wednesday date, YYYY-MM-DD) to promote from candidates/
+        required: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need history to diff the push range
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Pillow
+        run: pip install --quiet pillow
+
+      # Only the candidate committed in *this* push is promoted (not any older
+      # candidate still sitting in the folder). Since promoted candidates are
+      # deleted, a lingering PNG is intentionally left alone.
+      - name: Find candidate to promote
+        id: cand
+        env:
+          INPUT_WEEK: ${{ inputs.weekKey }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: |
+          set -e
+          DIR=assets/illustrations/candidates
+          if [ -n "$INPUT_WEEK" ]; then
+            FILE="$DIR/hero-$INPUT_WEEK.png"
+          else
+            BASE="$BEFORE"
+            if ! git cat-file -e "${BASE}^{commit}" 2>/dev/null; then BASE="HEAD~1"; fi
+            FILE=$(git diff --name-only --diff-filter=d "$BASE" "$SHA" -- "$DIR" \
+              | grep -E 'hero-[0-9]{4}-[0-9]{2}-[0-9]{2}\.png$' | sort | tail -1 || true)
+          fi
+          if [ -z "$FILE" ] || [ ! -f "$FILE" ]; then
+            echo "No candidate to promote."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          WK=$(basename "$FILE" .png | sed 's/^hero-//')
+          echo "Promoting $FILE (week $WK)"
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+          echo "week_key=$WK" >> "$GITHUB_OUTPUT"
+
+      - name: Optimize + file
+        if: steps.cand.outputs.skip != 'true'
+        run: |
+          python ingest-hero.py --image "${{ steps.cand.outputs.file }}" \
+            --week-key "${{ steps.cand.outputs.week_key }}"
+
+      - name: Commit (promote + remove raw candidate)
+        if: steps.cand.outputs.skip != 'true'
+        env:
+          WK: ${{ steps.cand.outputs.week_key }}
+          FILE: ${{ steps.cand.outputs.file }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm --quiet "$FILE"
+          git add assets/illustrations api/theme.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"; exit 0
+          fi
+          git commit -m "Promote weekly hero for ${WK}"
+          git push
+
+      # Deploy inline: a push made with GITHUB_TOKEN does NOT trigger the
+      # separate deploy-pages workflow, so publish from this run directly.
+      - uses: actions/configure-pages@v5
+        if: steps.cand.outputs.skip != 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.cand.outputs.skip != 'true'
+        with:
+          path: '.'
+      - id: deployment
+        if: steps.cand.outputs.skip != 'true'
+        uses: actions/deploy-pages@v4
+
+      - name: Notify Slack on failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL not set; skipping."; exit 0
+          fi
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -s -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-type: application/json' \
+            -d "{\"text\":\":rotating_light: *EdTech Digest — hero promotion failed*. <${RUN_URL}|View run>.\"}"
