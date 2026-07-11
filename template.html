@@ -93,6 +93,13 @@ h1,h2,h3,h4{font-family:var(--fd);font-weight:600;margin:0;letter-spacing:-.01em
 .atlas2 .body{grid-template-columns:1fr;max-width:none;padding:0}
 .atlas2 .tgrid{padding-left:0}
 .atlas2 .sections{padding-top:0}
+/* daily "today's focus" band (text-only; the hero is weekly) */
+.todayfocus{display:flex;align-items:center;gap:14px;margin:26px max(32px, (100% - 1100px) / 2) 0;padding:14px 20px;background:var(--teal-wash);border:1px solid var(--teal-line);border-radius:var(--r-md)}
+.todayfocus .tf-ic{flex:none;width:34px;height:34px;border-radius:8px;background:var(--surface);border:1px solid var(--teal-line);display:grid;place-items:center;color:var(--teal-d);font-size:18px}
+.todayfocus .tf-txt{min-width:0}
+.todayfocus .tf-kick{font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-d);font-weight:700}
+.todayfocus .tf-title{font-weight:700;color:var(--ink);font-size:15px;margin-top:1px}
+.todayfocus .tf-body{color:var(--slate);font-size:13px;line-height:1.45;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .atlas2-bar{padding:30px max(32px, (100% - 1100px) / 2) 18px;text-align:center}
 .atlas2-toggle{display:inline-flex;align-items:center;gap:4px;background:var(--surface);border:1px solid var(--line-2);border-radius:999px;padding:4px}
 .atlas2-toggle .tg-label{font-family:var(--fm);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--slate-l);padding:0 8px;line-height:1;position:relative;top:0}
@@ -246,6 +253,11 @@ const FOOTNOTE = DATA.footnote;
 const tagHTML = a => a.tag === 'new' ? '<span class="tag tag-new">NEW</span>'
   : a.tag === 'old' ? '<span class="tag tag-old">CONCLUDED</span>' : '';
 
+/* daily top theme = the theme with the most tagged articles (ties keep author order) */
+const TOP_THEME = THEMES
+  .map(t => ({ ...t, count: ALL.filter(a => (a.th || []).includes(t.k)).length }))
+  .sort((a, b) => (b.count - a.count) || (a.n - b.n))[0];
+
 /* ---------- illustrated hero ---------- */
 const AI_ILLUS = `
 <svg viewBox="0 0 420 470" role="img" aria-labelledby="illus-title" xmlns="http://www.w3.org/2000/svg">
@@ -381,6 +393,14 @@ function renderAtlas2(){
       </div>
     </header>
     <div class="body">
+      ${TOP_THEME ? `<div class="todayfocus">
+        <span class="tf-ic"><i class="ti ${TOP_THEME.icon || 'ti-flag'}"></i></span>
+        <span class="tf-txt">
+          <span class="tf-kick">Today&rsquo;s focus</span>
+          <div class="tf-title">${TOP_THEME.title}</div>
+          <div class="tf-body">${TOP_THEME.body}</div>
+        </span>
+      </div>` : ''}
       <div class="atlas2-bar">
         <div class="atlas2-toggle" role="group" aria-label="Group articles by">
           <span class="tg-label">View by</span>

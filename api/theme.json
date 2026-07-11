@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-08T16:20:54Z",
+  "generatedAt": "2026-07-11T23:52:30Z",
   "daily": {
-    "date": "2026-07-08",
-    "topThemeKey": "human",
-    "topThemeTitle": "Defending Human Learning — and Its Integrity",
-    "topThemeBody": "Integrity moves to center stage: a Brown professor suspects most of his class cheated with AI on a take-home exam, while Inside Higher Ed's Human Intelligence Labs, a campus \"AI Kitchen,\" a Socratic revival, and an EdSurge podcast on teacher instinct all insist some learning must stay human.",
+    "date": "2026-07-11",
+    "topThemeKey": "skills",
+    "topThemeTitle": "Profiling the AI-Ready Graduate",
+    "topThemeBody": "ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
     "themes": [
-      {
-        "k": "human",
-        "title": "Defending Human Learning — and Its Integrity",
-        "weight": 10
-      },
       {
         "k": "skills",
         "title": "Profiling the AI-Ready Graduate",
+        "weight": 12
+      },
+      {
+        "k": "foundations",
+        "title": "Get the Plumbing Right",
         "weight": 10
       },
       {
-        "k": "dataready",
-        "title": "From Data Collection to Data Use",
-        "weight": 10
+        "k": "cognition",
+        "title": "Who Does the Thinking?",
+        "weight": 9
       },
       {
-        "k": "legal",
-        "title": "Governance Goes Legal",
-        "weight": 10
+        "k": "security",
+        "title": "Securing AI on Campus",
+        "weight": 6
       },
       {
-        "k": "sustain",
-        "title": "Funding, Equity & Global Scale",
-        "weight": 8
+        "k": "equity",
+        "title": "Who Gets Left Out?",
+        "weight": 6
       },
       {
-        "k": "futureecon",
-        "title": "Reskilling & the AI Economy",
-        "weight": 4
+        "k": "tools",
+        "title": "Cheaper, More Capable Tools",
+        "weight": 5
       }
     ]
   },
@@ -43,10 +43,10 @@
     "status": "needed",
     "currentImage": "assets/illustrations/hero.png",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "human",
-    "themeTitle": "Defending Human Learning — and Its Integrity",
-    "themeBody": "Integrity moves to center stage: a Brown professor suspects most of his class cheated with AI on a take-home exam, while Inside Higher Ed's Human Intelligence Labs, a campus \"AI Kitchen,\" a Socratic revival, and an EdSurge podcast on teacher instinct all insist some learning must stay human.",
-    "themeProp": "two cupped hands or a heart-handshake",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Defending Human Learning — and Its Integrity - Integrity moves to center stage: a Brown professor suspects most of his class cheated with AI on a take-home exam, while Inside Higher Ed's Human Intelligence Labs, a campus \"AI Kitchen,\" a Socratic revival, and an EdSurge podcast on teacher instinct all insist some learning must stay human.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: two cupped hands or a heart-handshake; airy with negative space; no text."
+    "themeKey": "skills",
+    "themeTitle": "Profiling the AI-Ready Graduate",
+    "themeBody": "ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
+    "themeProp": "graduation cap over a small network of nodes",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Profiling the AI-Ready Graduate - ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: graduation cap over a small network of nodes; airy with negative space; no text."
   }
 }
