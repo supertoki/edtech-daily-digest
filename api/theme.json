@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T02:37:10Z",
+  "generatedAt": "2026-07-12T12:37:08Z",
   "daily": {
-    "date": "2026-07-11",
+    "date": "2026-07-12",
     "topThemeKey": "skills",
     "topThemeTitle": "Profiling the AI-Ready Graduate",
     "topThemeBody": "ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
@@ -13,7 +13,7 @@
       },
       {
         "k": "foundations",
-        "title": "Get the Plumbing Right",
+        "title": "Foundations Before the Flood",
         "weight": 10
       },
       {
@@ -24,7 +24,7 @@
       {
         "k": "security",
         "title": "Securing AI on Campus",
-        "weight": 6
+        "weight": 7
       },
       {
         "k": "equity",
