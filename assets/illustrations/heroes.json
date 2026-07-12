@@ -1,4 +1,10 @@
 {
-  "current": null,
-  "weeks": {}
+  "current": "2026-07-08",
+  "weeks": {
+    "2026-07-08": {
+      "file": "hero-2026-07-08.webp",
+      "theme": "skills",
+      "approvedAt": "2026-07-12T01:11:24Z"
+    }
+  }
 }

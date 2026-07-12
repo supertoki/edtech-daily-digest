@@ -40,8 +40,8 @@
   },
   "heroWeek": {
     "weekKey": "2026-07-08",
-    "status": "needed",
-    "currentImage": "assets/illustrations/hero.png",
+    "status": "approved",
+    "currentImage": "assets/illustrations/hero-2026-07-08.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "skills",
     "themeTitle": "Profiling the AI-Ready Graduate",
