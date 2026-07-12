@@ -6,15 +6,16 @@ assets/illustrations/candidates/hero-<weekKey>.png. Given that file + its week,
 this:
   1. optimizes it to WebP (fit within the style-guide canvas, target maxKB),
   2. writes assets/illustrations/hero-<weekKey>.webp,
-  3. updates the heroes.json manifest (marks the week approved, bumps `current`),
-  4. patches api/theme.json's heroWeek to `approved` when the week matches, so
-     the public endpoint reflects the new hero immediately.
+  3. updates the heroes.json manifest (attaches the image to the week and
+     advances the `displayed` pointer so the page flips on the next build),
+  4. patches api/theme.json's heroWeek so the public endpoint reflects the new
+     hero immediately.
 
 The workflow removes the raw candidate PNG after this runs.
 
 Usage:
-  python ingest-hero.py --image assets/illustrations/candidates/hero-2026-07-08.png \
-    --week-key 2026-07-08
+  python ingest-hero.py --image assets/illustrations/candidates/hero-2026-07-06.png \
+    --week-key 2026-07-06
 """
 from __future__ import annotations
 
@@ -79,7 +80,7 @@ def optimize(src: str, dst: str, max_w: int, max_h: int, max_kb: int):
 def main() -> int:
     ap = argparse.ArgumentParser(description="Promote an approved weekly hero image.")
     ap.add_argument("--image", required=True, help="path to the candidate image to promote")
-    ap.add_argument("--week-key", required=True, help="hero week (Wednesday date, YYYY-MM-DD)")
+    ap.add_argument("--week-key", required=True, help="hero week (Monday date, YYYY-MM-DD)")
     ap.add_argument("--theme-key", default="",
                     help="theme key the image depicts (default: read from theme.json)")
     ap.add_argument("--assets-dir", default="assets/illustrations")
@@ -96,13 +97,14 @@ def main() -> int:
     os.makedirs(assets_dir, exist_ok=True)
     spec = style_spec(assets_dir)
 
-    # Theme key: prefer the arg, else derive from theme.json when it's the same week.
+    # Theme metadata: prefer the arg, else the locked manifest entry, else
+    # theme.json when it's the same week.
     theme = load_json(args.theme_json, None)
-    theme_key = args.theme_key
-    if not theme_key and isinstance(theme, dict):
+    hw_theme = {}
+    if isinstance(theme, dict):
         hw = theme.get("heroWeek", {})
         if isinstance(hw, dict) and hw.get("weekKey") == wk:
-            theme_key = hw.get("themeKey", "")
+            hw_theme = hw
 
     fname = "hero-%s.webp" % wk
     dst = os.path.join(assets_dir, fname)
@@ -111,29 +113,42 @@ def main() -> int:
 
     approved_at = now_z()
 
-    # Manifest: mark the week approved and advance `current` (never regress).
+    # Manifest: attach the image to the week (preserving the locked theme fields)
+    # and advance the `displayed` pointer -- the page flips to this hero on the
+    # next build. `current` stays as a legacy alias of `displayed`.
     manifest_path = os.path.join(assets_dir, "heroes.json")
-    manifest = load_json(manifest_path, {"current": None, "weeks": {}})
+    manifest = load_json(manifest_path, {"target": None, "displayed": None, "weeks": {}})
     manifest.setdefault("weeks", {})
-    manifest["weeks"][wk] = {"file": fname, "theme": theme_key, "approvedAt": approved_at}
-    cur = manifest.get("current")
-    manifest["current"] = wk if (not cur or wk >= cur) else cur
-    write_json(manifest_path, manifest)
-    print("Manifest updated: current=%s, weeks[%s] approved (theme=%r)"
-          % (manifest["current"], wk, theme_key))
+    entry = manifest["weeks"].get(wk, {})
+    theme_key = args.theme_key or entry.get("themeKey") or hw_theme.get("themeKey", "")
+    entry.setdefault("themeKey", theme_key)
+    if not entry.get("themeTitle") and hw_theme.get("themeTitle"):
+        entry["themeTitle"] = hw_theme["themeTitle"]
+    if not entry.get("themeBody") and hw_theme.get("themeBody"):
+        entry["themeBody"] = hw_theme["themeBody"]
+    entry.update({"file": fname, "theme": theme_key, "approvedAt": approved_at})
+    manifest["weeks"][wk] = entry
 
-    # Patch the published endpoint so status flips to approved right away
-    # (only when it's the same week; other weeks refresh on the next publish).
+    disp = manifest.get("displayed") or manifest.get("current")
+    if not disp or wk >= disp:
+        disp = wk
+    manifest["displayed"] = disp
+    manifest["current"] = disp  # legacy alias
+    write_json(manifest_path, manifest)
+    print("Manifest updated: displayed=%s, weeks[%s] approved (theme=%r)"
+          % (disp, wk, theme_key))
+
+    # Patch the published endpoint so the page/agent see the new hero right away.
     web = "assets/illustrations/%s" % fname
     if isinstance(theme, dict) and isinstance(theme.get("heroWeek"), dict):
         hw = theme["heroWeek"]
+        hw["displayedWeek"] = disp
+        hw["currentImage"] = web
         if hw.get("weekKey") == wk:
             hw["status"] = "approved"
-            hw["currentImage"] = web
-            write_json(args.theme_json, theme)
-            print("Patched %s heroWeek -> approved" % args.theme_json)
-        else:
-            print("theme.json weekKey %r != %r; left as-is" % (hw.get("weekKey"), wk))
+        write_json(args.theme_json, theme)
+        print("Patched %s heroWeek (displayedWeek=%s, status=%s)"
+              % (args.theme_json, disp, hw.get("status")))
     return 0
 
 

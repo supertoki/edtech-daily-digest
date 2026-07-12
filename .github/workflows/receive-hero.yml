@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       weekKey:
-        description: Hero week (Wednesday date, YYYY-MM-DD) to promote from candidates/
+        description: Hero week (Monday date, YYYY-MM-DD) to promote from candidates/
         required: true
 
 permissions:
@@ -80,6 +80,19 @@ jobs:
           python ingest-hero.py --image "${{ steps.cand.outputs.file }}" \
             --week-key "${{ steps.cand.outputs.week_key }}"
 
+      # Rebuild the latest digest so the page flips to the new hero immediately
+      # (the illustration is baked into each digest's data island at build time).
+      - name: Rebuild latest digest with new hero
+        if: steps.cand.outputs.skip != 'true'
+        run: |
+          LATEST=$(ls data-*.json 2>/dev/null | sort | tail -1 || true)
+          if [ -n "$LATEST" ]; then
+            echo "Rebuilding from $LATEST"
+            python build-digest.py "$LATEST" --outdir .
+          else
+            echo "No data-*.json to rebuild; skipping."
+          fi
+
       - name: Commit (promote + remove raw candidate)
         if: steps.cand.outputs.skip != 'true'
         env:
@@ -90,6 +103,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git rm --quiet "$FILE"
           git add assets/illustrations api/theme.json
+          git add digest-*.html digest-*.md 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit"; exit 0
           fi

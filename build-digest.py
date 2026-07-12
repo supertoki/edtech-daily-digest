@@ -147,18 +147,26 @@ def main() -> int:
         data = json.load(fh)
     validate(data)
 
-    # Weekly hero: only auto-select when the data didn't pin an explicit image.
-    # Missing/failed heroes fall back inside select_hero (and finally to the
-    # template's built-in default), so this never blocks a build.
-    if not args.no_hero_select and not data.get("illustration"):
+    # Weekly hero (decoupled from the daily lead):
+    #   * the hero shows the DISPLAYED week -- the newest week whose illustration
+    #     is actually approved. During a review handoff this is the *previous*
+    #     week, so the page never blanks or swaps early (planned overlap).
+    #   * lock_week freezes this week's theme label on Monday for the agent.
+    # Everything falls back gracefully, so this never blocks a build.
+    if not args.no_hero_select:
         assets_dir = os.path.join(args.outdir, "assets", "illustrations")
-        manifest = hero_select.load_manifest(os.path.join(assets_dir, "heroes.json"))
-        web, wk, used = hero_select.select_hero(data["date"], manifest, assets_dir)
-        if web:
-            data["illustration"] = web
-            print("Hero: week %s -> %s (from week %s)" % (wk, web, used))
-        else:
-            print("Hero: week %s has no approved image; using template default" % wk)
+        data_dir = os.path.dirname(os.path.abspath(args.data)) or "."
+        manifest, _ = hero_select.lock_week(data["date"], data_dir, assets_dir)
+        hero = hero_select.hero_for_page(data["date"], manifest, assets_dir)
+        hw = data.setdefault("heroWeek", {})
+        hw.setdefault("title", hero["title"])
+        hw.setdefault("body", hero["body"])
+        hw.setdefault("rangeLabel", hero["rangeLabel"])
+        if not data.get("illustration") and hero["image"]:
+            data["illustration"] = hero["image"]
+        print("Hero: week %s (%s), image=%s"
+              % (hero["weekKey"], hero["rangeLabel"],
+                 data.get("illustration") or "template default"))
 
     with open(args.template, encoding="utf-8") as fh:
         template = fh.read()

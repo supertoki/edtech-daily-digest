@@ -2,14 +2,15 @@
 """Publish the theme endpoint (api/theme.json) served statically by GitHub Pages.
 
 The Hermes agent (Matilda) GETs this file to learn (a) today's dominant theme
-and (b) the current hero-week's theme + status, so she can decide when to
+and (b) the locked hero-week's theme + status, so she can decide when to
 generate a new weekly hero and what it should depict.
 
   - daily:    top theme for the reference day (by number of tagged articles).
-  - heroWeek: the Wed-anchored week key, its status (needed|pending|approved),
-              and its theme computed from the *trailing 7 days* (more stable and
-              gives the review loop lead time), plus a promptSeed and the last
-              approved image for reference/fallback.
+  - heroWeek: the Monday-anchored `target` week key (the work order), its status
+              (needed|pending|approved), its frozen theme (locked Monday from the
+              trailing 7 days so it can't drift mid-week), a promptSeed, and the
+              image currently displayed on the page for reference/fallback. Note
+              the displayed image lags `target` during a review handoff.
 
 Usage:
   python publish-theme.py data-2026-07-07.json
@@ -18,32 +19,15 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import glob
 import json
 import os
-import re
 import sys
 from datetime import datetime, timezone
 
 import hero_select
 
-DATA_RE = re.compile(r"data-(\d{4}-\d{2}-\d{2})\.json$")
-BOLD_RE = re.compile(r"</?b>")
-TAG_RE = re.compile(r"<[^>]*>")
-
-
-def strip_html(s: str) -> str:
-    return TAG_RE.sub("", BOLD_RE.sub("", s or "")).strip()
-
-
-def theme_weights(data: dict) -> dict:
-    counts = {t["k"]: 0 for t in data.get("themes", [])}
-    for s in data.get("sources", []):
-        for a in s.get("arts", []):
-            for k in a.get("th", []):
-                if k in counts:
-                    counts[k] += 1
-    return counts
+strip_html = hero_select.strip_html
+theme_weights = hero_select.theme_weights
 
 
 def top_theme(data: dict):
@@ -54,26 +38,6 @@ def top_theme(data: dict):
     order = {t["k"]: i for i, t in enumerate(themes)}
     best = max(themes, key=lambda t: (counts.get(t["k"], 0), -order[t["k"]]))
     return best, counts
-
-
-def trailing_days(data_dir: str, ref_iso: str, span: int = 7):
-    """Return [(iso, data)] for data-*.json within the `span`-day window ending ref_iso."""
-    ref = hero_select.date.fromisoformat(ref_iso)
-    out = []
-    for path in glob.glob(os.path.join(data_dir, "data-*.json")):
-        m = DATA_RE.search(path.replace("\\", "/"))
-        if not m:
-            continue
-        iso = m.group(1)
-        d = hero_select.date.fromisoformat(iso)
-        if 0 <= (ref - d).days < span:
-            try:
-                with open(path, encoding="utf-8") as fh:
-                    out.append((iso, json.load(fh)))
-            except ValueError:
-                continue
-    out.sort(key=lambda x: x[0], reverse=True)  # newest first
-    return out
 
 
 def load_theme_props(out_path: str, script_dir: str) -> dict:
@@ -88,22 +52,6 @@ def load_theme_props(out_path: str, script_dir: str) -> dict:
         except (FileNotFoundError, ValueError):
             continue
     return {}
-
-
-def weekly_theme(days):
-    """Aggregate theme weights across trailing days; return (key, title, body)."""
-    agg = {}
-    meta = {}  # key -> (title, body) preferring newest day
-    for iso, data in days:  # newest first
-        for t in data.get("themes", []):
-            meta.setdefault(t["k"], (t.get("title", t["k"]), strip_html(t.get("body", ""))))
-        for k, w in theme_weights(data).items():
-            agg[k] = agg.get(k, 0) + w
-    if not agg:
-        return None
-    key = max(agg, key=lambda k: agg[k])
-    title, body = meta.get(key, (key, ""))
-    return key, title, body
 
 
 def main() -> int:
@@ -123,10 +71,20 @@ def main() -> int:
     assets_dir = args.assets_dir or os.path.join(data_dir, "assets", "illustrations")
     out = args.out or os.path.join(data_dir, "api", "theme.json")
 
-    manifest = hero_select.load_manifest(os.path.join(assets_dir, "heroes.json"))
-    wk = hero_select.week_key(date_iso)
-    status = hero_select.week_status(date_iso, manifest, assets_dir)
-    cur_web, _, _ = hero_select.select_hero(date_iso, manifest, assets_dir)
+    # Lock this week's theme on its first run (Monday), then read the locked
+    # `target` week -- that's the work order the agent designs to.
+    manifest, _ = hero_select.lock_week(date_iso, data_dir, assets_dir)
+    target = manifest.get("target") or hero_select.week_key(date_iso)
+    tw = manifest["weeks"].get(target, {})
+    status = hero_select.week_status_for(target, manifest, assets_dir)
+
+    # The image currently ON the page (the newest approved week) -- for the
+    # agent's reference and as the fallback. This lags `target` during handoff.
+    disp = hero_select.displayed_week(manifest, assets_dir)
+    disp_img = (
+        "%s/%s" % (hero_select.WEB_DIR, manifest["weeks"][disp]["file"])
+        if disp else None
+    )
 
     tt = top_theme(data)
     daily = {}
@@ -145,18 +103,21 @@ def main() -> int:
             ),
         }
 
-    wt = weekly_theme(trailing_days(data_dir, date_iso))
     hero_week = {
-        "weekKey": wk,
+        "weekKey": target,
+        "weekRange": hero_select.week_range_label(target),
         "status": status,
-        "currentImage": cur_web or hero_select.DEFAULT_HERO,
+        "displayedWeek": disp,
+        "currentImage": disp_img or hero_select.DEFAULT_HERO,
     }
     style_path = "api/hero-style.json"
     hero_week["styleGuideUrl"] = (
         args.pages_url.rstrip("/") + "/" + style_path if args.pages_url else style_path
     )
-    if wt:
-        key, title, body = wt
+    key = tw.get("themeKey")
+    if key:
+        title = tw.get("themeTitle", key)
+        body = tw.get("themeBody", "")
         theme_props = load_theme_props(out, os.path.dirname(os.path.abspath(__file__)))
         prop = theme_props.get(key) or theme_props.get("default")
         hero_week["themeKey"] = key
@@ -182,8 +143,8 @@ def main() -> int:
     with open(out, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
-    print("Wrote %s (daily=%s, heroWeek=%s/%s)"
-          % (out, daily.get("topThemeKey"), wk, status))
+    print("Wrote %s (daily=%s, target=%s/%s, displayed=%s)"
+          % (out, daily.get("topThemeKey"), target, status, disp))
     return 0
 
 

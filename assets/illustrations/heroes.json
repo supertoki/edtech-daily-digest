@@ -1,8 +1,14 @@
 {
-  "current": "2026-07-08",
+  "target": "2026-07-06",
+  "displayed": "2026-07-06",
+  "current": "2026-07-06",
   "weeks": {
-    "2026-07-08": {
-      "file": "hero-2026-07-08.webp",
+    "2026-07-06": {
+      "themeKey": "skills",
+      "themeTitle": "Profiling the AI-Ready Graduate",
+      "themeBody": "ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
+      "lockedAt": "2026-07-12T02:17:08Z",
+      "file": "hero-2026-07-06.webp",
       "theme": "skills",
       "approvedAt": "2026-07-12T01:11:24Z"
     }
