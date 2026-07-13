@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-12T12:37:08Z",
+  "generatedAt": "2026-07-13T12:26:35Z",
   "daily": {
-    "date": "2026-07-12",
+    "date": "2026-07-13",
     "topThemeKey": "skills",
     "topThemeTitle": "Profiling the AI-Ready Graduate",
-    "topThemeBody": "ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
+    "topThemeBody": "ISTELive 26 keeps generating skills coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, experts urge leaders to defend E-Rate broadband funding, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
     "themes": [
       {
         "k": "skills",
         "title": "Profiling the AI-Ready Graduate",
-        "weight": 12
-      },
-      {
-        "k": "foundations",
-        "title": "Foundations Before the Flood",
-        "weight": 10
+        "weight": 13
       },
       {
         "k": "cognition",
         "title": "Who Does the Thinking?",
+        "weight": 11
+      },
+      {
+        "k": "foundations",
+        "title": "Foundations Before the Flood",
         "weight": 9
       },
       {
@@ -29,7 +29,7 @@
       {
         "k": "equity",
         "title": "Who Gets Left Out?",
-        "weight": 6
+        "weight": 7
       },
       {
         "k": "tools",
@@ -39,16 +39,16 @@
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-07-06",
-    "weekRange": "7/6-7/12",
-    "status": "approved",
+    "weekKey": "2026-07-13",
+    "weekRange": "7/13-7/19",
+    "status": "pending",
     "displayedWeek": "2026-07-06",
     "currentImage": "assets/illustrations/hero-2026-07-06.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "skills",
     "themeTitle": "Profiling the AI-Ready Graduate",
-    "themeBody": "ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
+    "themeBody": "ISTELive 26 keeps generating skills coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, experts urge leaders to defend E-Rate broadband funding, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
     "themeProp": "graduation cap over a small network of nodes",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Profiling the AI-Ready Graduate - ISTELive 26's signature idea keeps generating coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: graduation cap over a small network of nodes; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Profiling the AI-Ready Graduate - ISTELive 26 keeps generating skills coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, experts urge leaders to defend E-Rate broadband funding, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: graduation cap over a small network of nodes; airy with negative space; no text."
   }
 }
