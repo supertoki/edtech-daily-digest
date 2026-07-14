@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-13T12:26:35Z",
+  "generatedAt": "2026-07-14T12:27:52Z",
   "daily": {
-    "date": "2026-07-13",
+    "date": "2026-07-14",
     "topThemeKey": "skills",
-    "topThemeTitle": "Profiling the AI-Ready Graduate",
-    "topThemeBody": "ISTELive 26 keeps generating skills coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, experts urge leaders to defend E-Rate broadband funding, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
+    "topThemeTitle": "Building the AI-Ready Workforce",
+    "topThemeBody": "Skills coverage widens: ISTELive 26's six-role \"AI-Ready Graduate\" is joined by Inside Higher Ed's finding that career literacy is worth roughly $40K a year, the RAISE US reskilling drive, EdSurge's call to support \"whole educators\" against burnout, experts urging leaders to defend E-Rate, and 1EdTech research on scaling digital credentials.",
     "themes": [
       {
         "k": "skills",
-        "title": "Profiling the AI-Ready Graduate",
+        "title": "Building the AI-Ready Workforce",
         "weight": 13
       },
       {
         "k": "cognition",
         "title": "Who Does the Thinking?",
-        "weight": 11
+        "weight": 10
       },
       {
-        "k": "foundations",
-        "title": "Foundations Before the Flood",
+        "k": "tools",
+        "title": "Cheaper, More Capable Tools",
         "weight": 9
       },
       {
         "k": "security",
         "title": "Securing AI on Campus",
+        "weight": 8
+      },
+      {
+        "k": "governance",
+        "title": "Who Sets the Rules?",
         "weight": 7
       },
       {
         "k": "equity",
         "title": "Who Gets Left Out?",
-        "weight": 7
-      },
-      {
-        "k": "tools",
-        "title": "Cheaper, More Capable Tools",
-        "weight": 5
+        "weight": 6
       }
     ]
   },
