@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-14T12:27:52Z",
+  "generatedAt": "2026-07-15T12:45:01Z",
   "daily": {
-    "date": "2026-07-14",
-    "topThemeKey": "skills",
-    "topThemeTitle": "Building the AI-Ready Workforce",
-    "topThemeBody": "Skills coverage widens: ISTELive 26's six-role \"AI-Ready Graduate\" is joined by Inside Higher Ed's finding that career literacy is worth roughly $40K a year, the RAISE US reskilling drive, EdSurge's call to support \"whole educators\" against burnout, experts urging leaders to defend E-Rate, and 1EdTech research on scaling digital credentials.",
+    "date": "2026-07-15",
+    "topThemeKey": "cognition",
+    "topThemeTitle": "Who Does the Thinking?",
+    "topThemeBody": "The cognition worry keeps its edge: EdSurge's JUL 15 podcast asks what the AI-cheating panic is really about, Inside Higher Ed reports top law schools restricting laptops and phones to protect real-time reasoning, its AI \"slop\" is a tenure problem argument, John Warner's warning that AI short-circuits the thinking it saves, and a Brown professor who suspects most of his class cheated.",
     "themes": [
-      {
-        "k": "skills",
-        "title": "Building the AI-Ready Workforce",
-        "weight": 13
-      },
       {
         "k": "cognition",
         "title": "Who Does the Thinking?",
-        "weight": 10
+        "weight": 11
+      },
+      {
+        "k": "skills",
+        "title": "Building the AI-Ready Workforce",
+        "weight": 11
       },
       {
         "k": "tools",
-        "title": "Cheaper, More Capable Tools",
+        "title": "AI Lands in the Classroom",
         "weight": 9
       },
       {
@@ -27,13 +27,13 @@
         "weight": 8
       },
       {
-        "k": "governance",
-        "title": "Who Sets the Rules?",
-        "weight": 7
-      },
-      {
         "k": "equity",
         "title": "Who Gets Left Out?",
+        "weight": 8
+      },
+      {
+        "k": "governance",
+        "title": "Who Sets the Rules?",
         "weight": 6
       }
     ]
