@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-15T12:45:01Z",
+  "generatedAt": "2026-07-16T12:26:38Z",
   "daily": {
-    "date": "2026-07-15",
-    "topThemeKey": "cognition",
-    "topThemeTitle": "Who Does the Thinking?",
-    "topThemeBody": "The cognition worry keeps its edge: EdSurge's JUL 15 podcast asks what the AI-cheating panic is really about, Inside Higher Ed reports top law schools restricting laptops and phones to protect real-time reasoning, its AI \"slop\" is a tenure problem argument, John Warner's warning that AI short-circuits the thinking it saves, and a Brown professor who suspects most of his class cheated.",
+    "date": "2026-07-16",
+    "topThemeKey": "access",
+    "topThemeTitle": "Who Gets In, on Whose Terms",
+    "topThemeBody": "Access is contested at both ends: Inside Higher Ed charts the rise of the nontraditional student and business officers pressing for structural change over storm-weathering, while Brookings warns the Global South must be a design partner rather than a recipient and that scaling edtech in Asia prizes feasibility over evidence. EdSurge finds rural districts lack AI training, and ISTELive panelists urge leaders to defend E-Rate.",
     "themes": [
       {
-        "k": "cognition",
-        "title": "Who Does the Thinking?",
-        "weight": 11
-      },
-      {
-        "k": "skills",
-        "title": "Building the AI-Ready Workforce",
-        "weight": 11
-      },
-      {
-        "k": "tools",
-        "title": "AI Lands in the Classroom",
-        "weight": 9
-      },
-      {
-        "k": "security",
-        "title": "Securing AI on Campus",
-        "weight": 8
-      },
-      {
-        "k": "equity",
-        "title": "Who Gets Left Out?",
-        "weight": 8
+        "k": "access",
+        "title": "Who Gets In, on Whose Terms",
+        "weight": 18
       },
       {
         "k": "governance",
         "title": "Who Sets the Rules?",
-        "weight": 6
+        "weight": 15
+      },
+      {
+        "k": "tools",
+        "title": "AI Lands in the Classroom",
+        "weight": 13
+      },
+      {
+        "k": "security",
+        "title": "The Platform Is the Perimeter",
+        "weight": 11
+      },
+      {
+        "k": "data",
+        "title": "Data That Acts in Time",
+        "weight": 11
+      },
+      {
+        "k": "cognition",
+        "title": "Who Does the Thinking?",
+        "weight": 8
       }
     ]
   },
