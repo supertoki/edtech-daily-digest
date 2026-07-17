@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-16T12:26:38Z",
+  "generatedAt": "2026-07-17T12:28:48Z",
   "daily": {
-    "date": "2026-07-16",
-    "topThemeKey": "access",
-    "topThemeTitle": "Who Gets In, on Whose Terms",
-    "topThemeBody": "Access is contested at both ends: Inside Higher Ed charts the rise of the nontraditional student and business officers pressing for structural change over storm-weathering, while Brookings warns the Global South must be a design partner rather than a recipient and that scaling edtech in Asia prizes feasibility over evidence. EdSurge finds rural districts lack AI training, and ISTELive panelists urge leaders to defend E-Rate.",
+    "date": "2026-07-17",
+    "topThemeKey": "tools",
+    "topThemeTitle": "AI Lands in the Classroom",
+    "topThemeBody": "No new launches today; the story is absorption. EdSurge finds AI chatbots intriguing ESL teachers as scaffolding for emergent bilingual students while warning they could widen achievement gaps — and EdTech Magazine argues AI infrastructure should follow the pandemic playbook rather than run as a side project.",
     "themes": [
-      {
-        "k": "access",
-        "title": "Who Gets In, on Whose Terms",
-        "weight": 18
-      },
-      {
-        "k": "governance",
-        "title": "Who Sets the Rules?",
-        "weight": 15
-      },
       {
         "k": "tools",
         "title": "AI Lands in the Classroom",
         "weight": 13
       },
       {
-        "k": "security",
-        "title": "The Platform Is the Perimeter",
+        "k": "access",
+        "title": "Who Gets In, on Whose Terms",
+        "weight": 12
+      },
+      {
+        "k": "governance",
+        "title": "Who Sets the Rules?",
         "weight": 11
       },
       {
-        "k": "data",
-        "title": "Data That Acts in Time",
-        "weight": 11
+        "k": "security",
+        "title": "The Platform Is the Perimeter",
+        "weight": 9
       },
       {
         "k": "cognition",
         "title": "Who Does the Thinking?",
         "weight": 8
+      },
+      {
+        "k": "trust",
+        "title": "Who Verifies the Record?",
+        "weight": 7
       }
     ]
   },
