@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-17T12:28:48Z",
+  "generatedAt": "2026-07-18T12:28:18Z",
   "daily": {
-    "date": "2026-07-17",
-    "topThemeKey": "tools",
-    "topThemeTitle": "AI Lands in the Classroom",
-    "topThemeBody": "No new launches today; the story is absorption. EdSurge finds AI chatbots intriguing ESL teachers as scaffolding for emergent bilingual students while warning they could widen achievement gaps — and EdTech Magazine argues AI infrastructure should follow the pandemic playbook rather than run as a side project.",
+    "date": "2026-07-18",
+    "topThemeKey": "infra",
+    "topThemeTitle": "AI Runs on Old Pipes",
+    "topThemeBody": "The week's real technology story moved from the classroom to the machine room. Higher ed IT leaders are told to balance AI innovation against securing core systems, with the argument that the pandemic playbook — run it on what you already operate — is the right blueprint rather than a parallel AI stack.",
     "themes": [
       {
-        "k": "tools",
-        "title": "AI Lands in the Classroom",
-        "weight": 13
+        "k": "infra",
+        "title": "AI Runs on Old Pipes",
+        "weight": 17
       },
       {
-        "k": "access",
-        "title": "Who Gets In, on Whose Terms",
-        "weight": 12
+        "k": "policy",
+        "title": "Rules Before Tools",
+        "weight": 17
       },
       {
-        "k": "governance",
-        "title": "Who Sets the Rules?",
+        "k": "equity",
+        "title": "The Gap Underneath",
         "weight": 11
       },
       {
         "k": "security",
-        "title": "The Platform Is the Perimeter",
+        "title": "The Boring Causes Still Win",
         "weight": 9
       },
       {
-        "k": "cognition",
-        "title": "Who Does the Thinking?",
-        "weight": 8
+        "k": "integrity",
+        "title": "What Assessment Is For",
+        "weight": 7
       },
       {
-        "k": "trust",
-        "title": "Who Verifies the Record?",
-        "weight": 7
+        "k": "access",
+        "title": "Access With a Date On It",
+        "weight": 3
       }
     ]
   },
