@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-18T12:28:18Z",
+  "generatedAt": "2026-07-19T13:15:44Z",
   "daily": {
-    "date": "2026-07-18",
-    "topThemeKey": "infra",
-    "topThemeTitle": "AI Runs on Old Pipes",
-    "topThemeBody": "The week's real technology story moved from the classroom to the machine room. Higher ed IT leaders are told to balance AI innovation against securing core systems, with the argument that the pandemic playbook — run it on what you already operate — is the right blueprint rather than a parallel AI stack.",
+    "date": "2026-07-19",
+    "topThemeKey": "govern",
+    "topThemeTitle": "Policy Lags Adoption",
+    "topThemeBody": "Only 3.3% of 122 surveyed districts have a pro-innovation AI policy and 44.3% gate use behind teacher permission. State guidance mostly isn't reaching district documents — 15.6% reference it.",
     "themes": [
       {
+        "k": "govern",
+        "title": "Policy Lags Adoption",
+        "weight": 13
+      },
+      {
         "k": "infra",
-        "title": "AI Runs on Old Pipes",
-        "weight": 17
-      },
-      {
-        "k": "policy",
-        "title": "Rules Before Tools",
-        "weight": 17
-      },
-      {
-        "k": "equity",
-        "title": "The Gap Underneath",
+        "title": "Infrastructure Outranks Invention",
         "weight": 11
       },
       {
-        "k": "security",
-        "title": "The Boring Causes Still Win",
-        "weight": 9
+        "k": "equity",
+        "title": "Who AI Reaches, and Who It Misses",
+        "weight": 11
       },
       {
-        "k": "integrity",
-        "title": "What Assessment Is For",
-        "weight": 7
+        "k": "restructure",
+        "title": "Institutions Reorganize Under Pressure",
+        "weight": 5
+      },
+      {
+        "k": "cyber",
+        "title": "The Patch Gap Is a Process Gap",
+        "weight": 4
       },
       {
         "k": "access",
-        "title": "Access With a Date On It",
-        "weight": 3
+        "title": "Access Becomes Litigation",
+        "weight": 2
       }
     ]
   },
