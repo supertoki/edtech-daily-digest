@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-19T13:15:44Z",
+  "generatedAt": "2026-07-20T12:26:37Z",
   "daily": {
-    "date": "2026-07-19",
-    "topThemeKey": "govern",
-    "topThemeTitle": "Policy Lags Adoption",
-    "topThemeBody": "Only 3.3% of 122 surveyed districts have a pro-innovation AI policy and 44.3% gate use behind teacher permission. State guidance mostly isn't reaching district documents — 15.6% reference it.",
+    "date": "2026-07-20",
+    "topThemeKey": "access",
+    "topThemeTitle": "Who Gets In, and Who Gets Counted",
+    "topThemeBody": "Transfer credit loss, young men's skepticism about value, the new duration-of-status rule for international students, and prestige-driven publication all describe the same narrowing pipeline.",
     "themes": [
       {
-        "k": "govern",
-        "title": "Policy Lags Adoption",
-        "weight": 13
-      },
-      {
-        "k": "infra",
-        "title": "Infrastructure Outranks Invention",
-        "weight": 11
-      },
-      {
-        "k": "equity",
-        "title": "Who AI Reaches, and Who It Misses",
-        "weight": 11
-      },
-      {
-        "k": "restructure",
-        "title": "Institutions Reorganize Under Pressure",
-        "weight": 5
-      },
-      {
-        "k": "cyber",
-        "title": "The Patch Gap Is a Process Gap",
-        "weight": 4
-      },
-      {
         "k": "access",
-        "title": "Access Becomes Litigation",
-        "weight": 2
+        "title": "Who Gets In, and Who Gets Counted",
+        "weight": 16
+      },
+      {
+        "k": "standards",
+        "title": "Portable Context Becomes a Standard",
+        "weight": 12
+      },
+      {
+        "k": "aitools",
+        "title": "The Teacher-Tool Land Grab Closes",
+        "weight": 12
+      },
+      {
+        "k": "aigov",
+        "title": "Governance Before Procurement",
+        "weight": 10
+      },
+      {
+        "k": "security",
+        "title": "Core Systems Under Strain",
+        "weight": 8
+      },
+      {
+        "k": "money",
+        "title": "Accountability & the Funding Squeeze",
+        "weight": 7
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-07-13",
-    "weekRange": "7/13-7/19",
+    "weekKey": "2026-07-20",
+    "weekRange": "7/20-7/26",
     "status": "pending",
     "displayedWeek": "2026-07-06",
     "currentImage": "assets/illustrations/hero-2026-07-06.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "skills",
-    "themeTitle": "Profiling the AI-Ready Graduate",
-    "themeBody": "ISTELive 26 keeps generating skills coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, experts urge leaders to defend E-Rate broadband funding, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.",
-    "themeProp": "graduation cap over a small network of nodes",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Profiling the AI-Ready Graduate - ISTELive 26 keeps generating skills coverage: EdTech Magazine and EdSurge unpack the six-role \"AI-Ready Graduate\" and a \"relational intelligence\" recap, experts urge leaders to defend E-Rate broadband funding, Inside Higher Ed's RAISE US targets workforce reskilling, and 1EdTech advances research on scaling digital credentials.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: graduation cap over a small network of nodes; airy with negative space; no text."
+    "themeKey": "security",
+    "themeTitle": "Core Systems Under Strain",
+    "themeBody": "Canvas paused data delivery over a potential security threat, while SonicWall found 61% of exploits land within 48 hours of proof-of-concept and 77% of organizations take over a week to patch.",
+    "themeProp": "a shield with a keyhole",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Core Systems Under Strain - Canvas paused data delivery over a potential security threat, while SonicWall found 61% of exploits land within 48 hours of proof-of-concept and 77% of organizations take over a week to patch.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a shield with a keyhole; airy with negative space; no text."
   }
 }
