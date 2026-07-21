@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-07-20T12:26:37Z",
+  "generatedAt": "2026-07-21T12:25:17Z",
   "daily": {
-    "date": "2026-07-20",
-    "topThemeKey": "access",
-    "topThemeTitle": "Who Gets In, and Who Gets Counted",
-    "topThemeBody": "Transfer credit loss, young men's skepticism about value, the new duration-of-status rule for international students, and prestige-driven publication all describe the same narrowing pipeline.",
+    "date": "2026-07-21",
+    "topThemeKey": "aigov",
+    "topThemeTitle": "Write the Rules Before Buying the Tools",
+    "topThemeBody": "Florida State is using pilots plus faculty and student feedback to decide which AI vendors survive procurement, an Indigenous school built its AI framework from community input first, and the buy-side guidance keeps arriving ahead of the purchase orders.",
     "themes": [
       {
-        "k": "access",
-        "title": "Who Gets In, and Who Gets Counted",
-        "weight": 16
+        "k": "aigov",
+        "title": "Write the Rules Before Buying the Tools",
+        "weight": 18
       },
       {
         "k": "standards",
         "title": "Portable Context Becomes a Standard",
-        "weight": 12
+        "weight": 13
       },
       {
-        "k": "aitools",
-        "title": "The Teacher-Tool Land Grab Closes",
-        "weight": 12
-      },
-      {
-        "k": "aigov",
-        "title": "Governance Before Procurement",
-        "weight": 10
+        "k": "access",
+        "title": "Who Gets In, and Who Gets Counted",
+        "weight": 11
       },
       {
         "k": "security",
         "title": "Core Systems Under Strain",
-        "weight": 8
+        "weight": 9
       },
       {
         "k": "money",
-        "title": "Accountability & the Funding Squeeze",
+        "title": "Courts Set the Funding Boundary",
+        "weight": 7
+      },
+      {
+        "k": "human",
+        "title": "Defending the Human Part of Learning",
         "weight": 7
       }
     ]
