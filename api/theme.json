@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-21T12:25:17Z",
+  "generatedAt": "2026-07-23T12:27:20Z",
   "daily": {
-    "date": "2026-07-21",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "Write the Rules Before Buying the Tools",
-    "topThemeBody": "Florida State is using pilots plus faculty and student feedback to decide which AI vendors survive procurement, an Indigenous school built its AI framework from community input first, and the buy-side guidance keeps arriving ahead of the purchase orders.",
+    "date": "2026-07-23",
+    "topThemeKey": "aiops",
+    "topThemeTitle": "AI Moves Into the Back Office",
+    "topThemeBody": "The story of the day is where AI now shows up: students sending AI-written financial-aid appeals, campuses compiling an AI bill of materials to track what's inside their models, ambient sensing tested in classrooms, and Florida State standing up an AI ecosystem. The novelty has moved from the essay to the operations stack.",
     "themes": [
       {
-        "k": "aigov",
-        "title": "Write the Rules Before Buying the Tools",
-        "weight": 18
+        "k": "aiops",
+        "title": "AI Moves Into the Back Office",
+        "weight": 19
       },
       {
         "k": "standards",
-        "title": "Portable Context Becomes a Standard",
+        "title": "Portable Learner Data Gets Its Window",
         "weight": 13
       },
       {
-        "k": "access",
-        "title": "Who Gets In, and Who Gets Counted",
-        "weight": 11
+        "k": "equity",
+        "title": "The Human Side: Access, Language, Skill",
+        "weight": 10
       },
       {
         "k": "security",
-        "title": "Core Systems Under Strain",
+        "title": "People and Data at the Perimeter",
         "weight": 9
       },
       {
-        "k": "money",
-        "title": "Courts Set the Funding Boundary",
-        "weight": 7
+        "k": "gatekeep",
+        "title": "Gatekeepers Under the Light",
+        "weight": 4
       },
       {
-        "k": "human",
-        "title": "Defending the Human Part of Learning",
-        "weight": 7
+        "k": "money",
+        "title": "Institutions Do the Math",
+        "weight": 4
       }
     ]
   },
