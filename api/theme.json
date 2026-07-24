@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-07-23T12:27:20Z",
+  "generatedAt": "2026-07-24T12:27:33Z",
   "daily": {
-    "date": "2026-07-23",
-    "topThemeKey": "aiops",
-    "topThemeTitle": "AI Moves Into the Back Office",
-    "topThemeBody": "The story of the day is where AI now shows up: students sending AI-written financial-aid appeals, campuses compiling an AI bill of materials to track what's inside their models, ambient sensing tested in classrooms, and Florida State standing up an AI ecosystem. The novelty has moved from the essay to the operations stack.",
+    "date": "2026-07-24",
+    "topThemeKey": "ai",
+    "topThemeTitle": "The Trust-and-Evidence Problem",
+    "topThemeBody": "Brookings argues AI evolves too fast for traditional randomized trials and pitches 'implementation R&D,' EdTech Digest profiles a push to make AI writing tools reveal student thinking rather than police it, and EdTech Magazine tracks ambient classroom AI and Florida State's vendor vetting — the field arguing over how to trust the tools, not just adopt them.",
     "themes": [
       {
-        "k": "aiops",
-        "title": "AI Moves Into the Back Office",
-        "weight": 19
+        "k": "ai",
+        "title": "The Trust-and-Evidence Problem",
+        "weight": 14
       },
       {
         "k": "standards",
-        "title": "Portable Learner Data Gets Its Window",
+        "title": "Portable Learner Data Advances",
         "weight": 13
       },
       {
-        "k": "equity",
-        "title": "The Human Side: Access, Language, Skill",
-        "weight": 10
-      },
-      {
         "k": "security",
-        "title": "People and Data at the Perimeter",
-        "weight": 9
+        "title": "The Perimeter Is People and Records",
+        "weight": 8
       },
       {
-        "k": "gatekeep",
-        "title": "Gatekeepers Under the Light",
+        "k": "access",
+        "title": "Access, Language, and Workforce",
+        "weight": 8
+      },
+      {
+        "k": "fed",
+        "title": "Washington Rewrites the Rules",
         "weight": 4
       },
       {
         "k": "money",
-        "title": "Institutions Do the Math",
+        "title": "Money Tightens and Flows",
         "weight": 4
       }
     ]
