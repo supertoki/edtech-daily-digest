@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-25T12:26:24Z",
+  "generatedAt": "2026-07-26T12:26:16Z",
   "daily": {
-    "date": "2026-07-25",
-    "topThemeKey": "context",
-    "topThemeTitle": "Everything the Moment Needs — and No More",
-    "topThemeBody": "1EdTech's new post on trusted portable learning context sets out six principles for giving AI enough learner data to be useful while letting institutions cap what leaves the building; its public comment window is open. Ed-Fi's Indiana, Texas and Michigan stories are that principle already in production, while EdTech Magazine and THE Journal work the governance layer underneath.",
+    "date": "2026-07-26",
+    "topThemeKey": "policy",
+    "topThemeTitle": "From Arguing to Documenting",
+    "topThemeBody": "The weekend's real signal: AI rules are now written artifacts you can count and critique. EdSurge's study sorts district AI policies into five levels of restrictiveness, Inside Higher Ed's dean narrates drafting one from scratch, 1EdTech's trusted-learning-context principles are out for public comment, and EdTech Digest insists the governance framework comes before procurement, not after.",
     "themes": [
+      {
+        "k": "policy",
+        "title": "From Arguing to Documenting",
+        "weight": 20
+      },
       {
         "k": "context",
         "title": "Everything the Moment Needs — and No More",
-        "weight": 13
-      },
-      {
-        "k": "evidence",
-        "title": "Proving It Before Scaling It",
-        "weight": 10
+        "weight": 18
       },
       {
         "k": "pathways",
-        "title": "Credentials as the Other Door",
-        "weight": 10
+        "title": "The Other Door, and the Rebuilt Building",
+        "weight": 17
       },
       {
         "k": "security",
-        "title": "The Perimeter Is People and Records",
-        "weight": 9
+        "title": "Security Learns to Speak Board",
+        "weight": 13
       },
       {
-        "k": "struggle",
-        "title": "The Case Against the Shortcut",
-        "weight": 5
+        "k": "assessment",
+        "title": "It Was Never About Cheating",
+        "weight": 10
       },
       {
         "k": "fed",
-        "title": "Federal Leverage — and the Money Behind It",
-        "weight": 5
+        "title": "Federal Leverage, Loosened and Tightened",
+        "weight": 6
       }
     ]
   },
