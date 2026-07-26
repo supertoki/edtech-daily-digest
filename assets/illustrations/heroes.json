@@ -1,7 +1,7 @@
 {
   "target": "2026-07-06",
-  "displayed": "2026-07-06",
-  "current": "2026-07-06",
+  "displayed": "2026-07-20",
+  "current": "2026-07-20",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -11,6 +11,14 @@
       "file": "hero-2026-07-06.webp",
       "theme": "skills",
       "approvedAt": "2026-07-12T01:11:24Z"
+    },
+    "2026-07-20": {
+      "themeKey": "security",
+      "themeTitle": "Core Systems Under Strain",
+      "themeBody": "Canvas paused data delivery over a potential security threat, while SonicWall found 61% of exploits land within 48 hours of proof-of-concept and 77% of organizations take over a week to patch.",
+      "file": "hero-2026-07-20.webp",
+      "theme": "security",
+      "approvedAt": "2026-07-26T16:06:21Z"
     }
   }
 }
