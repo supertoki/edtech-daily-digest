@@ -1,7 +1,7 @@
 {
   "target": "2026-07-06",
-  "displayed": "2026-07-20",
-  "current": "2026-07-20",
+  "displayed": "2026-07-27",
+  "current": "2026-07-27",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -19,6 +19,14 @@
       "file": "hero-2026-07-20.webp",
       "theme": "security",
       "approvedAt": "2026-07-26T16:06:21Z"
+    },
+    "2026-07-27": {
+      "themeKey": "security",
+      "themeTitle": "Security Learns to Speak Board",
+      "themeBody": "The largest single cluster in today's sweep. EdTech Magazine's higher-ed desk runs security debt, managed providers as strategic partners, four AI-specific risk considerations, and CISOs translating risk into business value; Inside Higher Ed interviews Pathify's CISO on resilience; THE Journal reports that basic failures, not exotic attacks, still cause the breaches.",
+      "file": "hero-2026-07-27.webp",
+      "theme": "security",
+      "approvedAt": "2026-07-27T19:02:57Z"
     }
   }
 }

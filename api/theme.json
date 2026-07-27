@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-07-27",
     "weekRange": "7/27-8/2",
-    "status": "pending",
-    "displayedWeek": "2026-07-20",
-    "currentImage": "assets/illustrations/hero-2026-07-20.webp",
+    "status": "approved",
+    "displayedWeek": "2026-07-27",
+    "currentImage": "assets/illustrations/hero-2026-07-27.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "security",
     "themeTitle": "Security Learns to Speak Board",
