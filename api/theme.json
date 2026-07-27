@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-26T12:26:16Z",
+  "generatedAt": "2026-07-27T12:28:15Z",
   "daily": {
-    "date": "2026-07-26",
-    "topThemeKey": "policy",
-    "topThemeTitle": "From Arguing to Documenting",
-    "topThemeBody": "The weekend's real signal: AI rules are now written artifacts you can count and critique. EdSurge's study sorts district AI policies into five levels of restrictiveness, Inside Higher Ed's dean narrates drafting one from scratch, 1EdTech's trusted-learning-context principles are out for public comment, and EdTech Digest insists the governance framework comes before procurement, not after.",
+    "date": "2026-07-27",
+    "topThemeKey": "core",
+    "topThemeTitle": "The Unglamorous Backbone",
+    "topThemeBody": "Across 55 universities, data and storage, identity management, ERP modernization and network infrastructure all outrank AI as investment priorities. Breaches still trace to basic failures, not exotic attacks, and the most actionable K–12 advice this month is to use the summer to service devices before August.",
     "themes": [
       {
-        "k": "policy",
-        "title": "From Arguing to Documenting",
-        "weight": 20
-      },
-      {
-        "k": "context",
-        "title": "Everything the Moment Needs — and No More",
+        "k": "core",
+        "title": "The Unglamorous Backbone",
         "weight": 18
       },
       {
-        "k": "pathways",
-        "title": "The Other Door, and the Rebuilt Building",
-        "weight": 17
+        "k": "rigor",
+        "title": "Don't Level Down",
+        "weight": 11
       },
       {
-        "k": "security",
-        "title": "Security Learns to Speak Board",
-        "weight": 13
-      },
-      {
-        "k": "assessment",
-        "title": "It Was Never About Cheating",
+        "k": "bom",
+        "title": "Governance by Inventory",
         "weight": 10
       },
       {
-        "k": "fed",
-        "title": "Federal Leverage, Loosened and Tightened",
-        "weight": 6
+        "k": "pell",
+        "title": "Short-Term Credentials, Long Paperwork",
+        "weight": 8
+      },
+      {
+        "k": "sensors",
+        "title": "What the Room Knows",
+        "weight": 8
+      },
+      {
+        "k": "access",
+        "title": "The Accessibility Clock",
+        "weight": 5
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-07-20",
-    "weekRange": "7/20-7/26",
-    "status": "approved",
+    "weekKey": "2026-07-27",
+    "weekRange": "7/27-8/2",
+    "status": "pending",
     "displayedWeek": "2026-07-20",
     "currentImage": "assets/illustrations/hero-2026-07-20.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "security",
-    "themeTitle": "Core Systems Under Strain",
-    "themeBody": "Canvas paused data delivery over a potential security threat, while SonicWall found 61% of exploits land within 48 hours of proof-of-concept and 77% of organizations take over a week to patch.",
+    "themeTitle": "Security Learns to Speak Board",
+    "themeBody": "The largest single cluster in today's sweep. EdTech Magazine's higher-ed desk runs security debt, managed providers as strategic partners, four AI-specific risk considerations, and CISOs translating risk into business value; Inside Higher Ed interviews Pathify's CISO on resilience; THE Journal reports that basic failures, not exotic attacks, still cause the breaches.",
     "themeProp": "a shield with a keyhole",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Core Systems Under Strain - Canvas paused data delivery over a potential security threat, while SonicWall found 61% of exploits land within 48 hours of proof-of-concept and 77% of organizations take over a week to patch.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a shield with a keyhole; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Security Learns to Speak Board - The largest single cluster in today's sweep. EdTech Magazine's higher-ed desk runs security debt, managed providers as strategic partners, four AI-specific risk considerations, and CISOs translating risk into business value; Inside Higher Ed interviews Pathify's CISO on resilience; THE Journal reports that basic failures, not exotic attacks, still cause the breaches.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a shield with a keyhole; airy with negative space; no text."
   }
 }
