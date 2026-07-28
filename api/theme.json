@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-07-27T12:28:15Z",
+  "generatedAt": "2026-07-28T12:26:00Z",
   "daily": {
-    "date": "2026-07-27",
-    "topThemeKey": "core",
-    "topThemeTitle": "The Unglamorous Backbone",
-    "topThemeBody": "Across 55 universities, data and storage, identity management, ERP modernization and network infrastructure all outrank AI as investment priorities. Breaches still trace to basic failures, not exotic attacks, and the most actionable K–12 advice this month is to use the summer to service devices before August.",
+    "date": "2026-07-28",
+    "topThemeKey": "govern",
+    "topThemeTitle": "Policy Before Procurement",
+    "topThemeBody": "Nearly 80% of districts now report written AI guidelines, and 52 state bills are in play across 25 states. The governance artifact — the policy, the data inventory, the AI bill of materials — is arriving ahead of the purchase order.",
     "themes": [
       {
-        "k": "core",
-        "title": "The Unglamorous Backbone",
-        "weight": 18
+        "k": "govern",
+        "title": "Policy Before Procurement",
+        "weight": 19
       },
       {
-        "k": "rigor",
-        "title": "Don't Level Down",
+        "k": "index",
+        "title": "From Argument to Index",
+        "weight": 14
+      },
+      {
+        "k": "price",
+        "title": "Repricing the Credential",
         "weight": 11
       },
       {
-        "k": "bom",
-        "title": "Governance by Inventory",
-        "weight": 10
-      },
-      {
-        "k": "pell",
-        "title": "Short-Term Credentials, Long Paperwork",
+        "k": "ready",
+        "title": "The Quiet Work of August",
         "weight": 8
       },
       {
-        "k": "sensors",
-        "title": "What the Room Knows",
-        "weight": 8
+        "k": "sensing",
+        "title": "The Room That Watches",
+        "weight": 6
       },
       {
-        "k": "access",
-        "title": "The Accessibility Clock",
+        "k": "plumbing",
+        "title": "The Plumbing Is Moving",
         "weight": 5
       }
     ]
