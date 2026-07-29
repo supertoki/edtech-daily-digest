@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-28T12:27:15Z",
+  "generatedAt": "2026-07-29T12:26:11Z",
   "daily": {
-    "date": "2026-07-28",
-    "topThemeKey": "govern",
-    "topThemeTitle": "Policy Before Procurement",
-    "topThemeBody": "Nearly 80% of districts now report written AI guidelines, and 52 state bills are in play across 25 states. The governance artifact — the policy, the data inventory, the AI bill of materials — is arriving ahead of the purchase order.",
+    "date": "2026-07-29",
+    "topThemeKey": "evidence",
+    "topThemeTitle": "Show the Working",
+    "topThemeBody": "Data-informed districts need quality, access and context — not more dashboards — and Brookings argues education research is falling behind the AI it's meant to evaluate. Ed-Fi's state case studies remain the clearest existing proof that real-time student data can change a decision, not just describe one.",
     "themes": [
       {
-        "k": "govern",
-        "title": "Policy Before Procurement",
-        "weight": 19
+        "k": "evidence",
+        "title": "Show the Working",
+        "weight": 15
       },
       {
-        "k": "index",
-        "title": "From Argument to Index",
+        "k": "curric",
+        "title": "What a Degree Should Contain",
         "weight": 14
       },
       {
-        "k": "price",
-        "title": "Repricing the Credential",
-        "weight": 11
+        "k": "guard",
+        "title": "Guardrails Before Procurement",
+        "weight": 14
       },
       {
-        "k": "ready",
-        "title": "The Quiet Work of August",
-        "weight": 8
+        "k": "ambient",
+        "title": "AI Recedes Into the Background",
+        "weight": 12
       },
       {
-        "k": "sensing",
-        "title": "The Room That Watches",
-        "weight": 6
+        "k": "paths",
+        "title": "Credit That Travels",
+        "weight": 10
       },
       {
-        "k": "plumbing",
-        "title": "The Plumbing Is Moving",
-        "weight": 5
+        "k": "meter",
+        "title": "Aid Meets the Meter",
+        "weight": 4
       }
     ]
   },
