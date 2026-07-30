@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-29T12:26:11Z",
+  "generatedAt": "2026-07-30T12:27:30Z",
   "daily": {
-    "date": "2026-07-29",
-    "topThemeKey": "evidence",
-    "topThemeTitle": "Show the Working",
-    "topThemeBody": "Data-informed districts need quality, access and context — not more dashboards — and Brookings argues education research is falling behind the AI it's meant to evaluate. Ed-Fi's state case studies remain the clearest existing proof that real-time student data can change a decision, not just describe one.",
+    "date": "2026-07-30",
+    "topThemeKey": "creds",
+    "topThemeTitle": "Credentials of Value",
+    "topThemeBody": "The Gates Foundation's 10 million by 2045 goal gives the \"credential of value\" framing its largest single sponsor, and 1EdTech's new LER research arrives the same day with the interoperability plumbing. The open question is who adjudicates value — employers, states, or the foundations funding the count.",
     "themes": [
       {
-        "k": "evidence",
-        "title": "Show the Working",
-        "weight": 15
-      },
-      {
-        "k": "curric",
-        "title": "What a Degree Should Contain",
-        "weight": 14
-      },
-      {
-        "k": "guard",
-        "title": "Guardrails Before Procurement",
-        "weight": 14
-      },
-      {
-        "k": "ambient",
-        "title": "AI Recedes Into the Background",
-        "weight": 12
-      },
-      {
-        "k": "paths",
-        "title": "Credit That Travels",
+        "k": "creds",
+        "title": "Credentials of Value",
         "weight": 10
       },
       {
-        "k": "meter",
-        "title": "Aid Meets the Meter",
-        "weight": 4
+        "k": "effort",
+        "title": "What Students Should Still Do",
+        "weight": 8
+      },
+      {
+        "k": "deliver",
+        "title": "Delivery Is the Bottleneck",
+        "weight": 7
+      },
+      {
+        "k": "plumb",
+        "title": "Observability Becomes the Plan",
+        "weight": 7
+      },
+      {
+        "k": "human",
+        "title": "The Human Layer of Security",
+        "weight": 6
+      },
+      {
+        "k": "speech",
+        "title": "Speech Reaches the Courts",
+        "weight": 3
       }
     ]
   },
