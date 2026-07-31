@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-30T12:27:30Z",
+  "generatedAt": "2026-07-31T12:26:30Z",
   "daily": {
-    "date": "2026-07-30",
-    "topThemeKey": "creds",
-    "topThemeTitle": "Credentials of Value",
-    "topThemeBody": "The Gates Foundation's 10 million by 2045 goal gives the \"credential of value\" framing its largest single sponsor, and 1EdTech's new LER research arrives the same day with the interoperability plumbing. The open question is who adjudicates value — employers, states, or the foundations funding the count.",
+    "date": "2026-07-31",
+    "topThemeKey": "trustai",
+    "topThemeTitle": "Context, Consent, and Guardrails",
+    "topThemeBody": "1EdTech's six principles for trusted portable learning context ask what an AI tool should be allowed to know and for which purpose — the same question underneath AI bills of materials, ambient classroom AI, and data governance policy. Access control is becoming the design surface for AI in education.",
     "themes": [
       {
-        "k": "creds",
-        "title": "Credentials of Value",
-        "weight": 10
+        "k": "trustai",
+        "title": "Context, Consent, and Guardrails",
+        "weight": 12
       },
       {
-        "k": "effort",
-        "title": "What Students Should Still Do",
-        "weight": 8
+        "k": "return",
+        "title": "Designing for the Return Trip",
+        "weight": 11
       },
       {
-        "k": "deliver",
-        "title": "Delivery Is the Bottleneck",
-        "weight": 7
+        "k": "dataact",
+        "title": "Data That Actually Acts",
+        "weight": 11
       },
       {
-        "k": "plumb",
-        "title": "Observability Becomes the Plan",
-        "weight": 7
-      },
-      {
-        "k": "human",
-        "title": "The Human Layer of Security",
-        "weight": 6
+        "k": "hollow",
+        "title": "The Hollowing Diploma",
+        "weight": 5
       },
       {
         "k": "speech",
-        "title": "Speech Reaches the Courts",
-        "weight": 3
+        "title": "Who Decides What Gets Taught",
+        "weight": 2
+      },
+      {
+        "k": "fed",
+        "title": "Federal Machinery Contested",
+        "weight": 1
       }
     ]
   },
