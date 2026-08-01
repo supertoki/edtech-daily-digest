@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-07-31T12:26:30Z",
+  "generatedAt": "2026-08-01T12:26:10Z",
   "daily": {
-    "date": "2026-07-31",
-    "topThemeKey": "trustai",
-    "topThemeTitle": "Context, Consent, and Guardrails",
-    "topThemeBody": "1EdTech's six principles for trusted portable learning context ask what an AI tool should be allowed to know and for which purpose — the same question underneath AI bills of materials, ambient classroom AI, and data governance policy. Access control is becoming the design surface for AI in education.",
+    "date": "2026-08-01",
+    "topThemeKey": "context",
+    "topThemeTitle": "What the Model Is Allowed to Know",
+    "topThemeBody": "1EdTech's trusted-learning-context comment period, the AI bill of materials, K-12 data governance, and ambient AI in classrooms converge on one unresolved question: which student context an AI tool may hold, sourced from where, and with whose consent. Districts are being asked to answer it before the tools ship.",
     "themes": [
       {
-        "k": "trustai",
-        "title": "Context, Consent, and Guardrails",
+        "k": "context",
+        "title": "What the Model Is Allowed to Know",
+        "weight": 15
+      },
+      {
+        "k": "latency",
+        "title": "Latency Is the Real Metric",
+        "weight": 14
+      },
+      {
+        "k": "credential",
+        "title": "Both Ends of the Credential",
         "weight": 12
       },
       {
-        "k": "return",
-        "title": "Designing for the Return Trip",
-        "weight": 11
+        "k": "venue",
+        "title": "Where School Actually Happens",
+        "weight": 6
       },
       {
-        "k": "dataact",
-        "title": "Data That Actually Acts",
-        "weight": 11
-      },
-      {
-        "k": "hollow",
-        "title": "The Hollowing Diploma",
+        "k": "access",
+        "title": "Accessibility Becomes a Purchase Order",
         "weight": 5
       },
       {
-        "k": "speech",
-        "title": "Who Decides What Gets Taught",
-        "weight": 2
-      },
-      {
-        "k": "fed",
-        "title": "Federal Machinery Contested",
-        "weight": 1
+        "k": "courts",
+        "title": "Governance by Litigation",
+        "weight": 4
       }
     ]
   },
