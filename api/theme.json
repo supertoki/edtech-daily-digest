@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-01T12:26:10Z",
+  "generatedAt": "2026-08-02T12:25:47Z",
   "daily": {
-    "date": "2026-08-01",
-    "topThemeKey": "context",
-    "topThemeTitle": "What the Model Is Allowed to Know",
-    "topThemeBody": "1EdTech's trusted-learning-context comment period, the AI bill of materials, K-12 data governance, and ambient AI in classrooms converge on one unresolved question: which student context an AI tool may hold, sourced from where, and with whose consent. Districts are being asked to answer it before the tools ship.",
+    "date": "2026-08-02",
+    "topThemeKey": "stability",
+    "topThemeTitle": "The Stability Paradox",
+    "topThemeBody": "ListEdTech's phrase for the bind IT leaders are in — chase AI while registration, identity and the LMS must never wobble. The answers on the shelf are all unfashionable: observability, an AI bill of materials, backup and recovery, and a pandemic playbook repurposed as AI infrastructure doctrine.",
     "themes": [
       {
-        "k": "context",
-        "title": "What the Model Is Allowed to Know",
-        "weight": 15
+        "k": "stability",
+        "title": "The Stability Paradox",
+        "weight": 17
       },
       {
-        "k": "latency",
-        "title": "Latency Is the Real Metric",
-        "weight": 14
+        "k": "datause",
+        "title": "Data That Reaches a Decision",
+        "weight": 16
       },
       {
         "k": "credential",
-        "title": "Both Ends of the Credential",
-        "weight": 12
+        "title": "The Credential, Promised and Discounted",
+        "weight": 15
       },
       {
-        "k": "venue",
-        "title": "Where School Actually Happens",
-        "weight": 6
+        "k": "aiclass",
+        "title": "Both, Not Either",
+        "weight": 13
       },
       {
         "k": "access",
-        "title": "Accessibility Becomes a Purchase Order",
-        "weight": 5
+        "title": "Access Becomes a Purchasing Question",
+        "weight": 6
       },
       {
-        "k": "courts",
-        "title": "Governance by Litigation",
+        "k": "speech",
+        "title": "Speech Settled on the Docket",
         "weight": 4
       }
     ]
