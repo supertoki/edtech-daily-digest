@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-02T12:25:47Z",
+  "generatedAt": "2026-08-03T12:27:25Z",
   "daily": {
-    "date": "2026-08-02",
-    "topThemeKey": "stability",
-    "topThemeTitle": "The Stability Paradox",
-    "topThemeBody": "ListEdTech's phrase for the bind IT leaders are in — chase AI while registration, identity and the LMS must never wobble. The answers on the shelf are all unfashionable: observability, an AI bill of materials, backup and recovery, and a pandemic playbook repurposed as AI infrastructure doctrine.",
+    "date": "2026-08-03",
+    "topThemeKey": "govern",
+    "topThemeTitle": "Governance Before the Model",
+    "topThemeBody": "The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.",
     "themes": [
       {
-        "k": "stability",
-        "title": "The Stability Paradox",
-        "weight": 17
+        "k": "govern",
+        "title": "Governance Before the Model",
+        "weight": 32
       },
       {
-        "k": "datause",
-        "title": "Data That Reaches a Decision",
-        "weight": 16
-      },
-      {
-        "k": "credential",
-        "title": "The Credential, Promised and Discounted",
+        "k": "pathways",
+        "title": "Pathways, Engineered",
         "weight": 15
       },
       {
-        "k": "aiclass",
-        "title": "Both, Not Either",
-        "weight": 13
+        "k": "access",
+        "title": "Accessibility Lands in the Contract",
+        "weight": 11
       },
       {
-        "k": "access",
-        "title": "Access Becomes a Purchasing Question",
+        "k": "attrition",
+        "title": "The Slow Subtraction",
         "weight": 6
       },
       {
-        "k": "speech",
-        "title": "Speech Settled on the Docket",
+        "k": "price",
+        "title": "The Affordability Claim, and the Gap Beneath It",
         "weight": 4
+      },
+      {
+        "k": "command",
+        "title": "Curriculum Under Command",
+        "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-07-27",
-    "weekRange": "7/27-8/2",
-    "status": "approved",
+    "weekKey": "2026-08-03",
+    "weekRange": "8/3-8/9",
+    "status": "pending",
     "displayedWeek": "2026-07-27",
     "currentImage": "assets/illustrations/hero-2026-07-27.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "security",
-    "themeTitle": "Security Learns to Speak Board",
-    "themeBody": "The largest single cluster in today's sweep. EdTech Magazine's higher-ed desk runs security debt, managed providers as strategic partners, four AI-specific risk considerations, and CISOs translating risk into business value; Inside Higher Ed interviews Pathify's CISO on resilience; THE Journal reports that basic failures, not exotic attacks, still cause the breaches.",
-    "themeProp": "a shield with a keyhole",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Security Learns to Speak Board - The largest single cluster in today's sweep. EdTech Magazine's higher-ed desk runs security debt, managed providers as strategic partners, four AI-specific risk considerations, and CISOs translating risk into business value; Inside Higher Ed interviews Pathify's CISO on resilience; THE Journal reports that basic failures, not exotic attacks, still cause the breaches.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a shield with a keyhole; airy with negative space; no text."
+    "themeKey": "govern",
+    "themeTitle": "Governance Before the Model",
+    "themeBody": "The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.",
+    "themeProp": "a gavel beside a checklist",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Governance Before the Model - The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a gavel beside a checklist; airy with negative space; no text."
   }
 }
