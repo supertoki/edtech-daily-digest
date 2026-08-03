@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-08-03",
     "weekRange": "8/3-8/9",
-    "status": "pending",
-    "displayedWeek": "2026-07-27",
-    "currentImage": "assets/illustrations/hero-2026-07-27.webp",
+    "status": "approved",
+    "displayedWeek": "2026-08-03",
+    "currentImage": "assets/illustrations/hero-2026-08-03.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "govern",
     "themeTitle": "Governance Before the Model",

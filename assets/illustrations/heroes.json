@@ -1,7 +1,7 @@
 {
   "target": "2026-07-06",
-  "displayed": "2026-07-27",
-  "current": "2026-07-27",
+  "displayed": "2026-08-03",
+  "current": "2026-08-03",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -27,6 +27,14 @@
       "file": "hero-2026-07-27.webp",
       "theme": "security",
       "approvedAt": "2026-07-27T19:02:57Z"
+    },
+    "2026-08-03": {
+      "themeKey": "govern",
+      "themeTitle": "Governance Before the Model",
+      "themeBody": "The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.",
+      "file": "hero-2026-08-03.webp",
+      "theme": "govern",
+      "approvedAt": "2026-08-03T15:02:51Z"
     }
   }
 }
