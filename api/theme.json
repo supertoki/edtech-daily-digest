@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-03T12:27:25Z",
+  "generatedAt": "2026-08-04T12:26:43Z",
   "daily": {
-    "date": "2026-08-03",
-    "topThemeKey": "govern",
-    "topThemeTitle": "Governance Before the Model",
-    "topThemeBody": "The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.",
+    "date": "2026-08-04",
+    "topThemeKey": "infra",
+    "topThemeTitle": "Plumbing as Student Experience",
+    "topThemeBody": "Campus network infrastructure is being argued as an enrollment variable, not a back-office one, and the same logic runs through K-12 observability, literacy diagnostics, and Ed-Fi's attendance and transfer work. The unglamorous layer is where the AI promises get cashed or bounced.",
     "themes": [
       {
-        "k": "govern",
-        "title": "Governance Before the Model",
-        "weight": 32
+        "k": "infra",
+        "title": "Plumbing as Student Experience",
+        "weight": 25
       },
       {
-        "k": "pathways",
-        "title": "Pathways, Engineered",
-        "weight": 15
+        "k": "gap",
+        "title": "Adoption Outruns Governance",
+        "weight": 13
       },
       {
-        "k": "access",
-        "title": "Accessibility Lands in the Contract",
-        "weight": 11
+        "k": "teachers",
+        "title": "Teachers Are Running the Rollout",
+        "weight": 13
       },
       {
-        "k": "attrition",
-        "title": "The Slow Subtraction",
-        "weight": 6
+        "k": "policy",
+        "title": "A Softer Register, the Same Ask",
+        "weight": 7
       },
       {
         "k": "price",
-        "title": "The Affordability Claim, and the Gap Beneath It",
-        "weight": 4
+        "title": "Affordability Bought, Not Priced",
+        "weight": 7
       },
       {
-        "k": "command",
-        "title": "Curriculum Under Command",
-        "weight": 3
+        "k": "human",
+        "title": "The Human Layer Is the Weak Layer",
+        "weight": 6
       }
     ]
   },
