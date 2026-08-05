@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-04T12:28:10Z",
+  "generatedAt": "2026-08-05T12:28:10Z",
   "daily": {
-    "date": "2026-08-04",
-    "topThemeKey": "infra",
-    "topThemeTitle": "Plumbing as Student Experience",
-    "topThemeBody": "Campus network infrastructure is being argued as an enrollment variable, not a back-office one, and the same logic runs through K-12 observability, literacy diagnostics, and Ed-Fi's attendance and transfer work. The unglamorous layer is where the AI promises get cashed or bounced.",
+    "date": "2026-08-05",
+    "topThemeKey": "stack",
+    "topThemeTitle": "Next Stack: Plumbing, Quantum, Interop",
+    "topThemeBody": "Campus networks now shape enrollment decisions, a Texas CIO is seated on a state quantum committee, and 1EdTech is wiring education to workforce systems. The infrastructure conversation has moved from cost center to strategy.",
     "themes": [
       {
-        "k": "infra",
-        "title": "Plumbing as Student Experience",
-        "weight": 25
+        "k": "stack",
+        "title": "Next Stack: Plumbing, Quantum, Interop",
+        "weight": 28
       },
       {
-        "k": "gap",
-        "title": "Adoption Outruns Governance",
-        "weight": 13
+        "k": "local",
+        "title": "Policy Gets Written in the Building",
+        "weight": 15
       },
       {
-        "k": "teachers",
-        "title": "Teachers Are Running the Rollout",
-        "weight": 13
+        "k": "vendor",
+        "title": "The Vendor Is the Attack Surface",
+        "weight": 15
       },
       {
-        "k": "policy",
-        "title": "A Softer Register, the Same Ask",
+        "k": "detect",
+        "title": "Detection Retired, Assessment Redesigned",
         "weight": 7
       },
       {
-        "k": "price",
-        "title": "Affordability Bought, Not Priced",
+        "k": "gatekeep",
+        "title": "Governance by Gatekeeping",
         "weight": 7
       },
       {
-        "k": "human",
-        "title": "The Human Layer Is the Weak Layer",
+        "k": "enroll",
+        "title": "The Enrollment Math Rewards Scale",
         "weight": 6
       }
     ]
