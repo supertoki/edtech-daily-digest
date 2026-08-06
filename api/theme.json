@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-05T12:28:10Z",
+  "generatedAt": "2026-08-06T12:27:38Z",
   "daily": {
-    "date": "2026-08-05",
-    "topThemeKey": "stack",
-    "topThemeTitle": "Next Stack: Plumbing, Quantum, Interop",
-    "topThemeBody": "Campus networks now shape enrollment decisions, a Texas CIO is seated on a state quantum committee, and 1EdTech is wiring education to workforce systems. The infrastructure conversation has moved from cost center to strategy.",
+    "date": "2026-08-06",
+    "topThemeKey": "practice",
+    "topThemeTitle": "Classrooms Keep Moving Ahead of Policy",
+    "topThemeBody": "While the funding and governance layers argue, teachers are shipping: an Alabama library rebuilt as a STEM innovation hub, educator-built AI tools, ESL experiments. Practice is setting the precedent that policy will later have to codify.",
     "themes": [
       {
-        "k": "stack",
-        "title": "Next Stack: Plumbing, Quantum, Interop",
-        "weight": 28
+        "k": "practice",
+        "title": "Classrooms Keep Moving Ahead of Policy",
+        "weight": 24
       },
       {
-        "k": "local",
-        "title": "Policy Gets Written in the Building",
-        "weight": 15
+        "k": "ledger",
+        "title": "Value Has to Be Proven With Data",
+        "weight": 17
       },
       {
-        "k": "vendor",
-        "title": "The Vendor Is the Attack Surface",
-        "weight": 15
+        "k": "agentsec",
+        "title": "The Perimeter Moves to the Agent",
+        "weight": 17
       },
       {
-        "k": "detect",
-        "title": "Detection Retired, Assessment Redesigned",
-        "weight": 7
+        "k": "uptake",
+        "title": "The Last Mile Fails on Paperwork",
+        "weight": 14
       },
       {
-        "k": "gatekeep",
-        "title": "Governance by Gatekeeping",
-        "weight": 7
+        "k": "pell",
+        "title": "Short-Term Training Enters the Pell Era",
+        "weight": 9
       },
       {
-        "k": "enroll",
-        "title": "The Enrollment Math Rewards Scale",
-        "weight": 6
+        "k": "austerity",
+        "title": "Austerity Reaches the Endowed",
+        "weight": 8
       }
     ]
   },
