@@ -1,0 +1,9 @@
+Deploy nudge marker.
+
+Touched to trigger a clean 'Deploy to GitHub Pages' run. A re-run of a
+failed run reuses the same run id, and upload-pages-artifact ADDS a second
+artifact named 'github-pages' rather than replacing it, which makes
+deploy-pages@v4 fail with 'Multiple artifacts named github-pages were
+unexpectedly found'. A new run gets a fresh artifact namespace.
+
+Last nudge: 2026-08-06T08:59:48-0400
