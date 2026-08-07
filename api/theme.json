@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-06T12:27:38Z",
+  "generatedAt": "2026-08-07T12:26:31Z",
   "daily": {
-    "date": "2026-08-06",
-    "topThemeKey": "practice",
-    "topThemeTitle": "Classrooms Keep Moving Ahead of Policy",
-    "topThemeBody": "While the funding and governance layers argue, teachers are shipping: an Alabama library rebuilt as a STEM innovation hub, educator-built AI tools, ESL experiments. Practice is setting the precedent that policy will later have to codify.",
+    "date": "2026-08-07",
+    "topThemeKey": "ledger",
+    "topThemeTitle": "The Audit as Instrument",
+    "topThemeBody": "GAO on athletics, DOJ on Duke Law admissions, Turnitin on AI submissions — the day's power moves are all assembling numbers that already existed into a ledger that compels a response.",
     "themes": [
       {
-        "k": "practice",
-        "title": "Classrooms Keep Moving Ahead of Policy",
-        "weight": 24
-      },
-      {
         "k": "ledger",
-        "title": "Value Has to Be Proven With Data",
-        "weight": 17
+        "title": "The Audit as Instrument",
+        "weight": 15
       },
       {
-        "k": "agentsec",
-        "title": "The Perimeter Moves to the Agent",
-        "weight": 17
-      },
-      {
-        "k": "uptake",
-        "title": "The Last Mile Fails on Paperwork",
+        "k": "access",
+        "title": "Access Under Cost Pressure",
         "weight": 14
       },
       {
-        "k": "pell",
-        "title": "Short-Term Training Enters the Pell Era",
-        "weight": 9
+        "k": "aiown",
+        "title": "Who Actually Owns AI",
+        "weight": 12
       },
       {
-        "k": "austerity",
-        "title": "Austerity Reaches the Endowed",
-        "weight": 8
+        "k": "infra",
+        "title": "Campuses as Infrastructure Owners",
+        "weight": 10
+      },
+      {
+        "k": "credential",
+        "title": "Credentials and Employer Signals",
+        "weight": 10
+      },
+      {
+        "k": "pell",
+        "title": "Workforce Pell Meets Reality",
+        "weight": 4
       }
     ]
   },
