@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-07T12:26:59Z",
+  "generatedAt": "2026-08-10T14:47:55Z",
   "daily": {
-    "date": "2026-08-07",
-    "topThemeKey": "ledger",
-    "topThemeTitle": "The Audit as Instrument",
-    "topThemeBody": "GAO on athletics, DOJ on Duke Law admissions, Turnitin on AI submissions — the day's power moves are all assembling numbers that already existed into a ledger that compels a response.",
+    "date": "2026-08-10",
+    "topThemeKey": "outcomes",
+    "topThemeTitle": "When Outcomes Funding Outruns Its Budget",
+    "topThemeBody": "Texas tied 95% of community college money to results, the colleges beat projections by 20–26%, and the appropriation didn't follow — so success became a shortfall for 42 of 50 districts.",
     "themes": [
       {
-        "k": "ledger",
-        "title": "The Audit as Instrument",
-        "weight": 15
+        "k": "outcomes",
+        "title": "When Outcomes Funding Outruns Its Budget",
+        "weight": 16
       },
       {
-        "k": "access",
-        "title": "Access Under Cost Pressure",
+        "k": "aigov",
+        "title": "AI Governance Delegated Downward",
         "weight": 14
       },
       {
-        "k": "aiown",
-        "title": "Who Actually Owns AI",
+        "k": "afford",
+        "title": "Sticker Price Down, Aid Unstable",
         "weight": 12
       },
       {
-        "k": "infra",
-        "title": "Campuses as Infrastructure Owners",
+        "k": "sustain",
+        "title": "Life After the Funding Cliff",
+        "weight": 11
+      },
+      {
+        "k": "verify",
+        "title": "Identity Becomes Infrastructure",
         "weight": 10
       },
       {
-        "k": "credential",
-        "title": "Credentials and Employer Signals",
-        "weight": 10
-      },
-      {
-        "k": "pell",
-        "title": "Workforce Pell Meets Reality",
-        "weight": 4
+        "k": "compliance",
+        "title": "Compliance by Letter",
+        "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-08-03",
-    "weekRange": "8/3-8/9",
-    "status": "approved",
+    "weekKey": "2026-08-10",
+    "weekRange": "8/10-8/16",
+    "status": "pending",
     "displayedWeek": "2026-08-03",
     "currentImage": "assets/illustrations/hero-2026-08-03.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "govern",
-    "themeTitle": "Governance Before the Model",
-    "themeBody": "The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.",
-    "themeProp": "a gavel beside a checklist",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Governance Before the Model - The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a gavel beside a checklist; airy with negative space; no text."
+    "themeKey": "infra",
+    "themeTitle": "Campuses as Infrastructure Owners",
+    "themeBody": "Fisk's $400M data center, quantum-security planning, and network buildouts share a premise: institutions want to own the compute layer, not rent it — and neighbors are pushing back.",
+    "themeProp": "a stylized server or cloud",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Campuses as Infrastructure Owners - Fisk's $400M data center, quantum-security planning, and network buildouts share a premise: institutions want to own the compute layer, not rent it — and neighbors are pushing back.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a stylized server or cloud; airy with negative space; no text."
   }
 }
