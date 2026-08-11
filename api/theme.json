@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-10T14:49:37Z",
+  "generatedAt": "2026-08-11T12:26:38Z",
   "daily": {
-    "date": "2026-08-10",
-    "topThemeKey": "outcomes",
-    "topThemeTitle": "When Outcomes Funding Outruns Its Budget",
-    "topThemeBody": "Texas tied 95% of community college money to results, the colleges beat projections by 20–26%, and the appropriation didn't follow — so success became a shortfall for 42 of 50 districts.",
+    "date": "2026-08-11",
+    "topThemeKey": "access",
+    "topThemeTitle": "Who Gets Through the Door",
+    "topThemeBody": "DOJ sued three more states over in-state tuition for undocumented students, bringing the total to 17 suits. Meanwhile financially vulnerable students are the least likely to know their campus offers mental health care, and $180 million is being spent to force open a mining-engineering pipeline.",
     "themes": [
       {
-        "k": "outcomes",
-        "title": "When Outcomes Funding Outruns Its Budget",
-        "weight": 16
-      },
-      {
-        "k": "aigov",
-        "title": "AI Governance Delegated Downward",
-        "weight": 14
-      },
-      {
-        "k": "afford",
-        "title": "Sticker Price Down, Aid Unstable",
+        "k": "access",
+        "title": "Who Gets Through the Door",
         "weight": 12
       },
       {
-        "k": "sustain",
-        "title": "Life After the Funding Cliff",
-        "weight": 11
-      },
-      {
-        "k": "verify",
-        "title": "Identity Becomes Infrastructure",
+        "k": "aigov",
+        "title": "AI Policy Written Locally",
         "weight": 10
       },
       {
-        "k": "compliance",
-        "title": "Compliance by Letter",
+        "k": "trust",
+        "title": "Automation Waits on Trust",
+        "weight": 7
+      },
+      {
+        "k": "deferred",
+        "title": "The Backlog Comes Due",
+        "weight": 4
+      },
+      {
+        "k": "research",
+        "title": "Research Money Redirected",
+        "weight": 3
+      },
+      {
+        "k": "literacy",
+        "title": "The Tail That Didn't Recover",
         "weight": 3
       }
     ]
