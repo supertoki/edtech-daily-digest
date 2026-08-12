@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-11T12:26:38Z",
+  "generatedAt": "2026-08-12T15:25:21Z",
   "daily": {
-    "date": "2026-08-11",
-    "topThemeKey": "access",
-    "topThemeTitle": "Who Gets Through the Door",
-    "topThemeBody": "DOJ sued three more states over in-state tuition for undocumented students, bringing the total to 17 suits. Meanwhile financially vulnerable students are the least likely to know their campus offers mental health care, and $180 million is being spent to force open a mining-engineering pipeline.",
+    "date": "2026-08-12",
+    "topThemeKey": "implement",
+    "topThemeTitle": "The Implementation Gap",
+    "topThemeBody": "Two independent studies published within a day of each other — one on U.S. district edtech, one on Ghanaian foundational learning — reach the same conclusion: the plan is not the problem. Administrators believe the readiness conditions are met; the people expected to deliver report constraints, unanswered questions and no support to translate policy into practice.",
     "themes": [
       {
-        "k": "access",
-        "title": "Who Gets Through the Door",
+        "k": "implement",
+        "title": "The Implementation Gap",
         "weight": 12
       },
       {
-        "k": "aigov",
-        "title": "AI Policy Written Locally",
-        "weight": 10
+        "k": "capacity",
+        "title": "Capacity, Not Dependency",
+        "weight": 11
       },
       {
-        "k": "trust",
-        "title": "Automation Waits on Trust",
-        "weight": 7
+        "k": "human",
+        "title": "The Human Layer",
+        "weight": 11
       },
       {
-        "k": "deferred",
-        "title": "The Backlog Comes Due",
+        "k": "resilience",
+        "title": "Resilience Over Reaction",
+        "weight": 9
+      },
+      {
+        "k": "whodecides",
+        "title": "Who Decides",
+        "weight": 8
+      },
+      {
+        "k": "borders",
+        "title": "The Price of a Closed Door",
         "weight": 4
-      },
-      {
-        "k": "research",
-        "title": "Research Money Redirected",
-        "weight": 3
-      },
-      {
-        "k": "literacy",
-        "title": "The Tail That Didn't Recover",
-        "weight": 3
       }
     ]
   },
