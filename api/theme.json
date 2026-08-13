@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-12T15:25:21Z",
+  "generatedAt": "2026-08-13T12:26:23Z",
   "daily": {
-    "date": "2026-08-12",
-    "topThemeKey": "implement",
-    "topThemeTitle": "The Implementation Gap",
-    "topThemeBody": "Two independent studies published within a day of each other — one on U.S. district edtech, one on Ghanaian foundational learning — reach the same conclusion: the plan is not the problem. Administrators believe the readiness conditions are met; the people expected to deliver report constraints, unanswered questions and no support to translate policy into practice.",
+    "date": "2026-08-13",
+    "topThemeKey": "quality",
+    "topThemeTitle": "Quality Before Quantity",
+    "topThemeBody": "The EdTech Quality Collaborative — 1EdTech, CAST, CoSN, Digital Promise, ISTE and SETDA — published five quality pillars (safe, evidence-based, inclusive, usable, interoperable) with assessment templates. The target is tech sprawl: ~3,000 products per district per year, most barely used.",
     "themes": [
       {
-        "k": "implement",
-        "title": "The Implementation Gap",
-        "weight": 12
+        "k": "quality",
+        "title": "Quality Before Quantity",
+        "weight": 16
       },
       {
-        "k": "capacity",
-        "title": "Capacity, Not Dependency",
-        "weight": 11
+        "k": "signal",
+        "title": "Data That Arrives in Time",
+        "weight": 13
       },
       {
-        "k": "human",
-        "title": "The Human Layer",
-        "weight": 11
+        "k": "guardrails",
+        "title": "The Shape of the Box",
+        "weight": 10
       },
       {
-        "k": "resilience",
-        "title": "Resilience Over Reaction",
+        "k": "attackchain",
+        "title": "AI Joins the Attack Chain",
         "weight": 9
       },
       {
-        "k": "whodecides",
-        "title": "Who Decides",
-        "weight": 8
+        "k": "cliff",
+        "title": "Spending Against the Clock",
+        "weight": 7
       },
       {
-        "k": "borders",
-        "title": "The Price of a Closed Door",
-        "weight": 4
+        "k": "authority",
+        "title": "Who Decides, and Who's Trusted",
+        "weight": 6
       }
     ]
   },
