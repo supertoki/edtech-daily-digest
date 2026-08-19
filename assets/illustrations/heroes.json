@@ -1,5 +1,5 @@
 {
-  "target": "2026-07-06",
+  "target": "2026-08-17",
   "displayed": "2026-08-03",
   "current": "2026-08-03",
   "weeks": {
@@ -35,6 +35,18 @@
       "file": "hero-2026-08-03.webp",
       "theme": "govern",
       "approvedAt": "2026-08-03T15:02:51Z"
+    },
+    "2026-08-10": {
+      "themeKey": "infra",
+      "themeTitle": "Campuses as Infrastructure Owners",
+      "themeBody": "Fisk's $400M data center, quantum-security planning, and network buildouts share a premise: institutions want to own the compute layer, not rent it — and neighbors are pushing back.",
+      "lockedAt": "2026-08-10T14:47:51Z"
+    },
+    "2026-08-17": {
+      "themeKey": "aigov",
+      "themeTitle": "AI Policy & Governance",
+      "themeBody": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.",
+      "lockedAt": "2026-08-19T17:57:55Z"
     }
   }
 }

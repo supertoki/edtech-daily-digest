@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-13T12:26:23Z",
+  "generatedAt": "2026-08-19T17:57:55Z",
   "daily": {
-    "date": "2026-08-13",
-    "topThemeKey": "quality",
-    "topThemeTitle": "Quality Before Quantity",
-    "topThemeBody": "The EdTech Quality Collaborative — 1EdTech, CAST, CoSN, Digital Promise, ISTE and SETDA — published five quality pillars (safe, evidence-based, inclusive, usable, interoperable) with assessment templates. The target is tech sprawl: ~3,000 products per district per year, most barely used.",
+    "date": "2026-08-19",
+    "topThemeKey": "aigov",
+    "topThemeTitle": "AI Policy & Governance",
+    "topThemeBody": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.",
     "themes": [
       {
-        "k": "quality",
-        "title": "Quality Before Quantity",
-        "weight": 16
-      },
-      {
-        "k": "signal",
-        "title": "Data That Arrives in Time",
-        "weight": 13
-      },
-      {
-        "k": "guardrails",
-        "title": "The Shape of the Box",
+        "k": "aigov",
+        "title": "AI Policy & Governance",
         "weight": 10
       },
       {
-        "k": "attackchain",
-        "title": "AI Joins the Attack Chain",
-        "weight": 9
-      },
-      {
-        "k": "cliff",
-        "title": "Spending Against the Clock",
-        "weight": 7
-      },
-      {
-        "k": "authority",
-        "title": "Who Decides, and Who's Trusted",
+        "k": "data",
+        "title": "Data & Interoperability",
         "weight": 6
+      },
+      {
+        "k": "hepolicy",
+        "title": "Higher-Ed Policy Pressure",
+        "weight": 6
+      },
+      {
+        "k": "creds",
+        "title": "Credentials & Career Skills",
+        "weight": 5
+      },
+      {
+        "k": "access",
+        "title": "Accessibility & Digital Access",
+        "weight": 4
+      },
+      {
+        "k": "cyber",
+        "title": "AI-Accelerated Cyber Threats",
+        "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-08-10",
-    "weekRange": "8/10-8/16",
+    "weekKey": "2026-08-17",
+    "weekRange": "8/17-8/23",
     "status": "pending",
     "displayedWeek": "2026-08-03",
     "currentImage": "assets/illustrations/hero-2026-08-03.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "infra",
-    "themeTitle": "Campuses as Infrastructure Owners",
-    "themeBody": "Fisk's $400M data center, quantum-security planning, and network buildouts share a premise: institutions want to own the compute layer, not rent it — and neighbors are pushing back.",
-    "themeProp": "a stylized server or cloud",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Campuses as Infrastructure Owners - Fisk's $400M data center, quantum-security planning, and network buildouts share a premise: institutions want to own the compute layer, not rent it — and neighbors are pushing back.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a stylized server or cloud; airy with negative space; no text."
+    "themeKey": "aigov",
+    "themeTitle": "AI Policy & Governance",
+    "themeBody": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.",
+    "themeProp": "the graduated-AI network mascot with no extra prop",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Policy & Governance - CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }

@@ -1,0 +1,142 @@
+{
+  "date": "2026-08-19",
+  "dateLabel": "AUGUST 19, 2026",
+  "headline": "Governance Grows Up",
+  "thesis": "From CoSN's screen-time principles to agentic-AI controls in production, edtech's <b>governance layer</b> is hardening — while Washington presses colleges on data and international students head to court.",
+  "summary": "Wednesday's news clusters around maturing oversight. CoSN published <b>three principles for school screen-time policies</b>, student delegates in Boston issued their own K-12 AI-policy recommendations, and a new survey finds <b>agentic AI moving from pilot to production</b> with governance controls front and center. Security researchers warn AI has entered the live attack chain, accelerating familiar K-12 cyber threats. In higher ed, the Education Department says <b>42 percent of colleges haven't fully submitted</b> required student-outcomes data, a lawsuit challenges the new length-of-stay limit for international students, and Handshake data shows AI career skills spreading well beyond computer science. 1EdTech hosts its assessment-to-achievement webinar today, with accessibility and digital-credentials sessions close behind.",
+  "footnote": "Compiled from 11 curated edtech sources · August 19, 2026 · Education Technology Insights blocks automated access; its items and some evergreen entries are listed without fresh dates.",
+  "themes": [
+    { "k": "aigov", "icon": "ti-gavel", "title": "AI Policy & Governance", "body": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing <b>agentic AI reaching production</b> all point to governance catching up with deployment." },
+    { "k": "cyber", "icon": "ti-shield-bolt", "title": "AI-Accelerated Cyber Threats", "body": "Black Hat research and Check Point findings agree: AI is now <b>inside the live attack chain</b>, speeding up familiar attacks as districts shift to longer-term cyber resilience." },
+    { "k": "access", "icon": "ti-accessible", "title": "Accessibility & Digital Access", "body": "Brain-computer interfaces expanding school access, 1EdTech's accessibility workshop series, and leaders defending digital access keep <b>inclusion</b> on the front burner." },
+    { "k": "creds", "icon": "ti-certificate", "title": "Credentials & Career Skills", "body": "Handshake data shows <b>AI career skills moving beyond computer science</b>, while 1EdTech asks what employers actually need from digital credentials and LERs." },
+    { "k": "data", "icon": "ti-database", "title": "Data & Interoperability", "body": "ED presses 1,900+ colleges on <b>Financial Value Transparency</b> submissions, while Ed-Fi impact stories show real-time state data pipelines paying off for students." },
+    { "k": "hepolicy", "icon": "ti-school", "title": "Higher-Ed Policy Pressure", "body": "A lawsuit over the international-student <b>length-of-stay rule</b>, UT's constrained core curriculum, and calls for a clearer definition of quality mark a turbulent policy week." }
+  ],
+  "sources": [
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "42% of Colleges Haven't Fully Submitted Required Student Outcomes Data", "u": "https://www.insidehighered.com/news/government/student-aid-policy/2026/08/19/almost-half-colleges-havent-fully-submitted-student", "s": "The Education Department is pressuring over 1,900 colleges to complete Financial Value Transparency data submissions or face consequences.", "d": "AUG 19", "tag": "new", "th": ["data", "hepolicy"] },
+        { "t": "Lawsuit Challenges New Length-of-Stay Limit for International Students", "u": "https://www.insidehighered.com/news/global/international-students-us/2026/08/19/lawsuit-seeks-vacate-rule-ending-duration-status", "s": "Legal action seeks to overturn a regulation restricting how long international students can remain in the United States.", "d": "AUG 19", "tag": "new", "th": ["hepolicy"] },
+        { "t": "AI Career Skills Move Beyond Computer Science", "u": "https://www.insidehighered.com/news/student-success/life-after-college/2026/08/19/ai-career-skills-move-beyond-computer-science", "s": "New Handshake data shows students across majors building AI experience and navigating an evolving early-career job market.", "d": "AUG 19", "tag": "new", "th": ["creds"] },
+        { "t": "Under UT's New Core Curriculum, Faculty Are Limited", "u": "https://www.insidehighered.com/news/faculty/curriculum/2026/08/18/under-uts-new-core-curriculum-faculty-are-limited", "s": "The University of Texas's new core curriculum narrows faculty control over what gets taught.", "d": "AUG 18", "th": ["hepolicy"] },
+        { "t": "States Narrow Funding Gaps for Historically Black Land-Grant Institutions", "u": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/08/18/states-narrow-funding-gaps-historically", "s": "Several states have begun addressing long-standing funding disparities for historically Black land-grant colleges.", "d": "AUG 18", "th": ["hepolicy"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "arts": [
+        { "t": "CoSN: 3 Principles that Should Guide Screen Time Policies in Schools", "u": "https://thejournal.com/articles/2026/08/18/cosn-3-principles-that-should-guide-screen-time-policies-in-schools.aspx", "s": "The K-12 tech leaders' association released guidance for screen-time policies that balance student protection with educational benefit.", "d": "AUG 18", "tag": "new", "th": ["aigov"] },
+        { "t": "Survey: Agentic AI Moves from Pilot Phase to Production, Bringing Governance to the Forefront", "u": "https://thejournal.com/articles/2026/08/17/survey-agentic-ai-moves-from-pilot-phase-to-production-bringing-governance-to-the-forefront.aspx", "s": "A Caylent report finds organizations deploying agentic AI in production while wrapping it in strict governance and autonomy controls.", "d": "AUG 17", "tag": "new", "th": ["aigov"] },
+        { "t": "Studies Suggest AI Is Accelerating Familiar Cyber Attacks", "u": "https://thejournal.com/articles/2026/08/17/studies-suggest-ai-is-accelerating-familiar-cyber-attacks.aspx", "s": "Black Hat USA 2026 research shows AI increasing attack speed and scale without inventing fundamentally new threat methods.", "d": "AUG 17", "th": ["cyber"] },
+        { "t": "Check Point Researchers: AI Has Crossed into the Live Attack Chain", "u": "https://thejournal.com/articles/2026/08/12/check-point-researchers-ai-has-crossed-into-the-live-attack-chain.aspx", "s": "AI is now operating inside active cyberattacks rather than merely assisting criminals, raising the stakes for school defenders.", "d": "AUG 12", "th": ["cyber"] },
+        { "t": "K-12 Technology Leaders Are Doing Too Much: 3 Ways to Reclaim Strategic Focus", "u": "https://thejournal.com/articles/2026/08/12/k12-technology-leaders-are-doing-too-much-3-ways-to-reclaim-strategic-focus.aspx", "s": "District tech leaders stretched across too many operational duties get three strategies for reclaiming strategic focus.", "d": "AUG 12" }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "arts": [
+        { "t": "Brain-Computer Interface Technology Makes School More Accessible", "u": "https://edtechmagazine.com/k12/article/2026/08/brain-computer-interface-technology-makes-school-more-accessible", "s": "Emerging BCI technology is expanding educational access for students with disabilities.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["access"] },
+        { "t": "New Ed Tech Procurement Guide Simplifies Purchasing", "u": "https://edtechmagazine.com/k12/article/2026/08/new-ed-tech-procurement-guide-simplifies-purchasing", "s": "A new resource guide aims to streamline how K-12 institutions vet and buy educational technology.", "d": "AUG 2026", "lvl": "K-12", "th": ["aigov"] },
+        { "t": "K-12 Schools Are Shifting to a Longer-Term Cyber Resilience Strategy", "u": "https://edtechmagazine.com/k12/article/2026/08/k-12-schools-are-shifting-longer-term-cyber-resilience-strategy", "s": "Districts are moving beyond reactive cybersecurity toward comprehensive, sustained resilience strategies.", "d": "AUG 2026", "lvl": "K-12", "th": ["cyber"] },
+        { "t": "AI as an Extra Set of Eyes: Using AI Observation and Analytics to Support Student Success", "u": "https://edtechmagazine.com/k12/article/2026/08/ai-extra-set-eyes-using-ai-observation-and-analytics-support-student-success", "s": "AI-powered observation and analytics tools help educators track progress and spot learning challenges early.", "d": "AUG 2026", "lvl": "K-12", "th": ["data"] },
+        { "t": "Higher Education's Role in Supporting K-12 AI Literacy", "u": "https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy", "s": "Colleges and universities can anchor AI-literacy pipelines that begin in K-12 classrooms.", "lvl": "Higher Ed", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "The Case Against the Classroom Cellphone Crackdown", "u": "https://www.edsurge.com/news/the-case-against-the-classroom-cellphone-crackdown", "s": "Argues schools should leverage mobile devices to cultivate digital citizenship rather than impose outright bans.", "tag": "new", "th": ["aigov"] },
+        { "t": "On AI Policy, Students Have Plenty to Say", "u": "https://www.edsurge.com/news/on-ai-policy-students-have-plenty-to-say", "s": "Student delegates in Boston developed their own recommendations for AI governance in K-12 schools.", "th": ["aigov"] },
+        { "t": "Teachers Forge Ahead on Integrating AI", "u": "https://www.edsurge.com/news/teachers-forge-ahead-on-integrating-ai", "s": "Teachers keep integrating AI into instruction even as formal district policy lags behind practice.", "th": ["aigov"] },
+        { "t": "College Admissions Testing Is Returning to Mixed Reactions", "u": "https://www.edsurge.com/news/college-admissions-testing-is-returning-to-mixed-reactions", "s": "Reinstated standardized testing requirements are reviving debate over whether the exams measure readiness.", "th": ["hepolicy"] },
+        { "t": "Early Childhood Educators Are Leveling Up at Community Colleges — and Employers Agree", "u": "https://www.edsurge.com/news/early-childhood-educators-are-leveling-up-at-community-colleges-and-employers-agree", "s": "Employers report comparable confidence in early-childhood teachers trained at community colleges versus four-year universities.", "th": ["creds"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "Shaping What's Next", "u": "https://www.edtechdigest.com/2026/08/18/shaping-whats-next/", "s": "Interview with Dr. Sheryl R. Abshire on developing bold leaders, defending digital access, and keeping education focused on the future.", "d": "AUG 18", "tag": "new", "th": ["access"] },
+        { "t": "Beyond the Funnel: A Better Model for Higher Ed Student Engagement", "u": "https://www.edtechdigest.com/2026/08/17/beyond-the-funnel-a-better-model-for-higher-ed-student-engagement/", "s": "Connected systems help institutions personalize engagement and support the whole student journey in real time.", "d": "AUG 17", "th": ["data"] },
+        { "t": "Writing Is the New Coding", "u": "https://www.edtechdigest.com/2026/08/13/writing-is-the-new-coding/", "s": "In an AI-driven economy the durable advantage isn't tool fluency — it's the ability to think and write clearly.", "d": "AUG 13", "th": ["creds"] },
+        { "t": "EdTech Doesn't Have an Adoption Problem. It Has an Implementation Problem.", "u": "https://www.edtechdigest.com/2026/08/11/edtech-doesnt-have-an-adoption-problem-it-has-an-implementation-problem/", "s": "Successful technology rollouts begin long before launch, with stakeholder alignment doing the heavy lifting.", "d": "AUG 11", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "Webinar Today: From Assessment to Achievement — Connecting Outcomes Across the Ecosystem", "u": "https://www.1edtech.org/events/from-assessment-to-achievement-connecting-outcomes-across-the-ecosystem", "s": "Today's 10 a.m. EDT session explores connecting assessment outcomes across the interoperability ecosystem.", "d": "AUG 19", "tag": "new", "th": ["data"] },
+        { "t": "Accessibility in Action: Lessons from the 1EdTech + WCET Workshop Series", "u": "https://www.1edtech.org/events/accessibility-in-action-lessons-from-the-1edtech-wcet-workshop-series", "s": "Thursday's webinar shares lessons from the joint 1EdTech-WCET accessibility workshop series.", "d": "AUG 20", "tag": "new", "th": ["access"] },
+        { "t": "What Do Employers Need from Digital Credentials and LERs?", "u": "https://www.1edtech.org/events/what-do-employers-need-from-digital-credentials-and-lers", "s": "An August 27 session asks what employers actually need from digital credentials and learning-and-employment records.", "d": "AUG 27", "th": ["creds"] },
+        { "t": "Learning Impact Europe 2026 — Thessaloniki", "u": "https://www.1edtech.org/event/europe/2026", "s": "1EdTech's European convening on interoperability and learning impact runs September 15-17 in Thessaloniki, Greece.", "d": "SEP 15-17" }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No new dated posts today; the Alliance's rotating impact stories and event calendar remain the freshest material.",
+      "arts": [
+        { "t": "Real-Time Data, Real College and Career Results", "u": "https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/", "s": "South Carolina uses daily student-progress updates to guide academic planning and college-and-career readiness.", "th": ["data"] },
+        { "t": "Early Literacy Support That Reaches Every Student", "u": "https://www.ed-fi.org/resources/impact-stories/early-literacy-support-that-reaches-every-student/", "s": "Michigan's MiRead system pairs assessment data with reading plans so educators can intervene before third grade.", "th": ["data", "access"] },
+        { "t": "Ed-Fi Alliance Summit 2026", "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/", "s": "The Alliance's flagship summit convenes state and local data leaders November 9-11.", "d": "NOV 9-11" },
+        { "t": "Georgia Data Conference (Ed-Fi partner event)", "u": "https://www.ed-fi.org/events/", "s": "Georgia's statewide education data conference runs August 26-28 at the Savannah Convention Center.", "d": "AUG 26-28" }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "note": "No edtech-specific piece today; the freshest education research is from early August and July.",
+      "arts": [
+        { "t": "AI Is Rapidly Changing Education and Research Needs to Keep Up", "u": "https://www.brookings.edu/articles/ai-is-rapidly-changing-education-and-research-needs-to-keep-up/", "s": "Brookings argues education research infrastructure must accelerate to keep pace with AI's transformation of learning.", "d": "JUL 21", "th": ["aigov"] },
+        { "t": "Why Higher Education in the US and England Needs a Clearer Definition of Quality", "u": "https://www.brookings.edu/articles/why-higher-education-in-the-us-and-england-needs-a-clearer-definition-of-quality/", "s": "Ambiguous quality standards hinder institutional accountability and student outcomes on both sides of the Atlantic.", "d": "AUG 4", "th": ["hepolicy"] },
+        { "t": "Brookings Global Task Force on AI in Education", "u": "https://www.brookings.edu/projects/brookings-global-task-force-on-ai-in-education/", "s": "The ongoing task force anchors Brookings' 'prosper, prepare, protect' agenda for students in an AI world.", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "Quiet since the June-July conference cycle; the rebrand and ISTELive 26 wrap-up remain the latest news.",
+      "arts": [
+        { "t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "The merged organization rebranded under a unified name reflecting its education-transformation mission.", "d": "JUN 28", "tag": "old" },
+        { "t": "Second Annual ISTELive and ASCD Annual Conference Convenes Global Education Leaders", "u": "https://iste.org/news/second-annual-istelive-and-ascd-annual-conference-convenes-global-education-leaders-around-the-future-of-learning", "s": "The combined ISTELive/ASCD conference gathered educators worldwide around the future of learning.", "d": "JUL 1", "tag": "old" },
+        { "t": "2026 Honorees for Innovation and Excellence in Education", "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education", "s": "ISTE announced its annual award recipients recognizing outstanding contributions to educational innovation.", "d": "JUN 30", "tag": "old" }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Countdown mode: the October event is the story — early-bird pricing ends August 31.",
+      "arts": [
+        { "t": "EdTech Week 2026 — October 13-15, New York City", "u": "https://www.edtechweek.com/", "s": "The Columbia University-hosted gathering promises 200+ speakers and 300+ investors; early-bird tickets end August 31.", "d": "OCT 13-15", "th": ["creds"] },
+        { "t": "Shark Tank: EdTech Startup Pitch Competition", "u": "https://www.edtechweek.com/sharktank", "s": "Early-stage startups can still apply to pitch investors live at October's event.", "d": "OCT 2026" },
+        { "t": "AI for Educators Summit", "u": "https://www.edtechweek.com/ai-for-educators-summit", "s": "A summit track aimed at administrators navigating AI adoption in schools.", "d": "OCT 2026" }
+      ]
+    },
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site blocks automated crawling; listing the latest discoverable feature via search.",
+      "arts": [
+        { "t": "Top 10 Directors of Instructional Technology — 2026", "u": "https://www.educationtechnologyinsights.com/cxo-awards/top-10-directors-of-instructional-technology-2026-19/", "s": "The magazine's 2026 CXO awards spotlight standout district instructional-technology directors." }
+      ]
+    }
+  ]
+}

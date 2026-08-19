@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EdTech Daily Digest</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css">
+<style>
+:root{
+  --teal:#17a394; --teal-d:#0e7a6e; --teal-br:#23c4b1; --teal-wash:#e4f4f1; --teal-line:#bfe5df;
+  --ink:#1b2a31; --ink-2:#243640; --ink-3:#2d424d;
+  --slate:#5d6f76; --slate-l:#8a9aa0;
+  --bg:#f4f7f7; --surface:#ffffff; --line:#e6ecec; --line-2:#d6dfdf;
+  --amber-t:#9a6206; --amber-w:#f8eedb;
+  --fd:'Roboto Serif',serif; --fb:'Roboto',system-ui,sans-serif; --fm:'Roboto',system-ui,sans-serif;
+  --r:14px; --r-md:10px; --r-sm:7px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--fb);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:var(--fd);font-weight:600;margin:0;letter-spacing:-.01em;color:var(--ink)}
+.mono{font-family:var(--fm)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+.stage{max-width:1280px;margin:0 auto}
+.brandmark{display:inline-flex;align-items:center;gap:9px;font-family:var(--fd);font-weight:400;font-size:14px;color:var(--slate)}
+.brandmark b{font-weight:600}
+.logo-node{width:30px;height:30px;border-radius:8px;border:2px solid var(--teal);background:#ecfdf5;display:grid;place-items:center;color:var(--teal-d);position:relative}
+.logo-node::before,.logo-node::after{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background:var(--teal)}
+.logo-node::before{left:-3px;top:50%;transform:translateY(-50%)}
+.logo-node::after{right:-3px;top:50%;transform:translateY(-50%)}
+
+.chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--fm);font-size:11px;letter-spacing:.02em;padding:5px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--line-2);color:var(--slate);white-space:nowrap}
+.chip i{font-size:13px;color:var(--teal-d)}
+.tag{font-family:var(--fm);font-size:9.5px;letter-spacing:.08em;font-weight:700;padding:2px 6px;border-radius:4px}
+.tag-new{background:var(--teal-wash);color:var(--teal-d)}
+.tag-old{background:#eef2f2;color:var(--slate-l)}
+.tag-lvl{background:#eef2f2;color:var(--slate)}
+.date{font-family:var(--fm);font-size:11px;color:var(--slate-l);letter-spacing:.02em}
+
+.reveal{opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ============================================================= ATLAS */
+.atlas{padding:0 0 80px}
+.atlas .cover{padding:54px 32px 30px;border-bottom:1px solid var(--line-2);position:relative;background:
+  radial-gradient(circle at 12px 12px, var(--teal-line) 1.4px, transparent 1.5px) 0 0/26px 26px;
+  background-color:var(--surface)}
+.atlas .cover .inner{max-width:1100px;margin:0 auto}
+.atlas .cover .brandmark{font-size:14px;color:var(--slate)}
+.atlas .cover h1{font-size:clamp(34px,6vw,62px);line-height:1.02;letter-spacing:-.03em;margin:22px 0 0;max-width:14ch}
+.atlas .cover .thesis{font-size:19px;color:var(--ink-2);margin-top:18px;max-width:60ch;line-height:1.55}
+.atlas .cover .thesis b{color:var(--teal-d);font-weight:600}
+.atlas .cover .dateline{font-family:var(--fm);font-size:12px;color:var(--slate);margin-top:20px;letter-spacing:.03em}
+
+.atlas .body{max-width:1100px;margin:0 auto;padding:0 32px}
+.atlas .sections{padding:50px 0 0}
+.tsection{padding:30px 0 46px;border-bottom:1px solid var(--line);scroll-margin-top:20px}
+.tsection:last-child{border-bottom:0}
+.tsection .head{display:flex;gap:18px;align-items:flex-start}
+.tsection .tnum{width:54px;height:54px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:var(--fd);font-weight:600;font-size:22px;flex:none;position:relative}
+.tsection .tnum i{position:absolute;bottom:-6px;right:-6px;width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:12px;border:3px solid var(--bg)}
+.tsection .htxt h2{font-size:27px;letter-spacing:-.02em}
+.tsection .htxt p{margin:8px 0 0;font-size:15.5px;color:var(--slate);line-height:1.65;max-width:64ch}
+.tsection .htxt p b{color:var(--ink);font-weight:600}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:13px;margin-top:24px;padding-left:72px}
+.tgrid .tcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:15px 16px;transition:.15s}
+.tgrid .tcard:hover{border-color:var(--teal-line);transform:translateY(-2px)}
+.tgrid .src{font-family:var(--fm);font-size:10.5px;color:var(--slate-l);letter-spacing:.03em;display:flex;align-items:center;gap:6px;margin-bottom:7px}
+.tgrid .src i{color:var(--teal-d);font-size:13px}
+.tgrid h4{font-family:var(--fb);font-size:14.5px;line-height:1.35;font-weight:600}
+.tgrid .tcardlink:hover h4{color:var(--teal-d)}
+.tgrid p{margin:6px 0 0;font-size:12.5px;color:var(--slate);line-height:1.5}
+.tgrid .cardmeta{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-top:9px}
+.atlas .foot{max-width:1100px;margin:30px auto 0;padding:22px 32px 0;border-top:1px solid var(--line-2);font-family:var(--fm);font-size:11.5px;color:var(--slate-l);line-height:1.8}
+
+/* atlas+ illustrated hero */
+.cover2-grid{display:grid;grid-template-columns:1fr minmax(260px,40%);gap:44px;align-items:center}
+.cover2{border-bottom-left-radius:var(--r);border-bottom-right-radius:var(--r)}
+.cover2 .illus{display:flex;justify-content:center;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px}
+.atlas2-topbar{background:var(--ink-2);color:#b7c6ca;font-family:var(--fm);font-size:12px;letter-spacing:.06em;padding:12px max(32px, (100% - 1100px) / 2)}
+.cover2 .illus svg,.cover2 .illus img{width:100%;max-width:400px;height:auto;display:block}
+.cover2 .illus img{border-radius:12px}
+.cover2 .covertext h1{font-size:clamp(32px,4.6vw,56px);line-height:1.02;letter-spacing:-.03em;margin:16px 0 0;max-width:13ch}
+.cover2 .covertext .theme-range{font-family:var(--fm);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--teal-d);font-weight:700;margin-top:14px}
+.cover2 .covertext .thesis{font-size:18px;color:var(--ink-2);margin-top:12px;max-width:52ch;line-height:1.55}
+.cover2 .covertext .thesis b{color:var(--teal-d);font-weight:600}
+.cover2 .covertext .dateline{font-family:var(--fm);font-size:12px;color:var(--slate);margin-top:18px;letter-spacing:.03em}
+.atlas2 .body{grid-template-columns:1fr;max-width:none;padding:0}
+.atlas2 .tgrid{padding-left:0}
+.atlas2 .sections{padding-top:0}
+/* daily "today's focus" band (text-only; the hero is weekly) */
+.todayfocus{display:flex;align-items:center;gap:14px;margin:26px max(32px, (100% - 1100px) / 2) 0;padding:14px 20px;background:var(--teal-wash);border:1px solid var(--teal-line);border-radius:var(--r-md)}
+.todayfocus .tf-ic{flex:none;width:34px;height:34px;border-radius:8px;background:var(--surface);border:1px solid var(--teal-line);display:grid;place-items:center;color:var(--teal-d);font-size:18px}
+.todayfocus .tf-txt{min-width:0}
+.todayfocus .tf-kick{font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-d);font-weight:700}
+.todayfocus .tf-title{font-weight:700;color:var(--ink);font-size:15px;margin-top:1px}
+.todayfocus .tf-body{color:var(--slate);font-size:13px;line-height:1.45;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.atlas2-bar{padding:30px max(32px, (100% - 1100px) / 2) 18px;text-align:center}
+.atlas2-toggle{display:inline-flex;align-items:center;gap:4px;background:var(--surface);border:1px solid var(--line-2);border-radius:999px;padding:4px}
+.atlas2-toggle .tg-label{font-family:var(--fm);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--slate-l);padding:0 8px;line-height:1;position:relative;top:0}
+.atlas2-toggle .tg{font-family:var(--fm);font-size:12px;color:var(--slate);background:none;border:0;border-radius:999px;padding:6px 16px;cursor:pointer;transition:background .14s,color .14s}
+.atlas2-toggle .tg:hover{color:var(--ink)}
+.atlas2-toggle .tg.on{background:var(--teal);color:#fff}
+.atlas2-toggle .tg:focus-visible{outline:2px solid var(--teal-br);outline-offset:2px}
+.tnum-src{font-size:18px;letter-spacing:.03em}
+.atlas2 .tsection{border:1px solid var(--line-2);border-radius:var(--r);background:var(--surface);padding:44px max(32px, (100% - 1100px) / 2) 44px;margin-bottom:18px}
+.atlas2 .htxt p{max-width:none}
+.atlas2 .tsection:last-child{border:1px solid var(--line-2);margin-bottom:0}
+
+@media(max-width:860px){
+  .atlas .body{padding:0 18px}
+  .tgrid{padding-left:0}
+  .atlas .cover{padding:40px 18px 26px}
+  .cover2-grid{grid-template-columns:1fr;gap:18px}
+  .cover2 .illus{order:2;max-width:300px;margin:4px auto 0}
+  .cover2 .covertext{order:1}
+}
+@media(prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<main id="stage" class="stage"></main>
+
+<!--
+  DIGEST DATA ISLAND
+  The daily automation replaces the JSON between the <script id="digest-data"> tags below.
+  Schema:
+    date       : ISO date (YYYY-MM-DD)
+    dateLabel  : human date shown in the dateline, e.g. "JULY 2, 2026"
+    headline   : short cover title
+    thesis     : cover sub-headline (may contain <b>)
+    summary    : executive summary (unused in the cover but kept for the .md / Slack pipeline)
+    footnote   : compiled-from note shown at the page foot
+    themes[]   : { k, icon, title, body }   (n is auto-assigned from order)
+    sources[]  : { name, dom, icon, note?, arts[] }
+    article    : { t, u, s, d?, tag?('new'|'old'), lvl?, th?[] }   (th values are theme keys)
+-->
+<script id="digest-data" type="application/json">
+{
+  "date": "2026-08-19",
+  "dateLabel": "AUGUST 19, 2026",
+  "headline": "Governance Grows Up",
+  "thesis": "From CoSN's screen-time principles to agentic-AI controls in production, edtech's <b>governance layer</b> is hardening — while Washington presses colleges on data and international students head to court.",
+  "summary": "Wednesday's news clusters around maturing oversight. CoSN published <b>three principles for school screen-time policies</b>, student delegates in Boston issued their own K-12 AI-policy recommendations, and a new survey finds <b>agentic AI moving from pilot to production</b> with governance controls front and center. Security researchers warn AI has entered the live attack chain, accelerating familiar K-12 cyber threats. In higher ed, the Education Department says <b>42 percent of colleges haven't fully submitted</b> required student-outcomes data, a lawsuit challenges the new length-of-stay limit for international students, and Handshake data shows AI career skills spreading well beyond computer science. 1EdTech hosts its assessment-to-achievement webinar today, with accessibility and digital-credentials sessions close behind.",
+  "footnote": "Compiled from 11 curated edtech sources · August 19, 2026 · Education Technology Insights blocks automated access; its items and some evergreen entries are listed without fresh dates.",
+  "themes": [
+    {
+      "k": "aigov",
+      "icon": "ti-gavel",
+      "title": "AI Policy & Governance",
+      "body": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing <b>agentic AI reaching production</b> all point to governance catching up with deployment."
+    },
+    {
+      "k": "cyber",
+      "icon": "ti-shield-bolt",
+      "title": "AI-Accelerated Cyber Threats",
+      "body": "Black Hat research and Check Point findings agree: AI is now <b>inside the live attack chain</b>, speeding up familiar attacks as districts shift to longer-term cyber resilience."
+    },
+    {
+      "k": "access",
+      "icon": "ti-accessible",
+      "title": "Accessibility & Digital Access",
+      "body": "Brain-computer interfaces expanding school access, 1EdTech's accessibility workshop series, and leaders defending digital access keep <b>inclusion</b> on the front burner."
+    },
+    {
+      "k": "creds",
+      "icon": "ti-certificate",
+      "title": "Credentials & Career Skills",
+      "body": "Handshake data shows <b>AI career skills moving beyond computer science</b>, while 1EdTech asks what employers actually need from digital credentials and LERs."
+    },
+    {
+      "k": "data",
+      "icon": "ti-database",
+      "title": "Data & Interoperability",
+      "body": "ED presses 1,900+ colleges on <b>Financial Value Transparency</b> submissions, while Ed-Fi impact stories show real-time state data pipelines paying off for students."
+    },
+    {
+      "k": "hepolicy",
+      "icon": "ti-school",
+      "title": "Higher-Ed Policy Pressure",
+      "body": "A lawsuit over the international-student <b>length-of-stay rule</b>, UT's constrained core curriculum, and calls for a clearer definition of quality mark a turbulent policy week."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        {
+          "t": "42% of Colleges Haven't Fully Submitted Required Student Outcomes Data",
+          "u": "https://www.insidehighered.com/news/government/student-aid-policy/2026/08/19/almost-half-colleges-havent-fully-submitted-student",
+          "s": "The Education Department is pressuring over 1,900 colleges to complete Financial Value Transparency data submissions or face consequences.",
+          "d": "AUG 19",
+          "tag": "new",
+          "th": [
+            "data",
+            "hepolicy"
+          ]
+        },
+        {
+          "t": "Lawsuit Challenges New Length-of-Stay Limit for International Students",
+          "u": "https://www.insidehighered.com/news/global/international-students-us/2026/08/19/lawsuit-seeks-vacate-rule-ending-duration-status",
+          "s": "Legal action seeks to overturn a regulation restricting how long international students can remain in the United States.",
+          "d": "AUG 19",
+          "tag": "new",
+          "th": [
+            "hepolicy"
+          ]
+        },
+        {
+          "t": "AI Career Skills Move Beyond Computer Science",
+          "u": "https://www.insidehighered.com/news/student-success/life-after-college/2026/08/19/ai-career-skills-move-beyond-computer-science",
+          "s": "New Handshake data shows students across majors building AI experience and navigating an evolving early-career job market.",
+          "d": "AUG 19",
+          "tag": "new",
+          "th": [
+            "creds"
+          ]
+        },
+        {
+          "t": "Under UT's New Core Curriculum, Faculty Are Limited",
+          "u": "https://www.insidehighered.com/news/faculty/curriculum/2026/08/18/under-uts-new-core-curriculum-faculty-are-limited",
+          "s": "The University of Texas's new core curriculum narrows faculty control over what gets taught.",
+          "d": "AUG 18",
+          "th": [
+            "hepolicy"
+          ]
+        },
+        {
+          "t": "States Narrow Funding Gaps for Historically Black Land-Grant Institutions",
+          "u": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/08/18/states-narrow-funding-gaps-historically",
+          "s": "Several states have begun addressing long-standing funding disparities for historically Black land-grant colleges.",
+          "d": "AUG 18",
+          "th": [
+            "hepolicy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "arts": [
+        {
+          "t": "CoSN: 3 Principles that Should Guide Screen Time Policies in Schools",
+          "u": "https://thejournal.com/articles/2026/08/18/cosn-3-principles-that-should-guide-screen-time-policies-in-schools.aspx",
+          "s": "The K-12 tech leaders' association released guidance for screen-time policies that balance student protection with educational benefit.",
+          "d": "AUG 18",
+          "tag": "new",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "Survey: Agentic AI Moves from Pilot Phase to Production, Bringing Governance to the Forefront",
+          "u": "https://thejournal.com/articles/2026/08/17/survey-agentic-ai-moves-from-pilot-phase-to-production-bringing-governance-to-the-forefront.aspx",
+          "s": "A Caylent report finds organizations deploying agentic AI in production while wrapping it in strict governance and autonomy controls.",
+          "d": "AUG 17",
+          "tag": "new",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "Studies Suggest AI Is Accelerating Familiar Cyber Attacks",
+          "u": "https://thejournal.com/articles/2026/08/17/studies-suggest-ai-is-accelerating-familiar-cyber-attacks.aspx",
+          "s": "Black Hat USA 2026 research shows AI increasing attack speed and scale without inventing fundamentally new threat methods.",
+          "d": "AUG 17",
+          "th": [
+            "cyber"
+          ]
+        },
+        {
+          "t": "Check Point Researchers: AI Has Crossed into the Live Attack Chain",
+          "u": "https://thejournal.com/articles/2026/08/12/check-point-researchers-ai-has-crossed-into-the-live-attack-chain.aspx",
+          "s": "AI is now operating inside active cyberattacks rather than merely assisting criminals, raising the stakes for school defenders.",
+          "d": "AUG 12",
+          "th": [
+            "cyber"
+          ]
+        },
+        {
+          "t": "K-12 Technology Leaders Are Doing Too Much: 3 Ways to Reclaim Strategic Focus",
+          "u": "https://thejournal.com/articles/2026/08/12/k12-technology-leaders-are-doing-too-much-3-ways-to-reclaim-strategic-focus.aspx",
+          "s": "District tech leaders stretched across too many operational duties get three strategies for reclaiming strategic focus.",
+          "d": "AUG 12"
+        }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "arts": [
+        {
+          "t": "Brain-Computer Interface Technology Makes School More Accessible",
+          "u": "https://edtechmagazine.com/k12/article/2026/08/brain-computer-interface-technology-makes-school-more-accessible",
+          "s": "Emerging BCI technology is expanding educational access for students with disabilities.",
+          "d": "AUG 2026",
+          "tag": "new",
+          "lvl": "K-12",
+          "th": [
+            "access"
+          ]
+        },
+        {
+          "t": "New Ed Tech Procurement Guide Simplifies Purchasing",
+          "u": "https://edtechmagazine.com/k12/article/2026/08/new-ed-tech-procurement-guide-simplifies-purchasing",
+          "s": "A new resource guide aims to streamline how K-12 institutions vet and buy educational technology.",
+          "d": "AUG 2026",
+          "lvl": "K-12",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "K-12 Schools Are Shifting to a Longer-Term Cyber Resilience Strategy",
+          "u": "https://edtechmagazine.com/k12/article/2026/08/k-12-schools-are-shifting-longer-term-cyber-resilience-strategy",
+          "s": "Districts are moving beyond reactive cybersecurity toward comprehensive, sustained resilience strategies.",
+          "d": "AUG 2026",
+          "lvl": "K-12",
+          "th": [
+            "cyber"
+          ]
+        },
+        {
+          "t": "AI as an Extra Set of Eyes: Using AI Observation and Analytics to Support Student Success",
+          "u": "https://edtechmagazine.com/k12/article/2026/08/ai-extra-set-eyes-using-ai-observation-and-analytics-support-student-success",
+          "s": "AI-powered observation and analytics tools help educators track progress and spot learning challenges early.",
+          "d": "AUG 2026",
+          "lvl": "K-12",
+          "th": [
+            "data"
+          ]
+        },
+        {
+          "t": "Higher Education's Role in Supporting K-12 AI Literacy",
+          "u": "https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy",
+          "s": "Colleges and universities can anchor AI-literacy pipelines that begin in K-12 classrooms.",
+          "lvl": "Higher Ed",
+          "th": [
+            "aigov"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        {
+          "t": "The Case Against the Classroom Cellphone Crackdown",
+          "u": "https://www.edsurge.com/news/the-case-against-the-classroom-cellphone-crackdown",
+          "s": "Argues schools should leverage mobile devices to cultivate digital citizenship rather than impose outright bans.",
+          "tag": "new",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "On AI Policy, Students Have Plenty to Say",
+          "u": "https://www.edsurge.com/news/on-ai-policy-students-have-plenty-to-say",
+          "s": "Student delegates in Boston developed their own recommendations for AI governance in K-12 schools.",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "Teachers Forge Ahead on Integrating AI",
+          "u": "https://www.edsurge.com/news/teachers-forge-ahead-on-integrating-ai",
+          "s": "Teachers keep integrating AI into instruction even as formal district policy lags behind practice.",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "College Admissions Testing Is Returning to Mixed Reactions",
+          "u": "https://www.edsurge.com/news/college-admissions-testing-is-returning-to-mixed-reactions",
+          "s": "Reinstated standardized testing requirements are reviving debate over whether the exams measure readiness.",
+          "th": [
+            "hepolicy"
+          ]
+        },
+        {
+          "t": "Early Childhood Educators Are Leveling Up at Community Colleges — and Employers Agree",
+          "u": "https://www.edsurge.com/news/early-childhood-educators-are-leveling-up-at-community-colleges-and-employers-agree",
+          "s": "Employers report comparable confidence in early-childhood teachers trained at community colleges versus four-year universities.",
+          "th": [
+            "creds"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        {
+          "t": "Shaping What's Next",
+          "u": "https://www.edtechdigest.com/2026/08/18/shaping-whats-next/",
+          "s": "Interview with Dr. Sheryl R. Abshire on developing bold leaders, defending digital access, and keeping education focused on the future.",
+          "d": "AUG 18",
+          "tag": "new",
+          "th": [
+            "access"
+          ]
+        },
+        {
+          "t": "Beyond the Funnel: A Better Model for Higher Ed Student Engagement",
+          "u": "https://www.edtechdigest.com/2026/08/17/beyond-the-funnel-a-better-model-for-higher-ed-student-engagement/",
+          "s": "Connected systems help institutions personalize engagement and support the whole student journey in real time.",
+          "d": "AUG 17",
+          "th": [
+            "data"
+          ]
+        },
+        {
+          "t": "Writing Is the New Coding",
+          "u": "https://www.edtechdigest.com/2026/08/13/writing-is-the-new-coding/",
+          "s": "In an AI-driven economy the durable advantage isn't tool fluency — it's the ability to think and write clearly.",
+          "d": "AUG 13",
+          "th": [
+            "creds"
+          ]
+        },
+        {
+          "t": "EdTech Doesn't Have an Adoption Problem. It Has an Implementation Problem.",
+          "u": "https://www.edtechdigest.com/2026/08/11/edtech-doesnt-have-an-adoption-problem-it-has-an-implementation-problem/",
+          "s": "Successful technology rollouts begin long before launch, with stakeholder alignment doing the heavy lifting.",
+          "d": "AUG 11",
+          "th": [
+            "aigov"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        {
+          "t": "Webinar Today: From Assessment to Achievement — Connecting Outcomes Across the Ecosystem",
+          "u": "https://www.1edtech.org/events/from-assessment-to-achievement-connecting-outcomes-across-the-ecosystem",
+          "s": "Today's 10 a.m. EDT session explores connecting assessment outcomes across the interoperability ecosystem.",
+          "d": "AUG 19",
+          "tag": "new",
+          "th": [
+            "data"
+          ]
+        },
+        {
+          "t": "Accessibility in Action: Lessons from the 1EdTech + WCET Workshop Series",
+          "u": "https://www.1edtech.org/events/accessibility-in-action-lessons-from-the-1edtech-wcet-workshop-series",
+          "s": "Thursday's webinar shares lessons from the joint 1EdTech-WCET accessibility workshop series.",
+          "d": "AUG 20",
+          "tag": "new",
+          "th": [
+            "access"
+          ]
+        },
+        {
+          "t": "What Do Employers Need from Digital Credentials and LERs?",
+          "u": "https://www.1edtech.org/events/what-do-employers-need-from-digital-credentials-and-lers",
+          "s": "An August 27 session asks what employers actually need from digital credentials and learning-and-employment records.",
+          "d": "AUG 27",
+          "th": [
+            "creds"
+          ]
+        },
+        {
+          "t": "Learning Impact Europe 2026 — Thessaloniki",
+          "u": "https://www.1edtech.org/event/europe/2026",
+          "s": "1EdTech's European convening on interoperability and learning impact runs September 15-17 in Thessaloniki, Greece.",
+          "d": "SEP 15-17"
+        }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No new dated posts today; the Alliance's rotating impact stories and event calendar remain the freshest material.",
+      "arts": [
+        {
+          "t": "Real-Time Data, Real College and Career Results",
+          "u": "https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/",
+          "s": "South Carolina uses daily student-progress updates to guide academic planning and college-and-career readiness.",
+          "th": [
+            "data"
+          ]
+        },
+        {
+          "t": "Early Literacy Support That Reaches Every Student",
+          "u": "https://www.ed-fi.org/resources/impact-stories/early-literacy-support-that-reaches-every-student/",
+          "s": "Michigan's MiRead system pairs assessment data with reading plans so educators can intervene before third grade.",
+          "th": [
+            "data",
+            "access"
+          ]
+        },
+        {
+          "t": "Ed-Fi Alliance Summit 2026",
+          "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/",
+          "s": "The Alliance's flagship summit convenes state and local data leaders November 9-11.",
+          "d": "NOV 9-11"
+        },
+        {
+          "t": "Georgia Data Conference (Ed-Fi partner event)",
+          "u": "https://www.ed-fi.org/events/",
+          "s": "Georgia's statewide education data conference runs August 26-28 at the Savannah Convention Center.",
+          "d": "AUG 26-28"
+        }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "note": "No edtech-specific piece today; the freshest education research is from early August and July.",
+      "arts": [
+        {
+          "t": "AI Is Rapidly Changing Education and Research Needs to Keep Up",
+          "u": "https://www.brookings.edu/articles/ai-is-rapidly-changing-education-and-research-needs-to-keep-up/",
+          "s": "Brookings argues education research infrastructure must accelerate to keep pace with AI's transformation of learning.",
+          "d": "JUL 21",
+          "th": [
+            "aigov"
+          ]
+        },
+        {
+          "t": "Why Higher Education in the US and England Needs a Clearer Definition of Quality",
+          "u": "https://www.brookings.edu/articles/why-higher-education-in-the-us-and-england-needs-a-clearer-definition-of-quality/",
+          "s": "Ambiguous quality standards hinder institutional accountability and student outcomes on both sides of the Atlantic.",
+          "d": "AUG 4",
+          "th": [
+            "hepolicy"
+          ]
+        },
+        {
+          "t": "Brookings Global Task Force on AI in Education",
+          "u": "https://www.brookings.edu/projects/brookings-global-task-force-on-ai-in-education/",
+          "s": "The ongoing task force anchors Brookings' 'prosper, prepare, protect' agenda for students in an AI world.",
+          "th": [
+            "aigov"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "Quiet since the June-July conference cycle; the rebrand and ISTELive 26 wrap-up remain the latest news.",
+      "arts": [
+        {
+          "t": "ISTE+ASCD Announces New Name: International Society for Transforming Education",
+          "u": "https://iste.org/news/iste-ascd-new-press-release",
+          "s": "The merged organization rebranded under a unified name reflecting its education-transformation mission.",
+          "d": "JUN 28",
+          "tag": "old"
+        },
+        {
+          "t": "Second Annual ISTELive and ASCD Annual Conference Convenes Global Education Leaders",
+          "u": "https://iste.org/news/second-annual-istelive-and-ascd-annual-conference-convenes-global-education-leaders-around-the-future-of-learning",
+          "s": "The combined ISTELive/ASCD conference gathered educators worldwide around the future of learning.",
+          "d": "JUL 1",
+          "tag": "old"
+        },
+        {
+          "t": "2026 Honorees for Innovation and Excellence in Education",
+          "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education",
+          "s": "ISTE announced its annual award recipients recognizing outstanding contributions to educational innovation.",
+          "d": "JUN 30",
+          "tag": "old"
+        }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Countdown mode: the October event is the story — early-bird pricing ends August 31.",
+      "arts": [
+        {
+          "t": "EdTech Week 2026 — October 13-15, New York City",
+          "u": "https://www.edtechweek.com/",
+          "s": "The Columbia University-hosted gathering promises 200+ speakers and 300+ investors; early-bird tickets end August 31.",
+          "d": "OCT 13-15",
+          "th": [
+            "creds"
+          ]
+        },
+        {
+          "t": "Shark Tank: EdTech Startup Pitch Competition",
+          "u": "https://www.edtechweek.com/sharktank",
+          "s": "Early-stage startups can still apply to pitch investors live at October's event.",
+          "d": "OCT 2026"
+        },
+        {
+          "t": "AI for Educators Summit",
+          "u": "https://www.edtechweek.com/ai-for-educators-summit",
+          "s": "A summit track aimed at administrators navigating AI adoption in schools.",
+          "d": "OCT 2026"
+        }
+      ]
+    },
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site blocks automated crawling; listing the latest discoverable feature via search.",
+      "arts": [
+        {
+          "t": "Top 10 Directors of Instructional Technology — 2026",
+          "u": "https://www.educationtechnologyinsights.com/cxo-awards/top-10-directors-of-instructional-technology-2026-19/",
+          "s": "The magazine's 2026 CXO awards spotlight standout district instructional-technology directors."
+        }
+      ]
+    }
+  ],
+  "heroWeek": {
+    "title": "Governance Before the Model",
+    "body": "The recurring K-12 and campus IT message is that data governance, observability and an AI bill of materials come before the AI deployment, not after it. Districts collecting everything still can't say what their data means.",
+    "rangeLabel": "8/3-8/9"
+  },
+  "illustration": "assets/illustrations/hero-2026-08-03.webp"
+}
+</script>
+
+<script>
+/* ---------- hydrate from the JSON data island ---------- */
+const DATA = JSON.parse(document.getElementById('digest-data').textContent);
+const THEMES = DATA.themes.map((t, i) => ({ ...t, n: i + 1 }));
+const SOURCES = DATA.sources;
+const ALL = [];
+SOURCES.forEach(s => s.arts.forEach(a => ALL.push({ ...a, src: s.name, dom: s.dom, icon: s.icon })));
+const COUNT = { sources: SOURCES.length, arts: ALL.length, themes: THEMES.length };
+const FOOTNOTE = DATA.footnote;
+
+const tagHTML = a => a.tag === 'new' ? '<span class="tag tag-new">NEW</span>'
+  : a.tag === 'old' ? '<span class="tag tag-old">CONCLUDED</span>' : '';
+
+/* Hero = the WEEKLY theme (build injects DATA.heroWeek: the displayed week's
+   frozen title/body + its Mon-Sun range). "Today's focus" = the DAILY editorial
+   lead (headline + thesis). Both fall back to the daily fields if heroWeek is
+   absent (e.g. older data files). */
+const HERO = DATA.heroWeek || {};
+const HERO_HEADLINE = HERO.title || DATA.headline;
+const HERO_THESIS   = HERO.body  || DATA.thesis;
+const HERO_RANGE    = HERO.rangeLabel || '';
+
+/* ---------- illustrated hero ---------- */
+const AI_ILLUS = `
+<svg viewBox="0 0 420 470" role="img" aria-labelledby="illus-title" xmlns="http://www.w3.org/2000/svg">
+  <title id="illus-title">An AI grown from scattered nodes into a structured network, wearing a graduation cap</title>
+  <circle cx="210" cy="216" r="170" fill="#e4f4f1"/>
+  <circle cx="210" cy="216" r="170" fill="none" stroke="#d2ece7" stroke-width="2"/>
+  <line x1="92" y1="150" x2="120" y2="138" stroke="#bfe5df" stroke-width="2"/>
+  <circle cx="90" cy="151" r="5" fill="#bfe5df"/>
+  <circle cx="122" cy="137" r="4" fill="#9bb0b3"/>
+  <circle cx="326" cy="166" r="6" fill="#17a394"/>
+  <circle cx="326" cy="166" r="6" fill="none" stroke="#0e7a6e" stroke-width="1.5"/>
+  <line x1="326" y1="166" x2="346" y2="194" stroke="#bfe5df" stroke-width="2"/>
+  <circle cx="348" cy="196" r="4" fill="#bfe5df"/>
+  <circle cx="84" cy="286" r="4" fill="#9bb0b3"/>
+  <ellipse cx="206" cy="396" rx="96" ry="20" fill="#bfe5df"/>
+  <ellipse cx="206" cy="392" rx="70" ry="13" fill="#a9ddd4"/>
+  <path d="M206,392 C196,400 188,404 180,410" fill="none" stroke="#9bb0b3" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M206,392 C216,400 224,404 232,410" fill="none" stroke="#9bb0b3" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="178" cy="412" r="3.5" fill="#9bb0b3"/>
+  <circle cx="234" cy="412" r="3.5" fill="#9bb0b3"/>
+  <path d="M206,392 C205,356 201,330 202,300 C203,262 205,214 206,178" fill="none" stroke="#0e7a6e" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="206" cy="390" r="9" fill="#9bb0b3"/>
+  <path d="M203,318 C184,318 168,312 154,304" fill="none" stroke="#0e7a6e" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="150" cy="302" r="11" fill="#5fccbd"/>
+  <path d="M202,288 C226,288 244,282 258,276" fill="none" stroke="#0e7a6e" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="262" cy="274" r="10" fill="#5fccbd"/>
+  <path d="M204,244 C186,244 172,238 160,230" fill="none" stroke="#0e7a6e" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="156" cy="228" r="9" fill="#17a394"/>
+  <path d="M205,214 C226,214 244,208 256,200" fill="none" stroke="#0e7a6e" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="260" cy="198" r="12" fill="#17a394"/>
+  <path d="M262,274 C278,262 296,262 306,250 C300,268 286,282 268,283 Z" fill="#23c4b1"/>
+  <path d="M156,228 C142,218 126,218 116,208 C122,224 136,236 152,237 Z" fill="#23c4b1"/>
+  <circle cx="206" cy="176" r="25" fill="#17a394"/>
+  <circle cx="206" cy="176" r="25" fill="none" stroke="#0e7a6e" stroke-width="3"/>
+  <line x1="198" y1="183" x2="206" y2="170" stroke="#bdeee7" stroke-width="2"/>
+  <line x1="206" y1="170" x2="214" y2="183" stroke="#bdeee7" stroke-width="2"/>
+  <circle cx="198" cy="183" r="3" fill="#ffffff"/>
+  <circle cx="214" cy="183" r="3" fill="#ffffff"/>
+  <circle cx="206" cy="169" r="3.5" fill="#ffffff"/>
+  <polygon points="206,118 268,140 206,162 144,140" fill="#1b2a31"/>
+  <path d="M186,150 L226,150 L222,168 C214,172 198,172 190,168 Z" fill="#243640"/>
+  <circle cx="206" cy="140" r="4.5" fill="#e0a23c"/>
+  <path d="M206,140 L256,150" fill="none" stroke="#e0a23c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M256,150 L258,176" fill="none" stroke="#e0a23c" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="258" cy="180" r="4.5" fill="#e0a23c"/>
+  <line x1="255" y1="181" x2="255" y2="189" stroke="#e0a23c" stroke-width="1.6"/>
+  <line x1="258" y1="182" x2="258" y2="190" stroke="#e0a23c" stroke-width="1.6"/>
+  <line x1="261" y1="181" x2="261" y2="189" stroke="#e0a23c" stroke-width="1.6"/>
+</svg>`;
+
+function tcardHTML(a, src){
+  const icon = a.icon || (src && src.icon) || 'ti-news';
+  const dom = a.dom || (src && src.dom) || '';
+  const meta = (a.lvl || a.tag)
+    ? `<div class="cardmeta">${a.lvl ? `<span class="tag tag-lvl">${a.lvl}</span>` : ''}${tagHTML(a)}</div>`
+    : '';
+  return `<div class="tcard">
+    <a class="tcardlink" href="${a.u}" target="_blank" rel="noopener">
+      <div class="src"><i class="ti ${icon}"></i>${dom}${a.d ? ` · ${a.d}` : ''}</div>
+      <h4>${a.t}</h4>
+      <p>${a.s}</p>
+      ${meta}
+    </a>
+  </div>`;
+}
+
+function atlasSections(){
+  return THEMES.map(t => {
+    const arts = ALL.filter(a => (a.th || []).includes(t.k));
+    const grid = arts.map(a => tcardHTML(a)).join('');
+    return `<section class="tsection" id="th-${t.k}" data-sec="${t.k}">
+      <div class="head">
+        <div class="tnum">${t.n}<i class="ti ${t.icon}"></i></div>
+        <div class="htxt">
+          <h2>${t.title}</h2>
+          <p>${t.body}</p>
+        </div>
+      </div>
+      <div class="tgrid">${grid}</div>
+    </section>`;
+  }).join('');
+}
+
+const SRC_INIT = {
+  'Education Technology Insights':'ET',
+  '1EdTech Events':'1E',
+  'EdTech Week':'EW',
+  'Ed-Fi Impact Stories':'EF',
+  'EdSurge':'ES',
+  'THE Journal':'TJ',
+  'EdTech Magazine':'EM',
+  'Inside Higher Ed':'IH',
+  'ISTE':'IS',
+  'Brookings — Education Technology':'BR',
+  'EdTech Digest':'ED'
+};
+function atlasSourceSections(){
+  return SOURCES.map((s, i) => {
+    const grid = s.arts.map(a => tcardHTML(a, s)).join('');
+    const sub = s.note ? s.note : `${s.dom} · ${s.arts.length} ${s.arts.length === 1 ? 'article' : 'articles'}`;
+    const init = SRC_INIT[s.name] || s.name.replace(/[^A-Za-z0-9 ]/g, '').slice(0, 2).toUpperCase();
+    return `<section class="tsection" id="src-${i}">
+      <div class="head">
+        <div class="tnum tnum-src">${init}</div>
+        <div class="htxt">
+          <h2>${s.name}</h2>
+          <p>${sub}</p>
+        </div>
+      </div>
+      <div class="tgrid">${grid}</div>
+    </section>`;
+  }).join('');
+}
+
+let atlasView = 'theme';
+function atlas2SectionsHTML(){ return atlasView === 'source' ? atlasSourceSections() : atlasSections(); }
+
+const ATLAS_DATELINE = `${DATA.dateLabel} · ${COUNT.sources} SOURCES · ${COUNT.arts} ARTICLES · ${COUNT.themes} THEMES`;
+
+function renderAtlas2(){
+  return `<section class="atlas atlas2">
+    <div class="atlas2-topbar">${ATLAS_DATELINE}</div>
+    <header class="cover cover2">
+      <div class="inner cover2-grid">
+        <div class="covertext">
+          <span class="brandmark"><span class="logo-node"><svg class="capicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M14 11.3333V6.73333L8 10L0.666667 6L8 2L15.3333 6V11.3333H14ZM8 14L3.33333 11.4667V8.13333L8 10.6667L12.6667 8.13333V11.4667L8 14Z" fill="var(--teal)"/></svg></span><b>EdTech</b> · Daily Digest</span>
+          <h1>${HERO_HEADLINE}</h1>
+          ${HERO_RANGE ? `<div class="theme-range">The Current Theme: ${HERO_RANGE}</div>` : ''}
+          <p class="thesis">${HERO_THESIS}</p>
+        </div>
+        <div class="illus"><img src="${DATA.illustration || 'assets/illustrations/hero.png'}" alt="EdTech Daily Digest illustration" loading="eager"></div>
+      </div>
+    </header>
+    <div class="body">
+      <div class="todayfocus">
+        <span class="tf-ic"><i class="ti ti-flag-2"></i></span>
+        <span class="tf-txt">
+          <span class="tf-kick">Today&rsquo;s focus</span>
+          <div class="tf-title">${DATA.headline}</div>
+          <div class="tf-body">${DATA.thesis}</div>
+        </span>
+      </div>
+      <div class="atlas2-bar">
+        <div class="atlas2-toggle" role="group" aria-label="Group articles by">
+          <span class="tg-label">View by</span>
+          <button class="tg ${atlasView === 'theme' ? 'on' : ''}" type="button" data-view="theme">Theme</button>
+          <button class="tg ${atlasView === 'source' ? 'on' : ''}" type="button" data-view="source">Source</button>
+        </div>
+      </div>
+      <div class="sections" id="atlas2-sections">${atlas2SectionsHTML()}</div>
+    </div>
+    <div class="foot">${FOOTNOTE}</div>
+  </section>`;
+}
+
+/* ---------- wiring ---------- */
+const stage = document.getElementById('stage');
+
+function observe(){
+  if (matchMedia('(prefers-reduced-motion:reduce)').matches){
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in')); return;
+  }
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('.reveal').forEach((el, i) => { el.style.transitionDelay = Math.min(i * 22, 220) + 'ms'; io.observe(el); });
+}
+
+function wireAtlas2(){
+  const toggle = stage.querySelector('.atlas2-toggle');
+  if (!toggle) return;
+  toggle.addEventListener('click', e => {
+    const b = e.target.closest('.tg'); if (!b) return;
+    const v = b.dataset.view;
+    if (v === atlasView) return;
+    atlasView = v;
+    toggle.querySelectorAll('.tg').forEach(x => x.classList.toggle('on', x.dataset.view === v));
+    stage.querySelector('#atlas2-sections').innerHTML = atlas2SectionsHTML();
+  });
+}
+
+document.title = `EdTech Daily Digest — ${DATA.dateLabel}`;
+stage.innerHTML = renderAtlas2();
+observe();
+wireAtlas2();
+</script>
+</body>
+</html>
