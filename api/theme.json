@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-19T17:57:55Z",
+  "generatedAt": "2026-08-20T15:39:15Z",
   "daily": {
-    "date": "2026-08-19",
+    "date": "2026-08-20",
     "topThemeKey": "aigov",
-    "topThemeTitle": "AI Policy & Governance",
-    "topThemeBody": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.",
+    "topThemeTitle": "AI Governance & Student Voice",
+    "topThemeBody": "Brookings pushes school AI councils that treat students as co-designers of policy, as districts confront the gap between written AI rules and real classrooms.",
     "themes": [
       {
         "k": "aigov",
-        "title": "AI Policy & Governance",
-        "weight": 10
+        "title": "AI Governance & Student Voice",
+        "weight": 12
       },
       {
         "k": "data",
-        "title": "Data & Interoperability",
-        "weight": 6
-      },
-      {
-        "k": "hepolicy",
-        "title": "Higher-Ed Policy Pressure",
-        "weight": 6
-      },
-      {
-        "k": "creds",
-        "title": "Credentials & Career Skills",
-        "weight": 5
+        "title": "Standards, Data & Credentials",
+        "weight": 10
       },
       {
         "k": "access",
-        "title": "Accessibility & Digital Access",
-        "weight": 4
+        "title": "Accessibility & Equity",
+        "weight": 8
+      },
+      {
+        "k": "aicost",
+        "title": "The Real Cost of AI",
+        "weight": 7
       },
       {
         "k": "cyber",
-        "title": "AI-Accelerated Cyber Threats",
-        "weight": 3
+        "title": "Cyber Resilience Under Fire",
+        "weight": 6
+      },
+      {
+        "k": "integrity",
+        "title": "AI, Fraud & Research Integrity",
+        "weight": 2
       }
     ]
   },
