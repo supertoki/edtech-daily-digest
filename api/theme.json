@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-20T15:39:15Z",
+  "generatedAt": "2026-08-21T12:12:11Z",
   "daily": {
-    "date": "2026-08-20",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "AI Governance & Student Voice",
-    "topThemeBody": "Brookings pushes school AI councils that treat students as co-designers of policy, as districts confront the gap between written AI rules and real classrooms.",
+    "date": "2026-08-21",
+    "topThemeKey": "aiclass",
+    "topThemeTitle": "AI Moves Into Daily Practice",
+    "topThemeBody": "From AI-assisted classroom observation tools to AI-era writing instruction, coverage is shifting from whether schools use AI to how it's showing up in everyday teaching and grading.",
     "themes": [
       {
-        "k": "aigov",
-        "title": "AI Governance & Student Voice",
-        "weight": 12
+        "k": "aiclass",
+        "title": "AI Moves Into Daily Practice",
+        "weight": 5
       },
       {
         "k": "data",
-        "title": "Standards, Data & Credentials",
-        "weight": 10
+        "title": "Standards, Credentials & Conference Season",
+        "weight": 5
+      },
+      {
+        "k": "aigov",
+        "title": "Blanket Rules Meet Pushback",
+        "weight": 4
+      },
+      {
+        "k": "research",
+        "title": "Research Computing Beyond the AI Hype",
+        "weight": 3
       },
       {
         "k": "access",
-        "title": "Accessibility & Equity",
-        "weight": 8
+        "title": "Equity in AI's Global Rollout",
+        "weight": 3
       },
       {
-        "k": "aicost",
-        "title": "The Real Cost of AI",
-        "weight": 7
-      },
-      {
-        "k": "cyber",
-        "title": "Cyber Resilience Under Fire",
-        "weight": 6
-      },
-      {
-        "k": "integrity",
-        "title": "AI, Fraud & Research Integrity",
+        "k": "cyberrisk",
+        "title": "Vendor & Data Risk Management",
         "weight": 2
       }
     ]

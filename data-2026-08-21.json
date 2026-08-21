@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-21",
+  "dateLabel": "AUGUST 21, 2026",
+  "headline": "Quieter News, Deeper Questions",
+  "thesis": "With fewer breaking headlines, today's coverage turns to <b>how AI actually gets used</b> — in classrooms, vendor contracts, and research labs — while equity questions and fall's conference season come into view.",
+  "summary": "Friday's edtech coverage skews toward analysis over headlines. EdTech Magazine's K-12 team profiles <b>AI-powered classroom observation tools</b> and a new joint procurement guide meant to help districts buy technology more rigorously, while a companion piece urges IT leaders to treat <b>vendor risk management</b> as core cyber hygiene after this year's Canvas and PowerSchool breaches. Inside Higher Ed argues campus tech conversations should look past AGI hype toward <b>quantum computing</b>, a theme echoed by university robotics labs leaning on GPU supercomputers. On policy, EdSurge covers pushback against blanket classroom cellphone bans and ISTE's new Safe &amp; Purposeful tech pledge, both wrestling with where uniform rules help or hurt. Brookings warns that AI-supported learning tools are being designed <b>without enough Global South and gender-equity input</b>, a caution that pairs with 1EdTech's and EdTech Week's push toward September and October conference season — Learning Impact Europe, the StartEd CEO Summit, and more — where interoperability and credentialing standards will take center stage.",
+  "footnote": "Compiled from 11 curated edtech sources · August 21, 2026 · Direct page fetches were blocked for most publishers this run; items were verified through search indexing, so several sources are represented by their most relevant recent or evergreen material rather than same-day news.",
+  "themes": [
+    { "k": "aiclass", "icon": "ti-device-laptop", "title": "AI Moves Into Daily Practice", "body": "From AI-assisted classroom observation tools to AI-era writing instruction, coverage is shifting from <b>whether</b> schools use AI to how it's showing up in everyday teaching and grading." },
+    { "k": "cyberrisk", "icon": "ti-shield-bolt", "title": "Vendor & Data Risk Management", "body": "After this year's Canvas and PowerSchool breaches, IT leaders are formalizing <b>vendor-risk programs</b> and attackers keep favoring stolen credentials over brute-force intrusion." },
+    { "k": "aigov", "icon": "ti-gavel", "title": "Blanket Rules Meet Pushback", "body": "Missouri's classroom cellphone ban is drawing criticism even as ISTE launches a <b>Safe &amp; Purposeful</b> tech pledge and Brookings previews AI guidance for young children — all testing where one-size-fits-all rules fit." },
+    { "k": "research", "icon": "ti-atom", "title": "Research Computing Beyond the AI Hype", "body": "Inside Higher Ed argues campuses should look past the AGI conversation toward <b>quantum computing</b>, while university robotics labs lean on GPU supercomputers for hands-on research." },
+    { "k": "access", "icon": "ti-accessible", "title": "Equity in AI's Global Rollout", "body": "Brookings scholars warn AI-supported learning tools are being designed <b>without enough Global South and gender-equity input</b>, echoing a new K-12 procurement guide meant to help under-resourced districts buy wisely." },
+    { "k": "data", "icon": "ti-database", "title": "Standards, Credentials & Conference Season", "body": "1EdTech's Learning Impact Europe, Ed-Fi's AI-era data standard, and EdTech Week's StartEd CEO Summit show the <b>interoperability and credentialing layer</b> gearing up for a busy fall." }
+  ],
+  "sources": [
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "Focus on the Quantum Future", "u": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/08/19/focus-quantum-future", "s": "An opinion column argues higher ed's tech attention should extend beyond AGI hype to quantum computing's emerging role in research and teaching.", "d": "AUG 19", "tag": "new", "th": ["research"] },
+        { "t": "AI Detectors Are Out, New Assessments Are In", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/05/ai-detectors-are-out-new-approaches-are", "s": "A growing number of universities have banned unreliable AI detectors, pushing professors to redesign assessments to reduce opportunities for AI-assisted cheating instead.", "d": "AUG 5", "th": ["aigov", "aiclass"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "The Case Against the Classroom Cellphone Crackdown", "u": "https://www.edsurge.com/news/the-case-against-the-classroom-cellphone-crackdown", "s": "Examines pushback against blanket state bans like Missouri's new law prohibiting student phone possession during the school day.", "d": "AUG 19", "tag": "new", "th": ["aigov"] },
+        { "t": "Teachers Forge Ahead on Integrating AI", "u": "https://www.edsurge.com/news/teachers-forge-ahead-on-integrating-ai", "s": "Looks at teacher-led, bottom-up adoption of AI tools in classrooms even as districts finalize top-down policies.", "d": "AUG 4", "th": ["aiclass"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "note": "Monthly-dated features; exact publication days could not be confirmed this run.",
+      "arts": [
+        { "t": "New Ed Tech Procurement Guide Simplifies Purchasing", "u": "https://edtechmagazine.com/k12/article/2026/08/new-ed-tech-procurement-guide-simplifies-purchasing", "s": "Six education organizations released a joint guide to help K-12 districts more rigorously evaluate and purchase classroom technology.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["access", "data"] },
+        { "t": "AI as an Extra Set of Eyes: Using AI Observation and Analytics To Support Student Success", "u": "https://edtechmagazine.com/k12/article/2026/08/ai-extra-set-eyes-using-ai-observation-and-analytics-support-student-success", "s": "Explores how AI classroom-observation and analytics tools, paired with teacher judgment, can flag opportunities to support struggling students.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["aiclass"] },
+        { "t": "How Smarter Vendor Risk Management Protects Student Data", "u": "https://edtechmagazine.com/k12/article/2026/08/protecting-student-data-through-smarter-vendor-risk-management-perfcon", "s": "Using the Canvas and PowerSchool breaches as cautionary tales, the piece outlines how districts can build a vendor-risk program with limited IT staff.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["cyberrisk"] },
+        { "t": "Virtual Tech Tools Fuel Higher Ed Robotics Research", "u": "https://edtechmagazine.com/higher/article/2026/08/virtual-tech-tools-fuel-higher-ed-robotics-research", "s": "Universities are pairing simulation software with GPU supercomputers and robotic arms to advance campus robotics research.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["research"] }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "Feminist and Global South Perspectives on AI-Supported Learning Environments", "u": "https://www.brookings.edu/articles/feminist-and-global-south-perspectives-on-ai-supported-learning-environments/", "s": "Argues AI in education risks reproducing gendered, economic, and geopolitical inequalities for Global South learners unless design priorities change.", "d": "JUL 10", "th": ["access"] },
+        { "t": "Generation AI Starts Early Symposium", "u": "https://www.brookings.edu/events/generation-ai-starts-early-symposium/", "s": "An upcoming Brookings/ZERO TO THREE symposium (September 9) on how AI-embedded technology affects children from birth to age eight.", "d": "SEP 9", "th": ["aigov", "access"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No article dated this week surfaced; the most recent confirmed pieces are from earlier this year.",
+      "arts": [
+        { "t": "FCC to Conduct 'Top-to-Bottom' Review of E-Rate Program", "u": "https://thejournal.com/articles/2026/06/08/fcc-to-conduct-top-to-bottom-review-of-e-rate-program.aspx", "s": "The FCC opened a wide-ranging review of E-Rate funding scope, consultant oversight, and CIPA/online-safety requirements for schools and libraries.", "d": "JUN 8", "th": ["data"] },
+        { "t": "Report Finds Attackers Now Focus on Credential Theft to Access Systems", "u": "https://thejournal.com/articles/2026/03/10/report-finds-attackers-now-focus-on-credential-theft-to-access-systems.aspx", "s": "Cloudflare's 2026 Threat Intelligence Report finds attackers shifting from breaking in to logging in with stolen credentials.", "d": "MAR 10", "th": ["cyberrisk"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "Writing Is the New Coding", "u": "https://www.edtechdigest.com/2026/08/13/writing-is-the-new-coding/", "s": "Argues strong writing and reasoning skills are becoming the key literacy for students navigating an AI-saturated academic landscape.", "d": "AUG 13", "th": ["aiclass"] }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "Learning Impact Europe 2026", "u": "https://www.1edtech.org/event/europe/2026", "s": "1EdTech's flagship European conference (Thessaloniki, September 15–17) convenes educators, technologists, and policymakers on interoperability and digital learning.", "d": "SEP 15", "th": ["data"] },
+        { "t": "Award-Winning Innovations That Are Transforming Learning at Every Level", "u": "https://www.1edtech.org/1edtech-article/award-winning-innovations-that-are-transforming-learning-at-every-level/411406", "s": "Highlights recent 1EdTech Learning Impact Award winners and the interoperability work behind their projects." }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No news dated within this run's window; the AI-era data standard post and partner roster remain the freshest material.",
+      "arts": [
+        { "t": "Introducing: The Ed-Fi Data Standard in the Age of AI", "u": "https://docs.ed-fi.org/blog/2026/06/15/", "s": "Argues a structured data standard matters more, not less, as districts connect analytics and AI systems to operational education data.", "d": "JUN 15", "th": ["data", "research"] },
+        { "t": "Ed-Fi Alliance Announces 2026 Premier Partners", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/", "s": "Names 2026 Premier Partners — including ACT, Curriculum Associates, Infinite Campus, PowerSchool, and Skyward — supporting Ed-Fi data interoperability." }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "Quiet since the summer conference cycle; recapping honorees and pledges from June and July.",
+      "arts": [
+        { "t": "The International Society for Transforming Education Reveals 2026 Honorees for Innovation and Excellence in Education", "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education", "s": "Names 2026 award recipients across K-12 and higher ed recognized at the Orlando conference for replicable, exemplary projects." },
+        { "t": "Safe & Purposeful EdTech Schools Pledge", "u": "https://iste-ascd.org/safe-and-purposeful-pledge", "s": "A new pledge with GreatSchools.org lets schools publicly commit to five practices for deliberate, safe classroom technology use.", "d": "JUN 2026", "th": ["aigov"] },
+        { "t": "Second Annual ISTELive and ASCD Annual Conference Convenes Global Education Leaders Around the Future of Learning", "u": "https://iste.org/news/second-annual-istelive-and-ascd-annual-conference-convenes-global-education-leaders-around-the-future-of-learning", "s": "Recaps the June 28–July 1 Orlando conference, which drew over 15,000 attendees from 86 countries.", "d": "JUL 2026", "tag": "old" }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Event site rather than a news outlet: everything points at October's New York gathering.",
+      "arts": [
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only gathering of EdTech CEOs leading $10M+ revenue companies, running alongside EdTech Week's October 13–15 conference at Columbia University.", "d": "OCT 13", "th": ["data"] }
+      ]
+    },
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site resists automated access; nothing from the past two weeks was discoverable, so award and vendor features are listed instead.",
+      "arts": [
+        { "t": "Instructure | Top 10 K12 Solution Provider 2026", "u": "https://www.educationtechnologyinsights.com/instructure-2026", "s": "Recognizes Instructure among the magazine's top K-12 solution providers for 2026." },
+        { "t": "The Future of Education: AI as a Growth Catalyst", "u": "https://www.educationtechnologyinsights.com/news/the-future-of-education-ai-as-a-growth-catalyst-nid-2850.html", "s": "A feature arguing AI is accelerating innovation and market growth across the edtech sector.", "d": "MAR 18", "th": ["aiclass"] }
+      ]
+    }
+  ]
+}
