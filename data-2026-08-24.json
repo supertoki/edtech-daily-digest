@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-24",
+  "dateLabel": "AUGUST 24, 2026",
+  "headline": "Guidance Arrives, Students Get a Seat at the Table",
+  "thesis": "Monday's coverage centers on <b>Washington finally weighing in on classroom AI</b> while Brookings makes the case for putting students themselves on the policy committee, against a backdrop of tightening higher-ed budgets and a fall conference season warming up.",
+  "summary": "The U.S. Department of Education issued its long-awaited edtech guidance for states and districts, stressing that technology use must be <b>purposeful, instructionally sound, and tied to measurable outcomes</b> — but leaving actual rulemaking to states, per EdSurge. Brookings argues policymakers should go further, publishing a case for school-based <b>student AI councils</b> that give young people a real role in shaping the rules written for them, a theme echoed by EdSurge's look at what students themselves think about AI policy and EdTech Digest's more nuanced take on screen-time rules. On the operations side, EdTech Magazine reports K-12 districts are shifting from reactive incident response to long-term <b>cyber resilience strategy</b>, while Inside Higher Ed finds 42% of colleges still haven't fully submitted required federal student-outcomes data — both pointing to the same underlying data-governance strain that Ed-Fi's interoperability case studies exist to solve. Higher ed IT leaders face a tightening budget squeeze: EdTech Magazine covers the new Workforce Pell Grant's implications for community colleges and a proposed federal shift of research funding away from universities, while Inside Higher Ed reports the Education Department's sweeping new accreditation rule is now open for public comment. Meanwhile 1EdTech and EdTech Week are turning toward fall conference season — a credentialing-data webinar this week, Learning Impact Europe in September, and EdTech Week's October NYC gathering with its invite-only StartEd CEO Summit.",
+  "footnote": "Compiled from 11 curated edtech sources · August 24, 2026 · Direct page fetches (WebFetch) were blocked network-wide for every publisher this run, so all items were sourced and dated via web-search indexing rather than live page verification; several sources are represented by their most relevant recent or evergreen material where no article dated this week could be confirmed.",
+  "themes": [
+    { "k": "aigov", "icon": "ti-gavel", "title": "Washington Weighs In, Leaves Room for Nuance", "body": "The Department of Education's new edtech guidance sets a <b>purposeful, outcomes-driven</b> bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans." },
+    { "k": "voice", "icon": "ti-accessible", "title": "Students Get a Seat at the Policy Table", "body": "Brookings makes the case for school-based <b>AI councils</b> that put students in the room as co-designers, a push EdSurge reinforces by asking what students themselves think about the AI rules being written for them." },
+    { "k": "aiclass", "icon": "ti-device-laptop", "title": "AI's Real Costs and Daily Uses", "body": "Beyond the policy debate, EdSurge examines what AI adoption is actually costing school budgets once usage-based billing adds up, and ISTE's Google partnership keeps pushing <b>AI literacy training</b> toward six million educators." },
+    { "k": "cyberdata", "icon": "ti-shield-bolt", "title": "Data Governance Strain, K-12 to Higher Ed", "body": "EdTech Magazine reports districts shifting to long-term <b>cyber resilience strategy</b> as ransomware levels off, while Inside Higher Ed finds 42% of colleges still haven't fully reported required student-outcomes data — the same gap Ed-Fi's interoperability work targets." },
+    { "k": "highered", "icon": "ti-school", "title": "Higher Ed's Budget and Policy Squeeze", "body": "Community college IT leaders are absorbing the new <b>Workforce Pell Grant</b> rollout even as a proposed federal shift would redirect research funding away from universities, and a sweeping new accreditation rule is now open for public comment." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Standards & Conference Season Ahead", "body": "1EdTech's credentialing-data webinar this week and September's Learning Impact Europe lead into EdTech Week's October New York gathering, including its invite-only <b>StartEd CEO Summit</b>." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site's news feed skews toward evergreen CIO leadership profiles rather than dated daily posts; nothing from this week surfaced in search indexing.",
+      "arts": [
+        { "t": "Putting Students at the Center of Digital Transformation", "u": "https://www.educationtechnologyinsights.com/leadership-perspective/janice-bello-nid-3922.html", "s": "A profile of an Ateneo de Manila University CIO argues digital transformation should build governance, security, and trusted data before scaling analytics and AI.", "d": "AUG 10", "th": ["cyberdata"] },
+        { "t": "Building Learning Around Faculty Practice", "u": "https://www.educationtechnologyinsights.com/leadership-perspective/cristian-opazo-nid-3861.html", "s": "An NYU educational technology director makes the case for aligning ed-tech strategy with actual faculty teaching practice rather than technology-first initiatives.", "d": "JUL 1" }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "note": "News/blog cadence runs weeks-to-months apart; the nearest dated item is this week's webinar.",
+      "arts": [
+        { "t": "Making Verified Skills Data Useful in Real-World HR Systems", "u": "https://www.1edtech.org/events", "s": "A live 1EdTech webinar on new research into making verified, credentialed skills data actionable for real-world HR decision-making.", "d": "AUG 27", "tag": "new", "th": ["conf"] },
+        { "t": "1EdTech Learning Impact Europe 2026", "u": "https://www.1edtech.org/event/europe/2026", "s": "1EdTech's flagship European conference convenes in Thessaloniki, September 15–17, on interoperability and digital learning standards.", "d": "SEP 15", "th": ["conf"] },
+        { "t": "1EdTech Announces Evolution of Open, Trusted and Innovative Edtech Ecosystem", "u": "https://www.1edtech.org/1edtech-article/1edtech-announces-evolution-of-open-trusted-and-innovative-edtech-ecosystem/409656", "s": "1EdTech announced a new nonprofit structure, 1EdTech Global, with the Learn & Work Ecosystem Library joining as its first major initiative.", "d": "JUN 2" }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions as an event-promotion site rather than a news outlet; everything points at October's New York gathering.",
+      "arts": [
+        { "t": "EdTech Week 2026", "u": "https://www.edtechweek.com/", "s": "The flagship EdTech Week festival returns to Teachers College, Columbia University, October 14–15, with roughly 200 speakers and 300+ investors.", "d": "OCT 14", "th": ["conf"] },
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only gathering of EdTech CEOs leading $10M+ revenue companies, running alongside EdTech Week's October conference.", "d": "OCT 13", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No news dated within this run's window; publishing cadence appears quarterly, with the next major event the Ed-Fi Alliance Summit, Nov 9–11. Evergreen impact stories are listed instead.",
+      "arts": [
+        { "t": "Modernizing Data to Support Indiana Students", "u": "https://www.ed-fi.org/resources/case-studies/indiana/", "s": "Indiana DOE replaced manual, inconsistent data transfers with an Ed-Fi-standard system, cutting state certification time to within two weeks of the count date." },
+        { "t": "Connecting Schools Across Michigan with a Real-Time Statewide Data System", "u": "https://www.ed-fi.org/resources/case-studies/michigan/", "s": "Michigan's statewide Ed-Fi-based data hub supports everyday teaching and long-term planning, including a program linking assessment data to reading plans.", "th": ["cyberdata"] },
+        { "t": "Unlocking Data to Strengthen Local Decision-Making in Texas", "u": "https://www.ed-fi.org/resources/case-studies/texas/", "s": "Texas districts built a modern, Ed-Fi-based system giving unified real-time access to student, staff, and financial data for local decision-making." }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "Department of Education Issues Long-Awaited Edtech Guidance for States and Districts", "u": "https://www.edsurge.com/news/department-of-education-issues-long-awaited-edtech-guidance-for-states-and-districts", "s": "New federal guidance stresses that classroom technology use should be purposeful, instructionally sound, and tied to measurable outcomes, but leaves rulemaking to states and districts.", "d": "AUG 20", "tag": "new", "th": ["aigov"] },
+        { "t": "Assignments, Invoices, and the AI Fix", "u": "https://www.edsurge.com/news/what-is-ai-actually-costing-schools", "s": "Examines what AI adoption is actually costing school district budgets once usage-based billing adds up, beyond the classroom-facing conversation.", "d": "AUG 19", "tag": "new", "th": ["aiclass"] },
+        { "t": "On AI Policy, Students Have Plenty to Say", "u": "https://www.edsurge.com/news/on-ai-policy-students-have-plenty-to-say", "s": "While adults across education dominate the AI-policy debate, this piece reports on what students themselves think about the rules being written for them.", "d": "AUG 13", "th": ["aigov", "voice"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No article dated this week surfaced despite extensive search; the closest confirmed piece is from Aug 12.",
+      "arts": [
+        { "t": "K-12 Technology Leaders Are Doing Too Much: 3 Ways to Reclaim Strategic Focus", "u": "https://thejournal.com/articles/2026/08/12/k12-technology-leaders-are-doing-too-much-3-ways-to-reclaim-strategic-focus.aspx", "s": "Argues K-12 IT and technology leaders are overloaded with responsibilities and offers strategies for narrowing focus back to core strategic priorities.", "d": "AUG 12", "th": ["cyberdata"] },
+        { "t": "Department of Labor Report Defines 5 Key Areas of AI Literacy", "u": "https://thejournal.com/articles/2026/03/05/department-of-labor-report-defines-5-key-areas-of-ai-literacy.aspx", "s": "Covers the Department of Labor's new AI Literacy Framework, which defines five core competency areas and encourages schools to adopt it.", "d": "MAR 5", "th": ["aiclass"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "note": "Article pages are dated only to the month; exact publication days could not be confirmed this run.",
+      "arts": [
+        { "t": "K-12 Schools Are Shifting to a Longer-Term Cyber Resilience Strategy", "u": "https://edtechmagazine.com/k12/article/2026/08/k-12-schools-are-shifting-longer-term-cyber-resilience-strategy", "s": "As ransomware attacks level off, district IT teams are moving from reactive crisis response to proactive, long-term cyber resilience frameworks.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["cyberdata"] },
+        { "t": "How Technology Can Help Schools Close the Literacy Gap", "u": "https://edtechmagazine.com/k12/article/2026/08/how-technology-can-help-schools-close-literacy-gap", "s": "Real-time progress-monitoring tools help teachers spot literacy gaps tied to interrupted instruction and chronic absenteeism.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["aiclass"] },
+        { "t": "AI and Enrollment Pressures Are Reshaping Higher Education", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education", "s": "Coverage of the 2026 EDUCAUSE Horizon Report, which names AI, enrollment strain, cybersecurity, and policy reform as top forces reshaping higher-ed teaching and learning.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["highered", "aigov"] },
+        { "t": "What the Workforce Pell Grant Launch Means for Community College IT Leaders", "u": "https://edtechmagazine.com/higher/article/2026/08/what-workforce-pell-grant-launch-means-community-college-it-leaders", "s": "Following the first approved Workforce Pell Grant program on Aug. 4, the piece covers implications for community-college IT leadership.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["highered"] },
+        { "t": "Reduced Federal Research Funding, University Budget Cuts Hit Higher Ed IT", "u": "https://edtechmagazine.com/higher/article/2026/08/higher-ed-it-budgets-face-dual-threat-federal-research-cuts-and-state-funding-pressure-perfcon", "s": "A proposed federal framework would shift research funding away from universities toward AI-driven national-lab research, straining campus IT budgets.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["highered"] }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "ED Releases Accreditation Rule for Public Comment", "u": "https://www.insidehighered.com/news/quick-takes/2026/08/20/ed-releases-accreditation-rule-public-comment", "s": "The Education Department's 354-page proposed rule would expand accreditors' duties and ease entry for new accreditors; comments are due Sept. 21.", "d": "AUG 20", "tag": "new", "th": ["highered", "aigov"] },
+        { "t": "42% of Colleges Haven't Fully Submitted Required Student Outcomes Data", "u": "https://www.insidehighered.com/news/government/student-aid-policy/2026/08/19/almost-half-colleges-havent-fully-submitted-student", "s": "Roughly 1,930 of 4,640 eligible institutions are missing or have underreported required federal student-outcomes data, risking access to federal aid.", "d": "AUG 19", "tag": "new", "th": ["cyberdata", "highered"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "No content newer than the June/July conference cycle was found; the freshest substantive item remains this AI-literacy partnership.",
+      "arts": [
+        { "t": "ISTE+ASCD and Google Partner to Provide AI Literacy Training to Six Million U.S. Educators", "u": "https://iste.org/news/iste-ascd-and-google-partner-to-provide-ai-literacy-training-to-six-million-u-s-educators", "s": "A multi-year partnership will deliver AI literacy training to six million K-12 and higher-ed educators nationwide.", "d": "FEB 2026", "th": ["aiclass"] },
+        { "t": "The International Society for Transforming Education Reveals 2026 Honorees for Innovation and Excellence in Education", "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education", "s": "Names 2026 award recipients across K-12 and higher ed recognized at the Orlando conference for replicable, exemplary projects.", "d": "JUN 30", "tag": "old" }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "Enhancing Student Agency Through School AI Councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Argues schools should establish student-led AI councils so students act as co-designers of AI policy rather than passive recipients of top-down rules.", "d": "AUG 18", "tag": "new", "th": ["aigov", "voice"] },
+        { "t": "A New Direction for Students in an AI World: Prosper, Prepare, Protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "A Brookings framework arguing AI's risks in education currently outweigh the benefits, and proposing a policy framework organized around prospering, preparing, and protecting students.", "d": "JAN 2026", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "Screen Time Debate Gets More Nuanced", "u": "https://www.edtechdigest.com/2026/08/20/screen-time-debate-gets-more-nuanced/", "s": "The 2026 Savvas Educator Index finds 82% of educators favor limiting classroom screen time, but 92% distinguish passive from instructional use — concluding context matters more than blanket rules.", "d": "AUG 20", "tag": "new", "th": ["aigov", "aiclass"] },
+        { "t": "Shaping What's Next", "u": "https://www.edtechdigest.com/2026/08/18/shaping-whats-next/", "s": "An interview with veteran education policy advocate Dr. Sheryl R. Abshire on developing tech leaders and protecting school connectivity.", "d": "AUG 18", "tag": "new", "th": ["voice"] },
+        { "t": "Beyond the Funnel: A Better Model for Higher Ed Student Engagement", "u": "https://www.edtechdigest.com/2026/08/17/beyond-the-funnel-a-better-model-for-higher-ed-student-engagement/", "s": "Argues higher-ed institutions need connected systems, not siloed funnels, to personalize engagement across the full student journey.", "d": "AUG 17", "tag": "new", "th": ["highered", "voice"] }
+      ]
+    }
+  ]
+}

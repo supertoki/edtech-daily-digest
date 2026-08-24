@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-21T12:12:11Z",
+  "generatedAt": "2026-08-24T12:13:26Z",
   "daily": {
-    "date": "2026-08-21",
-    "topThemeKey": "aiclass",
-    "topThemeTitle": "AI Moves Into Daily Practice",
-    "topThemeBody": "From AI-assisted classroom observation tools to AI-era writing instruction, coverage is shifting from whether schools use AI to how it's showing up in everyday teaching and grading.",
+    "date": "2026-08-24",
+    "topThemeKey": "aigov",
+    "topThemeTitle": "Washington Weighs In, Leaves Room for Nuance",
+    "topThemeBody": "The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.",
     "themes": [
       {
-        "k": "aiclass",
-        "title": "AI Moves Into Daily Practice",
-        "weight": 5
-      },
-      {
-        "k": "data",
-        "title": "Standards, Credentials & Conference Season",
-        "weight": 5
-      },
-      {
         "k": "aigov",
-        "title": "Blanket Rules Meet Pushback",
+        "title": "Washington Weighs In, Leaves Room for Nuance",
+        "weight": 7
+      },
+      {
+        "k": "highered",
+        "title": "Higher Ed's Budget and Policy Squeeze",
+        "weight": 6
+      },
+      {
+        "k": "aiclass",
+        "title": "AI's Real Costs and Daily Uses",
+        "weight": 5
+      },
+      {
+        "k": "cyberdata",
+        "title": "Data Governance Strain, K-12 to Higher Ed",
+        "weight": 5
+      },
+      {
+        "k": "voice",
+        "title": "Students Get a Seat at the Policy Table",
         "weight": 4
       },
       {
-        "k": "research",
-        "title": "Research Computing Beyond the AI Hype",
-        "weight": 3
-      },
-      {
-        "k": "access",
-        "title": "Equity in AI's Global Rollout",
-        "weight": 3
-      },
-      {
-        "k": "cyberrisk",
-        "title": "Vendor & Data Risk Management",
-        "weight": 2
+        "k": "conf",
+        "title": "Standards & Conference Season Ahead",
+        "weight": 4
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-08-17",
-    "weekRange": "8/17-8/23",
+    "weekKey": "2026-08-24",
+    "weekRange": "8/24-8/30",
     "status": "pending",
     "displayedWeek": "2026-08-03",
     "currentImage": "assets/illustrations/hero-2026-08-03.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "aigov",
-    "themeTitle": "AI Policy & Governance",
-    "themeBody": "CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.",
+    "themeTitle": "Washington Weighs In, Leaves Room for Nuance",
+    "themeBody": "The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Policy & Governance - CoSN's screen-time principles, student-authored AI recommendations, and a survey showing agentic AI reaching production all point to governance catching up with deployment.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Washington Weighs In, Leaves Room for Nuance - The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
