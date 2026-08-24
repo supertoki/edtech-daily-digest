@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-08-24",
     "weekRange": "8/24-8/30",
-    "status": "pending",
-    "displayedWeek": "2026-08-03",
-    "currentImage": "assets/illustrations/hero-2026-08-03.webp",
+    "status": "approved",
+    "displayedWeek": "2026-08-24",
+    "currentImage": "assets/illustrations/hero-2026-08-24.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "aigov",
     "themeTitle": "Washington Weighs In, Leaves Room for Nuance",

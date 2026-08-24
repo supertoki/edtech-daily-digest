@@ -1,7 +1,7 @@
 {
   "target": "2026-08-24",
-  "displayed": "2026-08-03",
-  "current": "2026-08-03",
+  "displayed": "2026-08-24",
+  "current": "2026-08-24",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -52,7 +52,10 @@
       "themeKey": "aigov",
       "themeTitle": "Washington Weighs In, Leaves Room for Nuance",
       "themeBody": "The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.",
-      "lockedAt": "2026-08-24T12:13:15Z"
+      "lockedAt": "2026-08-24T12:13:15Z",
+      "file": "hero-2026-08-24.webp",
+      "theme": "aigov",
+      "approvedAt": "2026-08-24T17:30:55Z"
     }
   }
 }
