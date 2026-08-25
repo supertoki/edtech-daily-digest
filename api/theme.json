@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-24T12:13:26Z",
+  "generatedAt": "2026-08-25T12:14:20Z",
   "daily": {
-    "date": "2026-08-24",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "Washington Weighs In, Leaves Room for Nuance",
-    "topThemeBody": "The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.",
+    "date": "2026-08-25",
+    "topThemeKey": "classtech",
+    "topThemeTitle": "Accessibility and Immersion in the Classroom",
+    "topThemeBody": "EdTech Magazine covers brain-computer interface tools giving students with severe disabilities a faster way to participate in class, alongside virtual-reality tools fueling higher-ed robotics research.",
     "themes": [
       {
-        "k": "aigov",
-        "title": "Washington Weighs In, Leaves Room for Nuance",
-        "weight": 7
-      },
-      {
-        "k": "highered",
-        "title": "Higher Ed's Budget and Policy Squeeze",
+        "k": "classtech",
+        "title": "Accessibility and Immersion in the Classroom",
         "weight": 6
       },
       {
-        "k": "aiclass",
-        "title": "AI's Real Costs and Daily Uses",
+        "k": "policygap",
+        "title": "AI Policy on Paper vs. in the Classroom",
         "weight": 5
       },
       {
-        "k": "cyberdata",
-        "title": "Data Governance Strain, K-12 to Higher Ed",
-        "weight": 5
-      },
-      {
-        "k": "voice",
-        "title": "Students Get a Seat at the Policy Table",
+        "k": "highered",
+        "title": "Higher Ed's Budget and Enrollment Squeeze",
         "weight": 4
       },
       {
-        "k": "conf",
-        "title": "Standards & Conference Season Ahead",
-        "weight": 4
+        "k": "credentials",
+        "title": "Credentials and Data Standards Push Ahead",
+        "weight": 3
+      },
+      {
+        "k": "fraudsec",
+        "title": "Fraud and Cybersecurity Get More Centralized",
+        "weight": 3
+      },
+      {
+        "k": "aigov",
+        "title": "Back-to-School Politics and the Accreditation Overhaul",
+        "weight": 2
       }
     ]
   },

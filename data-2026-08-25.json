@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-25",
+  "dateLabel": "AUGUST 25, 2026",
+  "headline": "Policy on Paper, Reality in the Classroom",
+  "thesis": "As the White House uses back-to-school week to push school choice and a sweeping accreditation overhaul, EdSurge finds that <b>a year of studying real district AI policies</b> shows most schools are cautious and disconnected from the state guidance meant to inform them.",
+  "summary": "The politics of the new school year took center stage Monday, as President Trump and Education Secretary Linda McMahon used a White House Rose Garden event to promote school choice and a coming national private-school voucher program, while the Department's proposed accreditation overhaul — requiring accreditors to be <b>viewpoint-neutral</b> and prioritize student outcomes — remains open for public comment. On the ground, EdSurge's year-long study of AI policy in more than 100 school districts finds a system that <b>leans cautious and is often disconnected</b> from the state guidance it's supposed to follow, a gap echoed in a companion piece arguing Missouri's blanket cellphone ban misses the chance to teach real digital judgment. Interoperability groups kept pushing on infrastructure: 1EdTech's new survey of 43 organizations finds digital credentials are <b>widely issued but rarely connected</b> to the employer HR systems meant to use them, while Ed-Fi continues a steady release cadence — most recently API v8.0 — ahead of a wider push at 1EdTech's upcoming London Summit on AI-and-standards. Campus and district IT teams face converging fraud and security pressure: EdTech Magazine covers <b>AI-enabled \"ghost student\" fraud rings</b> gaming financial aid systems ahead of an October mandate for real-time FAFSA identity screening, alongside community colleges consolidating cybersecurity operations centrally. Higher ed's budget squeeze continues, per EdTech Magazine's look at the 2026 EDUCAUSE Horizon Report naming AI, enrollment strain, and cybersecurity as top forces reshaping the field, and a proposed federal shift of research funding away from universities. On the classroom-tech side, EdTech Magazine reports brain-computer interface tools are giving students with severe disabilities a new way to participate, and Inside Higher Ed continues to track international-enrollment losses now estimated to cost the U.S. economy $3.4 billion.",
+  "footnote": "Compiled from 11 curated edtech sources · August 25, 2026 · Direct page fetches (WebFetch) were blocked network-wide for every publisher this run, so all items were sourced and dated via web-search indexing rather than live page verification; several sources are represented by their most relevant recent or evergreen material where no article dated this week could be confirmed.",
+  "themes": [
+    { "k": "policygap", "icon": "ti-gavel", "title": "AI Policy on Paper vs. in the Classroom", "body": "EdSurge's year-long study of over 100 school districts finds AI governance runs <b>cautious and disconnected</b> from state guidance, while a companion piece argues Missouri's blanket cellphone ban trades away a chance to teach digital judgment." },
+    { "k": "aigov", "icon": "ti-building-bank", "title": "Back-to-School Politics and the Accreditation Overhaul", "body": "Trump and Secretary McMahon used a Rose Garden back-to-school event to promote school choice and a coming national voucher program, as the Department's proposed <b>viewpoint-neutral accreditation rule</b> remains open for public comment." },
+    { "k": "credentials", "icon": "ti-plug-connected", "title": "Credentials and Data Standards Push Ahead", "body": "1EdTech's new 43-organization survey finds digital credentials <b>widely issued but rarely connected</b> to employer hiring systems, while Ed-Fi's steady release cadence continues with API v8.0 ahead of September's London Summit on AI and standards." },
+    { "k": "fraudsec", "icon": "ti-shield-bolt", "title": "Fraud and Cybersecurity Get More Centralized", "body": "EdTech Magazine reports AI-enabled <b>\"ghost student\" fraud rings</b> gaming financial-aid systems ahead of an October real-time FAFSA identity-screening mandate, while community colleges consolidate cybersecurity operations into centralized teams." },
+    { "k": "highered", "icon": "ti-school", "title": "Higher Ed's Budget and Enrollment Squeeze", "body": "The 2026 EDUCAUSE Horizon Report names AI, enrollment strain, and cybersecurity as the top forces reshaping higher ed, as a proposed federal funding shift away from universities and a newly estimated <b>$3.4 billion hit from lost international enrollment</b> add to campus budget pressure." },
+    { "k": "classtech", "icon": "ti-device-laptop", "title": "Accessibility and Immersion in the Classroom", "body": "EdTech Magazine covers <b>brain-computer interface</b> tools giving students with severe disabilities a faster way to participate in class, alongside virtual-reality tools fueling higher-ed robotics research." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site's cadence remains dominated by evergreen CIO leadership profiles and vendor award pages rather than dated daily news; nothing from this week surfaced in search indexing.",
+      "arts": [
+        { "t": "Top 10 Directors of Instructional Technology - 2026", "u": "https://www.educationtechnologyinsights.com/cxo-awards/top-10-directors-of-instructional-technology-2026-19/", "s": "An annual awards list profiling instructional-technology leaders reshaping digital learning at their districts and institutions." },
+        { "t": "Instructure | Top 10 K12 Solution Provider 2026", "u": "https://www.educationtechnologyinsights.com/instructure-2026", "s": "A vendor recognition profile naming Instructure among the year's top K-12 solution providers." }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "note": "News/blog cadence runs weeks apart; the freshest substantive item is this credential-integration research.",
+      "arts": [
+        { "t": "New Findings Highlight Integration Gap in Digital Credential Ecosystem", "u": "https://www.1edtech.org/1edtech-article/new-findings-highlight-integration-gap-in-digital-credential-ecosystem/411385", "s": "A survey of 43 education, workforce, and technology organizations finds digital credentials are widely issued but rarely integrated into the employer ATS/HRIS systems used to evaluate skills.", "tag": "new", "th": ["credentials"] },
+        { "t": "1EdTech London Summit 2026: Why AI in Learning Needs Standards", "u": "https://www.1edtech.org/events/1edtech-london-summit-2026-why-ai-in-learning-needs-standards", "s": "An upcoming London summit session arguing that scaling AI in learning responsibly requires shared interoperability standards.", "th": ["credentials"] },
+        { "t": "1EdTech Learning Impact Europe 2026", "u": "https://www.1edtech.org/event/europe/2026", "s": "1EdTech's flagship European conference convenes in Thessaloniki, September 15–17, on interoperability and digital learning standards.", "d": "SEP 15" }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions as an event-promotion site rather than a news outlet; everything points at October's New York gathering.",
+      "arts": [
+        { "t": "EdTech Week 2026", "u": "https://www.edtechweek.com/", "s": "The flagship EdTech Week festival, co-located with the ASCD Annual Conference, runs October 13–15 in New York with tens of thousands of educators, administrators, and edtech leaders expected.", "d": "OCT 13" },
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only gathering of EdTech CEOs leading $10M+ revenue companies, running alongside EdTech Week's October conference." }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No news dated within this run's window; the most recent milestone is July's API v8.0 release. Evergreen impact stories are listed alongside it.",
+      "arts": [
+        { "t": "Ed-Fi API v8.0: Now Available", "u": "https://docs.ed-fi.org/blog/2026/07/15/", "s": "The next-generation evolution of the Ed-Fi ODS/API platform ships with a modernized architecture while maintaining compatibility with existing integrations.", "d": "JUL 15", "th": ["credentials"] },
+        { "t": "Modernizing Data to Support Indiana Students", "u": "https://www.ed-fi.org/resources/case-studies/indiana/", "s": "Indiana DOE replaced manual, inconsistent data transfers with an Ed-Fi-standard system, cutting state certification time to within two weeks of the count date." },
+        { "t": "Connecting Schools Across Michigan with a Real-Time Statewide Data System", "u": "https://www.ed-fi.org/resources/case-studies/michigan/", "s": "Michigan's statewide Ed-Fi-based data hub supports everyday teaching and long-term planning, including a program linking assessment data to reading plans." }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "What Happens When AI Policy Meets a Real Classroom?", "u": "https://www.edsurge.com/news/what-happens-when-ai-policy-meets-a-real-classroom", "s": "A year spent coding AI policy from more than 100 school districts into a five-level framework finds governance that leans cautious and is often disconnected from the state guidance meant to inform it.", "tag": "new", "th": ["policygap"] },
+        { "t": "The Case Against the Classroom Cellphone Crackdown", "u": "https://www.edsurge.com/news/the-case-against-the-classroom-cellphone-crackdown", "s": "A Missouri civics teacher argues the state's blanket cellphone ban misses the point, and that schools should instead teach students to use phones responsibly rather than removing them entirely.", "th": ["policygap"] },
+        { "t": "Department of Education Issues Long-Awaited Edtech Guidance for States and Districts", "u": "https://www.edsurge.com/news/department-of-education-issues-long-awaited-edtech-guidance-for-states-and-districts", "s": "Federal guidance stresses that classroom technology use should be purposeful, instructionally sound, and tied to measurable outcomes, but leaves rulemaking to states and districts.", "d": "AUG 20", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No article dated this week surfaced despite extensive search; the closest confirmed piece is from Aug 12.",
+      "arts": [
+        { "t": "K-12 Technology Leaders Are Doing Too Much: 3 Ways to Reclaim Strategic Focus", "u": "https://thejournal.com/articles/2026/08/12/k12-technology-leaders-are-doing-too-much-3-ways-to-reclaim-strategic-focus.aspx", "s": "Argues K-12 IT and technology leaders are overloaded with responsibilities and offers strategies for narrowing focus back to core strategic priorities.", "d": "AUG 12" },
+        { "t": "2026 Predictions for AI and Ed Tech in K-12 Education: What Industry Leaders Are Saying", "u": "https://thejournal.com/articles/2026/01/29/2026-predictions-for-ai-and-ed-tech-in-k12-education-what-industry-leaders-are-saying.aspx", "s": "Industry leaders predict AI becomes core district infrastructure in 2026, moving from experimentation to essential use across instruction, tutoring, and family communication.", "d": "JAN 29", "th": ["classtech"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "note": "Article pages are dated only to the month; exact publication days could not be confirmed this run.",
+      "arts": [
+        { "t": "AI-Enabled Ghost Student Fraud: How IT Leaders Are Fighting Back", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-enabled-ghost-student-fraud-how-it-leaders-are-fighting-back-perfcon", "s": "Generative AI is fueling a surge in fraudulent \"ghost student\" enrollments; layered identity verification and behavioral analytics help IT leaders stop the fraud rings ahead of an October real-time FAFSA screening mandate.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["fraudsec"] },
+        { "t": "Centralized Cybersecurity Operations Keeps Community Colleges Protected", "u": "https://edtechmagazine.com/higher/article/2026/08/centralized-cybersecurity-operations-keeps-community-colleges-protected", "s": "Community colleges are consolidating cybersecurity monitoring into centralized operations teams rather than fragmented, campus-by-campus defenses.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["fraudsec"] },
+        { "t": "Brain-Computer Interface Technology Makes School More Accessible", "u": "https://edtechmagazine.com/k12/article/2026/08/brain-computer-interface-technology-makes-school-more-accessible", "s": "BCI systems are giving students with ALS, severe cerebral palsy, or spinal cord injuries a faster, more intuitive way to navigate technology and participate in class.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["classtech"] },
+        { "t": "Virtual Tech Tools Fuel Higher Ed Robotics Research", "u": "https://edtechmagazine.com/higher/article/2026/08/virtual-tech-tools-fuel-higher-ed-robotics-research", "s": "Universities are using virtual reality and advanced computing tools to accelerate robotics research and training.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["classtech"] },
+        { "t": "AI and Enrollment Pressures Are Reshaping Higher Education", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education", "s": "Coverage of the 2026 EDUCAUSE Horizon Report, which names AI, enrollment strain, cybersecurity, and policy reform as top forces reshaping higher-ed teaching and learning.", "d": "AUG 2026", "lvl": "Higher Ed", "th": ["highered"] },
+        { "t": "Reduced Federal Research Funding, University Budget Cuts Hit Higher Ed IT", "u": "https://edtechmagazine.com/higher/article/2026/08/higher-ed-it-budgets-face-dual-threat-federal-research-cuts-and-state-funding-pressure-perfcon", "s": "A proposed federal framework would shift research funding away from universities toward AI-driven national-lab research, straining campus IT budgets.", "d": "AUG 2026", "lvl": "Higher Ed", "th": ["highered"] }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "Loss of International Students Could Cost Economy $3.4B", "u": "https://www.insidehighered.com/news/quick-takes/2026/08/12/loss-international-students-could-cost-economy-34b", "s": "New estimates put the economic cost of declining international-student enrollment at $3.4 billion, adding to the pressure on university budgets.", "d": "AUG 12", "th": ["highered"] },
+        { "t": "ED Releases Accreditation Rule for Public Comment", "u": "https://www.insidehighered.com/news/quick-takes/2026/08/20/ed-releases-accreditation-rule-public-comment", "s": "The Education Department's proposed rule would require accreditors to be viewpoint-neutral and prioritize student outcomes, with a 30-day comment period and a final rule targeted for November 1.", "d": "AUG 20", "th": ["aigov"] },
+        { "t": "42% of Colleges Haven't Fully Submitted Required Student Outcomes Data", "u": "https://www.insidehighered.com/news/government/student-aid-policy/2026/08/19/almost-half-colleges-havent-fully-submitted-student", "s": "Roughly 1,930 of 4,640 eligible institutions are missing or have underreported required federal student-outcomes data, risking access to federal aid.", "d": "AUG 19", "th": ["fraudsec", "highered"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "No content newer than the June/July conference cycle was found; the freshest substantive item remains this AI-literacy partnership.",
+      "arts": [
+        { "t": "ISTE+ASCD and Google Partner to Provide AI Literacy Training to Six Million U.S. Educators", "u": "https://iste.org/news/iste-ascd-and-google-partner-to-provide-ai-literacy-training-to-six-million-u-s-educators", "s": "A multi-year partnership will deliver AI literacy training to six million K-12 and higher-ed educators nationwide.", "d": "FEB 2026", "th": ["classtech"] },
+        { "t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "ISTE+ASCD rebrands as the International Society for Transforming Education, three years after its founding merger.", "d": "JUN 28", "tag": "old" }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "Enhancing Student Agency Through School AI Councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Argues schools should establish student-led AI councils so students act as co-designers of AI policy rather than passive recipients of top-down rules.", "d": "AUG 18", "th": ["policygap"] },
+        { "t": "Will AI in Education Succeed?", "u": "https://www.brookings.edu/articles/will-ai-in-education-succeed/", "s": "Weighs the evidence on whether AI adoption in schools is actually improving learning outcomes, cautioning that only a fraction of edtech products have supporting evidence.", "th": ["policygap", "classtech"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "note": "No article dated this week surfaced despite extensive search; the closest confirmed pieces are from Aug 17-20 and were already featured in a prior digest.",
+      "arts": [
+        { "t": "EdTech Doesn't Have an Adoption Problem. It Has an Implementation Problem.", "u": "https://www.edtechdigest.com/2026/08/13/edtech-doesnt-have-an-adoption-problem-it-has-an-implementation-problem/", "s": "Argues that most edtech failures trace back to weak implementation and change management, not the underlying technology itself.", "d": "AUG 13", "th": ["policygap"] },
+        { "t": "Writing Is the New Coding", "u": "https://www.edtechdigest.com/2026/08/13/writing-is-the-new-coding/", "s": "Makes the case that clear writing, not syntax, is becoming the essential skill for directing AI tools effectively.", "d": "AUG 13", "th": ["classtech"] }
+      ]
+    }
+  ]
+}
