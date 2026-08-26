@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-24T12:13:26Z",
+  "generatedAt": "2026-08-26T12:16:19Z",
   "daily": {
-    "date": "2026-08-24",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "Washington Weighs In, Leaves Room for Nuance",
-    "topThemeBody": "The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.",
+    "date": "2026-08-26",
+    "topThemeKey": "aiclass",
+    "topThemeTitle": "AI Moves From Adoption to Stewardship",
+    "topThemeBody": "EdTech Digest argues classroom AI's next phase is about stewardship rather than adoption, echoed by EdTech Magazine's look at AI-powered observation and analytics tools that give teachers an extra set of eyes on student progress.",
     "themes": [
       {
-        "k": "aigov",
-        "title": "Washington Weighs In, Leaves Room for Nuance",
+        "k": "aiclass",
+        "title": "AI Moves From Adoption to Stewardship",
         "weight": 7
       },
       {
-        "k": "highered",
-        "title": "Higher Ed's Budget and Policy Squeeze",
+        "k": "procure",
+        "title": "Procurement and Vendor Risk Take Center Stage",
         "weight": 6
       },
       {
-        "k": "aiclass",
-        "title": "AI's Real Costs and Daily Uses",
-        "weight": 5
-      },
-      {
-        "k": "cyberdata",
-        "title": "Data Governance Strain, K-12 to Higher Ed",
+        "k": "conf",
+        "title": "Fall Conference Season Builds",
         "weight": 5
       },
       {
         "k": "voice",
-        "title": "Students Get a Seat at the Policy Table",
+        "title": "New Voices Join the Table",
         "weight": 4
       },
       {
-        "k": "conf",
-        "title": "Standards & Conference Season Ahead",
-        "weight": 4
+        "k": "highered",
+        "title": "Higher Ed Bets on the Human Side of Learning",
+        "weight": 3
+      },
+      {
+        "k": "access",
+        "title": "Hardware Innovation Widens Access",
+        "weight": 1
       }
     ]
   },
