@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-26T12:16:19Z",
+  "generatedAt": "2026-08-27T12:13:51Z",
   "daily": {
-    "date": "2026-08-26",
-    "topThemeKey": "aiclass",
-    "topThemeTitle": "AI Moves From Adoption to Stewardship",
-    "topThemeBody": "EdTech Digest argues classroom AI's next phase is about stewardship rather than adoption, echoed by EdTech Magazine's look at AI-powered observation and analytics tools that give teachers an extra set of eyes on student progress.",
+    "date": "2026-08-27",
+    "topThemeKey": "cognition",
+    "topThemeTitle": "The AI-and-Cognition Debate Gets Practical",
+    "topThemeBody": "EdSurge argues educators should shift from preventing AI-driven cognitive offloading to actively preserving critical-thinking skills, as Inside Higher Ed reports colleges adding formal AI-fluency requirements to general-education curricula this fall.",
     "themes": [
       {
-        "k": "aiclass",
-        "title": "AI Moves From Adoption to Stewardship",
-        "weight": 7
-      },
-      {
-        "k": "procure",
-        "title": "Procurement and Vendor Risk Take Center Stage",
-        "weight": 6
+        "k": "cognition",
+        "title": "The AI-and-Cognition Debate Gets Practical",
+        "weight": 9
       },
       {
         "k": "conf",
-        "title": "Fall Conference Season Builds",
-        "weight": 5
-      },
-      {
-        "k": "voice",
-        "title": "New Voices Join the Table",
-        "weight": 4
+        "title": "Standards and Credentialing Calendar Builds",
+        "weight": 7
       },
       {
         "k": "highered",
-        "title": "Higher Ed Bets on the Human Side of Learning",
-        "weight": 3
+        "title": "Enrollment and Funding Pressures Squeeze Higher Ed IT",
+        "weight": 5
+      },
+      {
+        "k": "procure",
+        "title": "Federal Guidance Meets Local Procurement Reality",
+        "weight": 4
       },
       {
         "k": "access",
-        "title": "Hardware Innovation Widens Access",
-        "weight": 1
+        "title": "Colleges Widen Proactive Access Pathways",
+        "weight": 4
+      },
+      {
+        "k": "cyber",
+        "title": "Cyber Resilience Becomes a Long-Term Strategy",
+        "weight": 3
       }
     ]
   },
