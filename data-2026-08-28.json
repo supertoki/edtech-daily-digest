@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-28",
+  "dateLabel": "AUGUST 28, 2026",
+  "headline": "Teachers, Not Tech Chiefs, Are Steering the AI Rollout",
+  "thesis": "New survey data shows <b>classroom educators — not IT departments — are setting the rules for AI adoption</b>, even as its hidden costs pile up and higher ed's enrollment math gets harder to close.",
+  "summary": "EdSurge reports teachers are pressing ahead with AI integration on their own terms: Turnitin's Q2 Learning Integrity Insights Report finds <b>48% of respondents say teachers and administrators — not technology leaders — hold primary responsibility</b> for AI implementation, a finding NCTE president Antero Garcia calls heartening as the council circulates a working ELA AI framework for grades 6-12. A companion EdSurge piece tracks where AI spending quietly compounds into <b>real line items on school budgets</b> — licenses, integrations, vendor invoices — a cost question sharpened by a K-12 sector already juggling an average of 2,591 separate edtech tools per district. In higher ed, Inside Higher Ed reports <b>61% of colleges met their fall 2026 enrollment goals</b>, but confidence is thinner at small colleges leaning on discounting and campus visits to close the gap, while ACE president Ted Mitchell and NASFAA's Melanie Storey warn financial-aid offices face a rocky rollout of the Department of Education's reworked uncapped-loan eligibility rules with <b>too little guidance and too little time</b>. Cybersecurity stays a standing K-12 priority as EdTech Magazine's cyber-resilience and AI-phishing coverage keeps circulating, and the sector's post-restructuring reset continues now that the former Anthology has relaunched as a debt-free, stand-alone Blackboard. On the standards and conference calendar, 1EdTech holds a September 1 discussion with NASWA on the future of workforce development ahead of its Learning Impact Europe conference in Thessaloniki, and Ed-Fi's summer AI working group is examining what its data standard needs for an AI-driven ecosystem.",
+  "footnote": "Compiled from 11 curated edtech sources · August 28, 2026 · Direct page fetches (WebFetch) were blocked network-wide for every publisher this run, so items were sourced and dated via web-search indexing rather than live page verification; several sources are represented by their most relevant recent or evergreen material where no article dated today could be confirmed.",
+  "themes": [
+    { "k": "aiadopt", "icon": "ti-users", "title": "Teachers, Not Tech Leaders, Are Setting AI's Classroom Rules", "body": "EdSurge reports <b>48% of educators say teachers and administrators — not IT departments — hold primary responsibility</b> for AI implementation, per Turnitin's Q2 report, as NCTE circulates a working ELA AI framework for grades 6-12." },
+    { "k": "aicost", "icon": "ti-receipt", "title": "AI's Hidden Line Items Start Showing Up in Budgets", "body": "EdSurge traces where AI spending quietly compounds into real costs — software licenses, integrations, vendor invoices — a question sharpened by K-12 districts already managing an <b>average of 2,591 separate edtech tools</b>." },
+    { "k": "enroll", "icon": "ti-building-bank", "title": "Higher Ed's Enrollment and Aid Math Gets Harder", "body": "Inside Higher Ed reports <b>61% of colleges met their fall 2026 enrollment goals</b>, with confidence thinner at small colleges, while ACE and NASFAA leaders warn financial-aid offices face a rocky rollout of reworked uncapped-loan eligibility rules." },
+    { "k": "cyber", "icon": "ti-shield-bolt", "title": "Cyber Resilience Still Tops the K-12 IT Agenda", "body": "EdTech Magazine's <b>cyber-resilience playbook</b> and its coverage of AI-powered phishing exploiting classroom data keep district IT teams focused on defense even as attention shifts toward classroom AI tools." },
+    { "k": "corp", "icon": "ti-building", "title": "EdTech's Corporate Reshuffle Continues", "body": "The former Anthology completes its restructuring and relaunches as a <b>debt-free, stand-alone Blackboard</b>, the clearest sign yet that the sector's post-pandemic consolidation is still settling into fewer, more capital-efficient players." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Fall Standards and Credentialing Calendar Builds", "body": "1EdTech holds a <b>September 1 discussion with NASWA</b> on workforce development ahead of its Learning Impact Europe conference in Thessaloniki, while Ed-Fi's summer AI working group studies what its data standard needs for an AI-driven ecosystem." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site's news feed skews toward evergreen CIO leadership profiles and vendor awards rather than dated daily posts; nothing dated today surfaced in search indexing.",
+      "arts": [
+        { "t": "Top 10 Directors of Instructional Technology - 2026", "u": "https://www.educationtechnologyinsights.com/cxo-awards/top-10-directors-of-instructional-technology-2026-19/", "s": "Annual recognition of ten instructional technology directors reshaping what effective digital learning looks like at their institutions." },
+        { "t": "dti Publishing Corporation Named Most Innovative Learning Platform of the Year 2026", "u": "https://www.educationtechnologyinsights.com/dti-publishing-corporation-2026", "s": "dti Publishing Corporation was recognized as the Most Innovative Learning Platform of the Year 2026 by Education Technology Insights Magazine.", "th": ["aicost"] }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "1EdTech and NASWA on the Future of Workforce Development and Education", "u": "https://www.1edtech.org/events", "s": "1EdTech and the National Association of State Workforce Agencies hold a September 1 discussion on connecting verified skills data to workforce systems.", "d": "SEP 1", "tag": "new", "th": ["conf"] },
+        { "t": "1EdTech Learning Impact Europe 2026", "u": "https://www.1edtech.org/event/europe/2026", "s": "1EdTech's flagship European conference convenes in Thessaloniki, September 15-17, on interoperability and digital learning standards.", "d": "SEP 15", "th": ["conf"] },
+        { "t": "1EdTech Member Technical Congress 2026", "u": "https://www.1edtech.org/events/calendar", "s": "1EdTech's technical congress convenes standards implementers October 19-21 to advance interoperability specifications.", "d": "OCT 19", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions as an event-promotion site rather than a news outlet; agenda is unchanged from earlier this month.",
+      "arts": [
+        { "t": "AI for Educators Summit", "u": "https://www.edtechweek.com/ai-for-educators-summit", "s": "A one-day, hands-on accredited summit at Teachers College, Columbia University on October 20, dedicated to AI in the classroom.", "d": "OCT 20", "th": ["conf", "aiadopt"] },
+        { "t": "EdTech Week 2026", "u": "https://www.edtechweek.com/", "s": "The flagship EdTech Week festival returns to Teachers College, Columbia University, October 13-15, with roughly 200 speakers and 300+ investors.", "d": "OCT 13", "th": ["conf"] },
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only gathering of EdTech CEOs leading $10M+ revenue companies, running alongside EdTech Week's October conference.", "d": "OCT 13", "th": ["conf", "corp"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No news dated within this run's window; publishing cadence appears quarterly, with the next major event the Ed-Fi Alliance Summit, Nov 9-11.",
+      "arts": [
+        { "t": "Introducing: The Ed-Fi Data Standard in the Age of AI", "u": "https://docs.ed-fi.org/blog/2026/06/15/", "s": "A special interest group convened this summer to address the technical implications of AI for the Ed-Fi data standard and prioritize solutions.", "d": "JUN 15", "th": ["aiadopt"] },
+        { "t": "Connecting Schools Across Michigan with a Real-Time Statewide Data System", "u": "https://www.ed-fi.org/resources/case-studies/michigan/", "s": "Michigan's statewide Ed-Fi-based data hub supports everyday teaching and long-term planning, including a program linking assessment data to reading plans." },
+        { "t": "Ed-Fi Alliance Summit 2026", "u": "https://www.ed-fi.org/", "s": "Ed-Fi's annual summit convenes state and district data leaders in November to advance interoperable education data standards.", "d": "NOV 9", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "Teachers Forge Ahead on Integrating AI", "u": "https://www.edsurge.com/news/teachers-forge-ahead-on-integrating-ai", "s": "New Turnitin survey data shows teachers and administrators, not technology leaders, hold primary responsibility for AI implementation at 48% of schools and districts.", "d": "AUG 26", "tag": "new", "th": ["aiadopt"] },
+        { "t": "Assignments, Invoices, and the AI Fix", "u": "https://www.edsurge.com/news/what-is-ai-actually-costing-schools", "s": "Examines where AI spending quietly compounds into real costs for schools, from software licenses to per-seat vendor invoices.", "d": "AUG 19", "th": ["aicost"] },
+        { "t": "Can a Letter From Washington Actually Change How Schools Buy Technology?", "u": "https://www.edsurge.com/news/can-a-letter-from-washington-actually-change-how-schools-buy-technology", "s": "Examines whether the Department of Education's edtech guidance can meaningfully shift district and state technology purchasing when rulemaking stays local.", "d": "AUG 26", "th": ["aicost"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No article dated this week surfaced despite extensive search; the closest confirmed piece remains from Aug 12, alongside evergreen cybersecurity and edtech-business coverage.",
+      "arts": [
+        { "t": "K-12 Technology Leaders Are Doing Too Much: 3 Ways to Reclaim Strategic Focus", "u": "https://thejournal.com/articles/2026/08/12/k12-technology-leaders-are-doing-too-much-3-ways-to-reclaim-strategic-focus.aspx", "s": "Argues K-12 IT and technology leaders are overloaded with responsibilities and offers strategies for narrowing focus back to core strategic priorities.", "d": "AUG 12", "th": ["aicost"] },
+        { "t": "New CoSN Report Offers Guidance on Responsible Technology Use in Schools", "u": "https://thejournal.com/articles/2026/04/15/new-cosn-report-offers-guidance-on-responsible-technology-use-in-schools.aspx", "s": "CoSN's updated guidelines favor plain-language Responsible Use Agreements over traditional Acceptable Use Policies, built with student and family input.", "d": "APR 15", "th": ["aiadopt"] },
+        { "t": "Blackboard Emerges as Stand-Alone Company Following Financial Restructuring", "u": "https://thejournal.com/articles/2026/03/03/blackboard-emerges-as-stand-alone-company-following-financial-restructuring.aspx", "s": "The former Anthology completed a 14-month Chapter 11 restructuring and relaunched its core teaching-and-learning business as a debt-free, stand-alone Blackboard.", "d": "MAR 3", "tag": "old", "th": ["corp"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "note": "Article pages are dated only to the month; exact publication days could not be confirmed this run.",
+      "arts": [
+        { "t": "Five Keys to Cyber Resilience in K-12 Schools", "u": "https://edtechmagazine.com/k12/article/2026/07/five-keys-cyber-resilience-k-12-schools", "s": "Outlines five practical steps districts can take to build longer-term cyber resilience rather than relying on reactive incident response.", "d": "JUL 2026", "lvl": "K-12", "th": ["cyber"] },
+        { "t": "AI Phishing Gains Inside Access to Vulnerable K-12 Data", "u": "https://edtechmagazine.com/k12/article/2026/06/ai-phishing-gains-inside-access-vulnerable-k-12-data", "s": "AI-generated phishing campaigns are exploiting the same classroom tools meant to improve student experience, exposing sensitive district data.", "d": "JUN 2026", "lvl": "K-12", "th": ["cyber", "aicost"] },
+        { "t": "AI and Enrollment Pressures Are Reshaping Higher Education", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education", "s": "The 2026 EDUCAUSE Horizon Report identifies AI and enrollment challenges as the forces most likely to reshape campus teaching and learning over the next decade.", "d": "AUG 2026", "lvl": "Higher Ed", "th": ["enroll", "aiadopt"] },
+        { "t": "Reduced Federal Research Funding, University Budget Cuts Hit Higher Ed IT", "u": "https://edtechmagazine.com/higher/article/2026/08/higher-ed-it-budgets-face-dual-threat-federal-research-cuts-and-state-funding-pressure-perfcon", "s": "A new federal research-funding framework compounds state funding and enrollment pressure squeezing campus IT budgets.", "d": "AUG 2026", "lvl": "Higher Ed", "th": ["enroll"] }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "61 Percent of Colleges Have Met Their Enrollment Goals for Fall 2026", "u": "https://www.insidehighered.com/news/students/financial-aid/2026/08/05/61-percent-colleges-have-met-their-enrollment-goals-fall", "s": "A Niche survey of 134 enrollment leaders finds 61% of colleges met fall 2026 enrollment goals, though confidence is markedly lower at small colleges.", "d": "AUG 5", "th": ["enroll"] },
+        { "t": "New Year Brings Financial Uncertainty for Students (opinion)", "u": "https://www.insidehighered.com/opinion/views/2026/08/17/new-year-brings-financial-uncertainty-students-opinion", "s": "ACE's Ted Mitchell and NASFAA's Melanie Storey warn financial-aid offices face a rocky rollout of the Department of Education's reworked uncapped-loan eligibility rules.", "d": "AUG 17", "th": ["enroll"] },
+        { "t": "How Should Leaders Respond to McMahon's Letter?", "u": "https://www.insidehighered.com/news/government/2026/08/10/how-should-leaders-respond-mcmahons-letter", "s": "Weighs how college and district leaders should react to the Education Secretary's edtech guidance letter given that purchasing authority remains local.", "d": "AUG 10", "th": ["aicost"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "No content newer than late-summer leadership and rebrand news was found this run.",
+      "arts": [
+        { "t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "ISTE+ASCD announced it will operate under the new name International Society for Transforming Education.", "d": "JUN 28", "th": ["conf"] },
+        { "t": "ISTE+ASCD and Google Partner to Provide AI Literacy Training to Six Million U.S. Educators", "u": "https://iste.org/news/iste-ascd-and-google-partner-to-provide-ai-literacy-training-to-six-million-u-s-educators", "s": "A multi-year partnership will deliver AI literacy training to six million K-12 and higher-ed educators nationwide.", "d": "FEB 2026", "th": ["aiadopt"] }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "note": "No article dated this week surfaced; the most recent confirmed piece remains from Aug 18.",
+      "arts": [
+        { "t": "Enhancing Student Agency Through School AI Councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Argues schools should establish student-led AI councils so students act as co-designers of AI policy rather than passive recipients of top-down rules.", "d": "AUG 18", "th": ["aiadopt"] },
+        { "t": "A New Direction for Students in an AI World: Prosper, Prepare, Protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "The Brookings Global Task Force on AI in Education finds AI's risks to student cognition currently outweigh its benefits absent thoughtful, narrow design.", "th": ["aiadopt", "enroll"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "note": "Confirmed dated coverage this week centers on the Aug 25 stewardship piece; nothing newer was verified in search indexing.",
+      "arts": [
+        { "t": "The Next Phase of AI in Education Is About Stewardship", "u": "https://www.edtechdigest.com/2026/08/25/the-next-phase-of-ai-in-education-is-about-stewardship/", "s": "Argues education's AI conversation is moving past adoption into stewardship — governance, oversight, and long-term responsibility for how the tools are used.", "d": "AUG 25", "th": ["aiadopt"] },
+        { "t": "EdTech Doesn't Have an Adoption Problem. It Has an Implementation Problem.", "u": "https://www.edtechdigest.com/2026/08/11/edtech-doesnt-have-an-adoption-problem-it-has-an-implementation-problem/", "s": "Argues the sector's struggle isn't getting schools to try new tools but building the workflows and support that make adoption stick.", "d": "AUG 11", "th": ["aicost", "corp"] }
+      ]
+    }
+  ]
+}

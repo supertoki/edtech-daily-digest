@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-27T12:13:51Z",
+  "generatedAt": "2026-08-28T12:11:00Z",
   "daily": {
-    "date": "2026-08-27",
-    "topThemeKey": "cognition",
-    "topThemeTitle": "The AI-and-Cognition Debate Gets Practical",
-    "topThemeBody": "EdSurge argues educators should shift from preventing AI-driven cognitive offloading to actively preserving critical-thinking skills, as Inside Higher Ed reports colleges adding formal AI-fluency requirements to general-education curricula this fall.",
+    "date": "2026-08-28",
+    "topThemeKey": "aiadopt",
+    "topThemeTitle": "Teachers, Not Tech Leaders, Are Setting AI's Classroom Rules",
+    "topThemeBody": "EdSurge reports 48% of educators say teachers and administrators — not IT departments — hold primary responsibility for AI implementation, per Turnitin's Q2 report, as NCTE circulates a working ELA AI framework for grades 6-12.",
     "themes": [
       {
-        "k": "cognition",
-        "title": "The AI-and-Cognition Debate Gets Practical",
+        "k": "aiadopt",
+        "title": "Teachers, Not Tech Leaders, Are Setting AI's Classroom Rules",
         "weight": 9
       },
       {
         "k": "conf",
-        "title": "Standards and Credentialing Calendar Builds",
+        "title": "Fall Standards and Credentialing Calendar Builds",
+        "weight": 8
+      },
+      {
+        "k": "aicost",
+        "title": "AI's Hidden Line Items Start Showing Up in Budgets",
         "weight": 7
       },
       {
-        "k": "highered",
-        "title": "Enrollment and Funding Pressures Squeeze Higher Ed IT",
+        "k": "enroll",
+        "title": "Higher Ed's Enrollment and Aid Math Gets Harder",
         "weight": 5
       },
       {
-        "k": "procure",
-        "title": "Federal Guidance Meets Local Procurement Reality",
-        "weight": 4
-      },
-      {
-        "k": "access",
-        "title": "Colleges Widen Proactive Access Pathways",
-        "weight": 4
+        "k": "corp",
+        "title": "EdTech's Corporate Reshuffle Continues",
+        "weight": 3
       },
       {
         "k": "cyber",
-        "title": "Cyber Resilience Becomes a Long-Term Strategy",
-        "weight": 3
+        "title": "Cyber Resilience Still Tops the K-12 IT Agenda",
+        "weight": 2
       }
     ]
   },
