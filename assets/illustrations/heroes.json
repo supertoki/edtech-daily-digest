@@ -1,5 +1,5 @@
 {
-  "target": "2026-08-24",
+  "target": "2026-08-31",
   "displayed": "2026-08-24",
   "current": "2026-08-24",
   "weeks": {
@@ -56,6 +56,12 @@
       "file": "hero-2026-08-24.webp",
       "theme": "aigov",
       "approvedAt": "2026-08-24T17:30:55Z"
+    },
+    "2026-08-31": {
+      "themeKey": "conf",
+      "themeTitle": "Fall Standards and Workforce Calendar Builds",
+      "themeBody": "1EdTech holds a September 1 discussion with NASWA on workforce development ahead of its Learning Impact Europe conference in Thessaloniki, while Ed-Fi's summer AI working group studies what its data standard needs for an AI-driven ecosystem.",
+      "lockedAt": "2026-08-31T12:12:14Z"
     }
   }
 }

@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-28T12:11:00Z",
+  "generatedAt": "2026-08-31T12:12:21Z",
   "daily": {
-    "date": "2026-08-28",
-    "topThemeKey": "aiadopt",
-    "topThemeTitle": "Teachers, Not Tech Leaders, Are Setting AI's Classroom Rules",
-    "topThemeBody": "EdSurge reports 48% of educators say teachers and administrators — not IT departments — hold primary responsibility for AI implementation, per Turnitin's Q2 report, as NCTE circulates a working ELA AI framework for grades 6-12.",
+    "date": "2026-08-31",
+    "topThemeKey": "studentai",
+    "topThemeTitle": "Students Write Their Own National AI Policy",
+    "topThemeBody": "EdSurge and AASA report over 130 student leaders from all 50 states approved the STUDENTS FIRST Act, a student-authored AI policy framework covering privacy, authentic learning, and human judgment, at Boston's America's Youth AI Festival.",
     "themes": [
       {
-        "k": "aiadopt",
-        "title": "Teachers, Not Tech Leaders, Are Setting AI's Classroom Rules",
-        "weight": 9
-      },
-      {
-        "k": "conf",
-        "title": "Fall Standards and Credentialing Calendar Builds",
-        "weight": 8
-      },
-      {
-        "k": "aicost",
-        "title": "AI's Hidden Line Items Start Showing Up in Budgets",
+        "k": "studentai",
+        "title": "Students Write Their Own National AI Policy",
         "weight": 7
       },
       {
-        "k": "enroll",
-        "title": "Higher Ed's Enrollment and Aid Math Gets Harder",
+        "k": "conf",
+        "title": "Fall Standards and Workforce Calendar Builds",
+        "weight": 7
+      },
+      {
+        "k": "procure",
+        "title": "EdTech Procurement Gets an Evidence Requirement",
         "weight": 5
       },
       {
-        "k": "corp",
-        "title": "EdTech's Corporate Reshuffle Continues",
+        "k": "cyber",
+        "title": "A Live Breach Keeps Campus Cybersecurity Concrete",
         "weight": 3
       },
       {
-        "k": "cyber",
-        "title": "Cyber Resilience Still Tops the K-12 IT Agenda",
-        "weight": 2
+        "k": "standards",
+        "title": "AI Literacy Folds Into Existing Digital-Citizenship Standards",
+        "weight": 3
+      },
+      {
+        "k": "policy",
+        "title": "Higher Ed's Federal Policy Reset Keeps Widening",
+        "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-08-24",
-    "weekRange": "8/24-8/30",
-    "status": "approved",
+    "weekKey": "2026-08-31",
+    "weekRange": "8/31-9/6",
+    "status": "pending",
     "displayedWeek": "2026-08-24",
     "currentImage": "assets/illustrations/hero-2026-08-24.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "aigov",
-    "themeTitle": "Washington Weighs In, Leaves Room for Nuance",
-    "themeBody": "The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.",
+    "themeKey": "conf",
+    "themeTitle": "Fall Standards and Workforce Calendar Builds",
+    "themeBody": "1EdTech holds a September 1 discussion with NASWA on workforce development ahead of its Learning Impact Europe conference in Thessaloniki, while Ed-Fi's summer AI working group studies what its data standard needs for an AI-driven ecosystem.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Washington Weighs In, Leaves Room for Nuance - The Department of Education's new edtech guidance sets a purposeful, outcomes-driven bar but defers rulemaking to states, while EdTech Digest finds the screen-time debate growing more nuanced rather than settling on blanket bans.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall Standards and Workforce Calendar Builds - 1EdTech holds a September 1 discussion with NASWA on workforce development ahead of its Learning Impact Europe conference in Thessaloniki, while Ed-Fi's summer AI working group studies what its data standard needs for an AI-driven ecosystem.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
