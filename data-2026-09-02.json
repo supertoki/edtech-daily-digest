@@ -1,0 +1,131 @@
+{
+  "date": "2026-09-02",
+  "dateLabel": "SEPTEMBER 2, 2026",
+  "headline": "Screen-Time Rules and AI Chatbots Get Their First Real Classroom Test",
+  "thesis": "Two weeks after Washington's new edtech guidance landed, <b>schools are translating screen-time and AI principles into day-to-day classroom calls</b>, while higher ed leans harder into apprenticeships and works through a bumpy enrollment picture.",
+  "summary": "As the school year settles in, the sector's governance conversation is moving from position papers to practice. THE Journal and EdSurge both revisit the Department of Education's August 20 guidance on classroom technology and screen time, and THE Journal's coverage of CoSN's new \"purpose before minutes\" framework — echoed by EdTech Digest's own screen-time piece — shows district leaders converging on a quality-over-quantity standard rather than blanket bans. On the AI side, EdSurge sends a principal and a high schooler to stress-test OpenAI's new ChatGPT for Teens, finding real reservations even as ISTE's AI-literacy partnership with Google keeps rolling out to millions of educators and Brookings' task force continues to urge caution about student cognitive risk. THE Journal also flags a governance shift on the enterprise side, reporting agentic AI is moving from pilots into production and forcing stricter autonomy controls, while Anthropic's new invisible watermarking for Claude-generated text points to a broader push for AI-content transparency. In higher ed, Inside Higher Ed hosts a same-day webcast on scaling apprenticeships, against a backdrop of 61% of colleges hitting fall 2026 enrollment goals and a Texas return-to-campus mandate pushing some faculty out the door — a strain EdTech Magazine ties directly to campus IT budgets. On the standards and events side, EdTech Digest profiles outgoing CoSN chief Keith Krueger as 1EdTech, Ed-Fi, and ISTE build toward a packed fall calendar — Learning Impact Europe, EDUCAUSE, and the Ed-Fi Alliance Summit — while Ed-Fi's next data-standard release adds a PII \"flag\" built for AI discovery.",
+  "footnote": "Compiled from 11 curated edtech sources · September 2, 2026 · Direct page fetches (WebFetch) were blocked network-wide for every publisher this run, so items were sourced and dated via web-search indexing rather than live page verification; several sources are represented by their most relevant recent or evergreen material where no article dated today could be confirmed.",
+  "themes": [
+    { "k": "screentime", "icon": "ti-clock", "title": "Screen-Time Policy Shifts From Mandates to \"Purpose Before Minutes\"", "body": "Following the Department of Education's August 20 guidance, CoSN's new framework — covered by THE Journal and echoed by EdTech Digest — pushes districts toward <b>a quality-over-quantity standard</b> rather than blanket time limits on classroom screens." },
+    { "k": "aiteens", "icon": "ti-message-chatbot", "title": "AI Chatbots for Teens Face a Real Classroom Test", "body": "EdSurge has a principal and a student review OpenAI's new <b>ChatGPT for Teens</b> and finds real reservations, even as ISTE and Google's AI-literacy partnership keeps expanding to millions of educators." },
+    { "k": "aigov", "icon": "ti-shield-check", "title": "Agentic AI's Governance Reckoning Continues", "body": "THE Journal reports agentic AI is moving <b>from pilot projects into production</b>, forcing enterprises to tighten autonomy controls, while Anthropic's new invisible watermarking for Claude-generated text signals a broader push for AI-content transparency." },
+    { "k": "highered", "icon": "ti-school", "title": "Higher Ed Leans Into Apprenticeships Amid Budget and Staffing Strain", "body": "Inside Higher Ed hosts a September 2 webcast on scaling work-integrated apprenticeships as <b>61% of colleges report meeting fall 2026 enrollment goals</b>, even as a Texas return-to-campus mandate pushes faculty to quit and squeezes campus IT budgets." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Fall Standards and Conference Calendar Builds Toward EDUCAUSE", "body": "EdTech Digest profiles outgoing CoSN chief <b>Keith Krueger</b> after 32 years at the helm, as 1EdTech's Learning Impact Europe (Sep 15-17) and EDUCAUSE's annual conference (Sep 29-Oct 2) headline a packed fall calendar." },
+    { "k": "data", "icon": "ti-database", "title": "Data Standards Bodies Retool for AI Discovery", "body": "Ed-Fi's next data-standard release adds a <b>PII \"flag\" built for AI discovery</b> alongside special-education and workforce data model updates, as 1EdTech's own trend-watching points to interoperability becoming non-negotiable." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "Site's news feed skews toward evergreen CIO leadership profiles and vendor awards rather than dated daily posts; nothing dated today surfaced in search indexing.",
+      "arts": [
+        { "t": "Top 10 Education CIOs 2026", "u": "https://www.educationtechnologyinsights.com/awards/", "s": "Annual recognition of education CIOs advancing digital transformation while strengthening cybersecurity, data governance, and campus IT strategy." },
+        { "t": "Top 10 Directors of Instructional Technology - 2026", "u": "https://www.educationtechnologyinsights.com/cxo-awards/top-10-directors-of-instructional-technology-2026-19/", "s": "Annual recognition of ten instructional technology directors reshaping what effective digital learning looks like at their institutions." }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "1EdTech LATAM Seminario Web: La nueva generación de evaluación educativa", "u": "https://www.1edtech.org/events", "s": "1EdTech's Latin America chapter hosts a September 10 webinar on next-generation educational assessment.", "d": "SEP 10", "tag": "new", "th": ["conf"] },
+        { "t": "1EdTech Learning Impact Europe 2026", "u": "https://www.1edtech.org/event/europe/2026", "s": "1EdTech's flagship European conference convenes in Thessaloniki, September 15-17, on interoperability and digital learning standards.", "d": "SEP 15", "th": ["conf"] },
+        { "t": "EDUCAUSE Annual Conference 2026", "u": "https://www.1edtech.org/events", "s": "Higher ed's largest IT conference runs September 29-October 2, closing out 1EdTech's fall events calendar.", "d": "SEP 29", "th": ["conf"] },
+        { "t": "Three Trends We're Watching in 2026", "u": "https://www.1edtech.org/blog/three-trends-were-watching-in-2026", "s": "1EdTech's blog argues interoperability is becoming non-negotiable as AI and digital credentials reshape how education data systems connect.", "th": ["data"] }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions primarily as an event-promotion site rather than a daily news outlet.",
+      "arts": [
+        { "t": "EdTech Week 2026", "u": "https://www.edtechweek.com/", "s": "The flagship EdTech Week festival returns to New York City, October 14-15, convening edtech founders, investors, and educators.", "d": "OCT 14", "th": ["conf"] },
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only gathering of EdTech CEOs runs alongside EdTech Week in New York, October 13-14.", "d": "OCT 13", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "Publishing cadence appears quarterly; no post dated within this run's window was found.",
+      "arts": [
+        { "t": "Roadmap Update for the Ed-Fi Data Standard and Technology Suite", "u": "https://docs.ed-fi.org/blog/2025/10/09/", "s": "Ed-Fi's roadmap for data standard v6.x adds a Special Education Data Model, CTE/workforce improvements, a Validation API, and a new PII \"flag\" for AI discovery.", "th": ["data"] },
+        { "t": "Ed-Fi Alliance Summit 2026", "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/", "s": "Ed-Fi's annual summit convenes state and district data leaders in November to advance interoperable education data standards.", "d": "NOV 9", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "A Principal and a Student Reviewed the New ChatGPT for Teens. They Had Plenty to Say", "u": "https://www.edsurge.com/news/a-principal-and-a-student-reviewed-the-new-chatgpt-for-teens-they-had-plenty-to-say", "s": "A high school principal and an 11th grader stress-test OpenAI's ChatGPT for Teens and come away with real reservations alongside the promise.", "d": "SEP 1", "tag": "new", "th": ["aiteens"] },
+        { "t": "Student Artists Wrestle with AI's Promise and Peril", "u": "https://www.edsurge.com/news/student-artists-wrestle-with-ais-promise-and-peril", "s": "The graduating class of 2026, the first with full exposure to generative AI throughout high school, weighs what the technology means for creative work.", "th": ["aiteens"] },
+        { "t": "Department of Education Issues Long-Awaited Edtech Guidance for States and Districts", "u": "https://www.edsurge.com/news/department-of-education-issues-long-awaited-edtech-guidance-for-states-and-districts", "s": "New federal guidance encourages states and districts to distinguish \"recreational\" from \"instructional\" technology and evaluate edtech on outcomes.", "d": "AUG 20", "th": ["screentime"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No article dated this week surfaced despite extensive search; late-August items are the closest confirmed news.",
+      "arts": [
+        { "t": "CoSN: 3 Principles that Should Guide Screen Time Policies in Schools", "u": "https://thejournal.com/articles/2026/08/18/cosn-3-principles-that-should-guide-screen-time-policies-in-schools.aspx", "s": "CoSN releases guidance urging districts toward a \"purpose before minutes\" quality-over-quantity standard rather than blanket screen-time limits.", "d": "AUG 18", "th": ["screentime"] },
+        { "t": "Department of Education Issues New Guidance on Education Technology and Screen Time", "u": "https://thejournal.com/articles/2026/08/20/department-of-education-issues-new-guidance-on-education-technology-and-screen-time.aspx", "s": "ED outlines new guidance framing the national conversation around the educational value of classroom technology.", "d": "AUG 20", "th": ["screentime"] },
+        { "t": "Survey: Agentic AI Moves from Pilot Phase to Production, Bringing Governance to the Forefront", "u": "https://thejournal.com/articles/2026/08/17/survey-agentic-ai-moves-from-pilot-phase-to-production-bringing-governance-to-the-forefront.aspx", "s": "A new report finds enterprises moving agentic AI into production while tightening autonomy controls, making governance the next major adoption challenge.", "d": "AUG 17", "th": ["aigov"] },
+        { "t": "Anthropic Intros Invisible Watermarks to Claude-Generated Text", "u": "https://thejournal.com/articles/2026/08/24/anthropic-intros-invisible-watermarks-to-claude-generated-text.aspx", "s": "Anthropic adds machine-readable watermarks to Claude-generated text as it moves to comply with EU AI transparency rules.", "d": "AUG 24", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "note": "Article pages are dated only to the month; no September-dated article was confirmed this run.",
+      "arts": [
+        { "t": "How Professional Development Supports Technology Investments", "u": "https://edtechmagazine.com/k12/article/2026/08/intentional-professional-development-supports-technology-investments", "s": "Argues professional development must be built into edtech purchasing plans from the start to realize a district's return on investment.", "d": "AUG 2026", "lvl": "K-12" },
+        { "t": "AI and Enrollment Pressures Are Reshaping Higher Education", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education", "s": "The 2026 EDUCAUSE Horizon Report finds AI adoption and enrollment pressure are now the two forces most reshaping college IT strategy.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed", "th": ["highered", "aigov"] }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "Learning at Work: Why Higher Ed Is Leaning Into Apprenticeships", "u": "https://www.insidehighered.com/events/editorial-webcast/learning-work-why-higher-ed-leaning-apprenticeships", "s": "A same-day editorial webcast brings together institutional leaders and employers to discuss scaling work-integrated apprenticeships.", "d": "SEP 2", "tag": "new", "th": ["highered"] },
+        { "t": "61 Percent of Colleges Have Met Their Enrollment Goals for Fall 2026", "u": "https://www.insidehighered.com/news/students/financial-aid/2026/08/05/61-percent-colleges-have-met-their-enrollment-goals-fall", "s": "A Niche survey of 134 enrollment leaders finds 61% of colleges met fall 2026 enrollment goals, though confidence is markedly lower at small colleges.", "d": "AUG 5", "th": ["highered"] },
+        { "t": "Faculty Quit as Texas University Orders Them Back to Campus", "u": "https://www.insidehighered.com/news/faculty/2026/08/25/faculty-quit-texas-university-orders-them-back-campus", "s": "A Texas law restricting telework for public higher ed faculty is prompting departures as institutions manage the return-to-campus mandate.", "d": "AUG 25", "th": ["highered"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "No content newer than late-summer leadership and rebrand news was found this run.",
+      "arts": [
+        { "t": "ISTE+ASCD and Google Partner to Provide AI Literacy Training to Six Million U.S. Educators", "u": "https://iste.org/news/iste-ascd-and-google-partner-to-provide-ai-literacy-training-to-six-million-u-s-educators", "s": "A multi-year partnership will deliver AI literacy training to six million K-12 and higher-ed educators nationwide.", "th": ["aiteens"] },
+        { "t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "ISTE+ASCD announced it will operate under the new name International Society for Transforming Education.", "d": "JUN 28", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "note": "No article dated this week surfaced; the Center for Universal Education's January AI-in-education report remains the most relevant recent work.",
+      "arts": [
+        { "t": "A New Direction for Students in an AI World: Prosper, Prepare, Protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "The Brookings Global Task Force on AI in Education finds AI's risks to student cognition currently outweigh its benefits absent thoughtful, narrow design.", "d": "JAN 20", "th": ["aigov", "aiteens"] },
+        { "t": "AI's Future for Students Is in Our Hands", "u": "https://www.brookings.edu/articles/ais-future-for-students-is-in-our-hands/", "s": "Argues education leaders and technologists still have time to shape AI's trajectory in schools before norms and products harden.", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "The Leader Who Brought EdTech Leaders Together", "u": "https://www.edtechdigest.com/2026/09/01/the-leader-who-brought-edtech-leaders-together/", "s": "A profile of Keith Krueger, who after 32 years at the helm of CoSN reflects on a profession transformed and the work still ahead.", "d": "SEP 1", "tag": "new", "th": ["conf"] },
+        { "t": "Screen Time Debate Gets More Nuanced", "u": "https://www.edtechdigest.com/2026/08/20/screen-time-debate-gets-more-nuanced/", "s": "The 2026 Savvas Educator Index finds 82% of educators favor limiting classroom screen time, while 92% distinguish passive from instructional use.", "d": "AUG 20", "th": ["screentime"] },
+        { "t": "Social Studies Essentials from Discovery Education", "u": "https://www.edtechdigest.com/2026/08/31/social-studies-essentials-from-discovery-education/", "s": "A new K-5 supplemental program built with lessons grounded in the C3 Framework for exploring history, geography, civics, and economics.", "d": "AUG 31" }
+      ]
+    }
+  ]
+}

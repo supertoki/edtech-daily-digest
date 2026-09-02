@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-01T12:11:47Z",
+  "generatedAt": "2026-09-02T12:12:28Z",
   "daily": {
-    "date": "2026-09-01",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "AI's Story Turns From Adoption to Governance",
-    "topThemeBody": "EdTech Digest argues the sector is moving past adoption into stewardship — governance, oversight, and long-term responsibility for how AI tools get used, a theme echoed across recent EdTech Digest and Brookings coverage.",
+    "date": "2026-09-02",
+    "topThemeKey": "conf",
+    "topThemeTitle": "Fall Standards and Conference Calendar Builds Toward EDUCAUSE",
+    "topThemeBody": "EdTech Digest profiles outgoing CoSN chief Keith Krueger after 32 years at the helm, as 1EdTech's Learning Impact Europe (Sep 15-17) and EDUCAUSE's annual conference (Sep 29-Oct 2) headline a packed fall calendar.",
     "themes": [
       {
-        "k": "aigov",
-        "title": "AI's Story Turns From Adoption to Governance",
-        "weight": 8
-      },
-      {
         "k": "conf",
-        "title": "Fall Standards and Conference Calendar Kicks Off",
+        "title": "Fall Standards and Conference Calendar Builds Toward EDUCAUSE",
         "weight": 8
       },
       {
-        "k": "aipolicy",
-        "title": "Districts and Students Race to Formalize AI Rules",
-        "weight": 6
+        "k": "aigov",
+        "title": "Agentic AI's Governance Reckoning Continues",
+        "weight": 5
       },
       {
-        "k": "cyber",
-        "title": "K-12 Cybersecurity Becomes a Shared Responsibility",
+        "k": "screentime",
+        "title": "Screen-Time Policy Shifts From Mandates to \"Purpose Before Minutes\"",
         "weight": 4
       },
       {
-        "k": "enroll",
-        "title": "Higher Ed Opens the Term Under Budget and Aid Strain",
+        "k": "aiteens",
+        "title": "AI Chatbots for Teens Face a Real Classroom Test",
+        "weight": 4
+      },
+      {
+        "k": "highered",
+        "title": "Higher Ed Leans Into Apprenticeships Amid Budget and Staffing Strain",
         "weight": 4
       },
       {
         "k": "data",
-        "title": "Data Standards Bodies Retool for an AI-Driven Ecosystem",
-        "weight": 3
+        "title": "Data Standards Bodies Retool for AI Discovery",
+        "weight": 2
       }
     ]
   },
