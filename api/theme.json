@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-02T12:12:28Z",
+  "generatedAt": "2026-09-03T12:14:17Z",
   "daily": {
-    "date": "2026-09-02",
-    "topThemeKey": "conf",
-    "topThemeTitle": "Fall Standards and Conference Calendar Builds Toward EDUCAUSE",
-    "topThemeBody": "EdTech Digest profiles outgoing CoSN chief Keith Krueger after 32 years at the helm, as 1EdTech's Learning Impact Europe (Sep 15-17) and EDUCAUSE's annual conference (Sep 29-Oct 2) headline a packed fall calendar.",
+    "date": "2026-09-03",
+    "topThemeKey": "aigov",
+    "topThemeTitle": "AI Governance Moves From Experimentation to Policy",
+    "topThemeBody": "EdSurge revisits the Department of Education's August 20 guidance distinguishing recreational from instructional technology, while ISTE+ASCD's new AI-literacy partnership with Google and Brookings' Global Task Force keep pushing districts from pilot projects toward real oversight.",
     "themes": [
       {
-        "k": "conf",
-        "title": "Fall Standards and Conference Calendar Builds Toward EDUCAUSE",
-        "weight": 8
-      },
-      {
         "k": "aigov",
-        "title": "Agentic AI's Governance Reckoning Continues",
-        "weight": 5
+        "title": "AI Governance Moves From Experimentation to Policy",
+        "weight": 10
       },
       {
-        "k": "screentime",
-        "title": "Screen-Time Policy Shifts From Mandates to \"Purpose Before Minutes\"",
+        "k": "enroll",
+        "title": "Enrollment Pressure Squeezes Budgets Across K-12 and Higher Ed",
         "weight": 4
       },
       {
-        "k": "aiteens",
-        "title": "AI Chatbots for Teens Face a Real Classroom Test",
+        "k": "conf",
+        "title": "Fall Conference Season Builds Toward EDUCAUSE",
         "weight": 4
       },
       {
-        "k": "highered",
-        "title": "Higher Ed Leans Into Apprenticeships Amid Budget and Staffing Strain",
-        "weight": 4
+        "k": "cyber",
+        "title": "Cybersecurity Becomes Everybody's Shared Responsibility",
+        "weight": 3
       },
       {
         "k": "data",
-        "title": "Data Standards Bodies Retool for AI Discovery",
+        "title": "Data Standards Quietly Wire Interoperability for the AI Era",
+        "weight": 3
+      },
+      {
+        "k": "screentime",
+        "title": "Screen-Time Debate Keeps Trading Bans for Nuance",
         "weight": 2
       }
     ]
