@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-03T12:14:17Z",
+  "generatedAt": "2026-09-04T12:17:49Z",
   "daily": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "topThemeKey": "aigov",
-    "topThemeTitle": "AI Governance Moves From Experimentation to Policy",
-    "topThemeBody": "EdSurge revisits the Department of Education's August 20 guidance distinguishing recreational from instructional technology, while ISTE+ASCD's new AI-literacy partnership with Google and Brookings' Global Task Force keep pushing districts from pilot projects toward real oversight.",
+    "topThemeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",
+    "topThemeBody": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.",
     "themes": [
       {
         "k": "aigov",
-        "title": "AI Governance Moves From Experimentation to Policy",
-        "weight": 10
-      },
-      {
-        "k": "enroll",
-        "title": "Enrollment Pressure Squeezes Budgets Across K-12 and Higher Ed",
-        "weight": 4
-      },
-      {
-        "k": "conf",
-        "title": "Fall Conference Season Builds Toward EDUCAUSE",
-        "weight": 4
-      },
-      {
-        "k": "cyber",
-        "title": "Cybersecurity Becomes Everybody's Shared Responsibility",
-        "weight": 3
+        "title": "AI Surveillance and Classroom Policy Draw New Scrutiny",
+        "weight": 5
       },
       {
         "k": "data",
-        "title": "Data Standards Quietly Wire Interoperability for the AI Era",
+        "title": "Real-Time Data Standards Show Up in Real Outcomes",
+        "weight": 5
+      },
+      {
+        "k": "aiassess",
+        "title": "AI Academic Integrity Pivots From Detection to Redesign",
         "weight": 3
       },
       {
-        "k": "screentime",
-        "title": "Screen-Time Debate Keeps Trading Bans for Nuance",
-        "weight": 2
+        "k": "cyber",
+        "title": "Cybersecurity and Data Governance Mature Into Long-Term Strategy",
+        "weight": 3
+      },
+      {
+        "k": "enroll",
+        "title": "Enrollment Picture Looks Steadier Than Feared",
+        "weight": 3
+      },
+      {
+        "k": "conf",
+        "title": "Fall Conference Calendar Keeps Building",
+        "weight": 3
       }
     ]
   },

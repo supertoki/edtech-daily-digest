@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-04",
+  "dateLabel": "SEPTEMBER 4, 2026",
+  "headline": "Fall Term Opens With Enrollment Steadier Than Feared — and AI Integrity Rules Rewritten",
+  "thesis": "Inside Higher Ed's enrollment survey suggests the feared fall crash didn't materialize, even as <b>colleges abandon AI-detection tools for redesigned assessments</b> and new scrutiny lands on AI-powered school surveillance.",
+  "summary": "Fall term is opening with more stability than recent headlines suggested: Inside Higher Ed reports 61% of colleges say they've already met their fall 2026 enrollment goals, even as Brookings separately asks whether the long-feared \"enrollment cliff\" is overstated. The bigger shift this week is in how campuses treat AI and integrity — Inside Higher Ed finds Yale, Vanderbilt, Johns Hopkins, and Indiana all pulling back from AI-detection tools as sole evidence of cheating, pivoting instead toward redesigned assessments, a move EdSurge's on-the-ground reporting on new edtech guidance shows is easier to legislate than to implement in an actual pre-K classroom or civics course. EdTech Digest frames the moment as edtech's turn toward <b>\"stewardship\" over blanket restriction</b>, while Brookings' companion piece on AI-powered school surveillance — weapon-detection cameras, bathroom listening devices — finds the technology deployed disproportionately in low-income, high-minority-enrollment districts, with real consequences when it misfires. On the infrastructure side, cybersecurity and data governance keep maturing from reactive habit to long-term strategy: EdTech Magazine's K-12 team covers districts building multi-year cyber-resilience plans and formal data-governance programs, while Ed-Fi ships a relational backend for its Data Management Service and case studies from Lake Worth ISD and Indiana show real-time data standards translating directly into better college-and-career outcomes — the same interoperability push 1EdTech advanced this week in a joint session with state workforce agencies. Underneath it all, budget scrutiny persists: an IT-director op-ed in Education Technology Insights argues procurement needs total-cost-of-ownership thinking, not sticker-price comparisons, as EdTech Magazine's higher-ed coverage finds AI still ranking below core-systems investment at most universities surveyed. The fall conference calendar keeps building too, with ISTELive 26 registration open, EdTech Week confirming its October return to Columbia, and 1EdTech's EDUCAUSE participation set for month's end.",
+  "footnote": "Compiled from 11 curated edtech sources · September 4, 2026 · Direct page fetches (WebFetch) were blocked network-wide for every publisher this run, so items were sourced and dated via web-search indexing rather than live page verification; a handful of additional items surfaced by search could not be independently confirmed via a real source link and were excluded rather than risk a broken or fabricated URL.",
+  "themes": [
+    { "k": "aiassess", "icon": "ti-clipboard-check", "title": "AI Academic Integrity Pivots From Detection to Redesign", "body": "Inside Higher Ed reports Yale, Vanderbilt, Johns Hopkins, and Indiana are all dropping AI-detection tools as sole cheating evidence in favor of <b>redesigned assessments</b>, a shift EdTech Digest frames as edtech's move toward AI \"stewardship.\"" },
+    { "k": "aigov", "icon": "ti-eye", "title": "AI Surveillance and Classroom Policy Draw New Scrutiny", "body": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows <b>new edtech and screen-time guidance is easier to write than to apply</b> in a real classroom." },
+    { "k": "cyber", "icon": "ti-shield-bolt", "title": "Cybersecurity and Data Governance Mature Into Long-Term Strategy", "body": "EdTech Magazine's K-12 coverage finds districts shifting from reactive incident response to <b>multi-year cyber-resilience and formal data-governance plans</b>, mirrored by Ed-Fi's move to a relational backend for its core data service." },
+    { "k": "data", "icon": "ti-database", "title": "Real-Time Data Standards Show Up in Real Outcomes", "body": "Ed-Fi case studies from Lake Worth ISD and Indiana tie its data standard directly to <b>improved college-and-career readiness rates</b>, as 1EdTech advances the same interoperability push in a joint session with state workforce agencies." },
+    { "k": "enroll", "icon": "ti-school", "title": "Enrollment Picture Looks Steadier Than Feared", "body": "Inside Higher Ed finds <b>61% of colleges already meeting fall 2026 enrollment goals</b>, and Brookings questions whether the long-predicted enrollment cliff is overstated, even as IT budgets stay under scrutiny." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Fall Conference Calendar Keeps Building", "body": "ISTELive 26 registration opens, EdTech Week confirms its <b>October 14-15 return to Columbia University</b>, and 1EdTech's EDUCAUSE participation caps a packed conference season." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "arts": [
+        { "t": "Cost Versus Value in the EdTech/IT World", "u": "https://www.educationtechnologyinsights.com/leadership-perspective/robert-fishtrom-nid-3759.html", "s": "District IT director Robert Fishtrom argues procurement decisions should weigh total cost of ownership and durability, not just sticker price.", "th": ["enroll"] }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "NASWA & 1EdTech Joint Working Session", "u": "https://www.1edtech.org/events", "s": "A joint working session between the National Association of State Workforce Agencies and 1EdTech examines interoperability between workforce and education data systems.", "d": "SEP 1", "tag": "new", "th": ["data"] },
+        { "t": "EDUCAUSE Annual Conference 2026", "u": "https://www.1edtech.org/events", "s": "1EdTech lists its participation in EDUCAUSE's flagship annual conference, running September 29-October 2.", "d": "SEP 29", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions primarily as an event-promotion site rather than a daily news outlet.",
+      "arts": [
+        { "t": "EdTech Week 2026 Agenda at a Glance", "u": "https://www.edtechweek.com/agenda-at-a-glance-2026", "s": "The updated agenda confirms the invite-only StartEd CEO Summit runs October 13 at Columbia's Teachers College ahead of EdTech Week's main October 14-15 program.", "d": "OCT 13", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "arts": [
+        { "t": "Ed-Fi Data Management Service: Moving to a Relational Backend", "u": "https://docs.ed-fi.org/blog/2026/03/25/", "s": "Ed-Fi explains its Data Management Service's shift to a relational storage layer with clearer identity handling while preserving the full Ed-Fi data model.", "d": "MAR 25", "th": ["cyber", "data"] },
+        { "t": "Real-Time Data, Real College and Career Results", "u": "https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/", "s": "A Lake Worth ISD, Texas case study finds real-time course-tracking built on the Ed-Fi standard boosted accountability ratings up to 46% in a year.", "th": ["data"] },
+        { "t": "Modernizing Data to Support Indiana Students", "u": "https://www.ed-fi.org/resources/case-studies/indiana/", "s": "Indiana's adoption of the Ed-Fi Data Standard turns compliance reporting into a real-time strategic decision tool for districts.", "th": ["data"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "Putting Edtech Guidance to Work in the Classroom", "u": "https://www.edsurge.com/news/putting-edtech-guidance-to-work-in-the-classroom", "s": "On-the-ground reporting finds new federal and state edtech guidance easier to write than to apply, from a pre-K classroom to a Missouri civics course.", "d": "SEP 2", "tag": "new", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "arts": [
+        { "t": "CoSN: 3 Principles That Should Guide Screen Time Policies in Schools", "u": "https://thejournal.com/articles/2026/08/18/cosn-3-principles-that-should-guide-screen-time-policies-in-schools.aspx", "s": "CoSN proposes a \"quality over quantity\" framework with grade-band guidance for districts writing screen-time policy.", "d": "AUG 18", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "arts": [
+        { "t": "K-12 Schools Are Shifting to a Longer-Term Cyber Resilience Strategy", "u": "https://edtechmagazine.com/k12/article/2026/08/k-12-schools-are-shifting-longer-term-cyber-resilience-strategy", "s": "Districts are moving from reactive incident response toward sustained, multi-year cyber-resilience planning.", "d": "AUG 2026", "tag": "new", "lvl": "K-12", "th": ["cyber"] },
+        { "t": "Data Governance Helps K-12 Leaders Safeguard School Data", "u": "https://edtechmagazine.com/k12/article/2026/07/data-governance-helps-k-12-leaders-safeguard-school-data", "s": "Formal data-governance programs are becoming standard practice for districts managing growing volumes of student data.", "d": "JUL 2026", "lvl": "K-12", "th": ["cyber", "data"] },
+        { "t": "Higher Ed IT Leaders Must Balance AI Innovation With Secure Core Systems", "u": "https://edtechmagazine.com/higher/article/2026/07/higher-ed-it-leaders-must-balance-ai-innovation-secure-core-systems", "s": "A 2026 ListEdTech report finds core-systems investment like IAM and ERP modernization still outranks AI at most of 55 universities surveyed.", "d": "JUL 2026", "lvl": "Higher Ed", "th": ["aigov"] },
+        { "t": "Virtual Tech Tools Fuel Higher Ed Robotics Research", "u": "https://edtechmagazine.com/higher/article/2026/08/virtual-tech-tools-fuel-higher-ed-robotics-research", "s": "Universities are pairing virtual simulation tools with robotics labs to expand hands-on research capacity.", "d": "AUG 2026", "tag": "new", "lvl": "Higher Ed" }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "AI Detectors Are Out, New Assessments Are In", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/05/ai-detectors-are-out-new-approaches-are", "s": "Yale, Vanderbilt, Johns Hopkins, and Indiana are dropping AI-detection tools as sole cheating evidence in favor of redesigned assessments.", "d": "AUG 5", "th": ["aiassess"] },
+        { "t": "61 Percent of Colleges Have Met Their Enrollment Goals for Fall 2026", "u": "https://www.insidehighered.com/news/students/financial-aid/2026/08/05/61-percent-colleges-have-met-their-enrollment-goals-fall", "s": "A survey finds most colleges report meeting or exceeding their fall 2026 enrollment targets.", "d": "AUG 5", "th": ["enroll"] },
+        { "t": "AI Literacy", "u": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/08/24/ai-literacy", "s": "A community college dean argues AI-literacy training needs to reach faculty and staff, not just students.", "d": "AUG 24", "th": ["aiassess"] },
+        { "t": "3 Programmatic Accreditors Withdraw From Federal Recognition", "u": "https://www.insidehighered.com/news/governance/accreditation/2026/07/24/3-programmatic-accreditors-withdraw-federal-recognition", "s": "Three programmatic accrediting bodies have withdrawn from federal recognition amid regulatory upheaval.", "d": "JUL 24" }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "arts": [
+        { "t": "ISTELive 26", "u": "https://iste.org/events/istelive-26", "s": "Registration is open for ISTELive 26, ISTE+ASCD's co-located flagship conference.", "th": ["conf"] },
+        { "t": "ISTE 2026 Honorees for Innovation and Excellence in Education", "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education", "s": "ISTE+ASCD named its 2026 Impact Award and Distinguished District honorees, including Isabelle Hau and Ted Dintersmith.", "d": "JUN 30" }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "AI Surveillance in Schools Raises Safety and Equity Concerns", "u": "https://www.brookings.edu/articles/ai-surveillance-in-schools-raises-safety-and-equity-concerns/", "s": "Brookings finds AI-powered surveillance tools like weapon-detection cameras deployed disproportionately in low-income, high-minority districts, with real consequences when they misfire.", "d": "AUG 27", "tag": "new", "th": ["aigov"] },
+        { "t": "Are Colleges Really Facing an Enrollment Cliff?", "u": "https://www.brookings.edu/articles/are-colleges-really-facing-an-enrollment-cliff/", "s": "Brookings questions whether demographic projections actually support the widely-feared higher-ed \"enrollment cliff.\"", "th": ["enroll"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "The Next Phase of AI in Education Is About Stewardship", "u": "https://www.edtechdigest.com/2026/08/25/the-next-phase-of-ai-in-education-is-about-stewardship/", "s": "Argues edtech's AI conversation is maturing from blanket restriction toward thoughtful stewardship and oversight.", "d": "AUG 25", "th": ["aigov", "aiassess"] },
+        { "t": "Social Studies Essentials from Discovery Education", "u": "https://www.edtechdigest.com/2026/08/31/social-studies-essentials-from-discovery-education/", "s": "Discovery Education launches a new K-5 inquiry-based social studies program built on the C3 Framework.", "d": "AUG 31", "tag": "new" }
+      ]
+    }
+  ]
+}
