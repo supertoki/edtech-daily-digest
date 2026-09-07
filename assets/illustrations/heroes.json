@@ -1,5 +1,5 @@
 {
-  "target": "2026-08-31",
+  "target": "2026-09-07",
   "displayed": "2026-08-24",
   "current": "2026-08-24",
   "weeks": {
@@ -62,6 +62,12 @@
       "themeTitle": "Fall Standards and Conference Calendar Kicks Off",
       "themeBody": "1EdTech holds a September 1 discussion with NASWA on workforce data systems the same day, building toward Learning Impact Europe in Thessaloniki (Sep 15-17) and EDUCAUSE's annual conference (Sep 29-Oct 2).",
       "lockedAt": "2026-09-01T12:11:41Z"
+    },
+    "2026-09-07": {
+      "themeKey": "aigov",
+      "themeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",
+      "themeBody": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.",
+      "lockedAt": "2026-09-07T12:10:24Z"
     }
   }
 }

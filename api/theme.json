@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-04T12:17:49Z",
+  "generatedAt": "2026-09-07T12:10:33Z",
   "daily": {
-    "date": "2026-09-04",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",
-    "topThemeBody": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.",
+    "date": "2026-09-07",
+    "topThemeKey": "aitools",
+    "topThemeTitle": "AI Reaches Students Directly, Sharpening the Literacy-vs-Dependence Debate",
+    "topThemeBody": "EdSurge has a principal and a student react firsthand to ChatGPT for Teens, while EdTech Digest argues the goal is holding the line between AI literacy and letting AI do students' thinking for them.",
     "themes": [
       {
-        "k": "aigov",
-        "title": "AI Surveillance and Classroom Policy Draw New Scrutiny",
-        "weight": 5
+        "k": "aitools",
+        "title": "AI Reaches Students Directly, Sharpening the Literacy-vs-Dependence Debate",
+        "weight": 11
       },
       {
-        "k": "data",
-        "title": "Real-Time Data Standards Show Up in Real Outcomes",
-        "weight": 5
+        "k": "procurement",
+        "title": "Leaders Weigh AI's Rising Priority Against Budget Discipline",
+        "weight": 6
       },
       {
-        "k": "aiassess",
-        "title": "AI Academic Integrity Pivots From Detection to Redesign",
-        "weight": 3
-      },
-      {
-        "k": "cyber",
-        "title": "Cybersecurity and Data Governance Mature Into Long-Term Strategy",
-        "weight": 3
-      },
-      {
-        "k": "enroll",
-        "title": "Enrollment Picture Looks Steadier Than Feared",
-        "weight": 3
+        "k": "interop",
+        "title": "Interoperability Keeps Bridging Education and Workforce Systems",
+        "weight": 4
       },
       {
         "k": "conf",
-        "title": "Fall Conference Calendar Keeps Building",
+        "title": "Fall Conference Calendar Keeps Filling In",
+        "weight": 4
+      },
+      {
+        "k": "policy",
+        "title": "Edtech Guidance Meets the Reality of an Actual Classroom",
+        "weight": 3
+      },
+      {
+        "k": "infra",
+        "title": "Cloud and Data Infrastructure Choices Get More Deliberate",
         "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-08-31",
-    "weekRange": "8/31-9/6",
+    "weekKey": "2026-09-07",
+    "weekRange": "9/7-9/13",
     "status": "pending",
     "displayedWeek": "2026-08-24",
     "currentImage": "assets/illustrations/hero-2026-08-24.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "conf",
-    "themeTitle": "Fall Standards and Conference Calendar Kicks Off",
-    "themeBody": "1EdTech holds a September 1 discussion with NASWA on workforce data systems the same day, building toward Learning Impact Europe in Thessaloniki (Sep 15-17) and EDUCAUSE's annual conference (Sep 29-Oct 2).",
+    "themeKey": "aigov",
+    "themeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",
+    "themeBody": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall Standards and Conference Calendar Kicks Off - 1EdTech holds a September 1 discussion with NASWA on workforce data systems the same day, building toward Learning Impact Europe in Thessaloniki (Sep 15-17) and EDUCAUSE's annual conference (Sep 29-Oct 2).. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Surveillance and Classroom Policy Draw New Scrutiny - Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
