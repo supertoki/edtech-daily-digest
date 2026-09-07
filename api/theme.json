@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-09-07",
     "weekRange": "9/7-9/13",
-    "status": "pending",
-    "displayedWeek": "2026-08-24",
-    "currentImage": "assets/illustrations/hero-2026-08-24.webp",
+    "status": "approved",
+    "displayedWeek": "2026-09-07",
+    "currentImage": "assets/illustrations/hero-2026-09-07.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "aigov",
     "themeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",

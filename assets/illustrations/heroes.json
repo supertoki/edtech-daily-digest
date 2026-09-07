@@ -1,7 +1,7 @@
 {
   "target": "2026-09-07",
-  "displayed": "2026-08-24",
-  "current": "2026-08-24",
+  "displayed": "2026-09-07",
+  "current": "2026-09-07",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -67,7 +67,10 @@
       "themeKey": "aigov",
       "themeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",
       "themeBody": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.",
-      "lockedAt": "2026-09-07T12:10:24Z"
+      "lockedAt": "2026-09-07T12:10:24Z",
+      "file": "hero-2026-09-07.webp",
+      "theme": "aigov",
+      "approvedAt": "2026-09-07T20:30:45Z"
     }
   }
 }
