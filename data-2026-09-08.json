@@ -1,0 +1,122 @@
+{
+  "date": "2026-09-08",
+  "dateLabel": "SEPTEMBER 8, 2026",
+  "headline": "A CoSN Era Ends as Ed Tech Confronts the Gap Between AI Policy and Classroom Reality",
+  "thesis": "EdTech Digest closes the book on Keith Krueger's 32-year run at CoSN the same week EdSurge and Brookings show how unevenly <b>AI and screen-time policy</b> are actually reaching classrooms.",
+  "summary": "Ed tech's community marks a changing of the guard this week: EdTech Digest bids farewell to <b>Keith Krueger</b> after 32 years leading CoSN, even as ISTE+ASCD names new board leadership heading into its next conference cycle. The transition lands amid mounting evidence that policy is outpacing practice — EdSurge profiles a researcher who spent a year coding AI guidance from more than 100 school districts into a five-level framework, and pairs it with a Gallup/Walton Family Foundation survey finding most teachers have received no formal training on classroom AI at all. Brookings adds an equity lens to the broader screen-time and AI-restriction wave sweeping districts, warning that <b>uniform enforcement</b> can fall hardest on students with disabilities and Black students unless policies are calibrated rather than applied as blanket rules. Interoperability keeps expanding outward: 1EdTech heads to Thessaloniki for Learning Impact Europe and a Latin America assessment webinar, Ed-Fi ships API v8.0, and EDUCAUSE's late-September conference will draw much of the same crowd. On the access and accountability side, Common App's direct-admissions program grows to 234 colleges for the 2026-27 cycle just as Inside Higher Ed reports the U.S. Department of Education is still chasing over a thousand institutions for overdue student-outcomes data — a compliance gap EdTech Magazine's new procurement guide implicitly argues better tooling could help close. The fall conference calendar keeps filling in behind it all, from EdTech Week's October return to Columbia to Ed-Fi's November Alliance Summit.",
+  "footnote": "Compiled from 11 curated edtech sources · September 8, 2026 · Items were sourced and dated via web-search indexing rather than live page fetches this run (direct fetches to source sites were blocked); a few sources (THE Journal, Education Technology Insights, Ed-Fi) had no September-dated coverage surface in search, so their most relevant recent items are listed instead with a note.",
+  "themes": [
+    { "k": "aitools", "icon": "ti-robot", "title": "Teacher Readiness Lags Behind AI's Classroom Arrival", "body": "A Gallup/Walton Family Foundation survey covered by EdSurge finds most teachers have received no formal guidance on classroom AI use, even as THE Journal's industry-leader predictions push districts toward more deliberate, human-centered rollouts." },
+    { "k": "policy", "icon": "ti-checklist", "title": "AI and Screen-Time Policy Collide With Classroom and Equity Realities", "body": "EdSurge follows a researcher who coded AI policy from over 100 school districts into a five-level framework, while Brookings warns that new <b>screen-time restrictions</b> risk falling unevenly on students by disability and race unless enforcement is calibrated, not uniform." },
+    { "k": "leadership", "icon": "ti-users", "title": "Ed Tech's Leadership Ranks Turn Over", "body": "EdTech Digest marks Keith Krueger's departure after <b>32 years leading CoSN</b>, the same week ISTE+ASCD names new board leadership heading into its next conference cycle." },
+    { "k": "interop", "icon": "ti-plug-connected", "title": "Interoperability Agenda Expands Across Borders and Systems", "body": "1EdTech's push heads to Thessaloniki for <b>Learning Impact Europe</b> and a Latin America assessment webinar, while Ed-Fi's newly shipped API v8.0 keeps expanding the data standard that EDUCAUSE's late-September conference will also spotlight." },
+    { "k": "access", "icon": "ti-chart-bar", "title": "Data Shapes the Admissions and Accountability Conversation", "body": "Common App's direct-admissions program grows to 234 colleges for the 2026-27 cycle as Inside Higher Ed reports most, but not all, institutions have now supplied overdue federal outcomes data, with EdTech Magazine's new procurement guide aiming to streamline the buying process behind it." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Fall Conference Calendar Keeps Filling In", "body": "EdTech Week confirms its <b>October 13-15 return</b> to Teachers College at Columbia, ISTE+ASCD's Edtech Leader Certification enrollment closes September 17, and Ed-Fi's Alliance Summit follows in November." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "No September-dated news article surfaced via search indexing this run; the most relevant recent leadership-perspective essay is listed instead.",
+      "arts": [
+        { "t": "Building the Next Generation of EdTech Leaders", "u": "https://digital-classroom.educationtechnologyinsights.com/leadership-perspective/building-the-next-generation-of-edtech-leaders-nid-3828.html", "s": "A leadership-perspective essay argues that developing the next wave of edtech leaders requires pairing technical fluency with mentorship and institutional trust.", "th": ["leadership"] }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "Learning Impact Europe 2026", "u": "https://www.1edtech.org/events", "s": "1EdTech's European flagship conference convenes in Thessaloniki, Greece, September 15-17, extending its interoperability agenda internationally.", "d": "SEP 15", "tag": "new", "th": ["interop", "conf"] },
+        { "t": "1EdTech LATAM Seminario Web: La Nueva Generación de Evaluación Educativa", "u": "https://www.1edtech.org/events", "s": "A Spanish-language webinar on next-generation educational assessment extends 1EdTech's interoperability outreach into Latin America.", "d": "SEP 10", "tag": "new", "th": ["interop", "conf"] },
+        { "t": "EDUCAUSE Annual Conference 2026", "u": "https://www.1edtech.org/events", "s": "1EdTech joins EDUCAUSE's flagship higher-ed IT conference, running September 29 to October 2, extending its standards work to campus technology leaders.", "d": "SEP 29", "th": ["interop", "conf"] }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions primarily as an event-promotion site rather than a daily news outlet.",
+      "arts": [
+        { "t": "EdTech Week 2026 Agenda at a Glance", "u": "https://www.edtechweek.com/agenda-at-a-glance-2026", "s": "The confirmed agenda has EdTech Week's main program running October 13-15 at Teachers College, Columbia University, with an invite-only CEO Summit on October 13.", "d": "OCT 13", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No September-dated blog post surfaced via search indexing this run; the most recent release update and upcoming summit are listed instead.",
+      "arts": [
+        { "t": "Ed-Fi API v8.0: Now Available", "u": "https://docs.ed-fi.org/blog/2026/07/15/", "s": "Ed-Fi announces general availability of API v8.0, the latest release of its technology suite supporting the Ed-Fi Data Standard.", "d": "JUL 15", "th": ["interop"] },
+        { "t": "Ed-Fi Alliance Summit 2026", "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/", "s": "Ed-Fi's flagship community summit is set for November 9-11, 2026.", "d": "NOV 9", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "AI Is in Schools. Teachers Are Not Ready.", "u": "https://www.edsurge.com/news/ai-is-in-schools-teachers-are-not-ready", "s": "A Gallup and Walton Family Foundation survey finds the vast majority of teachers have received no formal guidance on using AI in their work.", "tag": "new", "th": ["aitools"] },
+        { "t": "What Happens When AI Policy Meets a Real Classroom?", "u": "https://www.edsurge.com/news/what-happens-when-ai-policy-meets-a-real-classroom", "s": "A researcher who spent a year coding AI policy from more than 100 school districts into a five-level framework compares it against one district leader's on-the-ground experience writing her own district's rules.", "tag": "new", "th": ["policy"] },
+        { "t": "Are Schools Inadvertently Making Students More Stressed?", "u": "https://www.edsurge.com/news/are-schools-inadvertently-making-students-more-stressed", "s": "Education researcher Cathy Vatterott argues schools should examine the environments and schedules they create rather than just adding stress-management programs on top.", "d": "SEP 4", "tag": "new" }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No September-dated coverage surfaced via search indexing this run; the most relevant recent items are listed instead.",
+      "arts": [
+        { "t": "2026 Predictions for AI and Ed Tech in K-12 Education: What Industry Leaders Are Saying", "u": "https://thejournal.com/articles/2026/01/29/2026-predictions-for-ai-and-ed-tech-in-k12-education-what-industry-leaders-are-saying.aspx", "s": "Industry leaders predict schools will move past treating AI as synonymous with ChatGPT toward more human-centered, differentiated uses of the technology.", "d": "JAN 29", "th": ["aitools"] },
+        { "t": "Cloud Security Alliance Expands Agentic AI Governance Work", "u": "https://thejournal.com/articles/2026/05/06/cloud-security-alliance-expands-agentic-ai-governance-work.aspx", "s": "CSA's rollout of agentic AI governance controls runs through September 2026, translating catastrophic-risk scenarios into auditable control language.", "d": "MAY 6" }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "arts": [
+        { "t": "K-12 Schools Are Shifting to a Longer-Term Cyber Resilience Strategy", "u": "https://edtechmagazine.com/k12/article/2026/08/k-12-schools-are-shifting-longer-term-cyber-resilience-strategy", "s": "As AI gets built into more classroom tools, districts are moving from one-off incident response toward durable, longer-term cyber resilience planning.", "d": "AUG 2026", "lvl": "K-12" },
+        { "t": "New Ed Tech Procurement Guide Simplifies Purchasing", "u": "https://edtechmagazine.com/k12/article/2026/08/new-ed-tech-procurement-guide-simplifies-purchasing", "s": "A new guide aims to help K-12 IT leaders streamline and standardize the edtech purchasing process.", "d": "AUG 2026", "lvl": "K-12", "th": ["access"] },
+        { "t": "AI and Enrollment Pressures Are Reshaping Higher Education", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education", "s": "Universities are being forced to weigh AI investment against enrollment pressures when setting IT priorities.", "d": "AUG 2026", "lvl": "Higher Ed", "th": ["aitools", "access"] }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "130 Colleges Have Supplied Missing Data on Student Outcomes", "u": "https://www.insidehighered.com/news/quick-takes/2026/09/01/130-colleges-have-supplied-missing-data-student-outcomes", "s": "More than 130 colleges responded to a Department of Education warning and supplied overdue student-outcomes data, though over 1,700 institutions remain incomplete.", "d": "SEP 1", "tag": "new", "th": ["access"] },
+        { "t": "234 Colleges to Participate in Common App Direct Admissions", "u": "https://www.insidehighered.com/news/quick-takes/2026/08/26/234-colleges-participate-common-app-direct-admissions", "s": "Common App's direct-admissions program grows to 234 participating colleges for the 2026-27 cycle, up from 215 the year before, reaching more first-generation and lower-income students.", "d": "AUG 26", "th": ["access"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "arts": [
+        { "t": "ISTE+ASCD Edtech Leader Certification: September 17, 2026 Cohort", "u": "https://iste.org/cohorts/educator-certification-september-17-2026", "s": "Enrollment closes September 17 for the pedagogy-focused Edtech Leader Certification cohort.", "d": "SEP 17", "tag": "new", "th": ["conf"] },
+        { "t": "ISTE+ASCD Announces New Board Members and Leadership", "u": "https://iste.org/news/iste-ascd-announces-new-board-members-and-leadership", "s": "ISTE+ASCD names incoming board leadership, including a new president-elect, heading into the next conference planning cycle.", "th": ["leadership"] }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "The Equity Blind Spot in School Screen-Time Policies", "u": "https://www.brookings.edu/articles/the-equity-blind-spot-in-school-screen-time-policies/", "s": "As states and districts restrict student device use, Brookings warns that uneven enforcement and disability accommodations can produce disparate effects, particularly for Black students.", "d": "SEP 3", "tag": "new", "th": ["policy"] },
+        { "t": "Making Costs Count: A New Framework for Cost Evidence in Global Education", "u": "https://www.brookings.edu/events/making-costs-count-a-new-framework-for-better-cost-evidence-generation-and-use-in-global-education-and-ecce/", "s": "A September 17 Brookings event proposes a new framework for generating and using cost evidence in global education and early childhood programs.", "d": "SEP 17", "tag": "new", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "The Leader Who Brought EdTech Leaders Together", "u": "https://www.edtechdigest.com/2026/09/01/the-leader-who-brought-edtech-leaders-together/", "s": "EdTech Digest reflects on Keith Krueger's 32 years leading CoSN as he prepares to retire ahead of CoSN2027.", "d": "SEP 1", "tag": "new", "th": ["leadership"] },
+        { "t": "State of EdTech 2026-2027", "u": "https://www.edtechdigest.com/downloads/state-of-edtech-2026-2027/", "s": "EdTech Digest's annual report rounds up industry trends, funding, and notable players heading into the new school year.", "th": ["access"] }
+      ]
+    }
+  ]
+}

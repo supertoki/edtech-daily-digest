@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-07T12:10:33Z",
+  "generatedAt": "2026-09-08T12:14:08Z",
   "daily": {
-    "date": "2026-09-07",
-    "topThemeKey": "aitools",
-    "topThemeTitle": "AI Reaches Students Directly, Sharpening the Literacy-vs-Dependence Debate",
-    "topThemeBody": "EdSurge has a principal and a student react firsthand to ChatGPT for Teens, while EdTech Digest argues the goal is holding the line between AI literacy and letting AI do students' thinking for them.",
+    "date": "2026-09-08",
+    "topThemeKey": "conf",
+    "topThemeTitle": "Fall Conference Calendar Keeps Filling In",
+    "topThemeBody": "EdTech Week confirms its October 13-15 return to Teachers College at Columbia, ISTE+ASCD's Edtech Leader Certification enrollment closes September 17, and Ed-Fi's Alliance Summit follows in November.",
     "themes": [
-      {
-        "k": "aitools",
-        "title": "AI Reaches Students Directly, Sharpening the Literacy-vs-Dependence Debate",
-        "weight": 11
-      },
-      {
-        "k": "procurement",
-        "title": "Leaders Weigh AI's Rising Priority Against Budget Discipline",
-        "weight": 6
-      },
-      {
-        "k": "interop",
-        "title": "Interoperability Keeps Bridging Education and Workforce Systems",
-        "weight": 4
-      },
       {
         "k": "conf",
         "title": "Fall Conference Calendar Keeps Filling In",
+        "weight": 7
+      },
+      {
+        "k": "access",
+        "title": "Data Shapes the Admissions and Accountability Conversation",
+        "weight": 5
+      },
+      {
+        "k": "interop",
+        "title": "Interoperability Agenda Expands Across Borders and Systems",
         "weight": 4
       },
       {
-        "k": "policy",
-        "title": "Edtech Guidance Meets the Reality of an Actual Classroom",
+        "k": "aitools",
+        "title": "Teacher Readiness Lags Behind AI's Classroom Arrival",
         "weight": 3
       },
       {
-        "k": "infra",
-        "title": "Cloud and Data Infrastructure Choices Get More Deliberate",
+        "k": "leadership",
+        "title": "Ed Tech's Leadership Ranks Turn Over",
         "weight": 3
+      },
+      {
+        "k": "policy",
+        "title": "AI and Screen-Time Policy Collide With Classroom and Equity Realities",
+        "weight": 2
       }
     ]
   },
