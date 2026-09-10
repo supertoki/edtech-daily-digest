@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-09T12:14:44Z",
+  "generatedAt": "2026-09-10T12:12:50Z",
   "daily": {
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "topThemeKey": "conf",
-    "topThemeTitle": "Fall Conference Calendar Keeps Filling In",
-    "topThemeBody": "1EdTech heads to Thessaloniki for Learning Impact Europe, ISTE+ASCD opens a new certification cohort, and THE Journal's Tech Tactics in Education goes virtual September 23 — all ahead of EdTech Week's October return and Ed-Fi's November summit.",
+    "topThemeTitle": "Fall Conference Calendar Fills In From Thessaloniki to Columbia",
+    "topThemeBody": "1EdTech hosts a Spanish-language assessment webinar today ahead of its Learning Impact Europe conference in Thessaloniki September 15-17, while THE Journal's Tech Tactics in Education goes virtual September 23 and Ed-Fi's Alliance Summit and EdTech Week's Columbia gathering round out the fall calendar.",
     "themes": [
       {
         "k": "conf",
-        "title": "Fall Conference Calendar Keeps Filling In",
-        "weight": 9
+        "title": "Fall Conference Calendar Fills In From Thessaloniki to Columbia",
+        "weight": 8
       },
       {
         "k": "aitools",
-        "title": "AI's Classroom Footprint Expands From Data Standards to Pedagogy Debates",
-        "weight": 5
+        "title": "Agentic AI Moves From Hype to Help-Desk Duty",
+        "weight": 4
       },
       {
-        "k": "policy",
-        "title": "Washington Ties Edtech Purchasing to Evidence, Not Just Adoption",
-        "weight": 2
+        "k": "highered",
+        "title": "Data Confirms Online Learning's Staying Power as AI Reshapes Enrollment",
+        "weight": 4
       },
       {
         "k": "equity",
-        "title": "Surveillance and Screen-Time Rules Draw Fresh Equity Scrutiny",
-        "weight": 2
+        "title": "Screen-Time Rules and Sacred Knowledge Test Equity Lines",
+        "weight": 3
       },
       {
-        "k": "leadership",
-        "title": "Newsrooms and IT Ranks Restock Their Bench",
+        "k": "earlyai",
+        "title": "AI's Rough Edges Show Up in Early Learning",
         "weight": 2
       },
       {
         "k": "security",
-        "title": "A Ransomware Delay in Texas Keeps Campus Cybersecurity Front and Center",
-        "weight": 1
+        "title": "K-12 Cybersecurity Shifts From Firefighting to Long-Term Strategy",
+        "weight": 2
       }
     ]
   },
