@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-10T12:12:50Z",
+  "generatedAt": "2026-09-11T12:13:36Z",
   "daily": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "topThemeKey": "conf",
-    "topThemeTitle": "Fall Conference Calendar Fills In From Thessaloniki to Columbia",
-    "topThemeBody": "1EdTech hosts a Spanish-language assessment webinar today ahead of its Learning Impact Europe conference in Thessaloniki September 15-17, while THE Journal's Tech Tactics in Education goes virtual September 23 and Ed-Fi's Alliance Summit and EdTech Week's Columbia gathering round out the fall calendar.",
+    "topThemeTitle": "Fall Conference Season Fills the Calendar From Thessaloniki to Columbia",
+    "topThemeBody": "1EdTech's Learning Impact Europe convenes in Thessaloniki September 15-17, EdTech Week and the StartEd CEO Summit head to Columbia University in October, Ed-Fi's Alliance Summit follows in November, and ISTE+ASCD's certification cohorts close enrollment September 15 and 17.",
     "themes": [
       {
         "k": "conf",
-        "title": "Fall Conference Calendar Fills In From Thessaloniki to Columbia",
-        "weight": 8
+        "title": "Fall Conference Season Fills the Calendar From Thessaloniki to Columbia",
+        "weight": 9
       },
       {
-        "k": "aitools",
-        "title": "Agentic AI Moves From Hype to Help-Desk Duty",
-        "weight": 4
+        "k": "aigov",
+        "title": "A Counter-Narrative: Go Slow to Go Fast on AI",
+        "weight": 6
       },
       {
         "k": "highered",
-        "title": "Data Confirms Online Learning's Staying Power as AI Reshapes Enrollment",
-        "weight": 4
+        "title": "Same-Week Data Paints a Higher Ed Enrollment Paradox",
+        "weight": 5
+      },
+      {
+        "k": "aitools",
+        "title": "Agentic AI Becomes Everyday Infrastructure",
+        "weight": 5
       },
       {
         "k": "equity",
-        "title": "Screen-Time Rules and Sacred Knowledge Test Equity Lines",
-        "weight": 3
-      },
-      {
-        "k": "earlyai",
-        "title": "AI's Rough Edges Show Up in Early Learning",
-        "weight": 2
+        "title": "Screen-Time Rules and Accessibility Deadlines Test Equity Lines",
+        "weight": 5
       },
       {
         "k": "security",
-        "title": "K-12 Cybersecurity Shifts From Firefighting to Long-Term Strategy",
-        "weight": 2
+        "title": "Shadow AI and Weak Core Systems Keep IT Leaders on Edge",
+        "weight": 3
       }
     ]
   },
