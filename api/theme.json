@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-11T12:13:36Z",
+  "generatedAt": "2026-09-14T12:10:54Z",
   "daily": {
-    "date": "2026-09-11",
+    "date": "2026-09-14",
     "topThemeKey": "conf",
-    "topThemeTitle": "Fall Conference Season Fills the Calendar From Thessaloniki to Columbia",
-    "topThemeBody": "1EdTech's Learning Impact Europe convenes in Thessaloniki September 15-17, EdTech Week and the StartEd CEO Summit head to Columbia University in October, Ed-Fi's Alliance Summit follows in November, and ISTE+ASCD's certification cohorts close enrollment September 15 and 17.",
+    "topThemeTitle": "Fall Conference Season Opens in Thessaloniki",
+    "topThemeBody": "1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.",
     "themes": [
       {
         "k": "conf",
-        "title": "Fall Conference Season Fills the Calendar From Thessaloniki to Columbia",
-        "weight": 9
-      },
-      {
-        "k": "aigov",
-        "title": "A Counter-Narrative: Go Slow to Go Fast on AI",
-        "weight": 6
-      },
-      {
-        "k": "highered",
-        "title": "Same-Week Data Paints a Higher Ed Enrollment Paradox",
-        "weight": 5
+        "title": "Fall Conference Season Opens in Thessaloniki",
+        "weight": 8
       },
       {
         "k": "aitools",
-        "title": "Agentic AI Becomes Everyday Infrastructure",
-        "weight": 5
+        "title": "Vendors Keep Shipping AI-Native Platforms Ahead of the Evidence",
+        "weight": 6
+      },
+      {
+        "k": "aigov",
+        "title": "A Case for Slower, More Deliberate AI Adoption",
+        "weight": 4
       },
       {
         "k": "equity",
-        "title": "Screen-Time Rules and Accessibility Deadlines Test Equity Lines",
-        "weight": 5
+        "title": "AI Reaches Into the IEP Meeting and the Accessibility Conversation",
+        "weight": 3
       },
       {
-        "k": "security",
-        "title": "Shadow AI and Weak Core Systems Keep IT Leaders on Edge",
-        "weight": 3
+        "k": "airesearch",
+        "title": "The Research Gap Behind AI's Rapid Classroom Rollout",
+        "weight": 2
+      },
+      {
+        "k": "screentime",
+        "title": "A Year In, Parents and Teens Warm to Cellphone Bans",
+        "weight": 2
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-09-07",
-    "weekRange": "9/7-9/13",
-    "status": "approved",
+    "weekKey": "2026-09-14",
+    "weekRange": "9/14-9/20",
+    "status": "pending",
     "displayedWeek": "2026-09-07",
     "currentImage": "assets/illustrations/hero-2026-09-07.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "aigov",
-    "themeTitle": "AI Surveillance and Classroom Policy Draw New Scrutiny",
-    "themeBody": "Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.",
+    "themeKey": "conf",
+    "themeTitle": "Fall Conference Season Opens in Thessaloniki",
+    "themeBody": "1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Surveillance and Classroom Policy Draw New Scrutiny - Brookings finds AI-powered school surveillance tools deployed disproportionately in low-income, high-minority districts, while EdSurge's on-the-ground reporting shows new edtech and screen-time guidance is easier to write than to apply in a real classroom.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall Conference Season Opens in Thessaloniki - 1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }

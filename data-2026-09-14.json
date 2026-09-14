@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-14",
+  "dateLabel": "SEPTEMBER 14, 2026",
+  "headline": "Inside Higher Ed Calls AI's Evidence Base 'Nonexistent' as Vendors and Districts Race Ahead Anyway",
+  "thesis": "A new Inside Higher Ed report finds <b>almost no independent research</b> on whether AI actually improves learning, even as vendors ship AI-native platforms and schools write new AI and screen-time rules for the year ahead.",
+  "summary": "Inside Higher Ed leads with MIT researcher Justin Reich's warning that the evidence base for AI's educational benefits is <b>\"almost nonexistent,\"</b> even as colleges sign multimillion-dollar AI contracts faster than independent research can evaluate them. That gap between deployment and evidence runs through the rest of today's coverage: EdTech Magazine details a new hybrid-cloud infrastructure guide for K-12 IT teams, THE Journal's archive shows Renaissance and Kiddom continuing to push all-in-one 'Education Intelligence' and AI-instruction platforms, and EdSurge reports AI-generated video content is <b>warping early learning</b> according to teachers on the ground. On governance, Education Technology Insights' CXO column argues for a <b>strategic, ethics-first</b> approach to AI adoption, while EdTech Digest's guest column on 'reindustrializing' the classroom makes a similar case for deliberate, human-centered technology use. Screen time remains a live equity issue: Brookings' new survey finds parents and teens broadly support school cellphone bans and don't perceive major downsides a year in, echoing THE Journal's coverage of CoSN's push for purpose-based screen-time policy over blanket limits. Equity questions extend further as EdSurge reports parents are bringing AI tools into IEP meetings and EdTech Magazine explores what brain-computer interfaces could mean for students with disabilities. The fall conference calendar is about to open in earnest: 1EdTech's Learning Impact Europe convenes in Thessaloniki starting tomorrow, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.",
+  "footnote": "Compiled from 11 curated edtech sources · September 14, 2026 · Items were sourced and dated via web-search indexing rather than live page fetches this run (direct fetches to source sites were blocked by network egress restrictions); Education Technology Insights, EdTech Week and Ed-Fi Alliance had no September-dated coverage surface in search, so their most relevant recent items are listed instead with a note.",
+  "themes": [
+    { "k": "airesearch", "icon": "ti-flask", "title": "The Research Gap Behind AI's Rapid Classroom Rollout", "body": "Inside Higher Ed reports MIT's Justin Reich calling the evidence base for AI's educational benefits <b>\"almost nonexistent,\"</b> even as colleges and vendors race ahead of independent research on what actually works." },
+    { "k": "aitools", "icon": "ti-robot", "title": "Vendors Keep Shipping AI-Native Platforms Ahead of the Evidence", "body": "Renaissance's all-in-one <b>Education Intelligence System</b> and Kiddom's Atlas instructional AI continue to anchor K-12 coverage, while EdTech Magazine's new hybrid-cloud guidance shows infrastructure decisions increasingly built around AI workloads." },
+    { "k": "aigov", "icon": "ti-gavel", "title": "A Case for Slower, More Deliberate AI Adoption", "body": "Education Technology Insights' CXO column argues for a strategic, ethics-first approach to responsible AI, and EdTech Digest's guest column on 'reindustrializing' the classroom makes a parallel case for intentional, human-centered technology use." },
+    { "k": "screentime", "icon": "ti-device-mobile-off", "title": "A Year In, Parents and Teens Warm to Cellphone Bans", "body": "Brookings' new survey finds parents and teens broadly support school cellphone bans and don't perceive major downsides a year after adoption, adding fresh data to THE Journal's coverage of CoSN's push for purpose-based screen-time policy over blanket limits." },
+    { "k": "equity", "icon": "ti-scale", "title": "AI Reaches Into the IEP Meeting and the Accessibility Conversation", "body": "EdSurge reports parents are bringing AI tools into IEP meetings and asks how teachers should respond, while EdTech Magazine explores what brain-computer interfaces could mean for students with disabilities." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Fall Conference Season Opens in Thessaloniki", "body": "1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "No September-dated article surfaced via search indexing this run; recent CXO and leadership features are listed instead.",
+      "arts": [
+        { "t": "Bridging Innovation and Ethics: A Strategic Approach to Responsible AI", "u": "https://www.educationtechnologyinsights.com/cxoinsights/audrey-cronin-nid-3531.html", "s": "A CXO Insights column on balancing AI innovation with ethical guardrails in education technology deployment.", "th": ["aigov"] },
+        { "t": "Putting Students at the Center of Digital Transformation", "u": "https://www.educationtechnologyinsights.com/leadership-perspective/janice-bello-nid-3922.html", "s": "A profile of a university CIO leading student-centered digital transformation at Ateneo de Manila University.", "d": "AUG 10" },
+        { "t": "Building a Culture of Student Success through Academic Coaching", "u": "https://www.educationtechnologyinsights.com/leadership-perspective/mary-garofalo-nid-3925.html", "s": "A leadership profile on building academic coaching grounded in whole-person student support." }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        { "t": "1EdTech Learning Impact Europe Conference 2026", "u": "https://www.1edtech.org/events", "s": "1EdTech's flagship European conference convenes in Thessaloniki, Greece, September 15-17, spanning pedagogical innovation, governance and technical implementation.", "d": "SEP 15", "th": ["conf"] },
+        { "t": "2026 1EdTech Technical Congress", "u": "https://www.1edtech.org/events", "s": "A members-only working meeting on cross-specification collaboration and interoperability standards governance, October 19-21.", "d": "OCT 19", "th": ["conf"] },
+        { "t": "2026 1EdTech Learning Impact Conference", "u": "https://www.1edtech.org/event/li/2026", "s": "1EdTech's flagship US conference on learning-technology interoperability and innovation, later in 2026.", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions primarily as an event-promotion site rather than a daily news outlet; no September-dated news post surfaced.",
+      "arts": [
+        { "t": "EdTech Week 2026", "u": "https://www.edtechweek.com/2026-agenda", "s": "Main programming runs October 13-15 at Columbia University, with 100+ sessions spanning PreK-12, higher ed and workforce learning.", "d": "OCT 13", "th": ["conf"] },
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only October 13 summit for edtech CEOs with $10M+ ARR, featuring curated 1:1 meetings with investors.", "d": "OCT 13", "th": ["conf"] },
+        { "t": "EdTech Week Shark Tank", "u": "https://www.edtechweek.com/sharktank", "s": "A startup pitch competition finale with up to $250K pledged investment, open to global edtech companies under $10M revenue.", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No September-dated post surfaced via search indexing this run; recent impact stories and upcoming events are listed instead.",
+      "arts": [
+        { "t": "Real-Time Data, Real College and Career Results", "u": "https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/", "s": "An impact story on Texas districts using real-time Ed-Fi course and career data to boost accountability ratings by up to 46% in one year." },
+        { "t": "The Ed-Fi Data Standard in the Age of AI", "u": "https://docs.ed-fi.org/blog/2026/06/15/", "s": "A blog post on how the Ed-Fi Data Standard provides an interoperable data layer to support AI-driven K-12 analytics.", "d": "JUN 15", "th": ["aitools"] },
+        { "t": "Ed-Fi Alliance Summit 2026", "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/", "s": "Ed-Fi's flagship summit for state and local education leaders, edtech providers and technical experts, November 9-11.", "d": "NOV 9", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "Parents Are Bringing AI to the IEP Meeting. How Should Teachers Respond?", "u": "https://www.edsurge.com/news/parents-are-bringing-ai-to-the-iep-meeting-heres-how-teachers-should-respond", "s": "Parents are increasingly using AI tools to prepare for special-education meetings, raising new questions for teachers navigating the IEP process.", "d": "SEP 11", "tag": "new", "th": ["equity"] },
+        { "t": "AI Videos Are Warping Early Learning, Teachers Say. Here's How They're Responding", "u": "https://www.edsurge.com/news/ai-videos-are-warping-early-learning-teachers-say-heres-how-theyre-responding", "s": "Early-childhood educators report AI-generated video content is distorting young children's expectations and attention, and are adjusting classroom practice in response.", "d": "SEP 8", "tag": "new", "th": ["aitools"] },
+        { "t": "Are Schools Inadvertently Making Students More Stressed?", "u": "https://www.edsurge.com/news/are-schools-inadvertently-making-students-more-stressed", "s": "A look at how well-intentioned school policies and pressures may be compounding student stress rather than relieving it.", "d": "SEP 4" }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "note": "No September-dated article surfaced via search indexing this run; recent K-12 AI and policy coverage is listed instead.",
+      "arts": [
+        { "t": "CoSN: 3 Principles that Should Guide Screen Time Policies in Schools", "u": "https://thejournal.com/articles/2026/08/18/cosn-3-principles-that-should-guide-screen-time-policies-in-schools.aspx", "s": "New CoSN guidance recommends districts focus screen-time policy on quality and purpose rather than blanket time limits.", "d": "AUG 18", "th": ["screentime"] },
+        { "t": "Renaissance Combines Assessment, Instruction and Practice in Education Intelligence System", "u": "https://thejournal.com/articles/2026/02/27/renaissance-combines-assessment-instruction-and-practice.aspx", "s": "Renaissance's new platform unifies assessment, instruction, practice and curriculum alignment into a single AI-guided workflow.", "d": "FEB 27", "th": ["aitools"] },
+        { "t": "2026 Predictions for AI and Ed Tech in K-12 Education: What Industry Leaders Are Saying", "u": "https://thejournal.com/articles/2026/01/29/2026-predictions-for-ai-and-ed-tech-in-k12-education-what-industry-leaders-are-saying.aspx", "s": "Industry leaders forecast how AI and ed tech would reshape K-12 classrooms and IT operations through 2026.", "d": "JAN 29", "th": ["aigov"] }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "arts": [
+        { "t": "Hybrid Cloud for K–12: What Should Live Where?", "u": "https://edtechmagazine.com/k12/article/2026/09/hybrid-cloud-k-12-what-should-live-where", "s": "Cost, security and IT staff skill level all factor into which K-12 applications and data belong in hybrid cloud systems.", "d": "SEP", "tag": "new", "lvl": "K-12" },
+        { "t": "What Could Brain-Computer Interfaces Mean for Students With Disabilities?", "u": "https://edtechmagazine.com/higher/article/2026/09/what-could-brain-computer-interfaces-mean-students-disabilities", "s": "Emerging neuro-assistive and brain-computer-interface technology could help students with disabilities engage more fully in the classroom.", "d": "SEP 9", "lvl": "Higher Ed", "th": ["equity"] },
+        { "t": "AI and Enrollment Pressures Are Reshaping Higher Education", "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education", "s": "Drawing on the EDUCAUSE Horizon Report, AI adoption and enrollment pressure are jointly reshaping campus teaching and operations.", "d": "AUG", "lvl": "Higher Ed", "th": ["aitools"] }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "The “Nonexistent” Research on AI's Benefits for Education", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education", "s": "Colleges are going all in on AI, but MIT's Justin Reich says independent research on its educational benefits is 'almost nonexistent.'", "d": "SEP 14", "tag": "new", "th": ["airesearch"] },
+        { "t": "5 Predictions on How AI Will Shape Higher Ed in 2026", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/01/05/5-predictions-how-ai-will-shape-higher-ed", "s": "A look ahead at how generative AI was expected to reshape research, teaching, learning and campus operations through 2026.", "d": "JAN 5", "th": ["airesearch"] },
+        { "t": "The Rise of the Agentic AI University in 2026 (opinion)", "u": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/01/07/rise-agentic-ai-university-2026", "s": "An opinion column argues institutions that operationalize agentic AI are widening the performance gap with those that don't.", "d": "JAN 7", "th": ["aitools"] }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "arts": [
+        { "t": "ISTE+ASCD Edtech Leader Certification: September 17, 2026", "u": "https://iste.org/cohorts/educator-certification-september-17-2026", "s": "Enrollment closes September 17 for ISTE+ASCD's next Edtech Leader Certification cohort.", "d": "SEP 17", "th": ["conf"] },
+        { "t": "ISTE+ASCD Announces New Board Members and Leadership", "u": "https://iste.org/news/iste-ascd-announces-new-board-members-and-leadership", "s": "ISTE+ASCD names new board members and leadership as the merged organization continues to build out its governance." },
+        { "t": "Generation AI: News & Updates", "u": "https://iste.org/generationai/news-updates", "s": "ISTE's ongoing hub tracking AI-in-education news, policy and professional-learning updates for members.", "th": ["aitools"] }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "Survey: Parents and Teens Support School Cellphone Bans, and Most Don't Perceive Major Downsides", "u": "https://www.brookings.edu/articles/survey-parents-and-teens-support-school-cellphone-bans-and-most-dont-perceive-major-downsides/", "s": "A year-later survey finds broad parent and teen support for school cellphone bans, with few reporting significant negative effects.", "d": "SEP 10", "tag": "new", "th": ["screentime"] },
+        { "t": "3 Reasons Why 'Going Slow to Go Fast' Is the Right Approach for AI in Schools", "u": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/", "s": "Rebecca Winthrop argues schools should adopt AI deliberately given risks to skill development and low family trust in AI.", "d": "SEP 8", "th": ["aigov"] },
+        { "t": "The Equity Blind Spot in School Screen-Time Policies", "u": "https://www.brookings.edu/articles/the-equity-blind-spot-in-school-screen-time-policies/", "s": "Blanket phone and screen-time bans like Florida's statewide policy disproportionately increase discipline actions against Black students.", "d": "SEP 3", "th": ["equity"] }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-star",
+      "arts": [
+        { "t": "The Leader Who Brought EdTech Leaders Together", "u": "https://www.edtechdigest.com/2026/09/01/the-leader-who-brought-edtech-leaders-together/", "s": "A profile of a community-builder whose work has connected edtech leaders across the sector.", "d": "SEP 1", "tag": "new" },
+        { "t": "Taking Tech-for-Good Beyond the Classroom", "u": "https://www.edtechdigest.com/2026/09/10/taking-tech-for-good-beyond-the-classroom/", "s": "Covers a trend of moving students from consuming technology to designing with it, spotlighting Samsung UK's 'Solve for Tomorrow' competition.", "d": "SEP 10", "tag": "new" },
+        { "t": "'Reindustrializing' the American Classroom", "u": "https://www.edtechdigest.com/2026/09/04/reindustrializing-the-american-classroom/", "s": "A guest column argues schools should move deliberately from a factory-era model toward purposeful, human-centered classroom technology.", "d": "SEP 4", "tag": "new", "th": ["aigov"] }
+      ]
+    }
+  ]
+}
