@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-14T12:10:54Z",
+  "generatedAt": "2026-09-15T12:10:08Z",
   "daily": {
-    "date": "2026-09-14",
-    "topThemeKey": "conf",
-    "topThemeTitle": "Fall Conference Season Opens in Thessaloniki",
-    "topThemeBody": "1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.",
+    "date": "2026-09-15",
+    "topThemeKey": "aitools",
+    "topThemeTitle": "New AI-Native Tools Keep Shipping Across the Sector",
+    "topThemeBody": "EdTech Digest logs a steady release cadence — Encyclo-AI's instant 'Smartbook' generator, WitSpeak's classroom AI assistant — while EdTech Magazine asks whether ambient, always-listening AI can actually make classrooms smarter or simply extends surveillance.",
     "themes": [
+      {
+        "k": "aitools",
+        "title": "New AI-Native Tools Keep Shipping Across the Sector",
+        "weight": 10
+      },
+      {
+        "k": "standards",
+        "title": "Interoperability Standards Position Themselves as AI's Guardrails",
+        "weight": 7
+      },
       {
         "k": "conf",
         "title": "Fall Conference Season Opens in Thessaloniki",
-        "weight": 8
-      },
-      {
-        "k": "aitools",
-        "title": "Vendors Keep Shipping AI-Native Platforms Ahead of the Evidence",
-        "weight": 6
-      },
-      {
-        "k": "aigov",
-        "title": "A Case for Slower, More Deliberate AI Adoption",
-        "weight": 4
-      },
-      {
-        "k": "equity",
-        "title": "AI Reaches Into the IEP Meeting and the Accessibility Conversation",
-        "weight": 3
+        "weight": 7
       },
       {
         "k": "airesearch",
-        "title": "The Research Gap Behind AI's Rapid Classroom Rollout",
-        "weight": 2
+        "title": "AI's Youngest Users and the Evidence Gap Around Them",
+        "weight": 4
       },
       {
-        "k": "screentime",
-        "title": "A Year In, Parents and Teens Warm to Cellphone Bans",
+        "k": "voice",
+        "title": "Students and Teachers Talk Back to AI in the Classroom",
+        "weight": 4
+      },
+      {
+        "k": "highered",
+        "title": "Higher Ed Policy Swings Between Courts and Record Enrollment",
         "weight": 2
       }
     ]
