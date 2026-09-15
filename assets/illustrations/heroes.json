@@ -1,7 +1,7 @@
 {
   "target": "2026-09-14",
-  "displayed": "2026-09-07",
-  "current": "2026-09-07",
+  "displayed": "2026-09-14",
+  "current": "2026-09-14",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -76,7 +76,10 @@
       "themeKey": "conf",
       "themeTitle": "Fall Conference Season Opens in Thessaloniki",
       "themeBody": "1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.",
-      "lockedAt": "2026-09-14T12:10:49Z"
+      "lockedAt": "2026-09-14T12:10:49Z",
+      "file": "hero-2026-09-14.webp",
+      "theme": "conf",
+      "approvedAt": "2026-09-15T13:31:00Z"
     }
   }
 }

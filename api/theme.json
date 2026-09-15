@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-09-14",
     "weekRange": "9/14-9/20",
-    "status": "pending",
-    "displayedWeek": "2026-09-07",
-    "currentImage": "assets/illustrations/hero-2026-09-07.webp",
+    "status": "approved",
+    "displayedWeek": "2026-09-14",
+    "currentImage": "assets/illustrations/hero-2026-09-14.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "conf",
     "themeTitle": "Fall Conference Season Opens in Thessaloniki",
