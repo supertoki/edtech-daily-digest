@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-15T12:10:08Z",
+  "generatedAt": "2026-09-16T12:13:07Z",
   "daily": {
-    "date": "2026-09-15",
-    "topThemeKey": "aitools",
-    "topThemeTitle": "New AI-Native Tools Keep Shipping Across the Sector",
-    "topThemeBody": "EdTech Digest logs a steady release cadence — Encyclo-AI's instant 'Smartbook' generator, WitSpeak's classroom AI assistant — while EdTech Magazine asks whether ambient, always-listening AI can actually make classrooms smarter or simply extends surveillance.",
+    "date": "2026-09-16",
+    "topThemeKey": "conf",
+    "topThemeTitle": "Fall Conference Season Moves Into Its Second Week",
+    "topThemeBody": "1EdTech's Learning Impact Europe runs its second day in Thessaloniki, ISTE closes enrollment on a September 15 Edtech Leader Certification cohort, and EDUCAUSE's annual conference opens September 29 as EdTech Week and the Ed-Fi Alliance Summit approach in October and November.",
     "themes": [
       {
-        "k": "aitools",
-        "title": "New AI-Native Tools Keep Shipping Across the Sector",
-        "weight": 10
+        "k": "conf",
+        "title": "Fall Conference Season Moves Into Its Second Week",
+        "weight": 8
       },
       {
         "k": "standards",
-        "title": "Interoperability Standards Position Themselves as AI's Guardrails",
-        "weight": 7
+        "title": "Interoperability Still Framed as AI's Prerequisite, Not Afterthought",
+        "weight": 6
       },
       {
-        "k": "conf",
-        "title": "Fall Conference Season Opens in Thessaloniki",
-        "weight": 7
+        "k": "highered",
+        "title": "International Students Remain a Flashpoint in Higher Ed Policy",
+        "weight": 4
       },
       {
-        "k": "airesearch",
-        "title": "AI's Youngest Users and the Evidence Gap Around Them",
+        "k": "stewardship",
+        "title": "A Growing Call for AI Stewardship Over Speed",
         "weight": 4
       },
       {
         "k": "voice",
-        "title": "Students and Teachers Talk Back to AI in the Classroom",
-        "weight": 4
+        "title": "Newsrooms and Classrooms Both Lean on More Voices",
+        "weight": 3
       },
       {
-        "k": "highered",
-        "title": "Higher Ed Policy Swings Between Courts and Record Enrollment",
+        "k": "procurement",
+        "title": "A New Standard for Vetting AI Ed Tech Purchases",
         "weight": 2
       }
     ]
