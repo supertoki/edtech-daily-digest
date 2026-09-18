@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-16T12:13:07Z",
+  "generatedAt": "2026-09-18T12:11:03Z",
   "daily": {
-    "date": "2026-09-16",
-    "topThemeKey": "conf",
-    "topThemeTitle": "Fall Conference Season Moves Into Its Second Week",
-    "topThemeBody": "1EdTech's Learning Impact Europe runs its second day in Thessaloniki, ISTE closes enrollment on a September 15 Edtech Leader Certification cohort, and EDUCAUSE's annual conference opens September 29 as EdTech Week and the Ed-Fi Alliance Summit approach in October and November.",
+    "date": "2026-09-18",
+    "topThemeKey": "standards",
+    "topThemeTitle": "Procurement and Interoperability Still Framed as AI's Prerequisite",
+    "topThemeBody": "EdTech Magazine's new Five Quality Indicators purchasing framework and Ed-Fi's ongoing data-standard work continue to press governed vetting and shared data infrastructure as prerequisites for trustworthy AI adoption, not afterthoughts.",
     "themes": [
       {
-        "k": "conf",
-        "title": "Fall Conference Season Moves Into Its Second Week",
+        "k": "standards",
+        "title": "Procurement and Interoperability Still Framed as AI's Prerequisite",
         "weight": 8
       },
       {
-        "k": "standards",
-        "title": "Interoperability Still Framed as AI's Prerequisite, Not Afterthought",
-        "weight": 6
+        "k": "conf",
+        "title": "Fall Conference Season Pivots From Europe to the U.S.",
+        "weight": 7
       },
       {
-        "k": "highered",
-        "title": "International Students Remain a Flashpoint in Higher Ed Policy",
-        "weight": 4
-      },
-      {
-        "k": "stewardship",
-        "title": "A Growing Call for AI Stewardship Over Speed",
-        "weight": 4
-      },
-      {
-        "k": "voice",
-        "title": "Newsrooms and Classrooms Both Lean on More Voices",
+        "k": "policy",
+        "title": "Government Pressure on Higher Ed Broadens, From Academic Freedom to College Sports",
         "weight": 3
       },
       {
-        "k": "procurement",
-        "title": "A New Standard for Vetting AI Ed Tech Purchases",
+        "k": "writing",
+        "title": "AI Redraws the Line on Teaching Writing, From Kindergarten to College",
         "weight": 2
+      },
+      {
+        "k": "funding",
+        "title": "Investor Money Keeps Chasing Workplace Learning Over K-12",
+        "weight": 2
+      },
+      {
+        "k": "devices",
+        "title": "A Year Into Cellphone Bans, Mixed Results for Teens",
+        "weight": 1
       }
     ]
   },
