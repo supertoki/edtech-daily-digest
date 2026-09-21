@@ -1,5 +1,5 @@
 {
-  "target": "2026-09-14",
+  "target": "2026-09-21",
   "displayed": "2026-09-14",
   "current": "2026-09-14",
   "weeks": {
@@ -80,6 +80,12 @@
       "file": "hero-2026-09-14.webp",
       "theme": "conf",
       "approvedAt": "2026-09-15T13:31:00Z"
+    },
+    "2026-09-21": {
+      "themeKey": "conf",
+      "themeTitle": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
+      "themeBody": "The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.",
+      "lockedAt": "2026-09-21T12:11:29Z"
     }
   }
 }

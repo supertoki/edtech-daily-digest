@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-18T12:11:03Z",
+  "generatedAt": "2026-09-21T12:11:40Z",
   "daily": {
-    "date": "2026-09-18",
-    "topThemeKey": "standards",
-    "topThemeTitle": "Procurement and Interoperability Still Framed as AI's Prerequisite",
-    "topThemeBody": "EdTech Magazine's new Five Quality Indicators purchasing framework and Ed-Fi's ongoing data-standard work continue to press governed vetting and shared data infrastructure as prerequisites for trustworthy AI adoption, not afterthoughts.",
+    "date": "2026-09-21",
+    "topThemeKey": "conf",
+    "topThemeTitle": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
+    "topThemeBody": "The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.",
     "themes": [
       {
-        "k": "standards",
-        "title": "Procurement and Interoperability Still Framed as AI's Prerequisite",
+        "k": "conf",
+        "title": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
         "weight": 8
       },
       {
-        "k": "conf",
-        "title": "Fall Conference Season Pivots From Europe to the U.S.",
-        "weight": 7
-      },
-      {
-        "k": "policy",
-        "title": "Government Pressure on Higher Ed Broadens, From Academic Freedom to College Sports",
-        "weight": 3
-      },
-      {
-        "k": "writing",
-        "title": "AI Redraws the Line on Teaching Writing, From Kindergarten to College",
-        "weight": 2
+        "k": "standards",
+        "title": "Interoperability and Student-Safety Standards Advance in Parallel",
+        "weight": 6
       },
       {
         "k": "funding",
-        "title": "Investor Money Keeps Chasing Workplace Learning Over K-12",
+        "title": "Federal Research Dollars Stall as Investor Money Keeps Chasing Workplace Learning",
         "weight": 2
       },
       {
-        "k": "devices",
-        "title": "A Year Into Cellphone Bans, Mixed Results for Teens",
+        "k": "literacy",
+        "title": "Literacy Instruction Faces New AI-Era Pressure at Both Ends of the Pipeline",
+        "weight": 2
+      },
+      {
+        "k": "adoption",
+        "title": "K-12 AI Adoption Keeps Climbing, but Schools Say They Need More Support",
+        "weight": 2
+      },
+      {
+        "k": "ai_shift",
+        "title": "AI Moves the Center of Knowledge Outside the University's Walls",
         "weight": 1
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-09-14",
-    "weekRange": "9/14-9/20",
-    "status": "approved",
+    "weekKey": "2026-09-21",
+    "weekRange": "9/21-9/27",
+    "status": "pending",
     "displayedWeek": "2026-09-14",
     "currentImage": "assets/illustrations/hero-2026-09-14.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "conf",
-    "themeTitle": "Fall Conference Season Opens in Thessaloniki",
-    "themeBody": "1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.",
+    "themeTitle": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
+    "themeBody": "The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall Conference Season Opens in Thessaloniki - 1EdTech's Learning Impact Europe convenes September 15-17 in Thessaloniki, ISTE+ASCD's Edtech Leader Certification cohort enrollment closes September 17, and EdTech Week, the StartEd CEO Summit and Ed-Fi's Alliance Summit follow in October and November.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE - The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
