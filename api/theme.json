@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-21T12:11:40Z",
+  "generatedAt": "2026-09-22T12:09:51Z",
   "daily": {
-    "date": "2026-09-21",
-    "topThemeKey": "conf",
-    "topThemeTitle": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
-    "topThemeBody": "The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.",
+    "date": "2026-09-22",
+    "topThemeKey": "cybersecurity",
+    "topThemeTitle": "Passkey Phishing and Rising IoT Attacks Widen Campus Security Gaps",
+    "topThemeBody": "THE Journal reports new passkey-phishing techniques are driving cloud account takeovers and EdTech Magazine tracks an 11% year-over-year rise in IoT attacks including in higher ed, as EdSurge profiles an Alabama high school building hands-on cybersecurity training to meet the moment.",
     "themes": [
       {
-        "k": "conf",
-        "title": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
-        "weight": 8
-      },
-      {
-        "k": "standards",
-        "title": "Interoperability and Student-Safety Standards Advance in Parallel",
+        "k": "cybersecurity",
+        "title": "Passkey Phishing and Rising IoT Attacks Widen Campus Security Gaps",
         "weight": 6
       },
       {
-        "k": "funding",
-        "title": "Federal Research Dollars Stall as Investor Money Keeps Chasing Workplace Learning",
+        "k": "standards",
+        "title": "Interoperability Work Advances on a Steady September Cadence",
+        "weight": 6
+      },
+      {
+        "k": "conf",
+        "title": "Fall's Conference Marathon Is Now Just a Week Out",
+        "weight": 6
+      },
+      {
+        "k": "ai_jobs",
+        "title": "AI-Exposed Majors See Recession-Level Earnings Hit",
         "weight": 2
       },
       {
-        "k": "literacy",
-        "title": "Literacy Instruction Faces New AI-Era Pressure at Both Ends of the Pipeline",
+        "k": "early_learning",
+        "title": "Early Learning Strains Under Thin AI Content and Guidance Gaps",
         "weight": 2
       },
       {
-        "k": "adoption",
-        "title": "K-12 AI Adoption Keeps Climbing, but Schools Say They Need More Support",
-        "weight": 2
-      },
-      {
-        "k": "ai_shift",
-        "title": "AI Moves the Center of Knowledge Outside the University's Walls",
+        "k": "skills_erosion",
+        "title": "Executives and Workers Agree: AI Is Eroding Critical Skills",
         "weight": 1
       }
     ]
