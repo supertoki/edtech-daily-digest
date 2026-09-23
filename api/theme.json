@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-22T12:09:51Z",
+  "generatedAt": "2026-09-23T12:13:13Z",
   "daily": {
-    "date": "2026-09-22",
-    "topThemeKey": "cybersecurity",
-    "topThemeTitle": "Passkey Phishing and Rising IoT Attacks Widen Campus Security Gaps",
-    "topThemeBody": "THE Journal reports new passkey-phishing techniques are driving cloud account takeovers and EdTech Magazine tracks an 11% year-over-year rise in IoT attacks including in higher ed, as EdSurge profiles an Alabama high school building hands-on cybersecurity training to meet the moment.",
+    "date": "2026-09-23",
+    "topThemeKey": "standards",
+    "topThemeTitle": "Interoperability and Quality Frameworks Keep Advancing Across Organizations",
+    "topThemeBody": "1EdTech's 2026 trend-watch keeps pointing toward governed, interoperable ecosystems over standalone tools, Ed-Fi's impact-story library keeps making the real-time-data case, and a five-quality-indicators framework from 1EdTech, ISTE, CoSN, CAST and SETDA is giving districts a shared rubric for vetting edtech and AI purchases.",
     "themes": [
       {
-        "k": "cybersecurity",
-        "title": "Passkey Phishing and Rising IoT Attacks Widen Campus Security Gaps",
-        "weight": 6
-      },
-      {
         "k": "standards",
-        "title": "Interoperability Work Advances on a Steady September Cadence",
+        "title": "Interoperability and Quality Frameworks Keep Advancing Across Organizations",
         "weight": 6
       },
       {
         "k": "conf",
-        "title": "Fall's Conference Marathon Is Now Just a Week Out",
+        "title": "Fall's Conference Marathon Kicks Off Next Week",
         "weight": 6
       },
       {
-        "k": "ai_jobs",
-        "title": "AI-Exposed Majors See Recession-Level Earnings Hit",
+        "k": "ai_leadership",
+        "title": "Provosts Use AI Personally While Institutional Strategy Lags",
+        "weight": 5
+      },
+      {
+        "k": "cybersecurity",
+        "title": "Passkey Phishing and Rising Attack Volume Keep School and Campus IT on Alert",
+        "weight": 3
+      },
+      {
+        "k": "ai_investment",
+        "title": "AI Investment Keeps Climbing, From Gartner's Forecast to a New K-12 Platform",
         "weight": 2
       },
       {
-        "k": "early_learning",
-        "title": "Early Learning Strains Under Thin AI Content and Guidance Gaps",
+        "k": "funding_policy",
+        "title": "Education Department Redirects $235M as Accreditation Overhaul Draws Pushback",
         "weight": 2
-      },
-      {
-        "k": "skills_erosion",
-        "title": "Executives and Workers Agree: AI Is Eroding Critical Skills",
-        "weight": 1
       }
     ]
   },
