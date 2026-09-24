@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-24",
+  "dateLabel": "SEPTEMBER 24, 2026",
+  "headline": "A Provost's AI-Written Op-Eds, a16z's College Alternative, and California's Push for an AI \"Kill Switch\"",
+  "thesis": "A Dartmouth investigation finds the provost's own opinion pieces score a <b>median 96% AI-written</b> on the detector Pangram -- including a column urging colleges to catch student AI cheating -- the same week Andreessen Horowitz opens a <b>$42 million</b> unaccredited AI academy as a college alternative and California's governor pushes toward an AI \"kill switch.\"",
+  "summary": "The week's sharpest irony comes out of Dartmouth, where student journalists ran the provost's published writing through the AI detector Pangram and found a <b>median AI-written score of 96%</b> -- including a Washington Post column in which Provost Santiago Schnell urged colleges to move beyond simply catching students who cheat with AI. It lands the same week NYC's nation-leading K-12 generative-AI moratorium keeps drawing fire: EdTech Digest argues the ban <b>through eighth grade</b> won't work, even as Brookings makes the case for schools to <b>\"go slow to go fast\"</b> on AI adoption instead. Higher ed's alternative-pathways debate got louder too, as Andreessen Horowitz opened applications for its <b>$42 million</b> unaccredited Horowitz Andreessen Academy, an AI-era college alternative backed by Anthropic, Google, Meta, Nvidia, Palantir and OpenAI. Regulators are moving in parallel -- California Governor Newsom's new executive order pushes frontier AI labs toward <b>independent, onsite verification</b> and an AI \"kill switch,\" with recommended legal changes due November 16. On the operations side, EdTech Magazine flags the IT-budgeting fallout of the AI boom: K-12 districts weighing what workloads belong in the cloud versus on-prem, and university IT leaders bracing for <b>volatile, consumption-based AI pricing</b>. And fall's conference marathon is now just days out -- EDUCAUSE's annual conference opens September 29, CBExchange follows September 30-October 3, and EdTech Week returns to Columbia's Teachers College October 13-15.",
+  "footnote": "Compiled from 11 curated edtech sources · September 24, 2026 · Items were sourced and dated via web-search indexing rather than live page fetches this run (direct fetches to source sites were blocked by network egress restrictions); Education Technology Insights, 1EdTech, EdTech Week, Ed-Fi and ISTE had no September-dated coverage surface in search, so their most relevant recent items are listed instead with a note.",
+  "themes": [
+    { "k": "ai_integrity", "icon": "ti-alert-triangle", "title": "Dartmouth Provost's AI-Written Op-Eds Ignite a Campus Reckoning on Authenticity", "body": "Student journalists ran Provost Santiago Schnell's published opinion pieces and academic articles through the AI detector Pangram and found a <b>median AI-written score of 96%</b>, including a Washington Post column that urged colleges to move beyond catching student AI cheating." },
+    { "k": "k12_ai_policy", "icon": "ti-ban", "title": "NYC's Nation-Leading Generative AI Moratorium Keeps Fueling Debate", "body": "EdTech Digest argues the city's ban on student-facing generative AI <b>through eighth grade</b> won't work, even as Brookings makes the case that schools should <b>\"go slow to go fast\"</b> on AI adoption rather than rushing in or shutting it out entirely." },
+    { "k": "ai_safety_gov", "icon": "ti-shield-bolt", "title": "California Pushes Independent Oversight and a Kill Switch for Frontier AI", "body": "Governor Newsom's new executive order directs experts to recommend embedding <b>independent verification organizations onsite</b> at frontier AI labs and advancing an AI \"kill switch,\" with proposed legal changes due November 16." },
+    { "k": "alt_pathways", "icon": "ti-school", "title": "Andreessen Horowitz Bets $42M on an Unaccredited AI Academy as a College Alternative", "body": "The venture firm's Horowitz Andreessen Academy, backed by Anthropic, Google, Meta, Nvidia, Palantir and OpenAI, has opened applications for ambitious 16-to-22-year-olds seeking an AI-era alternative to a traditional degree." },
+    { "k": "it_budget", "icon": "ti-cloud", "title": "K-12 and Higher Ed IT Leaders Grapple With Cloud and AI Cost Decisions", "body": "EdTech Magazine weighs which K-12 workloads belong in the cloud versus on-prem, while urging university IT leaders to build usage caps and monitoring dashboards to survive <b>volatile, consumption-based AI pricing</b>." },
+    { "k": "conf", "icon": "ti-calendar-event", "title": "Fall's Conference Marathon Opens Next Week", "body": "EDUCAUSE's annual conference opens September 29, CBExchange follows September 30-October 3, and EdTech Week returns to Columbia's Teachers College October 13-15." }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "No September-dated article surfaced via search indexing this run; recent award recognitions are listed instead.",
+      "arts": [
+        { "t": "Mastery Coding | K-12 Computer Science Curriculum Platform of the Year 2026", "u": "https://www.educationtechnologyinsights.com/mastery-coding-2026", "s": "Education Technology Insights names Mastery Coding its K-12 Computer Science Curriculum Platform of the Year for 2026.", "d": "MAR" },
+        { "t": "HS Cred | Top Performance Based Assessment Platform 2026", "u": "https://www.educationtechnologyinsights.com/hs-cred-2026", "s": "HS Cred is recognized as the Top Performance Based Assessment Platform of 2026." },
+        { "t": "Nelnet Campus Commerce | Top Higher Education Payment Solutions 2026", "u": "https://www.educationtechnologyinsights.com/nelnet-campus-commerce-2026", "s": "Nelnet Campus Commerce is named a top higher-education payment solutions provider for 2026.", "d": "APR" }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "note": "No September-dated blog post surfaced via search indexing this run; recent commentary and the upcoming EDUCAUSE conference are listed instead.",
+      "arts": [
+        { "t": "Three Trends We're Watching in 2026", "u": "https://www.1edtech.org/blog/three-trends-were-watching-in-2026", "s": "1EdTech argues 2026 success will come from governed, interoperable ecosystems rather than adopting more standalone tools." },
+        { "t": "Award-Winning Innovations That Are Transforming Learning at Every Level", "u": "https://www.1edtech.org/1edtech-article/award-winning-innovations-that-are-transforming-learning-at-every-level/411406", "s": "1EdTech spotlights the 2026 Learning Impact Award winners recognized at its June conference in San Francisco." },
+        { "t": "EDUCAUSE Annual Conference 2026", "u": "https://www.1edtech.org/events", "s": "1EdTech joins the EDUCAUSE Annual Conference, opening September 29, as fall's interoperability and AI-governance conference season kicks into gear.", "d": "SEP 29", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "Functions primarily as an event-promotion site rather than a daily news outlet; no September-dated news post surfaced.",
+      "arts": [
+        { "t": "EdTech Week 2026 Agenda at a Glance", "u": "https://www.edtechweek.com/agenda-at-a-glance-2026", "s": "The full October 13-15 agenda at Columbia University's Teachers College is live, with 2,000 senior leaders expected.", "d": "OCT 13", "th": ["conf"] },
+        { "t": "AI For Educators Summit", "u": "https://www.edtechweek.com/ai-for-educators-summit", "s": "A one-day, hands-on accredited AI training experience for educators at Teachers College on October 20.", "d": "OCT 20", "th": ["conf"] },
+        { "t": "StartEd CEO Summit", "u": "https://www.edtechweek.com/started-ceo-summit", "s": "An invite-only October 13-14 summit for edtech CEOs with $10M+ ARR, featuring curated 1:1 meetings with investors.", "d": "OCT 13", "th": ["conf"] }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No September-dated post surfaced via search indexing this run; recent impact and case stories are listed instead.",
+      "arts": [
+        { "t": "Connecting Schools Across Michigan with a Real-Time Statewide Data System", "u": "https://www.ed-fi.org/resources/case-studies/michigan/", "s": "Michigan's statewide Data Hub, built on the Ed-Fi Data Standard, now supports everyday teaching, student services and long-term planning." },
+        { "t": "The Promise of a Data Hub: Enabling Smarter, Safer, and Simpler Education Data", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/the-promise-of-a-data-hub-enabling-smarter-safer-and-simpler-education-data/", "s": "Ed-Fi lays out how a centralized data hub can make education data both easier to govern and more useful for decision-making." },
+        { "t": "Unlocking Data to Strengthen Local Decision-Making in Texas", "u": "https://www.ed-fi.org/resources/case-studies/texas/", "s": "A modern, real-time data system built on the Ed-Fi standard lets Texas school leaders see student, staff and financial data in one place." }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-book-2",
+      "arts": [
+        { "t": "Learning Commons Launches Open Platform for K-12 Edtech", "u": "https://www.edsurge.com/news/learning-commons-launches-open-ai-platform-for-k-12-edtech", "s": "The Chan Zuckerberg Initiative-backed nonprofit opened an AI infrastructure platform giving edtech builders access to standards, evaluations and instructional workflows, with Canva Education, MagicSchool and TalkingPoints among the first partners.", "d": "SEP 22" },
+        { "t": "Putting Edtech Guidance to Work in the Classroom", "u": "https://www.edsurge.com/news/putting-edtech-guidance-to-work-in-the-classroom", "s": "EdSurge looks at how districts are translating high-level edtech and AI guidance into day-to-day classroom practice." },
+        { "t": "Are Schools Inadvertently Making Students More Stressed?", "u": "https://www.edsurge.com/news/are-schools-inadvertently-making-students-more-stressed", "s": "EdSurge examines how well-intentioned academic and technology demands may be adding to student stress rather than easing it." }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-news",
+      "arts": [
+        { "t": "More Oversight: California Governor Proposes Independent Watchdogs Within AI Safety System", "u": "https://thejournal.com/articles/2026/09/23/more-oversight-california-governor-proposes-independent-watchdogs-within-ai-safety-system.aspx", "s": "Governor Newsom's executive order convenes experts to recommend embedding independent verification organizations onsite at frontier AI labs and advancing an AI \"kill switch,\" with proposed changes due November 16.", "d": "SEP 23", "tag": "new", "th": ["ai_safety_gov"] },
+        { "t": "Report: AI's Productivity Gains in Science Tempered by Time Spent Validating Outputs", "u": "https://thejournal.com/articles/2026/09/23/report-ais-productivity-gains-in-science-tempered-by-time-spent-validating-outputs.aspx", "s": "A study involving Google, Google DeepMind and MIT finds researchers give back a meaningful share of AI's time savings by having to check the technology's work.", "d": "SEP 23", "tag": "new" },
+        { "t": "Shadow AI Is Quietly Becoming K-12's Biggest Cybersecurity Risk", "u": "https://thejournal.com/articles/2026/02/25/shadow-ai-is-quietly-becoming-k12s-biggest-cybersecurity-risk.aspx", "s": "Unapproved AI tools used by teachers and students outside IT oversight are raising FERPA, phishing and ransomware exposure across K-12 districts." }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-device-laptop",
+      "arts": [
+        { "t": "Hybrid Cloud for K-12: What Should Live Where?", "u": "https://edtechmagazine.com/k12/article/2026/09/hybrid-cloud-k-12-what-should-live-where", "s": "EdTech Magazine walks districts through deciding which workloads belong in the cloud versus on-prem based on staffing, criticality and scalability needs.", "d": "SEP", "tag": "new", "lvl": "K-12", "th": ["it_budget"] },
+        { "t": "How University IT Leaders Can Budget for Volatile AI Pricing Models", "u": "https://edtechmagazine.com/higher/article/2026/09/how-university-it-leaders-can-budget-volatile-ai-pricing-models", "s": "Consumption-based AI pricing is creating budget surprises for higher ed IT leaders, who are advised to build in usage caps, monitoring dashboards and clearer vendor contracts.", "d": "SEP", "tag": "new", "lvl": "Higher Ed", "th": ["it_budget"] },
+        { "t": "Five Quality Indicators for Ed Tech Purchases", "u": "https://edtechmagazine.com/k12/article/2026/09/five-quality-indicators-ed-tech-purchases", "s": "A five-indicator framework from the EdTech Quality Collaborative -- Digital Promise, 1EdTech, CAST, CoSN, ISTE and SETDA -- gives districts a shared rubric for vetting edtech and AI purchases.", "d": "SEP 11", "lvl": "K-12" }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        { "t": "Silicon Valley AI Academy Seeks 'Main Character' Students", "u": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/24/silicon-valley-ai-academy-seeks-main-character", "s": "Andreessen Horowitz's new $42 million unaccredited academy, backed by Anthropic, Google, Meta, Nvidia, Palantir and OpenAI, is recruiting ambitious 16-to-22-year-olds as a college alternative.", "d": "SEP 24", "tag": "new", "th": ["alt_pathways"] },
+        { "t": "Dartmouth's Provost Has Stopped \"Writing.\"", "u": "https://www.insidehighered.com/opinion/columns/just-visiting/2026/09/24/dartmouths-provost-has-stopped-writing", "s": "An investigation by student journalists found Dartmouth Provost Santiago Schnell's published opinion pieces and academic articles carry a median AI-written score of 96%.", "d": "SEP 24", "tag": "new", "th": ["ai_integrity"] },
+        { "t": "The \"Nonexistent\" Research on AI's Benefits for Education", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education", "s": "Colleges are going all in on AI even though independent research on whether and how it improves learning outcomes remains scarce.", "d": "SEP 14" }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-device-desktop-analytics",
+      "note": "No September-dated post surfaced via search indexing this run; recent organizational news is listed instead.",
+      "arts": [
+        { "t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "ISTE+ASCD rebrands as the International Society for Transforming Education, marking a new chapter three years after its merger." },
+        { "t": "The International Society for Transforming Education Reveals 2026 Honorees for Innovation and Excellence in Education", "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education", "s": "The organization names its 2026 honorees across categories including its Impact Award, Distinguished District Award and 20 to Watch list." },
+        { "t": "2026 GenerationAI Newsletters", "u": "https://iste.org/generationai/news-updates/2026-generationai-newsletters", "s": "ISTE's monthly GenerationAI newsletter tracks how educators are integrating AI into classrooms throughout 2026." }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        { "t": "3 Reasons Why 'Going Slow to Go Fast' Is the Right Approach for AI in Schools", "u": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/", "s": "Rebecca Winthrop argues schools benefit more from a deliberate, well-piloted approach to AI adoption than from rushing in or banning it outright.", "d": "SEP 8", "th": ["k12_ai_policy"] },
+        { "t": "Tips for Parents: Raising Resilient Learners in an AI World", "u": "https://www.brookings.edu/articles/tips-for-parents-raising-resilient-learners-in-an-ai-world", "s": "Rebecca Winthrop and Emma Venetis offer parents of kids age 10-14 a tip series on ten core skills for raising resilient learners in an AI-driven world.", "d": "SEP 14" },
+        { "t": "Generation AI Starts Early Symposium", "u": "https://www.brookings.edu/events/generation-ai-starts-early-symposium/", "s": "Brookings' Center for Universal Education and ZERO TO THREE examined the opportunities and risks of AI-embedded technologies for children from birth to age eight.", "d": "SEP 9" }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-news",
+      "arts": [
+        { "t": "NYC Banned AI in Schools. That Won't Work.", "u": "https://www.edtechdigest.com/2026/09/24/nyc-banned-ai-in-schools-that-wont-work/", "s": "EdTech Digest argues New York City's moratorium on student-facing generative AI through eighth grade is the wrong response to real classroom concerns.", "d": "SEP 24", "tag": "new", "th": ["k12_ai_policy"] },
+        { "t": "The Experience Gap", "u": "https://www.edtechdigest.com/2026/09/23/the-experience-gap/", "s": "A new Cengage report finds 53% of graduates skip applying to entry-level jobs feeling underqualified, pointing edtech founders toward tools that help students build and demonstrate real-world experience.", "d": "SEP 23" },
+        { "t": "Certification Readiness Tool from iCEV", "u": "https://www.edtechdigest.com/2026/09/17/certification-readiness-tool-from-icev/", "s": "iCEV launches a new tool designed to help CTE students gauge and build their readiness for industry certification exams.", "d": "SEP 17" }
+      ]
+    }
+  ]
+}
