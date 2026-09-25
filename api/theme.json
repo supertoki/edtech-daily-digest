@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-24T12:14:01Z",
+  "generatedAt": "2026-09-25T12:13:11Z",
   "daily": {
-    "date": "2026-09-24",
-    "topThemeKey": "conf",
-    "topThemeTitle": "Fall's Conference Marathon Opens Next Week",
-    "topThemeBody": "EDUCAUSE's annual conference opens September 29, CBExchange follows September 30-October 3, and EdTech Week returns to Columbia's Teachers College October 13-15.",
+    "date": "2026-09-25",
+    "topThemeKey": "cyber_threats",
+    "topThemeTitle": "Foreign Cyberattacks Target Academic Research Blogs",
+    "topThemeBody": "Inside Higher Ed reports a wave of cyberattacks on British academic blogs that researchers believe is tied to authoritarian regimes trying to shut down work documenting human-rights abuses, adding a geopolitical edge to campus cybersecurity threats.",
     "themes": [
+      {
+        "k": "cyber_threats",
+        "title": "Foreign Cyberattacks Target Academic Research Blogs",
+        "weight": 4
+      },
       {
         "k": "conf",
         "title": "Fall's Conference Marathon Opens Next Week",
         "weight": 4
       },
       {
-        "k": "k12_ai_policy",
-        "title": "NYC's Nation-Leading Generative AI Moratorium Keeps Fueling Debate",
+        "k": "workforce_readiness",
+        "title": "The \"Experience Gap\" Squeezes New Graduates",
+        "weight": 3
+      },
+      {
+        "k": "k12_ai_ops",
+        "title": "AI Moves Deeper Into K-12 IT Operations",
+        "weight": 3
+      },
+      {
+        "k": "ai_governance",
+        "title": "Provosts Report Widespread AI Use but Few Institutional Strategies",
         "weight": 2
       },
       {
-        "k": "it_budget",
-        "title": "K-12 and Higher Ed IT Leaders Grapple With Cloud and AI Cost Decisions",
-        "weight": 2
-      },
-      {
-        "k": "ai_integrity",
-        "title": "Dartmouth Provost's AI-Written Op-Eds Ignite a Campus Reckoning on Authenticity",
-        "weight": 1
-      },
-      {
-        "k": "ai_safety_gov",
-        "title": "California Pushes Independent Oversight and a Kill Switch for Frontier AI",
-        "weight": 1
-      },
-      {
-        "k": "alt_pathways",
-        "title": "Andreessen Horowitz Bets $42M on an Unaccredited AI Academy as a College Alternative",
+        "k": "funding_policy",
+        "title": "A New Federal Tuition Tax Credit Reshapes School-Choice Funding",
         "weight": 1
       }
     ]
