@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-09-28",
     "weekRange": "9/28-10/4",
-    "status": "pending",
-    "displayedWeek": "2026-09-14",
-    "currentImage": "assets/illustrations/hero-2026-09-14.webp",
+    "status": "approved",
+    "displayedWeek": "2026-09-28",
+    "currentImage": "assets/illustrations/hero-2026-09-28.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "conf",
     "themeTitle": "Fall's Conference Marathon Reaches Its Biggest Stop",
