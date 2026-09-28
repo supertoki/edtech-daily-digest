@@ -1,0 +1,306 @@
+{
+  "date": "2026-09-28",
+  "dateLabel": "SEPTEMBER 28, 2026",
+  "headline": "GPT-6 Astra Crosses a \"Critical\" Cyber Threshold as EDUCAUSE Opens and College Presidents Name AI Higher Ed's Top 2030 Disruptor",
+  "thesis": "OpenAI's newest model becomes the first to hit the <b>\"Critical\"</b> tier of its cybersecurity framework just as EDUCAUSE's annual conference opens in Denver and <b>48% of college presidents</b> say AI -- not enrollment or funding -- will shape higher ed most by 2030.",
+  "summary": "THE Journal reports that OpenAI's GPT-6 Astra is the first broadly deployed model to cross the <b>\"Critical\"</b> cybersecurity threshold under the company's Preparedness Framework, scoring <b>100% on ExploitBench</b> and surfacing two new zero-day vulnerabilities in testing -- a capability jump that raises the stakes for campus IT teams already managing a widening device and IoT attack surface, as EdTech Magazine's look at cyber-physical security convergence in higher ed makes clear. The news lands the same week fall's conference marathon reaches its biggest stop: EDUCAUSE's Annual Conference opens Tuesday in Denver, EdTech Week returns to Columbia October 13-15, and the Ed-Fi Alliance Summit follows November 9-11, with 1EdTech, EdTech Week and Ed-Fi Alliance all pointing members toward the circuit. Inside Higher Ed's 2026 Survey of College and University Presidents finds <b>48% of leaders</b> now expect AI to be the single most impactful force on higher ed by 2030 -- ahead of financial pressure at 45% -- while a companion provosts survey shows responsiveness outpacing strategy. Underneath the AI headlines, the data and credentialing infrastructure keeps advancing: Ed-Fi named its 2026 Premier Partners, 1EdTech's CEO argues \"together is the new standard\" for interoperable, trustworthy edtech, and EdTech Digest covers a wave of investors following workers' skills gaps into the workplace-learning market. THE Journal also flags that Head Start, the nation's largest early-childhood program, hasn't caught up with what brain science now shows about how young children learn, while EdTech Digest profiles outgoing CoSN CEO Keith Krueger's 32-year run building K-12 tech's professional community as ISTE names new board leadership of its own.",
+  "footnote": "Compiled from 11 curated edtech sources · September 28, 2026 · Items were sourced and dated via web-search indexing rather than live page fetches this run (direct fetches to source sites were blocked by network egress restrictions); Education Technology Insights, EdTech Week and Ed-Fi Alliance had no September 28-dated coverage surface in search, so their most relevant recent items are listed instead with a note.",
+  "themes": [
+    {
+      "k": "ai_frontier_risk",
+      "icon": "ti-shield-bolt",
+      "title": "GPT-6 Astra Crosses a \"Critical\" Cyber-Risk Threshold",
+      "body": "OpenAI's GPT-6 Astra is the first broadly deployed model to hit the <b>\"Critical\"</b> tier of its cybersecurity Preparedness Framework, scoring <b>100% on ExploitBench</b> and finding new zero-days -- a jump that widens the same attack surface higher ed's growing IoT and cyber-physical footprint already struggles to secure."
+    },
+    {
+      "k": "conf",
+      "icon": "ti-calendar-event",
+      "title": "Fall's Conference Marathon Reaches Its Biggest Stop",
+      "body": "EDUCAUSE's Annual Conference opens September 29 in Denver, with EdTech Week's return to Columbia (October 13-15) and the Ed-Fi Alliance Summit (November 9-11) next on the circuit."
+    },
+    {
+      "k": "workforce_credentials",
+      "icon": "ti-briefcase",
+      "title": "Data and Credentialing Infrastructure Keeps Building Toward Careers",
+      "body": "Ed-Fi's newly named 2026 Premier Partners, 1EdTech's push for shared interoperability standards, and a wave of investor interest EdTech Digest tracks flowing into workplace-learning startups all point toward the same goal: turning school data and credentials into career outcomes."
+    },
+    {
+      "k": "higher_ed_ai_outlook",
+      "icon": "ti-clipboard-list",
+      "title": "Presidents Name AI Higher Ed's Top Disruptor Through 2030",
+      "body": "Inside Higher Ed's 2026 Survey of College and University Presidents finds <b>48% of leaders</b> expect AI to be the most impactful force on higher ed by 2030, edging out cost pressures at 45%, even as a companion provosts survey finds institutional strategy still lagging day-to-day use."
+    },
+    {
+      "k": "student_digital_experience",
+      "icon": "ti-device-laptop",
+      "title": "Districts and Campuses Double Down on Student-Facing Tech",
+      "body": "From a CIO's approach to building digital experiences around 50,000 students' needs to K-12 device-repair strategy and ISTE's newly launched AI Innovator Student Challenge, this week's coverage centers the student experience of school technology rather than the back-office systems behind it."
+    },
+    {
+      "k": "early_learning_leadership",
+      "icon": "ti-users",
+      "title": "Early-Learning Science and K-12 Tech Leadership Both Turn a Page",
+      "body": "THE Journal argues Head Start hasn't kept pace with what brain science now shows about how young children learn, while EdTech Digest profiles outgoing CoSN CEO Keith Krueger's 32 years building K-12 tech's professional community as ISTE seats new board leadership of its own."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-bulb",
+      "note": "No September 28-dated article surfaced via search indexing this run; a recent CXO profile and award recognitions are listed instead.",
+      "arts": [
+        {
+          "t": "Building Digital Experiences around Student Needs",
+          "u": "https://www.educationtechnologyinsights.com/cxo-award/sidney-fernandes-nid-3843.html",
+          "s": "Sidney Fernandes, CIO and VP of Digital Experiences at the University of South Florida, discusses building technology strategy and digital services around the needs of a roughly 50,000-student community.",
+          "th": ["student_digital_experience"]
+        },
+        {
+          "t": "Technology Box (TBox) | Academic Management and Learning Platform of the Year 2026",
+          "u": "https://www.educationtechnologyinsights.com/technology-box-tbox-2026",
+          "s": "Education Technology Insights names Technology Box its Academic Management and Learning Platform of the Year for 2026."
+        },
+        {
+          "t": "My Montessori Manual | Top Montessori School Curriculum Management Platform 2026",
+          "u": "https://www.educationtechnologyinsights.com/my-montessori-manual-2026",
+          "s": "My Montessori Manual is recognized as the Top Montessori School Curriculum Management Platform of 2026."
+        }
+      ]
+    },
+    {
+      "name": "1EdTech",
+      "dom": "1edtech.org",
+      "icon": "ti-plug-connected",
+      "arts": [
+        {
+          "t": "Together Is the New Standard: Building the Infrastructure for What Comes Next",
+          "u": "https://www.1edtech.org/blog/together-is-the-new-standard-building-the-infrastructure-for-what-comes-next",
+          "s": "1EdTech CEO Curtiss Barnes argues that cybersecurity threats, AI-compressed timelines and global credentialing demand shared, governed interoperability standards rather than more standalone tools.",
+          "th": ["workforce_credentials"]
+        },
+        {
+          "t": "Award-Winning Innovations That Are Transforming Learning at Every Level",
+          "u": "https://www.1edtech.org/1edtech-article/award-winning-innovations-that-are-transforming-learning-at-every-level/411406",
+          "s": "1EdTech highlights Learning Impact Award-winning products and programs it says are transforming learning outcomes across K-12 and higher ed."
+        },
+        {
+          "t": "Events and Meetings",
+          "u": "https://www.1edtech.org/events",
+          "s": "1EdTech's events calendar points members toward the EDUCAUSE Annual Conference, opening September 29, as fall's interoperability and AI-governance season reaches its biggest stop.",
+          "d": "SEP 29",
+          "th": ["conf"]
+        }
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-calendar-event",
+      "note": "No September 28-dated news post surfaced via search indexing this run; the event's agenda, October dates and concluded Shark Tank application window are listed instead.",
+      "arts": [
+        {
+          "t": "2026 Agenda at a Glance",
+          "u": "https://www.edtechweek.com/agenda-at-a-glance-2026",
+          "s": "EdTech Week returns to Columbia University's Teachers College October 13-15, 2026, with 100+ sessions across founders, funders, educators and system leaders.",
+          "d": "OCT 13",
+          "th": ["conf"]
+        },
+        {
+          "t": "Shark Tank | EdTech Startup Pitch Competition",
+          "u": "https://www.edtechweek.com/sharktank",
+          "s": "EdTech Week's Shark Tank pitch competition, which offered up to $250,000 in pledged investment, closed applications August 16 ahead of its October 14-15 finals.",
+          "tag": "old"
+        },
+        {
+          "t": "AI For Educators Summit",
+          "u": "https://www.edtechweek.com/ai-for-educators-summit",
+          "s": "A standalone AI for Educators Summit is scheduled for October 20 at Teachers College, Columbia University, alongside the main EdTech Week program."
+        }
+      ]
+    },
+    {
+      "name": "Ed-Fi Alliance",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "arts": [
+        {
+          "t": "Ed-Fi Alliance Announces 2026 Premier Partners",
+          "u": "https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/",
+          "s": "Ed-Fi names ACT, Education Analytics, EdGraph, Curriculum Associates, Infinite Campus, PowerSchool and Skyward as its 2026 Premier Partners for improving data quality across education systems.",
+          "th": ["workforce_credentials"]
+        },
+        {
+          "t": "Ed-Fi Alliance Summit 2026",
+          "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/",
+          "s": "The Ed-Fi Alliance Summit returns November 9-11, 2026, bringing state and local education leaders, edtech providers and technical experts together around turning data into student outcomes.",
+          "d": "NOV 9",
+          "th": ["conf"]
+        },
+        {
+          "t": "Keeping Students on Track for Graduation and Career Success",
+          "u": "https://www.ed-fi.org/resources/impact-stories/keeping-students-on-track-for-graduation-and-beyond/",
+          "s": "An Ed-Fi impact story describes how real-time data on course progress and credits helps districts catch students falling off track toward graduation and career readiness.",
+          "th": ["workforce_credentials"]
+        }
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-news",
+      "arts": [
+        {
+          "t": "New York and Los Angeles Ban Student-Facing AI (For Now). Should Other Schools Follow?",
+          "u": "https://www.edsurge.com/news/new-york-and-los-angeles-ban-student-facing-ai-for-now-should-other-schools-follow",
+          "s": "EdSurge examines why the nation's two largest school districts moved to restrict student-facing generative AI tools and whether other districts should follow their lead."
+        },
+        {
+          "t": "Hundreds of Thousands of Eligible Kids Are Waiting for Childcare Assistance",
+          "u": "https://www.edsurge.com/news/hundreds-of-thousands-of-eligible-kids-are-waiting-for-childcare-assistance",
+          "s": "EdSurge reports that tens of thousands of eligible children remain on state waitlists for childcare subsidies even as demand for early-learning support keeps climbing.",
+          "th": ["early_learning_leadership"]
+        }
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-device-desktop",
+      "arts": [
+        {
+          "t": "OpenAI's New Astra Model Reaches Critical Cyber Threshold",
+          "u": "https://thejournal.com/articles/2026/09/10/openais-new-astra-model-reaches-critical-cyber-threshold.aspx",
+          "s": "THE Journal reports GPT-6 Astra is OpenAI's first model to reach the \"Critical\" cybersecurity capability tier, finding new zero-day vulnerabilities during safety testing.",
+          "d": "SEP 10",
+          "th": ["ai_frontier_risk"]
+        },
+        {
+          "t": "Head Start Needs to Catch Up with What We Now Know About Early Learning",
+          "u": "https://thejournal.com/articles/2026/09/16/head-start-needs-to-catch-up-with-what-we-now-know-about-early-learning.aspx",
+          "s": "THE Journal argues the nation's largest early-childhood program hasn't kept pace with research on language, executive function and early numeracy in children under five.",
+          "d": "SEP 16",
+          "th": ["early_learning_leadership"]
+        }
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-laptop",
+      "arts": [
+        {
+          "t": "Beyond Graduation: How School Data Can Prepare Students for Careers",
+          "u": "https://edtechmagazine.com/k12/article/2026/09/beyond-graduation-how-school-data-can-prepare-students-careers",
+          "s": "EdTech Magazine explains how student data districts already collect can inform career-readiness decisions long before senior year.",
+          "lvl": "K-12",
+          "th": ["workforce_credentials"]
+        },
+        {
+          "t": "5 Questions To Ask Before Choosing a Device Repair Option",
+          "u": "https://edtechmagazine.com/k12/article/2026/09/5-questions-ask-choosing-device-repair-option",
+          "s": "EdTech Magazine outlines how K-12 IT teams can minimize downtime and control costs when building a device-repair strategy for mixed device fleets.",
+          "lvl": "K-12",
+          "th": ["student_digital_experience"]
+        },
+        {
+          "t": "The Implications of Cyber-Physical Security Convergence in Higher Education",
+          "u": "https://edtechmagazine.com/higher/article/2026/05/implications-cyber-physical-security-convergence-higher-education",
+          "s": "EdTech Magazine details how IoT devices and smart security systems are expanding campus attack surfaces, citing UCSB's 520% rise in firewall-intercepted attacks since 2020.",
+          "lvl": "Higher Ed",
+          "th": ["ai_frontier_risk"]
+        }
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        {
+          "t": "2026 Survey of College and University Presidents",
+          "u": "https://www.insidehighered.com/reports/2026/03/09/2026-survey-college-and-university-presidents",
+          "s": "Inside Higher Ed's survey of 430 college presidents finds 48% now expect AI to be the most impactful force on higher ed by 2030, ahead of cost and financial pressures at 45%.",
+          "th": ["higher_ed_ai_outlook"]
+        },
+        {
+          "t": "Provosts' Survey 2026: Responsiveness Amid Constraint",
+          "u": "https://www.insidehighered.com/news/quick-takes/2026/09/23/provosts-survey-2026-responsiveness-amid-constraint",
+          "s": "A companion Inside Higher Ed quick take on the 2026 provosts survey finds chief academic officers responding to AI and funding pressure faster than their institutions are building formal strategy.",
+          "d": "SEP 23",
+          "th": ["higher_ed_ai_outlook"]
+        },
+        {
+          "t": "5 Predictions on How AI Will Shape Higher Ed in 2026",
+          "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/01/05/5-predictions-how-ai-will-shape-higher-ed",
+          "s": "Inside Higher Ed's early-2026 predictions on AI in admissions, instruction and administration remain a reference point as the year's survey data comes in."
+        }
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-certificate",
+      "arts": [
+        {
+          "t": "Launching the AI Innovator Challenge 2026",
+          "u": "https://iste.org/generationai/events/launching-the-ai-innovator-challenge-2026",
+          "s": "ISTE's Generation AI launches the 2026 AI Innovator Student Challenge, inviting students to design AI-powered solutions tied to a UN Sustainable Development Goal, with lesson plans following October 5.",
+          "th": ["student_digital_experience"]
+        },
+        {
+          "t": "ISTE+ASCD Announces New Board Members and Leadership",
+          "u": "https://iste.org/news/iste-ascd-announces-new-board-members-and-leadership",
+          "s": "ISTE+ASCD names new board members and leadership as the merged organization continues building out its combined governance structure.",
+          "th": ["early_learning_leadership"]
+        }
+      ]
+    },
+    {
+      "name": "Brookings",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "arts": [
+        {
+          "t": "Why Community Engagement Is Vital to Learning Ecosystems",
+          "u": "https://www.brookings.edu/articles/why-community-engagement-is-vital-to-learning-ecosystems/",
+          "s": "Brookings' Emily Markovich Morris and Richaa Hoysala argue that learning ecosystems succeed only when families and communities, not just schools, are engaged as partners.",
+          "d": "SEP 22",
+          "th": ["higher_ed_ai_outlook"]
+        },
+        {
+          "t": "AI's Future for Students Is in Our Hands",
+          "u": "https://www.brookings.edu/articles/ais-future-for-students-is-in-our-hands/",
+          "s": "Brookings argues that whether generative AI helps or harms students depends on choices educators and policymakers make now, not on the technology itself."
+        },
+        {
+          "t": "A New Direction for Students in an AI World: Prosper, Prepare, Protect",
+          "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/",
+          "s": "Brookings' Global Task Force on AI in Education publishes its capstone report, drawing on interviews with hundreds of educators and over 400 research articles to frame AI's risks and benefits for children."
+        }
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-rocket",
+      "arts": [
+        {
+          "t": "Investors Follow Learning Into the Workplace",
+          "u": "https://www.edtechdigest.com/2026/09/16/investors-follow-learning-into-the-workplace/",
+          "s": "EdTech Digest reports European venture funding for learning-and-work companies more than doubled from $825 million in 2024 to $1.85 billion in 2025, with $1.63 billion more raised in the first half of 2026.",
+          "d": "SEP 16",
+          "th": ["workforce_credentials"]
+        },
+        {
+          "t": "The Leader Who Brought EdTech Leaders Together",
+          "u": "https://www.edtechdigest.com/2026/09/01/the-leader-who-brought-edtech-leaders-together/",
+          "s": "EdTech Digest profiles outgoing CoSN CEO Keith Krueger's 32 years building K-12 technology's professional community ahead of his retirement at CoSN2027.",
+          "d": "SEP 1",
+          "tag": "old",
+          "th": ["early_learning_leadership"]
+        }
+      ]
+    }
+  ]
+}

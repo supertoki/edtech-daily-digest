@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-25T12:13:11Z",
+  "generatedAt": "2026-09-28T12:13:36Z",
   "daily": {
-    "date": "2026-09-25",
-    "topThemeKey": "cyber_threats",
-    "topThemeTitle": "Foreign Cyberattacks Target Academic Research Blogs",
-    "topThemeBody": "Inside Higher Ed reports a wave of cyberattacks on British academic blogs that researchers believe is tied to authoritarian regimes trying to shut down work documenting human-rights abuses, adding a geopolitical edge to campus cybersecurity threats.",
+    "date": "2026-09-28",
+    "topThemeKey": "workforce_credentials",
+    "topThemeTitle": "Data and Credentialing Infrastructure Keeps Building Toward Careers",
+    "topThemeBody": "Ed-Fi's newly named 2026 Premier Partners, 1EdTech's push for shared interoperability standards, and a wave of investor interest EdTech Digest tracks flowing into workplace-learning startups all point toward the same goal: turning school data and credentials into career outcomes.",
     "themes": [
       {
-        "k": "cyber_threats",
-        "title": "Foreign Cyberattacks Target Academic Research Blogs",
+        "k": "workforce_credentials",
+        "title": "Data and Credentialing Infrastructure Keeps Building Toward Careers",
+        "weight": 5
+      },
+      {
+        "k": "early_learning_leadership",
+        "title": "Early-Learning Science and K-12 Tech Leadership Both Turn a Page",
         "weight": 4
       },
       {
         "k": "conf",
-        "title": "Fall's Conference Marathon Opens Next Week",
-        "weight": 4
-      },
-      {
-        "k": "workforce_readiness",
-        "title": "The \"Experience Gap\" Squeezes New Graduates",
+        "title": "Fall's Conference Marathon Reaches Its Biggest Stop",
         "weight": 3
       },
       {
-        "k": "k12_ai_ops",
-        "title": "AI Moves Deeper Into K-12 IT Operations",
+        "k": "higher_ed_ai_outlook",
+        "title": "Presidents Name AI Higher Ed's Top Disruptor Through 2030",
         "weight": 3
       },
       {
-        "k": "ai_governance",
-        "title": "Provosts Report Widespread AI Use but Few Institutional Strategies",
+        "k": "student_digital_experience",
+        "title": "Districts and Campuses Double Down on Student-Facing Tech",
+        "weight": 3
+      },
+      {
+        "k": "ai_frontier_risk",
+        "title": "GPT-6 Astra Crosses a \"Critical\" Cyber-Risk Threshold",
         "weight": 2
-      },
-      {
-        "k": "funding_policy",
-        "title": "A New Federal Tuition Tax Credit Reshapes School-Choice Funding",
-        "weight": 1
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-09-21",
-    "weekRange": "9/21-9/27",
+    "weekKey": "2026-09-28",
+    "weekRange": "9/28-10/4",
     "status": "pending",
     "displayedWeek": "2026-09-14",
     "currentImage": "assets/illustrations/hero-2026-09-14.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "conf",
-    "themeTitle": "Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE",
-    "themeBody": "The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.",
+    "themeTitle": "Fall's Conference Marathon Reaches Its Biggest Stop",
+    "themeBody": "EDUCAUSE's Annual Conference opens September 29 in Denver, with EdTech Week's return to Columbia (October 13-15) and the Ed-Fi Alliance Summit (November 9-11) next on the circuit.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall Conference Calendar Fills In From a Sept. 23 Virtual Kickoff to EDUCAUSE - The virtual Tech Tactics in Education opens September 23, EDUCAUSE's annual conference follows September 29, 1EdTech's CBExchange runs September 30-October 3, and ISTE has opened proposals for ISTELive 27 in Boston -- all ahead of EdTech Week's October return to Columbia.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall's Conference Marathon Reaches Its Biggest Stop - EDUCAUSE's Annual Conference opens September 29 in Denver, with EdTech Week's return to Columbia (October 13-15) and the Ed-Fi Alliance Summit (November 9-11) next on the circuit.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
