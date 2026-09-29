@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-28T12:13:36Z",
+  "generatedAt": "2026-09-29T12:10:08Z",
   "daily": {
-    "date": "2026-09-28",
-    "topThemeKey": "workforce_credentials",
-    "topThemeTitle": "Data and Credentialing Infrastructure Keeps Building Toward Careers",
-    "topThemeBody": "Ed-Fi's newly named 2026 Premier Partners, 1EdTech's push for shared interoperability standards, and a wave of investor interest EdTech Digest tracks flowing into workplace-learning startups all point toward the same goal: turning school data and credentials into career outcomes.",
+    "date": "2026-09-29",
+    "topThemeKey": "ai_evidence",
+    "topThemeTitle": "AI Adoption Outruns the Evidence",
+    "topThemeBody": "Microsoft finds ~9 in 10 education users have tried AI, while Inside Higher Ed reports the research on AI's learning benefits is \"nonexistent\" and Brookings' task force says risks currently outweigh benefits.",
     "themes": [
       {
-        "k": "workforce_credentials",
-        "title": "Data and Credentialing Infrastructure Keeps Building Toward Careers",
-        "weight": 5
+        "k": "ai_evidence",
+        "title": "AI Adoption Outruns the Evidence",
+        "weight": 9
       },
       {
-        "k": "early_learning_leadership",
-        "title": "Early-Learning Science and K-12 Tech Leadership Both Turn a Page",
+        "k": "workforce_skills",
+        "title": "Skills and the Entry-Level Squeeze",
         "weight": 4
       },
       {
-        "k": "conf",
-        "title": "Fall's Conference Marathon Reaches Its Biggest Stop",
-        "weight": 3
+        "k": "student_experience",
+        "title": "Student-Facing Tech, Broadly Defined",
+        "weight": 4
       },
       {
-        "k": "higher_ed_ai_outlook",
-        "title": "Presidents Name AI Higher Ed's Top Disruptor Through 2030",
-        "weight": 3
-      },
-      {
-        "k": "student_digital_experience",
-        "title": "Districts and Campuses Double Down on Student-Facing Tech",
-        "weight": 3
-      },
-      {
-        "k": "ai_frontier_risk",
-        "title": "GPT-6 Astra Crosses a \"Critical\" Cyber-Risk Threshold",
+        "k": "edtech_infra",
+        "title": "Standards and Platforms Get Easier to Plug Into",
         "weight": 2
+      },
+      {
+        "k": "cyber_risk",
+        "title": "Cyber Risk Keeps Escalating",
+        "weight": 1
+      },
+      {
+        "k": "screen_policy",
+        "title": "Screen-Time and Student-AI Guardrails",
+        "weight": 1
       }
     ]
   },

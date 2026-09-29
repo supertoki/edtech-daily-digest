@@ -1,0 +1,391 @@
+{
+ "date": "2026-09-29",
+ "dateLabel": "SEPTEMBER 29, 2026",
+ "headline": "AI Adoption Races Ahead of Its Evidence as Districts Tighten Guardrails",
+ "thesis": "With <b>~9 in 10</b> education users already using AI, researchers say the evidence base is <b>\"nearly nonexistent\"</b> and big districts are hitting pause.",
+ "summary": "Microsoft's new report finds roughly <b>9 in 10</b> students, educators and leaders have used AI for school, yet Inside Higher Ed reports independent research on its learning benefits is <b>\"almost nonexistent\"</b> and Brookings' task force concludes current risks outweigh benefits. Policy is tightening: <b>New York and Los Angeles</b> have paused student-facing AI, CoSN released new screen-time guidance, and THE Journal notes GPT-6 Astra's <b>\"Critical\"</b> cyber rating just as identity-security vendors expand recovery tooling. On the infrastructure side, Learning Commons opened a platform for state standards and proven teaching methods, and EdTech Digest highlights a graduate experience gap, with <b>77%</b> saying employers expect too much experience.",
+ "footnote": "Compiled from 11 curated edtech sources · September 29, 2026 · Items were sourced via web-search indexing rather than live page fetches; sources with no dated news reuse recent evergreen items, and some THE Journal items link to its news list page.",
+ "themes": [
+  {
+   "k": "ai_evidence",
+   "icon": "ti-flask",
+   "title": "AI Adoption Outruns the Evidence",
+   "body": "Microsoft finds <b>~9 in 10</b> education users have tried AI, while Inside Higher Ed reports the research on AI's learning benefits is <b>\"nonexistent\"</b> and Brookings' task force says risks currently outweigh benefits."
+  },
+  {
+   "k": "cyber_risk",
+   "icon": "ti-shield-bolt",
+   "title": "Cyber Risk Keeps Escalating",
+   "body": "GPT-6 Astra's <b>\"Critical\"</b> cyber rating and the Rubrik-CrowdStrike identity-recovery integration underline growing pressure on school and campus security."
+  },
+  {
+   "k": "edtech_infra",
+   "icon": "ti-database",
+   "title": "Standards and Platforms Get Easier to Plug Into",
+   "body": "Learning Commons opens <b>state standards and teaching methods</b> to edtech builders, while AI-driven admissions tooling spreads across 100+ institutions."
+  },
+  {
+   "k": "workforce_skills",
+   "icon": "ti-briefcase",
+   "title": "Skills and the Entry-Level Squeeze",
+   "body": "<b>77%</b> of graduates say employers expect too much experience, even as cyber ranges, school-data career pathways and workplace-learning investment try to bridge the gap."
+  },
+  {
+   "k": "screen_policy",
+   "icon": "ti-device-mobile",
+   "title": "Screen-Time and Student-AI Guardrails",
+   "body": "CoSN issues new screen-time guidance as <b>New York and Los Angeles</b> pause student-facing AI, signaling a more cautious policy turn."
+  },
+  {
+   "k": "student_experience",
+   "icon": "ti-users",
+   "title": "Student-Facing Tech, Broadly Defined",
+   "body": "Accessible classroom audio, VR STEM, and a new K-5 writing program point to product work centered on how students actually experience learning."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Education Technology Insights",
+   "dom": "educationtechnologyinsights.com",
+   "icon": "ti-bulb",
+   "note": "No September 29-dated article surfaced via search indexing this run; recent evergreen profile and product listings are shown instead.",
+   "arts": [
+    {
+     "t": "Building Digital Experiences around Student Needs",
+     "u": "https://www.educationtechnologyinsights.com/cxo-award/sidney-fernandes-nid-3843.html",
+     "s": "Sidney Fernandes, CIO and VP of Digital Experiences at the University of South Florida, discusses building technology strategy and digital services around the needs of a roughly 50,000-student community."
+    },
+    {
+     "t": "Technology Box (TBox) | Academic Management and Learning Platform of the Year 2026",
+     "u": "https://www.educationtechnologyinsights.com/technology-box-tbox-2026",
+     "s": "Education Technology Insights names Technology Box its Academic Management and Learning Platform of the Year for 2026."
+    }
+   ]
+  },
+  {
+   "name": "1EdTech",
+   "dom": "1edtech.org",
+   "icon": "ti-plug-connected",
+   "note": "No new September 29 post surfaced; recent evergreen interoperability items are listed.",
+   "arts": [
+    {
+     "t": "Together Is the New Standard: Building the Infrastructure for What Comes Next",
+     "u": "https://www.1edtech.org/blog/together-is-the-new-standard-building-the-infrastructure-for-what-comes-next",
+     "s": "1EdTech CEO Curtiss Barnes argues that cybersecurity threats, AI-compressed timelines and global credentialing demand shared, governed interoperability standards rather than more standalone tools."
+    },
+    {
+     "t": "Award-Winning Innovations That Are Transforming Learning at Every Level",
+     "u": "https://www.1edtech.org/1edtech-article/award-winning-innovations-that-are-transforming-learning-at-every-level/411406",
+     "s": "1EdTech highlights Learning Impact Award-winning products and programs it says are transforming learning outcomes across K-12 and higher ed."
+    }
+   ]
+  },
+  {
+   "name": "EdTech Week",
+   "dom": "edtechweek.com",
+   "icon": "ti-calendar-event",
+   "note": "No dated news post today; the event agenda and program pages are listed.",
+   "arts": [
+    {
+     "t": "2026 Agenda at a Glance",
+     "u": "https://www.edtechweek.com/agenda-at-a-glance-2026",
+     "s": "EdTech Week returns to Columbia University's Teachers College October 13-15, 2026, with 100+ sessions across founders, funders, educators and system leaders.",
+     "d": "OCT 13"
+    },
+    {
+     "t": "Shark Tank | EdTech Startup Pitch Competition",
+     "u": "https://www.edtechweek.com/sharktank",
+     "s": "EdTech Week's Shark Tank pitch competition, which offered up to $250,000 in pledged investment, closed applications August 16 ahead of its October 14-15 finals.",
+     "tag": "old"
+    }
+   ]
+  },
+  {
+   "name": "Ed-Fi Alliance",
+   "dom": "ed-fi.org",
+   "icon": "ti-database",
+   "note": "No new impact story surfaced today; recent announcements are listed.",
+   "arts": [
+    {
+     "t": "Ed-Fi Alliance Announces 2026 Premier Partners",
+     "u": "https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/",
+     "s": "Ed-Fi names ACT, Education Analytics, EdGraph, Curriculum Associates, Infinite Campus, PowerSchool and Skyward as its 2026 Premier Partners for improving data quality across education systems."
+    },
+    {
+     "t": "Ed-Fi Alliance Summit 2026",
+     "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/",
+     "s": "The Ed-Fi Alliance Summit returns November 9-11, 2026, bringing state and local education leaders, edtech providers and technical experts together around turning data into student outcomes.",
+     "d": "NOV 9"
+    }
+   ]
+  },
+  {
+   "name": "EdSurge",
+   "dom": "edsurge.com",
+   "icon": "ti-news",
+   "arts": [
+    {
+     "t": "Learning Commons Launches Open Platform for K-12 Edtech",
+     "u": "https://www.edsurge.com/news/learning-commons-launches-open-ai-platform-for-k-12-edtech",
+     "s": "The Chan Zuckerberg Initiative-backed nonprofit opens a platform giving educators and edtech developers easy access to state academic standards and proven teaching methods.",
+     "d": "SEP 22",
+     "tag": "new",
+     "th": [
+      "edtech_infra"
+     ]
+    },
+    {
+     "t": "Inside Alabama's Next-Generation Cybersecurity Classroom",
+     "u": "https://www.edsurge.com/news/inside-alabamas-next-generation-cybersecurity-classroom",
+     "s": "Huntsville educators and industry co-design cyber ranges, capstones and internships for students.",
+     "d": "SEP 16",
+     "tag": "new",
+     "th": [
+      "workforce_skills"
+     ]
+    },
+    {
+     "t": "Schools Scramble as Budget Cuts Force Reset of Free Lunch Programs",
+     "u": "https://www.edsurge.com/news/schools-scramble-as-budget-cuts-force-reset-of-free-lunch-programs",
+     "s": "SNAP cuts are shrinking the pool of families automatically certified for free school meals.",
+     "d": "SEP 18",
+     "tag": "new"
+    },
+    {
+     "t": "New York and Los Angeles Ban Student-Facing AI (For Now). Should Other Schools Follow?",
+     "u": "https://www.edsurge.com/news/new-york-and-los-angeles-ban-student-facing-ai-for-now-should-other-schools-follow",
+     "s": "Two of the nation's largest districts pause student-facing AI tools, prompting debate over whether others should follow.",
+     "th": [
+      "ai_evidence"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "THE Journal",
+   "dom": "thejournal.com",
+   "icon": "ti-device-desktop",
+   "arts": [
+    {
+     "t": "OpenAI's New Astra Model Reaches Critical Cyber Threshold",
+     "u": "https://thejournal.com/articles/2026/09/10/openais-new-astra-model-reaches-critical-cyber-threshold.aspx",
+     "s": "GPT-6 Astra is the first broadly deployed model to reach the Critical tier of OpenAI's Preparedness Framework for cybersecurity.",
+     "d": "SEP 10",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "CoSN Releases Guidance on Screen Time and Technology Policy",
+     "u": "https://thejournal.com/articles/list/news.aspx",
+     "s": "CoSN's new guidance helps schools navigate the screen time debate with policies that protect students while supporting learning.",
+     "d": "NEW",
+     "tag": "new",
+     "th": [
+      "screen_policy"
+     ]
+    },
+    {
+     "t": "SMART Technologies Introduces SoundFlow",
+     "u": "https://thejournal.com/articles/list/news.aspx",
+     "s": "A plug-and-play system streams classroom audio from a SMART Board to students' hearing aids, earbuds and headphones.",
+     "d": "NEW",
+     "tag": "new",
+     "th": [
+      "student_experience"
+     ]
+    },
+    {
+     "t": "Rubrik and CrowdStrike Expand Identity-Security Integration",
+     "u": "https://thejournal.com/articles/list/news.aspx",
+     "s": "The integration aims to take compromised identity environments from detection to clean recovery with less manual work.",
+     "d": "NEW",
+     "tag": "new",
+     "th": [
+      "cyber_risk"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdTech Magazine",
+   "dom": "edtechmagazine.com",
+   "icon": "ti-laptop",
+   "note": "Broward County's rollout of 20,000 Microsoft 365 Copilot licenses (reclaiming up to 7 educator hours a week) is also featured in the same coverage.",
+   "arts": [
+    {
+     "t": "Microsoft Report Highlights Trends in K-12 AI Adoption",
+     "u": "https://edtechmagazine.com/k12/article/2026/09/microsoft-report-highlights-trends-k-12-ai-adoption",
+     "s": "About 9 in 10 students, educators and leaders say they have already used AI for school, per Microsoft's new report.",
+     "d": "SEP 2026",
+     "tag": "new",
+     "lvl": "K-12",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "Higher Education's Role in Supporting K-12 AI Literacy",
+     "u": "https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy",
+     "s": "Colleges can partner with districts to build AI literacy across the pipeline.",
+     "lvl": "Higher Ed",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "Beyond Graduation: How School Data Can Prepare Students for Careers",
+     "u": "https://edtechmagazine.com/k12/article/2026/09/beyond-graduation-how-school-data-can-prepare-students-careers",
+     "s": "How districts can use school data to connect students to career pathways.",
+     "d": "SEP 2026",
+     "tag": "new",
+     "lvl": "K-12",
+     "th": [
+      "workforce_skills"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Inside Higher Ed",
+   "dom": "insidehighered.com",
+   "icon": "ti-school",
+   "arts": [
+    {
+     "t": "The \"Nonexistent\" Research on AI's Benefits for Education",
+     "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education",
+     "s": "Colleges are going all in on AI while independent evidence on learning outcomes lags, as models change every one to three months.",
+     "d": "SEP 14",
+     "tag": "new",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "3 Questions for EdVisorly's Manny Smith",
+     "u": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/09/29/3-questions-edvisorlys-manny-smith",
+     "s": "EdVisorly, which works with 100+ institutions, discusses using AI to streamline admissions and enrollment operations.",
+     "d": "SEP 29",
+     "tag": "new",
+     "th": [
+      "edtech_infra"
+     ]
+    },
+    {
+     "t": "Provosts' Survey 2026: Responsiveness Amid Constraint",
+     "u": "https://www.insidehighered.com/news/quick-takes/2026/09/23/provosts-survey-2026-responsiveness-amid-constraint",
+     "s": "Provosts report responsiveness outpacing strategy under budget constraints.",
+     "d": "SEP 23",
+     "th": [
+      "ai_evidence"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ISTE",
+   "dom": "iste.org",
+   "icon": "ti-certificate",
+   "arts": [
+    {
+     "t": "ISTELive 26 Call for Proposals Open Through September",
+     "u": "https://iste.org/events/istelive-26",
+     "s": "ISTELive 26, held with the ASCD Annual Conference, is accepting session proposals this month.",
+     "d": "SEP 2026",
+     "tag": "new"
+    },
+    {
+     "t": "ISTE+ASCD and Google Partner on AI Literacy Training for Six Million U.S. Educators",
+     "u": "https://iste.org/news",
+     "s": "A partnership to deliver AI literacy training at national scale.",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "Pokémon Club Becomes a Free ISTE+ASCD Member Benefit",
+     "u": "https://iste.org/news",
+     "s": "Eligible U.S. and Canadian members can apply to run a Pokémon Club at their school.",
+     "th": [
+      "student_experience"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Brookings",
+   "dom": "brookings.edu",
+   "icon": "ti-building-bank",
+   "note": "No new Brookings education-technology piece dated today; recent evergreen work is listed.",
+   "arts": [
+    {
+     "t": "A New Direction for Students in an AI World: Prosper, Prepare, Protect",
+     "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/",
+     "s": "Task force finds AI risks currently overshadow benefits in education and offers a three-pillar action framework.",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "AI Is Rapidly Changing Education and Research Needs to Keep Up",
+     "u": "https://www.brookings.edu/articles/ai-is-rapidly-changing-education-and-research-needs-to-keep-up/",
+     "s": "Argues evidence-building must accelerate to match the pace of AI in schools.",
+     "th": [
+      "ai_evidence"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdTech Digest",
+   "dom": "edtechdigest.com",
+   "icon": "ti-rocket",
+   "arts": [
+    {
+     "t": "The Experience Gap",
+     "u": "https://www.edtechdigest.com/2026/09/23/the-experience-gap/",
+     "s": "Cengage's 2026 report finds 77% of graduates think employers expect more experience than entry-level should require; 53% skipped entry-level applications.",
+     "d": "SEP 23",
+     "tag": "new",
+     "th": [
+      "workforce_skills"
+     ]
+    },
+    {
+     "t": "Investors Follow Learning Into the Workplace",
+     "u": "https://www.edtechdigest.com/2026/09/16/investors-follow-learning-into-the-workplace/",
+     "s": "Brighteye's $72M Fund III first close and rising European learning-and-work funding.",
+     "d": "SEP 16",
+     "th": [
+      "workforce_skills"
+     ]
+    },
+    {
+     "t": "EduverseSTEM",
+     "u": "https://www.edtechdigest.com/2026/09/21/eduversestem/",
+     "s": "Avantis Education's VR ecosystem opens STEM experiences to more students.",
+     "d": "SEP 21",
+     "tag": "new",
+     "th": [
+      "student_experience"
+     ]
+    },
+    {
+     "t": "Mystery Writing",
+     "u": "https://www.edtechdigest.com/2026/09/18/mystery-writing/",
+     "s": "Discovery Education's evidence-based supplemental K-5 writing program.",
+     "d": "SEP 18",
+     "th": [
+      "student_experience"
+     ]
+    },
+    {
+     "t": "Taking Tech-for-Good Beyond the Classroom",
+     "u": "https://www.edtechdigest.com/2026/09/10/taking-tech-for-good-beyond-the-classroom/",
+     "s": "EdTech Digest looks at extending edtech's impact beyond schools.",
+     "d": "SEP 10"
+    }
+   ]
+  }
+ ]
+}
