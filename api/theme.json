@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-29T12:10:08Z",
+  "generatedAt": "2026-09-30T12:09:55Z",
   "daily": {
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "topThemeKey": "ai_evidence",
-    "topThemeTitle": "AI Adoption Outruns the Evidence",
-    "topThemeBody": "Microsoft finds ~9 in 10 education users have tried AI, while Inside Higher Ed reports the research on AI's learning benefits is \"nonexistent\" and Brookings' task force says risks currently outweigh benefits.",
+    "topThemeTitle": "AI Hype vs. Evidence",
+    "topThemeBody": "Usage data and new studies suggest AI adoption claims outrun proof of learning impact in both K-12 and higher ed.",
     "themes": [
       {
         "k": "ai_evidence",
-        "title": "AI Adoption Outruns the Evidence",
-        "weight": 9
+        "title": "AI Hype vs. Evidence",
+        "weight": 7
       },
       {
-        "k": "workforce_skills",
-        "title": "Skills and the Entry-Level Squeeze",
-        "weight": 4
-      },
-      {
-        "k": "student_experience",
-        "title": "Student-Facing Tech, Broadly Defined",
-        "weight": 4
+        "k": "equity_risk",
+        "title": "Equity and Student Risk",
+        "weight": 5
       },
       {
         "k": "edtech_infra",
-        "title": "Standards and Platforms Get Easier to Plug Into",
-        "weight": 2
+        "title": "Data and Standards Infrastructure",
+        "weight": 5
+      },
+      {
+        "k": "teacher_pd",
+        "title": "Educator Learning and PD",
+        "weight": 5
+      },
+      {
+        "k": "events_market",
+        "title": "Events and Market Signals",
+        "weight": 3
       },
       {
         "k": "cyber_risk",
-        "title": "Cyber Risk Keeps Escalating",
-        "weight": 1
-      },
-      {
-        "k": "screen_policy",
-        "title": "Screen-Time and Student-AI Guardrails",
+        "title": "Cybersecurity Frontier",
         "weight": 1
       }
     ]

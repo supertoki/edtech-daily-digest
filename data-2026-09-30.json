@@ -1,0 +1,70 @@
+{
+ "date": "2026-09-30",
+ "dateLabel": "SEPTEMBER 30, 2026",
+ "headline": "The AI Hype Gap: Adoption Claims Meet Thin Evidence on Campus and in Classrooms",
+ "thesis": "New data shows higher ed's AI integration is <b>overhyped</b> while EdSurge warns edtech is <b>rushing AI features before proving they work</b>.",
+ "summary": "Inside Higher Ed reports new usage data showing <b>AI integration in college classrooms is overhyped</b>: the most widely adopted dedicated AI tool, Google Gemini, reached only about 88,000 users across 211 institutions and did not crack the top 100 ed-tech tools. EdSurge's coverage of a new study finds curriculum and edtech providers are <b>bolting AI onto materials with little evidence it improves learning</b>, and EdTech Digest argues AI will work best for the students who need it least. Meanwhile, OpenAI's GPT-6 Astra is the first model rated <b>\"Critical\"</b> for cyber capability, Brookings' task force says AI's risks currently outweigh its benefits for students, and EdTech Week (Oct 14-15, New York) is set to center on higher-ed reinvention and the AI-native talent stack.",
+ "footnote": "Compiled from 11 curated edtech sources · September 30, 2026 · Items were sourced via web-search indexing; direct page fetches were blocked by the network proxy, so summaries rely on search snippets. Sources with no dated news list recent evergreen items.",
+ "themes": [
+  {"k": "ai_evidence", "icon": "ti-flask", "title": "AI Hype vs. Evidence", "body": "Usage data and new studies suggest <b>AI adoption claims outrun proof</b> of learning impact in both K-12 and higher ed."},
+  {"k": "equity_risk", "icon": "ti-scale", "title": "Equity and Student Risk", "body": "Brookings and EdTech Digest warn AI <b>benefits accrue to advantaged students</b> while risks to learning capacity fall on others."},
+  {"k": "cyber_risk", "icon": "ti-shield-bolt", "title": "Cybersecurity Frontier", "body": "GPT-6 Astra's <b>\"Critical\"</b> cyber rating raises the stakes for school IT security planning."},
+  {"k": "edtech_infra", "icon": "ti-database", "title": "Data and Standards Infrastructure", "body": "Ed-Fi data standards and 1EdTech interoperability work keep <b>powering real-time student support</b> and credential portability."},
+  {"k": "teacher_pd", "icon": "ti-chalkboard", "title": "Educator Learning and PD", "body": "From TikTok-style micro-PD to ISTE+ASCD's six-million-educator AI literacy push, <b>professional learning is being reinvented</b>."},
+  {"k": "events_market", "icon": "ti-calendar-event", "title": "Events and Market Signals", "body": "EdTech Week (<b>Oct 14-15</b>) and the EdTech Awards highlight where investors and vendors are focusing next."}
+ ],
+ "sources": [
+  {"name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-bulb", "note": "No September 30-dated article surfaced via search indexing; evergreen sections are listed.", "arts": [
+   {"t": "Education Technology Insights: Educational Technology Archive", "u": "https://www.educationtechnologyinsights.com/educational-technology/", "s": "Archive of peer-authored perspectives on digital learning, infrastructure and security."},
+   {"t": "Education Technology Insights: CXO Insights", "u": "https://www.educationtechnologyinsights.com/cxoinsights/", "s": "Leader commentary on how institutions evaluate, adopt and scale digital learning solutions."}
+  ]},
+  {"name": "1EdTech", "dom": "1edtech.org", "icon": "ti-plug-connected", "note": "No new post surfaced today; recent event and trend items are listed.", "arts": [
+   {"t": "1EdTech London Summit 2026: Why AI in Learning Needs Standards", "u": "https://www.1edtech.org/events/1edtech-london-summit-2026-why-ai-in-learning-needs-standards", "s": "Summit session making the case for interoperability standards as AI moves into core educational practice.", "th": ["edtech_infra", "ai_evidence"]},
+   {"t": "Three Trends We're Watching in 2026", "u": "https://www.1edtech.org/blog/three-trends-were-watching-in-2026", "s": "Digital credentials, competencies and AI's move out of experimentation top 1EdTech's watch list.", "th": ["edtech_infra"]},
+   {"t": "Learning Impact Conference 2026", "u": "https://www.1edtech.org/event/li/2026", "s": "June conference in San Francisco drew 400+ leaders and announced the 2026 Learning Impact Awards.", "d": "JUN 1-3", "tag": "old"}
+  ]},
+  {"name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-calendar-event", "note": "No dated news post today; program pages are listed.", "arts": [
+   {"t": "EdTechWeek 2026 Agenda", "u": "https://www.edtechweek.com/2026-agenda", "s": "Two days at Columbia University with 200 speakers, higher-ed reinvention and the AI-native talent stack as anchors.", "d": "OCT 14-15", "th": ["events_market"]},
+   {"t": "EdTech Startup Pitch Competition (Shark Tank)", "u": "https://www.edtechweek.com/sharktank", "s": "Early-stage founders pitch investor 'Sharks' from the main stage.", "th": ["events_market"]}
+  ]},
+  {"name": "Ed-Fi Alliance", "dom": "ed-fi.org", "icon": "ti-database", "note": "No new impact story surfaced today; existing stories are listed.", "arts": [
+   {"t": "Real-Time Data, Real College and Career Results", "u": "https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/", "s": "Texas districts using CCMR Insights on the Ed-Fi standard saw accountability ratings jump by up to 46% in one year.", "th": ["edtech_infra"]},
+   {"t": "Keeping Students on Track for Graduation and Career Success", "u": "https://www.ed-fi.org/resources/impact-stories/keeping-students-on-track-for-graduation-and-beyond/", "s": "Panorama's Pathways gives counselors daily progress data for 245,000 South Carolina high schoolers.", "th": ["edtech_infra"]},
+   {"t": "Early Literacy Support That Reaches Every Student", "u": "https://www.ed-fi.org/resources/impact-stories/early-literacy-support-that-reaches-every-student/", "s": "Michigan's MiRead unifies assessments, plans and strategies so teachers can act sooner.", "th": ["edtech_infra"]}
+  ]},
+  {"name": "EdSurge", "dom": "edsurge.com", "icon": "ti-news", "arts": [
+   {"t": "Study: EdTech Is Rushing AI Integration Before Proving It Works", "u": "https://www.edsurge.com/news/study-edtech-is-rushing-ai-integration-before-proving-it-works", "s": "Curriculum and edtech providers are rapidly adding AI to materials with little evidence it improves student learning.", "d": "SEP 29", "tag": "new", "th": ["ai_evidence"]},
+   {"t": "Traditional PD Wasn't Enough. So I Used TikTok to Create an Engaging Alternative", "u": "https://www.edsurge.com/news/traditional-pd-wasnt-enough-so-i-used-tiktok-to-create-an-engaging-alternative", "s": "A teacher describes bite-sized professional development on TikTok, Spotify and Substack as an alternative to traditional PD.", "d": "SEP 30", "tag": "new", "th": ["teacher_pd"]},
+   {"t": "AI Videos Are Warping Early Learning, Teachers Say", "u": "https://www.edsurge.com/news/ai-videos-are-warping-early-learning-teachers-say-heres-how-theyre-responding", "s": "Teachers describe how AI-generated videos are distorting young children's learning and how they are responding.", "th": ["equity_risk"]},
+   {"t": "Why AI Made Me a Better Principal", "u": "https://www.edsurge.com/news/why-ai-made-me-a-better-principal", "s": "A principal reflects on how AI tools changed their leadership practice."}
+  ]},
+  {"name": "THE Journal", "dom": "thejournal.com", "icon": "ti-device-desktop", "arts": [
+   {"t": "OpenAI Introduces GPT-6 Astra, First Model Rated 'Critical' for Cyber Capability", "u": "https://thejournal.com/articles/list/news.aspx", "s": "OpenAI's most capable broadly deployed model is the first to reach the 'Critical' cybersecurity threshold under its Preparedness Framework.", "tag": "new", "th": ["cyber_risk"]},
+   {"t": "SMART Technologies Introduces SoundFlow", "u": "https://thejournal.com/articles/list/news.aspx", "s": "Plug-and-play system streams SMART Board audio directly to students' hearing aids, earbuds and headphones."},
+   {"t": "Avantis Education Adds EscapeRooms and LingoLab to Eduverse+", "u": "https://thejournal.com/articles/list/news.aspx", "s": "Two new ClassVR libraries cover K-8 math and grade 6-12 Spanish and English language learning."}
+  ]},
+  {"name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-laptop", "note": "No September 30-dated items surfaced via search; recent section items from both K-12 and Higher Ed are listed.", "arts": [
+   {"t": "Higher Education's Role in Supporting K-12 AI Literacy", "u": "https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy", "s": "How colleges can partner with K-12 systems to build AI literacy.", "lvl": "Higher Ed", "th": ["teacher_pd"]},
+   {"t": "Technology Optimizes Access in K-12 Schools", "u": "https://edtechmagazine.com/k12/article/2026/01/technology-optimizes-access-k-12-schools", "s": "Accessibility-focused technology deployments in K-12 classrooms.", "lvl": "K-12", "th": ["equity_risk"]},
+   {"t": "K-12 Educators Emphasize Personalized Learning for Class of 2030", "u": "https://edtechmagazine.com/k12/media/video/k-12-educators-emphasize-personalized-learning-class-2030", "s": "Video feature on educators' priorities for personalized learning.", "lvl": "K-12"}
+  ]},
+  {"name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-school", "arts": [
+   {"t": "Higher Ed's AI Integration Overhyped, New Data Shows", "u": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/30/higher-eds-ai-integration-overhyped-new-data", "s": "Faculty use AI tools less than other ed-tech; top AI tool Google Gemini reached ~88,000 users across 211 institutions and missed the top 100.", "d": "SEP 30", "tag": "new", "th": ["ai_evidence"]},
+   {"t": "Survey: Faculty Say AI Is Impactful, but Not In a Good Way", "u": "https://www.insidehighered.com/news/faculty-issues/teaching/2026/01/21/survey-faculty-say-ai-impactful-not-good-way", "s": "Faculty agree AI will affect teaching and learning but are divided on whether the impact is positive.", "th": ["ai_evidence"]},
+   {"t": "Agentic AI Can Complete Whole Courses. Now What?", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/02/26/agentic-ai-can-complete-whole-courses-now", "s": "Examines what agentic AI that can finish entire courses means for academic integrity and design.", "th": ["ai_evidence"]}
+  ]},
+  {"name": "ISTE", "dom": "iste.org", "icon": "ti-certificate", "note": "No new dated news today; recent evergreen items are listed.", "arts": [
+   {"t": "ISTE+ASCD and Google Partner to Provide AI Literacy Training to Six Million U.S. Educators", "u": "https://iste.org/news/iste-ascd-and-google-partner-to-provide-ai-literacy-training-to-six-million-u-s-educators", "s": "Three-year partnership to bring AI literacy training to K-12 teachers and higher-ed faculty.", "th": ["teacher_pd"]},
+   {"t": "A New Approach to Updating the ISTE Standards", "u": "https://iste.org/blog/a-new-approach-to-updating-the-iste-standards", "s": "Incremental revisions embed safe, responsible AI skills, chiefly through the digital citizenship standard.", "th": ["teacher_pd"]},
+   {"t": "Generation AI", "u": "https://iste.org/generationai/", "s": "Equity-focused professional learning to help K-12 educators use AI safely and responsibly.", "th": ["teacher_pd"]}
+  ]},
+  {"name": "Brookings", "dom": "brookings.edu", "icon": "ti-building-bank", "note": "No new education-technology piece dated today; recent AI-in-education work is listed.", "arts": [
+   {"t": "A new direction for students in an AI world: Prosper, prepare, protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "Task force report with 12 recommendations, concluding AI's risks currently overshadow its benefits for students.", "th": ["equity_risk", "ai_evidence"]},
+   {"t": "Do AI's risks outweigh the benefits for students and schools?", "u": "https://www.brookings.edu/articles/do-ais-risks-outweigh-the-benefits-for-students-and-schools/", "s": "Weighs learning benefits against overreliance risks to children's fundamental learning capacity.", "th": ["equity_risk", "ai_evidence"]}
+  ]},
+  {"name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-rocket", "arts": [
+   {"t": "AI Will Work Best for the Students Who Need It the Least", "u": "https://www.edtechdigest.com/2026/09/29/ai-will-work-best-for-the-students-who-need-it-the-least/", "s": "Opinion arguing AI's benefits will flow disproportionately to already-advantaged students.", "d": "SEP 29", "tag": "new", "th": ["equity_risk"]},
+   {"t": "2026 EdTech Awards Finalists & Winners", "u": "https://www.edtechdigest.com/2026-finalists-winners/", "s": "The 16th annual EdTech Awards honor products and leaders in edtech.", "th": ["events_market"]}
+  ]}
+ ]
+}
