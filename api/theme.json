@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-30T12:09:55Z",
+  "generatedAt": "2026-10-01T12:10:04Z",
   "daily": {
-    "date": "2026-09-30",
-    "topThemeKey": "ai_evidence",
-    "topThemeTitle": "AI Hype vs. Evidence",
-    "topThemeBody": "Usage data and new studies suggest AI adoption claims outrun proof of learning impact in both K-12 and higher ed.",
+    "date": "2026-10-01",
+    "topThemeKey": "events",
+    "topThemeTitle": "Convenings and Community",
+    "topThemeBody": "EdTech Week, Tech Congress and ISTE+ASCD gatherings in October will set the fall agenda.",
     "themes": [
+      {
+        "k": "events",
+        "title": "Convenings and Community",
+        "weight": 6
+      },
       {
         "k": "ai_evidence",
         "title": "AI Hype vs. Evidence",
-        "weight": 7
-      },
-      {
-        "k": "equity_risk",
-        "title": "Equity and Student Risk",
         "weight": 5
       },
       {
-        "k": "edtech_infra",
+        "k": "student_risk",
+        "title": "Student Risk and Protection",
+        "weight": 5
+      },
+      {
+        "k": "educator_readiness",
+        "title": "Educator Readiness",
+        "weight": 5
+      },
+      {
+        "k": "data_infra",
         "title": "Data and Standards Infrastructure",
-        "weight": 5
+        "weight": 4
       },
       {
-        "k": "teacher_pd",
-        "title": "Educator Learning and PD",
-        "weight": 5
-      },
-      {
-        "k": "events_market",
-        "title": "Events and Market Signals",
-        "weight": 3
-      },
-      {
-        "k": "cyber_risk",
-        "title": "Cybersecurity Frontier",
-        "weight": 1
+        "k": "ai_literacy",
+        "title": "AI Literacy and Curriculum",
+        "weight": 4
       }
     ]
   },
