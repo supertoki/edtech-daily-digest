@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-01T12:10:04Z",
+  "generatedAt": "2026-10-02T12:10:20Z",
   "daily": {
-    "date": "2026-10-01",
-    "topThemeKey": "events",
-    "topThemeTitle": "Convenings and Community",
-    "topThemeBody": "EdTech Week, Tech Congress and ISTE+ASCD gatherings in October will set the fall agenda.",
+    "date": "2026-10-02",
+    "topThemeKey": "data_infra",
+    "topThemeTitle": "Infrastructure, Cost and Standards",
+    "topThemeBody": "Hybrid cloud, volatile AI pricing, help-desk automation and Ed-Fi/1EdTech standards show infrastructure choices shaping what schools can sustain.",
     "themes": [
+      {
+        "k": "data_infra",
+        "title": "Infrastructure, Cost and Standards",
+        "weight": 8
+      },
+      {
+        "k": "educator_readiness",
+        "title": "Educator Readiness",
+        "weight": 7
+      },
+      {
+        "k": "ai_evidence",
+        "title": "AI Hype vs. Evidence",
+        "weight": 6
+      },
+      {
+        "k": "student_risk",
+        "title": "Security, Risk and Protection",
+        "weight": 6
+      },
       {
         "k": "events",
         "title": "Convenings and Community",
         "weight": 6
       },
       {
-        "k": "ai_evidence",
-        "title": "AI Hype vs. Evidence",
-        "weight": 5
-      },
-      {
-        "k": "student_risk",
-        "title": "Student Risk and Protection",
-        "weight": 5
-      },
-      {
-        "k": "educator_readiness",
-        "title": "Educator Readiness",
-        "weight": 5
-      },
-      {
-        "k": "data_infra",
-        "title": "Data and Standards Infrastructure",
-        "weight": 4
-      },
-      {
         "k": "ai_literacy",
-        "title": "AI Literacy and Curriculum",
-        "weight": 4
+        "title": "AI Tools and Literacy in Classrooms",
+        "weight": 5
       }
     ]
   },

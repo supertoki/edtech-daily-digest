@@ -1,0 +1,477 @@
+{
+ "date": "2026-10-02",
+ "dateLabel": "OCTOBER 2, 2026",
+ "headline": "Big Tech Pushes Classroom AI as Schools Weigh Cost, Cyber Risk and Proof",
+ "thesis": "As Google rolls out new education AI tools, trade press turns to <b>pricing, security and help-desk realities</b> while researchers keep asking for evidence.",
+ "summary": "EdTech Magazine leads with <b>Google's new AI tools purpose-built for education</b> (Classroom and Gemini), paired with practical K-12 and higher-ed IT coverage: <b>agentic AI for school help desks, volatile AI pricing models, and cyber risk framed as financial exposure</b>. Inside Higher Ed's Instructure-based finding that <b>AI integration in higher ed is overhyped</b> and EdSurge's question of whether schools can trust AI features in edtech products keep the evidence debate front and center, while Brookings calls for research that keeps pace with adoption as nearly two-thirds of teachers now use AI. On the calendar: <b>EdTech Week (Oct 14-15, NYC)</b>, 1EdTech's Technical Congress (Oct 19-21, Milwaukee), and ISTE+ASCD's Scottsdale convening (Oct 19-20).",
+ "footnote": "Compiled from 11 curated edtech sources · October 2, 2026 · Direct page fetches were not used; items come from search-indexed results, so several sources had no new dated news and list evergreen items with notes.",
+ "themes": [
+  {
+   "k": "ai_evidence",
+   "icon": "ti-flask",
+   "title": "AI Hype vs. Evidence",
+   "body": "Usage data and efficacy questions show <b>AI adoption outrunning proof</b>; Brookings says research must keep pace with tools already used by most teachers."
+  },
+  {
+   "k": "student_risk",
+   "icon": "ti-shield-bolt",
+   "title": "Security, Risk and Protection",
+   "body": "From Brookings' warnings to EdTech Magazine's <b>cyber-risk-as-financial-exposure</b> and shadow-IoT pieces, risk management is moving into the center of AI and tech planning."
+  },
+  {
+   "k": "educator_readiness",
+   "icon": "ti-chalkboard",
+   "title": "Educator Readiness",
+   "body": "Teachers are adopting AI fast, but <b>training and guidance lag</b>; relationships and implementation support still decide whether tech works."
+  },
+  {
+   "k": "data_infra",
+   "icon": "ti-database",
+   "title": "Infrastructure, Cost and Standards",
+   "body": "<b>Hybrid cloud, volatile AI pricing, help-desk automation</b> and Ed-Fi/1EdTech standards show infrastructure choices shaping what schools can sustain."
+  },
+  {
+   "k": "ai_literacy",
+   "icon": "ti-school",
+   "title": "AI Tools and Literacy in Classrooms",
+   "body": "Google's new education AI tools and college AI-literacy efforts show <b>vendors and institutions racing to define classroom AI use</b>."
+  },
+  {
+   "k": "events",
+   "icon": "ti-calendar-event",
+   "title": "Convenings and Community",
+   "body": "<b>EdTech Week, Tech Congress and ISTE+ASCD</b> gatherings in October will set the fall agenda."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Education Technology Insights",
+   "dom": "educationtechnologyinsights.com",
+   "icon": "ti-news",
+   "note": "No new dated items surfaced today; listing evergreen topic hubs.",
+   "arts": [
+    {
+     "t": "Education Technology Insights: AI Channel",
+     "u": "https://artificial-intelligence.educationtechnologyinsights.com/",
+     "s": "Magazine hub for peer-written coverage of AI adoption in education."
+    },
+    {
+     "t": "Education Technology Insights: EdTech Archive",
+     "u": "https://www.educationtechnologyinsights.com/edtech/",
+     "s": "Archive of articles on classroom innovation, digital infrastructure and data-driven learning."
+    }
+   ]
+  },
+  {
+   "name": "1EdTech Events",
+   "dom": "1edtech.org",
+   "icon": "ti-calendar-event",
+   "arts": [
+    {
+     "t": "Events and Meetings",
+     "u": "https://www.1edtech.org/events",
+     "s": "Calendar lists the Member Technical Congress (Oct 19-21), EDUCAUSE (through Oct 2) and CBExchange (Sept 30-Oct 3).",
+     "d": "OCT 19-21",
+     "th": [
+      "events"
+     ]
+    },
+    {
+     "t": "Digital Credentials Summit 2026",
+     "u": "https://www.1edtech.org/event/dc/summit/2026",
+     "s": "Summit on interoperable digital credentials and portability.",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "Learning Impact Conference 2027",
+     "u": "https://www.1edtech.org/event/li/2027",
+     "s": "Next Learning Impact Conference set for San Antonio, Feb 8-10, 2027.",
+     "th": [
+      "events"
+     ]
+    },
+    {
+     "t": "Learning Impact Europe 2026",
+     "u": "https://www.1edtech.org/events",
+     "s": "European edition held Sept 15-17, 2026.",
+     "d": "SEP 15-17",
+     "tag": "old"
+    }
+   ]
+  },
+  {
+   "name": "EdTech Week",
+   "dom": "edtechweek.com",
+   "icon": "ti-world",
+   "arts": [
+    {
+     "t": "EdTech Week 2026 Agenda at a Glance",
+     "u": "https://www.edtechweek.com/agenda-at-a-glance-2026",
+     "s": "Oct 14-15 at Columbia's Teachers College: higher-ed reinvention, the AI-native talent stack, student agency and the future of tutoring.",
+     "d": "OCT 14-15",
+     "th": [
+      "events",
+      "ai_literacy"
+     ]
+    },
+    {
+     "t": "EdTech Week Shark Tank",
+     "u": "https://www.edtechweek.com/sharktank",
+     "s": "Pitch competition with $250,000 in pledged investment across early learning through workforce and AI in education.",
+     "th": [
+      "events"
+     ]
+    },
+    {
+     "t": "AI for Educators Summit",
+     "u": "https://www.edtechweek.com/ai-for-educators-summit",
+     "s": "Educator-focused AI programming within EdTech Week.",
+     "th": [
+      "educator_readiness"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ed-Fi Impact Stories",
+   "dom": "ed-fi.org",
+   "icon": "ti-database",
+   "note": "No new stories dated today; featuring recent case studies.",
+   "arts": [
+    {
+     "t": "Real-Time Data, Real College and Career Results",
+     "u": "https://www.ed-fi.org/resources/impact-stories/real-time-data-real-college-and-career-results/",
+     "s": "Texas districts such as Lake Worth ISD boosted accountability ratings by up to 46% in a year using Ed-Fi data.",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "Connecting Schools Across Michigan with a Real-Time Statewide Data System",
+     "u": "https://www.ed-fi.org/resources/case-studies/michigan/",
+     "s": "Michigan Data Hub moves student records quickly so students get support from day one.",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "Unlocking Data to Strengthen Local Decision-Making in Texas",
+     "u": "https://www.ed-fi.org/resources/case-studies/texas/",
+     "s": "Texas uses data to identify, support and retain educators.",
+     "th": [
+      "data_infra",
+      "educator_readiness"
+     ]
+    },
+    {
+     "t": "Ed-Fi Alliance Tech Congress 2026",
+     "u": "https://www.ed-fi.org/event/ed-fi-alliance-tech-congress-2026/",
+     "s": "Annual gathering of the Ed-Fi community.",
+     "th": [
+      "events"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdSurge",
+   "dom": "edsurge.com",
+   "icon": "ti-news",
+   "arts": [
+    {
+     "t": "Can Schools Trust AI Features in Edtech Products?",
+     "u": "https://www.edsurge.com/news/can-schools-trust-ai-features-in-edtech-products",
+     "s": "EdReports' Courtney Allison explains why verifying tool efficacy matters as core and supplemental materials blur and AI tutors spread.",
+     "d": "SEP 30",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "Study: EdTech Is Rushing AI Integration Before Proving It Works",
+     "u": "https://www.edsurge.com/news/study-edtech-is-rushing-ai-integration-before-proving-it-works",
+     "s": "Providers are adding AI to materials with little evidence it improves learning.",
+     "d": "SEP 29",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "AI Is in Schools. Teachers Are Not Ready.",
+     "u": "https://www.edsurge.com/news/ai-is-in-schools-teachers-are-not-ready",
+     "s": "Most teachers lack formal AI guidance and AI was absent from most prep programs.",
+     "th": [
+      "educator_readiness"
+     ]
+    },
+    {
+     "t": "Report: School IT Officials Worried About AI Adoption, Cybersecurity",
+     "u": "https://www.edsurge.com/news/2026-06-02-report-school-it-officials-worried-about-ai-adoption-cybersecurity",
+     "s": "79% of districts now have AI guidelines, yet 98% of respondents fear new AI-enabled cyberattacks.",
+     "th": [
+      "student_risk"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "THE Journal",
+   "dom": "thejournal.com",
+   "icon": "ti-device-desktop",
+   "note": "No dated items today were retrievable; listing the news hub and recent product items.",
+   "arts": [
+    {
+     "t": "K-12 Technology News",
+     "u": "https://thejournal.com/articles/list/news.aspx",
+     "s": "Latest product launches, such as Avantis's EscapeRooms and LingoLab libraries and SMART's SoundFlow hearing-aid audio system."
+    },
+    {
+     "t": "Federal Education Freedom Tax Credit as a New Funding Source",
+     "u": "https://thejournal.com/articles/list/news.aspx",
+     "s": "THE Journal notes the EFTC could benefit up to 90% of students in states that opt in.",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "2026 Predictions for AI and Ed Tech in K-12 Education",
+     "u": "https://thejournal.com/articles/2026/01/29/2026-predictions-for-ai-and-ed-tech-in-k12-education-what-industry-leaders-are-saying.aspx",
+     "s": "Industry leaders forecast how AI will shape K-12 this year.",
+     "th": [
+      "ai_evidence"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdTech Magazine",
+   "dom": "edtechmagazine.com",
+   "icon": "ti-article",
+   "note": "Fresh Sept-Oct items surfaced via search; older evergreen pieces retained below.",
+   "arts": [
+    {
+     "t": "Google Launches New AI Tools Purpose-Built for Education",
+     "u": "https://edtechmagazine.com/k12/article/2026/10/google-launches-new-ai-tools-purpose-built-education",
+     "s": "Google announces new AI features integrated with Google Classroom and Gemini for education.",
+     "d": "OCT 1",
+     "tag": "new",
+     "lvl": "K-12",
+     "th": [
+      "ai_literacy"
+     ]
+    },
+    {
+     "t": "How Interactive Displays Fit Into a K–12 Device Ecosystem",
+     "u": "https://edtechmagazine.com/k12/article/2026/10/how-interactive-displays-fit-k-12-device-ecosystem",
+     "s": "IT teams get guidance on managing and securing classroom interactive displays.",
+     "d": "OCT 1",
+     "tag": "new",
+     "lvl": "K-12",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "How Higher Ed Institutions Can Rethink Cyber Risk in Terms of Financial Exposure",
+     "u": "https://edtechmagazine.com/higher/article/2026/09/how-higher-ed-institutions-can-rethink-cyber-risk-terms-financial-exposure",
+     "s": "Quantifying cyber risk as dollars at stake helps IT teams make the case for security investment.",
+     "d": "SEP 29",
+     "lvl": "Higher Ed",
+     "th": [
+      "student_risk"
+     ]
+    },
+    {
+     "t": "How University IT Leaders Can Budget for Volatile AI Pricing Models",
+     "u": "https://edtechmagazine.com/higher/article/2026/09/how-university-it-leaders-can-budget-volatile-ai-pricing-models",
+     "s": "Advice for budgeting as AI vendors' pricing models keep shifting.",
+     "d": "SEP 15",
+     "lvl": "Higher Ed",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "How Agentic AI Supplements K–12 IT Help Desks",
+     "u": "https://edtechmagazine.com/k12/article/2026/09/agentic-ai-k12-it-help-desk-support",
+     "s": "AI agents can handle routine support tickets, freeing technicians for strategic work.",
+     "d": "SEP 4",
+     "lvl": "K-12",
+     "th": [
+      "data_infra"
+     ]
+    },
+    {
+     "t": "Technology Didn’t Transform These Classrooms. Relationships Did.",
+     "u": "https://edtechmagazine.com/k12/article/2026/09/technology-didnt-transform-these-classrooms-relationships-did",
+     "s": "Gallup-McKinley County Schools case study on trust and relationships in tech adoption.",
+     "d": "SEP 5",
+     "lvl": "K-12",
+     "th": [
+      "educator_readiness"
+     ]
+    },
+    {
+     "t": "Higher Education's Role in Supporting K-12 AI Literacy",
+     "u": "https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy",
+     "s": "Universities can offer AI experts, conferences and research repositories to K-12 students and educators.",
+     "lvl": "Higher Ed",
+     "th": [
+      "ai_literacy"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Inside Higher Ed",
+   "dom": "insidehighered.com",
+   "icon": "ti-school",
+   "arts": [
+    {
+     "t": "Higher Ed's AI Integration Overhyped, New Data Shows",
+     "u": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/30/higher-eds-ai-integration-overhyped-new-data",
+     "s": "Instructure data on 19.5M users shows Google Gemini, the top dedicated AI tool, did not crack the top 100 ed-tech tools.",
+     "d": "SEP 30",
+     "th": [
+      "ai_evidence"
+     ],
+     "tag": "new"
+    },
+    {
+     "t": "5 Ways AI Is Reshaping Student Success",
+     "u": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/22/5-ways-ai-reshaping-student-success",
+     "s": "Overview of how AI is changing advising, support and student outcomes.",
+     "d": "SEP 22",
+     "th": [
+      "ai_literacy"
+     ]
+    },
+    {
+     "t": "How 5 Colleges Are Approaching AI",
+     "u": "https://www.insidehighered.com/news/student-success/academic-life/2026/04/03/how-5-colleges-are-approaching-ai",
+     "s": "Agnes Scott, Bryn Mawr and DeVry embed AI literacy through curriculum, libraries and every course.",
+     "th": [
+      "ai_literacy"
+     ]
+    },
+    {
+     "t": "The Digital Divide: Student Generative AI Access",
+     "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2025/04/21/half-colleges-dont-grant-students-access",
+     "s": "Half of colleges don't grant students institutional generative AI access.",
+     "th": [
+      "student_risk"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ISTE",
+   "dom": "iste.org",
+   "icon": "ti-certificate",
+   "arts": [
+    {
+     "t": "ISTE+ASCD Communities of Practice Convening",
+     "u": "https://iste.org/generationai/events/cop3",
+     "s": "Two-day in-person convening in Scottsdale for about 60 PK-12 leaders, Oct 19-20.",
+     "d": "OCT 19-20",
+     "th": [
+      "events",
+      "educator_readiness"
+     ]
+    },
+    {
+     "t": "ISTE+ASCD Takeaways, October 2026",
+     "u": "https://ascd.org/el/articles/takeaways-october-2026",
+     "s": "Educational Leadership's monthly takeaways for educators, published Oct 1.",
+     "d": "OCT 1",
+     "tag": "new",
+     "th": [
+      "educator_readiness"
+     ]
+    },
+    {
+     "t": "ISTE+ASCD Edtech Leader Certification Cohort",
+     "u": "https://iste.org/cohorts/educator-certification-october-3-2026-",
+     "s": "Google Champions certification cohort starting Oct 3.",
+     "d": "OCT 3",
+     "th": [
+      "educator_readiness"
+     ]
+    },
+    {
+     "t": "ISTE News",
+     "u": "https://iste.org/news",
+     "s": "Latest ISTE+ASCD announcements including new board members and leadership."
+    }
+   ]
+  },
+  {
+   "name": "Brookings (Education Technology)",
+   "dom": "brookings.edu",
+   "icon": "ti-building-bank",
+   "note": "No new dated items today; listing recent and core Global Task Force on AI in Education resources.",
+   "arts": [
+    {
+     "t": "AI is rapidly changing education and research needs to keep up",
+     "u": "https://www.brookings.edu/articles/ai-is-rapidly-changing-education-and-research-needs-to-keep-up/",
+     "s": "Nearly two-thirds of teachers use AI, but evaluation of AI tools' effectiveness has not kept pace with adoption.",
+     "d": "JUL 23",
+     "th": [
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "A new direction for students in an AI world: Prosper, prepare, protect",
+     "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/",
+     "s": "Task force report finds risks currently overshadow benefits but the trajectory can still be changed.",
+     "th": [
+      "student_risk"
+     ]
+    },
+    {
+     "t": "Do AI's risks outweigh the benefits for students and schools?",
+     "u": "https://www.brookings.edu/articles/do-ais-risks-outweigh-the-benefits-for-students-and-schools/",
+     "s": "Weighs narrow, well-designed AI uses against harms from general-purpose tools.",
+     "th": [
+      "student_risk",
+      "ai_evidence"
+     ]
+    },
+    {
+     "t": "Enhancing student agency through school AI councils",
+     "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/",
+     "s": "Proposes AI councils that give students a voice in school AI decisions.",
+     "th": [
+      "student_risk"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdTech Digest",
+   "dom": "edtechdigest.com",
+   "icon": "ti-bulb",
+   "note": "No new dated items today; listing awards and community hubs.",
+   "arts": [
+    {
+     "t": "The EdTech Awards 2026 Finalists & Winners Announced",
+     "u": "https://www.edtechdigest.com/2026/03/31/the-edtech-awards-2026-finalists-winners-announced/",
+     "s": "Sixteenth annual awards honor tools and leaders in education technology.",
+     "tag": "old"
+    },
+    {
+     "t": "Where Edtech Meets Human Connection",
+     "u": "https://www.edtechdigest.com/2026/05/26/where-edtech-meets-human-connection/",
+     "s": "Perspective on keeping human relationships central in edtech."
+    },
+    {
+     "t": "Top 100 Influencers in EdTech",
+     "u": "https://www.edtechdigest.com/top-100-influencers-in-edtech/",
+     "s": "Directory of leading edtech voices."
+    }
+   ]
+  }
+ ]
+}
