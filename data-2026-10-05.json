@@ -1,0 +1,57 @@
+{
+ "date": "2026-10-05",
+ "dateLabel": "OCTOBER 5, 2026",
+ "headline": "AI Adoption Outpaces Guardrails as EdTech Week and Technical Congress Near",
+ "thesis": "Fresh reporting says <b>AI adoption is outrunning student safeguards</b> while the autumn conference season, from EdTech Week to 1EdTech, is about to set the agenda.",
+ "summary": "Inside Higher Ed reports that <b>higher ed's AI adoption is outpacing student guardrails</b>, and EdTech Magazine's K-12 coverage tracks <b>Microsoft's report on K-12 AI adoption</b> alongside district training needs for Gemini rollouts. Brookings' Global Task Force continues to argue that <b>general-purpose AI can diminish learning unless used narrowly</b>. Ed-Fi reports adoption in more than a quarter of states. Next up: <b>EdTech Week (Oct 12-16, Columbia, NYC)</b> and the <b>1EdTech Technical Congress (Oct 19-21, Milwaukee)</b>; ISTE+ASCD is rebranding as ISTE.",
+ "footnote": "Compiled from 11 curated edtech sources · October 5, 2026 · Most publisher sites were unreachable from this environment, so items come from search-indexed results; several sources had no new dated news and list evergreen items with notes.",
+ "themes": [
+  {"k": "ai_guardrails", "icon": "ti-shield-bolt", "title": "AI Guardrails Lag Adoption", "body": "Reports show <b>adoption outpacing student protections</b> in higher ed, and Brookings warns of learning and equity risks."},
+  {"k": "k12_ai", "icon": "ti-school", "title": "K-12 AI Rollout", "body": "Districts rely on <b>training and implementation support</b> as Gemini and Microsoft tools spread."},
+  {"k": "data_infra", "icon": "ti-database", "title": "Data Standards & Interoperability", "body": "Ed-Fi adoption now spans <b>over a quarter of states</b>, with real-time alerts and advising use cases."},
+  {"k": "evidence", "icon": "ti-flask", "title": "Evidence & Trust", "body": "EdSurge and Brookings keep pressing for <b>proof of efficacy</b> before scaling AI features."},
+  {"k": "org_change", "icon": "ti-certificate", "title": "Organizations Reshaping", "body": "<b>ISTE+ASCD becomes ISTE</b>, and the 2027 conference is set for Boston."},
+  {"k": "events", "icon": "ti-calendar-event", "title": "Fall Events Ahead", "body": "<b>EdTech Week (Oct 12-16)</b> and <b>1EdTech Technical Congress (Oct 19-21)</b> are the next big convenings."}
+ ],
+ "sources": [
+  {"name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-news", "note": "No new dated items surfaced today; listing evergreen hubs.", "arts": [
+   {"t": "Education Technology Insights: AI Channel", "u": "https://artificial-intelligence.educationtechnologyinsights.com/", "s": "Magazine hub for peer-written coverage of AI adoption in education."}
+  ]},
+  {"name": "1EdTech Events", "dom": "1edtech.org", "icon": "ti-calendar-event", "arts": [
+   {"t": "2026 1EdTech Technical Congress", "u": "https://web.cvent.com/event/F4A5F3FD-7C46-445A-907B-64E22C770276", "s": "Oct 19-21 in Milwaukee: learning context across systems, security framework evolution, and skills/credentials.", "d": "OCT 19-21", "tag": "new", "th": ["events", "data_infra"]},
+   {"t": "1EdTech Learning Impact Europe 2026", "u": "https://media-and-learning.eu/subject/higher-education/1edtech-learning-impact-europe-conference-thessaloniki-greece-15-17-september-2026/", "s": "Thessaloniki conference held September 15-17.", "d": "SEP 15-17", "tag": "old"}
+  ]},
+  {"name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-world", "arts": [
+   {"t": "EdTech Week 2026, New York", "u": "https://www.sharedaudiences.com/events/edtech-week-2026", "s": "Oct 12-16 at Columbia University with an AI educator summit, CEO Summit and startup pitch sessions.", "d": "OCT 12-16", "tag": "new", "th": ["events"]}
+  ]},
+  {"name": "Ed-Fi Impact Stories", "dom": "ed-fi.org", "icon": "ti-database", "note": "No new stories dated today; featuring recent items.", "arts": [
+   {"t": "From Vision to Action: Reflections from the 2026 Ed-Fi Technical Congress", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/from-vision-to-action-reflections-from-the-2026-ed-fi-technical-congress/", "s": "Adoption now spans more than a quarter of states, powering real-time alerts and advising decisions.", "th": ["data_infra"]},
+   {"t": "Ed-Fi 2026 Premier Partners Announcement", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/", "s": "Ed-Fi names its 2026 premier partners."}
+  ]},
+  {"name": "EdSurge", "dom": "edsurge.com", "icon": "ti-news", "note": "Site unreachable today; listing recent indexed items.", "arts": [
+   {"t": "The AI Use Case Question Teachers Are Still Asking", "u": "https://www.edsurge.com/news/2026-03-27-the-ai-use-case-question-teachers-are-still-asking", "s": "Teacher responses show indifference rather than rejection of AI.", "th": ["evidence", "k12_ai"]},
+   {"t": "Beyond Easy Answers: How AI Can Deepen Learning", "u": "https://www.edsurge.com/news/2025-12-08-beyond-easy-answers-how-ai-can-deepen-learning", "s": "Argues AI can deepen rather than shortcut learning when designed well.", "th": ["evidence"]}
+  ]},
+  {"name": "THE Journal", "dom": "thejournal.com", "icon": "ti-device-desktop", "note": "No dated items retrievable today; listing the news hub.", "arts": [
+   {"t": "THE Journal: K-12 Educational Technology News", "u": "https://thejournal.com/", "s": "Daily K-12 ed tech news hub."}
+  ]},
+  {"name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-article", "note": "Recent indexed items; no confirmed Oct 5 posts.", "arts": [
+   {"t": "Microsoft Report Highlights Trends in K–12 AI Adoption", "u": "https://edtechmagazine.com/k12/article/2026/09/microsoft-report-highlights-trends-k-12-ai-adoption", "s": "Summarizes what Microsoft's report shows about K-12 AI adoption.", "d": "SEP", "tag": "new", "lvl": "K-12", "th": ["k12_ai"]},
+   {"t": "Districts Rely On Training and Implementation Support for Google Gemini Adoption", "u": "https://edtechmagazine.com/k12/article/2026/05/districts-rely-training-and-implementation-support-google-gemini-adoption", "s": "Districts lean on training and support to roll out Gemini.", "lvl": "K-12", "th": ["k12_ai"]},
+   {"t": "AI Attendance Tracking: How Technology Can Help K–12 Districts Combat Chronic Absenteeism", "u": "https://edtechmagazine.com/k12/article/2026/03/ai-attendance-tracking-how-technology-can-help-k-12-districts-combat-chronic-absenteeism-perfcon", "s": "A New York district cut chronic absenteeism from 38% to 20% with AI outreach.", "lvl": "K-12", "th": ["k12_ai"]}
+  ]},
+  {"name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-school", "arts": [
+   {"t": "Report: Higher Ed's Adoption of AI Outpaces Student Guards", "u": "https://www.insidehighered.com/news/quick-takes/2026/09/18/report-higher-eds-adoption-ai-outpaces-student-guards", "s": "A new report finds campus AI adoption is moving faster than protections for students.", "d": "SEP 18", "tag": "new", "th": ["ai_guardrails"]}
+  ]},
+  {"name": "ISTE", "dom": "iste.org", "icon": "ti-certificate", "arts": [
+   {"t": "Second annual ISTELive and ASCD Annual Conference convenes global education leaders", "u": "https://iste.org/news/second-annual-istelive-and-ascd-annual-conference-convenes-global-education-leaders-around-the-future-of-learning", "s": "15,201 participants from 86 countries attended the Orlando conference June 28-July 1.", "tag": "old", "th": ["org_change"]},
+   {"t": "ISTE 2026 Honorees for Innovation and Excellence in Education", "u": "https://iste.org/news/iste-2026-honorees-for-innovation-and-excellence-in-education", "s": "Announces 2026 award recipients.", "th": ["org_change"]}
+  ]},
+  {"name": "Brookings (Education Technology)", "dom": "brookings.edu", "icon": "ti-building-bank", "note": "No new dated items today; listing core Global Task Force material.", "arts": [
+   {"t": "A new direction for AI and students: Findings from the Brookings Global Task Force on AI and Education", "u": "https://www.brookings.edu/events/a-new-direction-for-ai-and-students-findings-from-the-brookings-global-task-force-on-ai-and-education/", "s": "Finds general-purpose AI can diminish learning while narrow, well-designed tools can help.", "th": ["ai_guardrails", "evidence"]}
+  ]},
+  {"name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-bulb", "note": "No new dated items today; listing awards coverage.", "arts": [
+   {"t": "The EdTech Awards 2026 Finalists & Winners Announced", "u": "https://news.spill.org/en/article/the-edtech-awards-2026-finalists-winners-announced-579", "s": "Finalists and winners shared with a worldwide audience via EdTech Digest.", "tag": "new"}
+  ]}
+ ]
+}

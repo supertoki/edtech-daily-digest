@@ -1,5 +1,5 @@
 {
-  "target": "2026-09-28",
+  "target": "2026-10-05",
   "displayed": "2026-09-28",
   "current": "2026-09-28",
   "weeks": {
@@ -95,6 +95,12 @@
       "file": "hero-2026-09-28.webp",
       "theme": "conf",
       "approvedAt": "2026-09-28T20:30:49Z"
+    },
+    "2026-10-05": {
+      "themeKey": "ai_evidence",
+      "themeTitle": "AI Hype vs. Evidence",
+      "themeBody": "Usage data and efficacy questions show AI adoption outrunning proof; Brookings says research must keep pace with tools already used by most teachers.",
+      "lockedAt": "2026-10-05T12:10:07Z"
     }
   }
 }

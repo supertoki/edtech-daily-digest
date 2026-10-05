@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-02T12:10:20Z",
+  "generatedAt": "2026-10-05T12:10:07Z",
   "daily": {
-    "date": "2026-10-02",
-    "topThemeKey": "data_infra",
-    "topThemeTitle": "Infrastructure, Cost and Standards",
-    "topThemeBody": "Hybrid cloud, volatile AI pricing, help-desk automation and Ed-Fi/1EdTech standards show infrastructure choices shaping what schools can sustain.",
+    "date": "2026-10-05",
+    "topThemeKey": "k12_ai",
+    "topThemeTitle": "K-12 AI Rollout",
+    "topThemeBody": "Districts rely on training and implementation support as Gemini and Microsoft tools spread.",
     "themes": [
       {
+        "k": "k12_ai",
+        "title": "K-12 AI Rollout",
+        "weight": 4
+      },
+      {
+        "k": "evidence",
+        "title": "Evidence & Trust",
+        "weight": 3
+      },
+      {
+        "k": "ai_guardrails",
+        "title": "AI Guardrails Lag Adoption",
+        "weight": 2
+      },
+      {
         "k": "data_infra",
-        "title": "Infrastructure, Cost and Standards",
-        "weight": 8
+        "title": "Data Standards & Interoperability",
+        "weight": 2
       },
       {
-        "k": "educator_readiness",
-        "title": "Educator Readiness",
-        "weight": 7
-      },
-      {
-        "k": "ai_evidence",
-        "title": "AI Hype vs. Evidence",
-        "weight": 6
-      },
-      {
-        "k": "student_risk",
-        "title": "Security, Risk and Protection",
-        "weight": 6
+        "k": "org_change",
+        "title": "Organizations Reshaping",
+        "weight": 2
       },
       {
         "k": "events",
-        "title": "Convenings and Community",
-        "weight": 6
-      },
-      {
-        "k": "ai_literacy",
-        "title": "AI Tools and Literacy in Classrooms",
-        "weight": 5
+        "title": "Fall Events Ahead",
+        "weight": 2
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-09-28",
-    "weekRange": "9/28-10/4",
-    "status": "approved",
+    "weekKey": "2026-10-05",
+    "weekRange": "10/5-10/11",
+    "status": "pending",
     "displayedWeek": "2026-09-28",
     "currentImage": "assets/illustrations/hero-2026-09-28.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "conf",
-    "themeTitle": "Fall's Conference Marathon Reaches Its Biggest Stop",
-    "themeBody": "EDUCAUSE's Annual Conference opens September 29 in Denver, with EdTech Week's return to Columbia (October 13-15) and the Ed-Fi Alliance Summit (November 9-11) next on the circuit.",
+    "themeKey": "ai_evidence",
+    "themeTitle": "AI Hype vs. Evidence",
+    "themeBody": "Usage data and efficacy questions show AI adoption outrunning proof; Brookings says research must keep pace with tools already used by most teachers.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Fall's Conference Marathon Reaches Its Biggest Stop - EDUCAUSE's Annual Conference opens September 29 in Denver, with EdTech Week's return to Columbia (October 13-15) and the Ed-Fi Alliance Summit (November 9-11) next on the circuit.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Hype vs. Evidence - Usage data and efficacy questions show AI adoption outrunning proof; Brookings says research must keep pace with tools already used by most teachers.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
