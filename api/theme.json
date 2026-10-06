@@ -1,30 +1,25 @@
 {
-  "generatedAt": "2026-10-05T12:10:07Z",
+  "generatedAt": "2026-10-06T12:09:48Z",
   "daily": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "topThemeKey": "k12_ai",
     "topThemeTitle": "K-12 AI Rollout",
-    "topThemeBody": "Districts rely on training and implementation support as Gemini and Microsoft tools spread.",
+    "topThemeBody": "Districts keep adopting AI, but teacher readiness and unclear guidance remain gaps.",
     "themes": [
       {
         "k": "k12_ai",
         "title": "K-12 AI Rollout",
-        "weight": 4
+        "weight": 5
+      },
+      {
+        "k": "ai_backlash",
+        "title": "AI Backlash & Guardrails",
+        "weight": 3
       },
       {
         "k": "evidence",
         "title": "Evidence & Trust",
         "weight": 3
-      },
-      {
-        "k": "ai_guardrails",
-        "title": "AI Guardrails Lag Adoption",
-        "weight": 2
-      },
-      {
-        "k": "data_infra",
-        "title": "Data Standards & Interoperability",
-        "weight": 2
       },
       {
         "k": "org_change",
@@ -35,6 +30,11 @@
         "k": "events",
         "title": "Fall Events Ahead",
         "weight": 2
+      },
+      {
+        "k": "higher_ed",
+        "title": "Higher Ed Reality Check",
+        "weight": 1
       }
     ]
   },
