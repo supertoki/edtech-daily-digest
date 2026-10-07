@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-06T12:09:48Z",
+  "generatedAt": "2026-10-07T12:09:54Z",
   "daily": {
-    "date": "2026-10-06",
-    "topThemeKey": "k12_ai",
-    "topThemeTitle": "K-12 AI Rollout",
-    "topThemeBody": "Districts keep adopting AI, but teacher readiness and unclear guidance remain gaps.",
+    "date": "2026-10-07",
+    "topThemeKey": "ai_backlash",
+    "topThemeTitle": "AI Backlash & Guardrails",
+    "topThemeBody": "Debate over AI bans versus guided use continues, with concern that panic could remove helpful early-literacy tools.",
     "themes": [
-      {
-        "k": "k12_ai",
-        "title": "K-12 AI Rollout",
-        "weight": 5
-      },
       {
         "k": "ai_backlash",
         "title": "AI Backlash & Guardrails",
-        "weight": 3
+        "weight": 5
       },
       {
         "k": "evidence",
         "title": "Evidence & Trust",
-        "weight": 3
+        "weight": 5
       },
       {
-        "k": "org_change",
-        "title": "Organizations Reshaping",
+        "k": "higher_ed",
+        "title": "Higher Ed AI Strategy",
+        "weight": 4
+      },
+      {
+        "k": "platforms",
+        "title": "AI Platform Shifts",
+        "weight": 2
+      },
+      {
+        "k": "infrastructure",
+        "title": "Devices & Infrastructure",
         "weight": 2
       },
       {
         "k": "events",
         "title": "Fall Events Ahead",
         "weight": 2
-      },
-      {
-        "k": "higher_ed",
-        "title": "Higher Ed Reality Check",
-        "weight": 1
       }
     ]
   },
