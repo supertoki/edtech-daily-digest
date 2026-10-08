@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-08",
+ "dateLabel": "OCTOBER 8, 2026",
+ "headline": "Show Me the Results",
+ "thesis": "From Washington's edtech letter to Educause's No. 1 priority, <b>the pressure is on to prove AI and edtech actually work</b>.",
+ "summary": "EdSurge revisits the Department of Education's guidance urging districts to <b>buy technology on learning outcomes, not usage</b>, and its podcast on the \"October Blues\" looks at teacher burnout. Inside Higher Ed reports on Educause's 2027 Top 10, where <b>AI value tops the list for the first time</b>, and on Instructure data showing little AI tool uptake. THE Journal covers surveys on <b>network trust and specialized infrastructure as AI bottlenecks</b>, and EdTech Magazine looks at planning infrastructure for CTE programs. Ahead: <b>EdTech Week (NYC, Oct 12-16)</b> and the <b>1EdTech Technical Congress (Oct 19-21)</b>.",
+ "footnote": "Compiled from 11 curated edtech sources · October 8, 2026 · Items come from search-indexed results rather than direct site fetches; most sources had no new dated news today and list recent or evergreen items. EdTech Week dates vary by listing.",
+ "themes": [
+  {"k": "outcomes", "icon": "ti-gavel", "title": "Outcomes & Evidence", "body": "Federal guidance asks districts to <b>buy on measured learning impact</b>, while researchers say the AI evidence base remains thin."},
+  {"k": "ai_backlash", "icon": "ti-shield-bolt", "title": "AI Backlash & Guardrails", "body": "Fights over <b>AI bans and screeners</b> continue, and Brookings finds risks to children currently outweigh benefits."},
+  {"k": "higher_ed", "icon": "ti-building-bank", "title": "Higher Ed AI Strategy", "body": "Educause ranks <b>finding where AI adds real value</b> first, while few instructors are trained and few provosts have a central strategy."},
+  {"k": "infrastructure", "icon": "ti-device-laptop", "title": "Infrastructure & Trust", "body": "Surveys flag <b>network trust and specialized infrastructure</b> as AI obstacles; CTE programs need IT in purchasing."},
+  {"k": "teachers", "icon": "ti-users", "title": "Teacher Wellbeing", "body": "EdSurge asks why teachers <b>hit a wall in October</b> and how to get through it."},
+  {"k": "events", "icon": "ti-calendar-event", "title": "Fall Events Ahead", "body": "<b>EdTech Week</b> and the <b>1EdTech Technical Congress</b> arrive within days of each other."}
+ ],
+ "sources": [
+  {"name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-news", "note": "No new dated items surfaced today; listing evergreen hub.", "arts": [
+   {"t": "Education Technology Insights", "u": "https://www.educationtechnologyinsights.com/", "s": "Magazine hub for peer-written coverage of how institutions evaluate, adopt and scale digital learning."}]},
+  {"name": "1EdTech Events", "dom": "1edtech.org", "icon": "ti-calendar-event", "arts": [
+   {"t": "2026 1EdTech Technical Congress", "u": "https://web.cvent.com/event/F4A5F3FD-7C46-445A-907B-64E22C770276", "s": "Member working meeting Oct 19-21 in Milwaukee on moving learning context across systems and evolving the Security Framework.", "d": "OCT 19-21", "tag": "new", "th": ["events"]}]},
+  {"name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-world", "note": "Listings disagree on exact dates; verify on the official site.", "arts": [
+   {"t": "EdTech Week 2026", "u": "https://www.edtechweek.com", "s": "NYC event at Columbia University focused on AI in education and workforce development.", "d": "OCT 12-16", "tag": "new", "th": ["events"]}]},
+  {"name": "Ed-Fi Impact Stories", "dom": "ed-fi.org", "icon": "ti-database", "note": "No new stories dated today; featuring existing case studies.", "arts": [
+   {"t": "Ed-Fi Impact Stories", "u": "https://www.ed-fi.org/resources/impact-stories", "s": "Case studies including Texas Education Agency dashboards that give educator prep programs near-real-time views of the teacher pipeline."}]},
+  {"name": "EdSurge", "dom": "edsurge.com", "icon": "ti-news", "arts": [
+   {"t": "Why Do So Many Teachers Crash in October?", "u": "https://www.edsurge.com/news/why-do-so-many-teachers-crash-in-october", "s": "Podcast with Mike Anderson on the fall slump and how to get through the \"October Blues.\"", "d": "OCT 7", "tag": "new", "th": ["teachers"]},
+   {"t": "Will Kids Pay the Price for AI Panic?", "u": "https://edsurge.com/news/will-kids-pay-the-price-for-ai-panic", "s": "Opinion argues New Mexico's pushback on an AI reading screener could hurt early literacy, while granting privacy concerns.", "d": "OCT 5", "tag": "new", "th": ["ai_backlash"]},
+   {"t": "Department of Education Issues Long-Awaited Edtech Guidance for States and Districts", "u": "https://edsurge.com/news/department-of-education-issues-long-awaited-edtech-guidance-for-states-and-districts", "s": "Federal letter urges judging classroom technology by learning results and expecting independent evaluations from vendors.", "th": ["outcomes"]}]},
+  {"name": "THE Journal", "dom": "thejournal.com", "icon": "ti-device-desktop", "arts": [
+   {"t": "Research: Lack of Specialized Infrastructure Is a Top AI Adoption Challenge", "u": "https://thejournal.com/articles/2026/10/07/research-lack-of-specialized-infrastructure-is-a-top-ai-adoption-challenge.aspx", "s": "A Digital Realty survey ranks specialized infrastructure first among AI adoption challenges at 40%.", "d": "OCT 7", "tag": "new", "th": ["infrastructure"]},
+   {"t": "AI Ambitions Are Running Into a Network Infrastructure Trust Problem", "u": "https://thejournal.com/articles/2026/10/05/ai-ambitions-are-running-into-a-network-infrastructure-trust-problem.aspx", "s": "Arelion survey: 93% trust their network provider but only 15% are fully confident in incident response; the vendor has a stake in the message.", "d": "OCT 5", "tag": "new", "th": ["infrastructure"]}]},
+  {"name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-article", "note": "No new Higher Ed items surfaced today; K-12 item below.", "arts": [
+   {"t": "Supporting Career and Technical Education Programs With the Right Technology", "u": "https://edtechmagazine.com/k12/article/2026/10/supporting-career-and-technical-education-programs-right-technology", "s": "District IT should plan infrastructure for simulation-heavy CTE programs and be consulted before purchases.", "d": "OCT", "tag": "new", "lvl": "K-12", "th": ["infrastructure"]},
+   {"t": "Higher Education Technology News & Trends", "u": "https://edtechmagazine.com/higher/", "s": "Section hub, with recent coverage of zero trust and threat detection for college IT leaders.", "lvl": "Higher Ed"}]},
+  {"name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-school", "arts": [
+   {"t": "Higher Ed Tech Officers Navigating \"Age of Perpetual Change\"", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/10/05/higher-ed-tech-officers-navigating-age", "s": "Educause's 2027 Top 10 puts determining where AI adds real value at No. 1, a first for an AI item.", "d": "OCT 5", "tag": "new", "th": ["higher_ed"]},
+   {"t": "Higher Ed's AI Integration Overhyped, New Data Shows", "u": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/30/higher-eds-ai-integration-overhyped-new-data", "s": "Instructure data across 19.5 million users finds the top AI tool outside the top 100 integrations.", "d": "SEP 30", "th": ["higher_ed", "outcomes"]},
+   {"t": "The \"Nonexistent\" Research on AI's Benefits for Education", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education", "s": "MIT's Justin Reich says the evidence base is almost nonexistent as tools outpace research.", "d": "SEP 14", "th": ["outcomes"]}]},
+  {"name": "ISTE", "dom": "iste.org", "icon": "ti-certificate", "note": "No new dated items surfaced today; listing recent programs.", "arts": [
+   {"t": "ISTE news", "u": "https://iste.org/news", "s": "Newsroom, including the June rename to International Society for Transforming Education."},
+   {"t": "GenerationAI Communities of Practice", "u": "https://iste.org/generationai/events/cop3", "s": "Cohort 3 kicks off with an in-person convening Oct 19-20 in Scottsdale; applications have closed.", "d": "OCT 19-20"}]},
+  {"name": "Brookings (Education Technology)", "dom": "brookings.edu", "icon": "ti-building-bank", "note": "No new dated items surfaced today; listing evergreen work.", "arts": [
+   {"t": "A new direction for students in an AI world: Prosper, prepare, protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "Global Task Force report finds AI's risks to children's education currently outweigh its benefits, with 12 recommendations.", "th": ["ai_backlash", "outcomes"]}]},
+  {"name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-bulb", "note": "No new dated items surfaced today; site activity could not be confirmed in search.", "arts": [
+   {"t": "EdTech Digest", "u": "https://www.edtechdigest.com/", "s": "Media company covering technology in education and host of The EdTech Awards."}]}
+ ]
+}

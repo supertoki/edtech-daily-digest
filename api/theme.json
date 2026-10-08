@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-07T12:09:54Z",
+  "generatedAt": "2026-10-08T12:10:05Z",
   "daily": {
-    "date": "2026-10-07",
-    "topThemeKey": "ai_backlash",
-    "topThemeTitle": "AI Backlash & Guardrails",
-    "topThemeBody": "Debate over AI bans versus guided use continues, with concern that panic could remove helpful early-literacy tools.",
+    "date": "2026-10-08",
+    "topThemeKey": "outcomes",
+    "topThemeTitle": "Outcomes & Evidence",
+    "topThemeBody": "Federal guidance asks districts to buy on measured learning impact, while researchers say the AI evidence base remains thin.",
     "themes": [
+      {
+        "k": "outcomes",
+        "title": "Outcomes & Evidence",
+        "weight": 4
+      },
+      {
+        "k": "infrastructure",
+        "title": "Infrastructure & Trust",
+        "weight": 3
+      },
       {
         "k": "ai_backlash",
         "title": "AI Backlash & Guardrails",
-        "weight": 5
-      },
-      {
-        "k": "evidence",
-        "title": "Evidence & Trust",
-        "weight": 5
+        "weight": 2
       },
       {
         "k": "higher_ed",
         "title": "Higher Ed AI Strategy",
-        "weight": 4
-      },
-      {
-        "k": "platforms",
-        "title": "AI Platform Shifts",
-        "weight": 2
-      },
-      {
-        "k": "infrastructure",
-        "title": "Devices & Infrastructure",
         "weight": 2
       },
       {
         "k": "events",
         "title": "Fall Events Ahead",
         "weight": 2
+      },
+      {
+        "k": "teachers",
+        "title": "Teacher Wellbeing",
+        "weight": 1
       }
     ]
   },
