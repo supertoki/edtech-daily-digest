@@ -1,0 +1,44 @@
+{
+"date":"2026-10-09","dateLabel":"OCTOBER 9, 2026",
+"headline":"Evidence Gap, Strategy Gap",
+"thesis":"Vendors claim AI works and provosts use it daily, but <b>few can show independent evidence or a campus-wide strategy</b> behind it.",
+"summary":"EdReports found that only <b>one of 10 edtech providers</b> cited third-party evidence of student outcomes for its AI features, even as nearly all call them effective. In higher ed, Inside Higher Ed's provost survey shows about <b>7 in 10 provosts use AI weekly but only 1 in 10 report a centralized institutional AI strategy</b>. Meanwhile early-childhood educators are pushing back on AI-generated video, Brookings keeps framing AI as helpful only when narrowly and carefully designed, and EdTech Week (NYC) and UPCEA Convergence arrive next week.",
+"footnote":"Compiled from 11 curated edtech sources · October 9, 2026 · Direct site fetches were unavailable, so items come from search-indexed results; most sources had no new dated news today and list recent or evergreen items. EdTech Week dates vary by listing (Oct 12–16 vs. Oct 14–15).",
+"themes":[
+{"k":"outcomes","icon":"ti-gavel","title":"Outcomes & Evidence","body":"EdReports finds <b>scant third-party evidence</b> behind AI product claims; buyers are asked to demand proof."},
+{"k":"ai_backlash","icon":"ti-shield-bolt","title":"AI Backlash & Guardrails","body":"Educators push back on low-quality AI video for young children while Brookings urges <b>narrow, well-designed use</b>."},
+{"k":"higher_ed","icon":"ti-building-bank","title":"Higher Ed AI Strategy","body":"Provosts use AI constantly but <b>few institutions have a central strategy</b>; faculty remain wary."},
+{"k":"infrastructure","icon":"ti-device-laptop","title":"Infrastructure & Data","body":"Interoperability bodies such as Ed-Fi and 1EdTech continue to anchor district data and tool integration."},
+{"k":"teachers","icon":"ti-users","title":"Teacher AI Adoption","body":"Big tech keeps launching teacher-facing AI tools, and teachers are increasingly leading integration."},
+{"k":"events","icon":"ti-calendar-event","title":"Fall Events Ahead","body":"<b>UPCEA Convergence (Oct 13–15)</b> and <b>EdTech Week NYC</b> kick off next week."}
+],
+"sources":[
+{"name":"Education Technology Insights","dom":"educationtechnologyinsights.com","icon":"ti-news","note":"No new dated news found today; listing the publication's main hub.","arts":[
+{"t":"Education Technology Insights","u":"https://www.educationtechnologyinsights.com/","s":"Vendor and leader profiles and trend coverage for K-12 and higher-ed technology."}]},
+{"name":"1EdTech Events","dom":"1edtech.org","icon":"ti-calendar-event","note":"No 2026 joint event found; listing the most recent Ed-Fi/1EdTech event page.","arts":[
+{"t":"1EdTech Community Sessions at the 2025 Ed-Fi Alliance Summit","u":"https://www.1edtech.org/events/ed-fi-alliance-summit-2025","s":"Session on the joint 1EdTech and Ed-Fi offering to support data-driven decision-making (San Antonio, Oct 6–8, 2025).","d":"2025","tag":"old","th":["infrastructure"]}]},
+{"name":"EdTech Week","dom":"edtechweek.com","icon":"ti-world","note":"Dates differ across listings (Oct 12–16 at Columbia vs. Oct 14–15); check the official site.","arts":[
+{"t":"EdTech Week 2026 (New York)","u":"https://www.edtechweek.com/","s":"Annual NYC edtech gathering returns next week with speakers including leaders from Anthropic and the U.S. Department of Labor.","d":"OCT 12–16","tag":"new","th":["events"]}]},
+{"name":"Ed-Fi Impact Stories","dom":"ed-fi.org","icon":"ti-database","note":"No new impact story found today; listing the latest Ed-Fi update located.","arts":[
+{"t":"Ed-Fi Updates: August 24, 2026","u":"https://content.govdelivery.com/accounts/MNMDE/bulletins/4244043","s":"State-level Ed-Fi bulletin on data-standard updates for districts.","d":"AUG 24","th":["infrastructure"]}]},
+{"name":"EdSurge","dom":"edsurge.com","icon":"ti-news","arts":[
+{"t":"Can Schools Trust AI Features in Edtech Products?","u":"https://www.edsurge.com/news/can-schools-trust-ai-features-in-edtech-products","s":"EdReports found only one of 10 providers cited third-party student-outcome evidence for AI features.","d":"SEP 30","tag":"new","th":["outcomes"]},
+{"t":"AI Videos Are Warping Early Learning, Teachers Say","u":"https://www.edsurge.com/news/ai-videos-are-warping-early-learning-teachers-say-heres-how-theyre-responding","s":"Early-childhood educators respond to the rise of AI-generated 'baby slop' video.","d":"SEP 8","th":["ai_backlash"]},
+{"t":"Anthropic Introduces Claude for Teachers","u":"https://www.edsurge.com/news/anthropic-introduces-claude-for-teachers","s":"Latest in a wave of big-tech teacher AI tools, with standards-aligned scaffolded lessons.","th":["teachers"]}]},
+{"name":"THE Journal","dom":"thejournal.com","icon":"ti-device-desktop","note":"No indexed articles dated today; listing an evergreen item.","arts":[
+{"t":"Tech Outlook 2026: What Education Leaders Expect This Year","u":"https://news.spill.org/en/article/tech-outlook-2026-what-education-leaders-expect-this-year-185","s":"Syndicated summary of THE Journal's survey of ed-tech leaders' predictions for schools and districts."}]},
+{"name":"EdTech Magazine","dom":"edtechmagazine.com","icon":"ti-article","note":"No indexed articles dated today; listing recent items from both sections.","arts":[
+{"t":"Higher Education's Role in Supporting K–12 AI Literacy","u":"https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy","s":"USF's Bellini College partners with Hillsborough County high schools on AI curriculum.","d":"MAY","lvl":"Higher Ed","th":["higher_ed"]},
+{"t":"AI Tools Support Personalized Learning in K–12 Education","u":"https://edtechmagazine.com/k12/article/2026/03/ai-tools-support-personalized-learning-k-12-education","s":"How districts are using AI tools to personalize instruction.","d":"MAR","lvl":"K-12","th":["teachers"]}]},
+{"name":"Inside Higher Ed","dom":"insidehighered.com","icon":"ti-school","arts":[
+{"t":"From AI Use to Funding Cuts: How Provosts Navigate 2026","u":"https://www.insidehighered.com/news/governance/executive-leadership/2026/09/23/ai-use-funding-cuts-how-provosts-navigate-2026","s":"About 7 in 10 provosts use AI weekly, but only 1 in 10 report a centralized AI strategy.","d":"SEP 23","tag":"new","th":["higher_ed"]},
+{"t":"Survey: Faculty Say AI Is Impactful, but Not In a Good Way","u":"https://www.insidehighered.com/news/faculty-issues/teaching/2026/01/21/survey-faculty-say-ai-impactful-not-good-way","s":"Nine in 10 faculty expect generative AI to diminish students' critical thinking.","d":"JAN 21","th":["higher_ed","ai_backlash"]},
+{"t":"How 5 Colleges Are Approaching AI","u":"https://www.insidehighered.com/news/student-success/academic-life/2026/04/03/how-5-colleges-are-approaching-ai","s":"Profiles of campus AI approaches and the faculty and student pushback they sparked.","d":"APR 3","th":["higher_ed"]}]},
+{"name":"ISTE","dom":"iste.org","icon":"ti-certificate","note":"No October press release found; listing recent organization items.","arts":[
+{"t":"Global Educators Gather at the ISTELive and ASCD Annual Conference","u":"https://iste.org/news/global-educators-gather-iste-ascd-annual-conference-transform-learning-ai","s":"15,201 participants from 86 countries attended in Orlando; 2027 moves to Boston.","d":"JUL","tag":"old","th":["events"]},
+{"t":"EL Takeaways: October 2026","u":"https://ascd.org/el/articles/takeaways-october-2026","s":"Educational Leadership's October issue on coaching that works.","d":"OCT 1","tag":"new"}]},
+{"name":"Brookings (Education Technology)","dom":"brookings.edu","icon":"ti-building-bank","note":"No new dated item today; listing the Global Task Force on AI and Education findings.","arts":[
+{"t":"A New Direction for AI and Students: Findings from the Brookings Global Task Force on AI and Education","u":"https://www.brookings.edu/events/a-new-direction-for-ai-and-students-findings-from-the-brookings-global-task-force-on-ai-and-education/","s":"AI helps students when narrowly and thoughtfully designed, but general-purpose use can diminish learning.","th":["ai_backlash","outcomes"]}]},
+{"name":"EdTech Digest","dom":"edtechdigest.com","icon":"ti-bulb","note":"No new dated news today; listing the EdTech Awards hub.","arts":[
+{"t":"The EdTech Awards 2026: Finalists and Winners","u":"https://edtechdigest.com/","s":"EdTech Digest's annual awards program announced 2026 finalists and winners."}]}
+]}

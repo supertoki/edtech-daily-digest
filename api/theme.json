@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-08T12:10:05Z",
+  "generatedAt": "2026-10-09T12:10:08Z",
   "daily": {
-    "date": "2026-10-08",
-    "topThemeKey": "outcomes",
-    "topThemeTitle": "Outcomes & Evidence",
-    "topThemeBody": "Federal guidance asks districts to buy on measured learning impact, while researchers say the AI evidence base remains thin.",
+    "date": "2026-10-09",
+    "topThemeKey": "higher_ed",
+    "topThemeTitle": "Higher Ed AI Strategy",
+    "topThemeBody": "Provosts use AI constantly but few institutions have a central strategy; faculty remain wary.",
     "themes": [
       {
-        "k": "outcomes",
-        "title": "Outcomes & Evidence",
+        "k": "higher_ed",
+        "title": "Higher Ed AI Strategy",
         "weight": 4
-      },
-      {
-        "k": "infrastructure",
-        "title": "Infrastructure & Trust",
-        "weight": 3
       },
       {
         "k": "ai_backlash",
         "title": "AI Backlash & Guardrails",
+        "weight": 3
+      },
+      {
+        "k": "outcomes",
+        "title": "Outcomes & Evidence",
         "weight": 2
       },
       {
-        "k": "higher_ed",
-        "title": "Higher Ed AI Strategy",
+        "k": "infrastructure",
+        "title": "Infrastructure & Data",
+        "weight": 2
+      },
+      {
+        "k": "teachers",
+        "title": "Teacher AI Adoption",
         "weight": 2
       },
       {
         "k": "events",
         "title": "Fall Events Ahead",
         "weight": 2
-      },
-      {
-        "k": "teachers",
-        "title": "Teacher Wellbeing",
-        "weight": 1
       }
     ]
   },
