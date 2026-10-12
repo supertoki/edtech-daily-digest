@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-09T12:10:08Z",
+  "generatedAt": "2026-10-12T12:09:46Z",
   "daily": {
-    "date": "2026-10-09",
-    "topThemeKey": "higher_ed",
-    "topThemeTitle": "Higher Ed AI Strategy",
-    "topThemeBody": "Provosts use AI constantly but few institutions have a central strategy; faculty remain wary.",
+    "date": "2026-10-12",
+    "topThemeKey": "events",
+    "topThemeTitle": "Fall Events",
+    "topThemeBody": "EdTech Week NYC opens now; 1EdTech Congress, ISTE+ASCD and Ed-Fi Summit follow.",
     "themes": [
       {
-        "k": "higher_ed",
-        "title": "Higher Ed AI Strategy",
-        "weight": 4
+        "k": "events",
+        "title": "Fall Events",
+        "weight": 6
+      },
+      {
+        "k": "ai_value",
+        "title": "AI Value & Evidence",
+        "weight": 5
+      },
+      {
+        "k": "data",
+        "title": "Data & Interoperability",
+        "weight": 5
       },
       {
         "k": "ai_backlash",
-        "title": "AI Backlash & Guardrails",
+        "title": "AI Backlash & Policy",
+        "weight": 4
+      },
+      {
+        "k": "it_ops",
+        "title": "IT Operations & Staffing",
         "weight": 3
       },
       {
-        "k": "outcomes",
-        "title": "Outcomes & Evidence",
-        "weight": 2
-      },
-      {
-        "k": "infrastructure",
-        "title": "Infrastructure & Data",
-        "weight": 2
-      },
-      {
-        "k": "teachers",
-        "title": "Teacher AI Adoption",
-        "weight": 2
-      },
-      {
-        "k": "events",
-        "title": "Fall Events Ahead",
-        "weight": 2
+        "k": "big_tech",
+        "title": "Big Tech in the Classroom",
+        "weight": 1
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-10-05",
-    "weekRange": "10/5-10/11",
+    "weekKey": "2026-10-12",
+    "weekRange": "10/12-10/18",
     "status": "pending",
     "displayedWeek": "2026-09-28",
     "currentImage": "assets/illustrations/hero-2026-09-28.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "ai_evidence",
-    "themeTitle": "AI Hype vs. Evidence",
-    "themeBody": "Usage data and efficacy questions show AI adoption outrunning proof; Brookings says research must keep pace with tools already used by most teachers.",
+    "themeKey": "ai_backlash",
+    "themeTitle": "AI Backlash & Policy",
+    "themeBody": "Calls grow to replace blanket school AI bans with judgment-based assessment, and to go slow to go fast.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Hype vs. Evidence - Usage data and efficacy questions show AI adoption outrunning proof; Brookings says research must keep pace with tools already used by most teachers.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Backlash & Policy - Calls grow to replace blanket school AI bans with judgment-based assessment, and to go slow to go fast.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
