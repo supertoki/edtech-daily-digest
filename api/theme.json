@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T12:09:46Z",
+  "generatedAt": "2026-10-13T12:09:46Z",
   "daily": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "topThemeKey": "events",
     "topThemeTitle": "Fall Events",
     "topThemeBody": "EdTech Week NYC opens now; 1EdTech Congress, ISTE+ASCD and Ed-Fi Summit follow.",
@@ -9,22 +9,22 @@
       {
         "k": "events",
         "title": "Fall Events",
-        "weight": 6
+        "weight": 8
       },
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
+        "weight": 6
+      },
+      {
+        "k": "ai_backlash",
+        "title": "AI Backlash & Policy",
         "weight": 5
       },
       {
         "k": "data",
         "title": "Data & Interoperability",
         "weight": 5
-      },
-      {
-        "k": "ai_backlash",
-        "title": "AI Backlash & Policy",
-        "weight": 4
       },
       {
         "k": "it_ops",
