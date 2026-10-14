@@ -1,0 +1,380 @@
+{
+ "date": "2026-10-14",
+ "dateLabel": "OCTOBER 14, 2026",
+ "headline": "Guardrails Before Growth",
+ "thesis": "As EdTech Week opens at Columbia, the sector's message is that <b>AI needs evidence, governance and teacher-led rollout</b> before it scales.",
+ "summary": "<b>Governance and evidence dominate.</b> EdSurge reports an EdReports finding that only one of 10 vendors offered third-party proof their AI features improve learning, and that nearly 30% of K-12 AI policies restrict or prohibit use. Inside Higher Ed surveys show faculty worry about critical thinking while students want clearer institutional direction, and EdTech Magazine and THE Journal both flag <b>shadow AI</b> as a data-privacy risk. Brookings advises targeted, well-designed AI over general-purpose tools. Events: <b>EdTech Week NYC</b> (Oct 14–15 per organizer), 1EdTech Technical Congress (Oct 19–21, Milwaukee) and ISTE+ASCD Boston (June 27–30, 2027).",
+ "footnote": "Compiled from 11 curated edtech sources · October 14, 2026 · Direct site fetches were unavailable, so items come from search-indexed results; search-metadata dates can be inconsistent and EdTech Week dates vary by listing (Oct 12–16 vs. Oct 13–15 vs. Oct 14–15). Most sources had no new dated news today.",
+ "themes": [
+  {
+   "k": "ai_value",
+   "icon": "ti-gavel",
+   "title": "AI Value & Evidence",
+   "body": "EdReports found just <b>1 of 10 vendors</b> backed AI features with third-party learning evidence; Brookings favors targeted AI over general-purpose tools."
+  },
+  {
+   "k": "ai_policy",
+   "icon": "ti-shield-bolt",
+   "title": "AI Policy & Governance",
+   "body": "Nearly <b>30% of K-12 AI policies</b> restrict or ban use, while few districts have district-level guidance and faculty push for a right to refuse AI."
+  },
+  {
+   "k": "shadow_ai",
+   "icon": "ti-lock",
+   "title": "Shadow AI & Data Risk",
+   "body": "THE Journal and EdTech Magazine warn that unvetted AI tools create <b>FERPA and cybersecurity exposure</b> for schools and campuses."
+  },
+  {
+   "k": "people",
+   "icon": "ti-users",
+   "title": "Teachers, Faculty & Students",
+   "body": "Teachers drive AI adoption and save hours weekly, yet <b>68% of faculty</b> say their institutions haven't prepared them, and students want better direction."
+  },
+  {
+   "k": "standards",
+   "icon": "ti-database",
+   "title": "Standards & Interoperability",
+   "body": "1EdTech restructures and heads to Technical Congress, while Ed-Fi adoption now spans <b>over a quarter of states</b>."
+  },
+  {
+   "k": "events",
+   "icon": "ti-calendar-event",
+   "title": "Fall Events",
+   "body": "<b>EdTech Week NYC</b> is underway, with 1EdTech's Technical Congress next week and ISTE+ASCD returning to Boston in 2027."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Education Technology Insights",
+   "dom": "educationtechnologyinsights.com",
+   "icon": "ti-news",
+   "note": "No dated news found today; listing evergreen sections. The site mixes editorial with paid features.",
+   "arts": [
+    {
+     "t": "CXO Insights",
+     "u": "https://www.educationtechnologyinsights.com/cxoinsights/",
+     "s": "Peer-contributed perspectives from CIOs, district leaders and academic leaders on digitally enabled learning."
+    },
+    {
+     "t": "Research",
+     "u": "https://www.educationtechnologyinsights.com/research/",
+     "s": "Topic pages covering AI, college readiness and school management systems."
+    }
+   ]
+  },
+  {
+   "name": "1EdTech Events",
+   "dom": "1edtech.org",
+   "icon": "ti-plug-connected",
+   "arts": [
+    {
+     "t": "2026 1EdTech Technical Congress",
+     "u": "https://web.cvent.com/event/F4A5F3FD-7C46-445A-907B-64E22C770276",
+     "s": "Oct 19–21 at the Hyatt Regency Milwaukee; members advance cross-specification work on learning context, security and credentials.",
+     "d": "OCT 19–21",
+     "th": [
+      "standards",
+      "events"
+     ]
+    },
+    {
+     "t": "A New Model for Education Collaboration and Innovation Takes Shape",
+     "u": "https://www.1edtech.org/1edtech-article/a-new-model-for-education-collaboration-and-innovation-takes-shape/411405",
+     "s": "1EdTech splits into a 501(c)(3) charity, 1EdTech Global, and the standards-focused 1EdTech Consortium.",
+     "th": [
+      "standards"
+     ]
+    },
+    {
+     "t": "1EdTech Leads Collaborative Effort to Shape Responsible AI in Education",
+     "u": "https://www.1edtech.org/1edtech-article/1edtech-leads-collaborative-effort-to-shape-responsible-ai-in-education/411336",
+     "s": "Community effort toward shared frameworks for responsible AI in education.",
+     "th": [
+      "standards",
+      "ai_policy"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdTech Week",
+   "dom": "edtechweek.com",
+   "icon": "ti-calendar-event",
+   "note": "Dates differ across listings (Oct 12–16, 13–15, 14–15); confirm on the official site.",
+   "arts": [
+    {
+     "t": "EdTech Week 2026 (New York)",
+     "u": "https://www.edtechweek.com/",
+     "s": "Run by StartEd with Columbia's Teachers College; organizer lists Oct 14–15 with Shark Tank-style pitches and AI-lab speakers.",
+     "d": "OCT 14–15",
+     "tag": "new",
+     "th": [
+      "events"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ed-Fi Impact Stories",
+   "dom": "ed-fi.org",
+   "icon": "ti-database",
+   "note": "No new dated story today; showing recent impact content.",
+   "arts": [
+    {
+     "t": "From Vision to Action: Reflections from the 2026 Ed-Fi Technical Congress",
+     "u": "https://www.ed-fi.org/resources/ideas-and-innovation/from-vision-to-action-reflections-from-the-2026-ed-fi-technical-congress/",
+     "s": "Adoption has taken hold across more than a quarter of states, with real-time alerts supporting earlier interventions.",
+     "d": "APR 27",
+     "th": [
+      "standards"
+     ]
+    },
+    {
+     "t": "Ed-Fi Events",
+     "u": "https://www.ed-fi.org/events",
+     "s": "Lists the Ed-Fi Alliance Summit in San Antonio, Oct 6–8.",
+     "d": "OCT 6–8",
+     "tag": "old",
+     "th": [
+      "events",
+      "standards"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdSurge",
+   "dom": "edsurge.com",
+   "icon": "ti-bolt",
+   "note": "Direct fetch unavailable; items are recent search-indexed EdSurge pieces rather than confirmed Oct 14 publications.",
+   "arts": [
+    {
+     "t": "Study: Edtech Is Rushing AI Integration Before Proving It Works",
+     "u": "https://www.edsurge.com/news/study-edtech-is-rushing-ai-integration-before-proving-it-works",
+     "s": "EdReports found only one of 10 vendors included third-party evidence that embedded AI features improve outcomes.",
+     "th": [
+      "ai_value"
+     ]
+    },
+    {
+     "t": "Study: The National AI Policy Landscape in K–12 Education",
+     "u": "https://www.edsurge.com/news/study-the-national-ai-policy-landscape-in-k-12-education",
+     "s": "Nearly 30% of K-12 AI policies restrict or prohibit use, and most focus on student conduct.",
+     "th": [
+      "ai_policy"
+     ]
+    },
+    {
+     "t": "Teachers Forge Ahead on Integrating AI",
+     "u": "https://www.edsurge.com/news/teachers-forge-ahead-on-integrating-ai",
+     "s": "Teachers and administrators, not tech leaders, mostly drive AI implementation and want customizable education-specific tools.",
+     "th": [
+      "people"
+     ]
+    },
+    {
+     "t": "Protecting Student Cognition in the Age of AI",
+     "u": "https://www.edsurge.com/news/protecting-the-student-mind-in-the-age-of-ai",
+     "s": "A teacher argues the real risk is lost independent thinking and proposes AI as a thought partner students must critique.",
+     "th": [
+      "people",
+      "ai_policy"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "THE Journal",
+   "dom": "thejournal.com",
+   "icon": "ti-book-2",
+   "note": "No new dated news found today; showing recent relevant items.",
+   "arts": [
+    {
+     "t": "3 Starting Points for Integrating AI Guardrails in K-12 Districts",
+     "u": "https://thejournal.com/articles/2026/06/01/3-starting-points-for-integrating-ai-guardrails-in-k-12-districts.aspx",
+     "s": "Districts should start with an AI tool inventory and vetting; few districts have district-level guidance.",
+     "d": "JUN 1",
+     "th": [
+      "ai_policy"
+     ]
+    },
+    {
+     "t": "Shadow AI Is Quietly Becoming K–12's Biggest Cybersecurity Risk",
+     "u": "https://thejournal.com/articles/2026/02/25/shadow-ai-is-quietly-becoming-k12s-biggest-cybersecurity-risk.aspx",
+     "s": "Unapproved AI tools raise FERPA and security risks, so schools need guidelines and vetting.",
+     "d": "FEB 25",
+     "th": [
+      "shadow_ai"
+     ]
+    },
+    {
+     "t": "2026 Predictions for AI and Ed Tech in K-12 Education",
+     "u": "https://thejournal.com/articles/2026/01/29/2026-predictions-for-ai-and-ed-tech-in-k12-education-what-industry-leaders-are-saying.aspx",
+     "s": "Leaders expect AI to become standard district infrastructure with human oversight and training.",
+     "d": "JAN 29",
+     "th": [
+      "ai_policy"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EdTech Magazine",
+   "dom": "edtechmagazine.com",
+   "icon": "ti-device-laptop",
+   "note": "No K-12 articles dated today were found; the K-12 item is a syndicated summary.",
+   "arts": [
+    {
+     "t": "AI and Enrollment Pressures Are Reshaping Higher Education",
+     "u": "https://edtechmagazine.com/higher/article/2026/08/ai-and-enrollment-pressures-are-reshaping-higher-education",
+     "s": "How AI and enrollment pressure are changing campus strategy.",
+     "d": "AUG",
+     "lvl": "Higher Ed",
+     "th": [
+      "ai_value"
+     ]
+    },
+    {
+     "t": "Avoiding Shadow AI On Campus",
+     "u": "https://edtechmagazine.com/higher/article/2026/03/avoiding-shadow-ai-campus",
+     "s": "Students pasting sensitive data into public chatbots is a leading form of unapproved AI use, with FERPA exposure.",
+     "d": "MAR",
+     "lvl": "Higher Ed",
+     "th": [
+      "shadow_ai"
+     ]
+    },
+    {
+     "t": "Best AI Tools for College Students: A Guide for Higher Ed IT",
+     "u": "https://edtechmagazine.com/higher/article/2026/02/best-ai-tools-college-students-guide-higher-ed-perfcon",
+     "s": "Guidance on which AI tools institutions should offer, including NotebookLM and embedded Workspace/Microsoft 365 AI.",
+     "d": "FEB",
+     "lvl": "Higher Ed",
+     "th": [
+      "people"
+     ]
+    },
+    {
+     "t": "CoSN 2026: Trends Driving Innovation in K-12 Education",
+     "u": "https://news.spill.org/en/article/cosn2026-exploring-the-trends-driving-innovation-in-k-12-education-473",
+     "s": "Syndicated summary of an EdTech Magazine K-12 piece on CoSN's Driving K–12 Innovation report.",
+     "lvl": "K-12"
+    }
+   ]
+  },
+  {
+   "name": "Inside Higher Ed",
+   "dom": "insidehighered.com",
+   "icon": "ti-school",
+   "note": "No new dated news found today; showing recent items.",
+   "arts": [
+    {
+     "t": "5 Ways AI Is Reshaping Student Success",
+     "u": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/22/5-ways-ai-reshaping-student-success",
+     "s": "Overview of how AI is changing student-success work on campus.",
+     "d": "SEP 22",
+     "th": [
+      "people"
+     ]
+    },
+    {
+     "t": "Why Students Aren't All In on AI—What They Want From Colleges",
+     "u": "https://www.insidehighered.com/news/student-success/academic-life/2026/06/11/why-students-arent-all-ai-what-they-want-colleges",
+     "s": "Survey of 1,038 students: most use AI for coursework, four in 10 fear dependence, and only 10% say their school handles AI very well.",
+     "d": "JUN 11",
+     "th": [
+      "people"
+     ]
+    },
+    {
+     "t": "Survey: Faculty Say AI Is Impactful, but Not In a Good Way",
+     "u": "https://www.insidehighered.com/news/faculty-issues/teaching/2026/01/21/survey-faculty-say-ai-impactful-not-good-way",
+     "s": "Nine in 10 faculty expect generative AI to diminish critical thinking; 68% say institutions haven't prepared them.",
+     "d": "JAN 21",
+     "th": [
+      "people",
+      "ai_value"
+     ]
+    },
+    {
+     "t": "Writing Faculty Push for the Right to Refuse AI",
+     "u": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/03/16/writing-faculty-push-right-refuse-ai",
+     "s": "CCCC resolution affirms the right of students and faculty to refuse generative AI in writing classes.",
+     "d": "MAR 16",
+     "th": [
+      "ai_policy"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ISTE",
+   "dom": "iste.org",
+   "icon": "ti-world",
+   "note": "No new ISTE news today. Note: Boston is the 2027 conference, not 2026.",
+   "arts": [
+    {
+     "t": "ISTE Newsroom",
+     "u": "https://iste.org/news",
+     "s": "Latest release is Aug 5: Pokémon Club becomes a free member benefit; the organization is now the International Society for Transforming Education.",
+     "d": "AUG 5"
+    },
+    {
+     "t": "Second Annual ISTELive and ASCD Annual Conference",
+     "u": "https://iste.org/news/second-annual-istelive-and-ascd-annual-conference-convenes-global-education-leaders-around-the-future-of-learning",
+     "s": "Orlando event drew 15,201 participants; next conference is Boston, June 27–30, 2027.",
+     "d": "JUL 1",
+     "tag": "old",
+     "th": [
+      "events"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Brookings (Education Technology)",
+   "dom": "brookings.edu",
+   "icon": "ti-building-bank",
+   "note": "No new Brookings education-tech piece found today.",
+   "arts": [
+    {
+     "t": "A new direction for students in an AI world: Prosper, prepare, protect",
+     "u": "https://www.brookings.edu/education/ai-and-the-future-of-teaching/",
+     "s": "Global task force finds general-purpose AI can diminish learning while targeted, well-designed tools help.",
+     "d": "JAN",
+     "th": [
+      "ai_value",
+      "ai_policy"
+     ]
+    },
+    {
+     "t": "Tips for parents: Raising resilient learners in an AI world",
+     "u": "https://www.brookings.edu/",
+     "s": "Winthrop and Venetis offer parent guidance on AI (listing only; content not retrieved).",
+     "d": "MAR 13"
+    }
+   ]
+  },
+  {
+   "name": "EdTech Digest",
+   "dom": "edtechdigest.com",
+   "icon": "ti-bulb",
+   "note": "No dated articles found today; evergreen items listed.",
+   "arts": [
+    {
+     "t": "2026 Finalists & Winners",
+     "u": "https://www.edtechdigest.com/2026-finalists-winners/",
+     "s": "The 16th annual EdTech Awards finalists and winners."
+    },
+    {
+     "t": "EdTech Trends archive",
+     "u": "https://www.edtechdigest.com/tag/edtech-trends/",
+     "s": "Trend commentary and guest columns; Future Focus Forums are planned ahead of FETC in January 2027.",
+     "th": [
+      "events"
+     ]
+    }
+   ]
+  }
+ ]
+}

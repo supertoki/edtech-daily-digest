@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-13T12:09:46Z",
+  "generatedAt": "2026-10-14T12:10:07Z",
   "daily": {
-    "date": "2026-10-13",
-    "topThemeKey": "events",
-    "topThemeTitle": "Fall Events",
-    "topThemeBody": "EdTech Week NYC opens now; 1EdTech Congress, ISTE+ASCD and Ed-Fi Summit follow.",
+    "date": "2026-10-14",
+    "topThemeKey": "ai_policy",
+    "topThemeTitle": "AI Policy & Governance",
+    "topThemeBody": "Nearly 30% of K-12 AI policies restrict or ban use, while few districts have district-level guidance and faculty push for a right to refuse AI.",
     "themes": [
+      {
+        "k": "ai_policy",
+        "title": "AI Policy & Governance",
+        "weight": 7
+      },
+      {
+        "k": "people",
+        "title": "Teachers, Faculty & Students",
+        "weight": 6
+      },
+      {
+        "k": "standards",
+        "title": "Standards & Interoperability",
+        "weight": 5
+      },
       {
         "k": "events",
         "title": "Fall Events",
-        "weight": 8
+        "weight": 5
       },
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
-        "weight": 6
+        "weight": 4
       },
       {
-        "k": "ai_backlash",
-        "title": "AI Backlash & Policy",
-        "weight": 5
-      },
-      {
-        "k": "data",
-        "title": "Data & Interoperability",
-        "weight": 5
-      },
-      {
-        "k": "it_ops",
-        "title": "IT Operations & Staffing",
-        "weight": 3
-      },
-      {
-        "k": "big_tech",
-        "title": "Big Tech in the Classroom",
-        "weight": 1
+        "k": "shadow_ai",
+        "title": "Shadow AI & Data Risk",
+        "weight": 2
       }
     ]
   },
