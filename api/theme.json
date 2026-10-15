@@ -1,29 +1,24 @@
 {
-  "generatedAt": "2026-10-14T12:10:07Z",
+  "generatedAt": "2026-10-15T12:10:07Z",
   "daily": {
-    "date": "2026-10-14",
-    "topThemeKey": "ai_policy",
-    "topThemeTitle": "AI Policy & Governance",
-    "topThemeBody": "Nearly 30% of K-12 AI policies restrict or ban use, while few districts have district-level guidance and faculty push for a right to refuse AI.",
+    "date": "2026-10-15",
+    "topThemeKey": "people",
+    "topThemeTitle": "Teachers, Faculty & Students",
+    "topThemeBody": "Teacher readiness lags: a third of teachers lack formal AI guidance, while free ISTE+ASCD/Google training targets six million educators.",
     "themes": [
-      {
-        "k": "ai_policy",
-        "title": "AI Policy & Governance",
-        "weight": 7
-      },
       {
         "k": "people",
         "title": "Teachers, Faculty & Students",
-        "weight": 6
+        "weight": 9
       },
       {
-        "k": "standards",
-        "title": "Standards & Interoperability",
+        "k": "ai_policy",
+        "title": "AI Policy & Backlash",
         "weight": 5
       },
       {
-        "k": "events",
-        "title": "Fall Events",
+        "k": "student_risk",
+        "title": "Student Protection & Trust",
         "weight": 5
       },
       {
@@ -32,9 +27,14 @@
         "weight": 4
       },
       {
-        "k": "shadow_ai",
-        "title": "Shadow AI & Data Risk",
-        "weight": 2
+        "k": "standards",
+        "title": "Standards & Interoperability",
+        "weight": 4
+      },
+      {
+        "k": "events",
+        "title": "Fall Events",
+        "weight": 3
       }
     ]
   },
