@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-15T12:10:07Z",
+  "generatedAt": "2026-10-16T12:14:23Z",
   "daily": {
-    "date": "2026-10-15",
-    "topThemeKey": "people",
-    "topThemeTitle": "Teachers, Faculty & Students",
-    "topThemeBody": "Teacher readiness lags: a third of teachers lack formal AI guidance, while free ISTE+ASCD/Google training targets six million educators.",
+    "date": "2026-10-16",
+    "topThemeKey": "ai_value",
+    "topThemeTitle": "AI Value & Evidence",
+    "topThemeBody": "New testing finds AI models do the work but struggle to support learning, echoing calls to demonstrate impact before scaling.",
     "themes": [
-      {
-        "k": "people",
-        "title": "Teachers, Faculty & Students",
-        "weight": 9
-      },
-      {
-        "k": "ai_policy",
-        "title": "AI Policy & Backlash",
-        "weight": 5
-      },
-      {
-        "k": "student_risk",
-        "title": "Student Protection & Trust",
-        "weight": 5
-      },
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
-        "weight": 4
+        "weight": 2
       },
       {
-        "k": "standards",
-        "title": "Standards & Interoperability",
-        "weight": 4
+        "k": "people",
+        "title": "Teachers, Faculty & Students",
+        "weight": 2
       },
       {
         "k": "events",
         "title": "Fall Events",
-        "weight": 3
+        "weight": 2
+      },
+      {
+        "k": "ai_policy",
+        "title": "AI Policy & Backlash",
+        "weight": 1
+      },
+      {
+        "k": "student_risk",
+        "title": "Student Protection & Trust",
+        "weight": 1
+      },
+      {
+        "k": "funding",
+        "title": "Funding & Partnerships",
+        "weight": 1
       }
     ]
   },
