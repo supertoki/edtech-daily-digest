@@ -1,5 +1,5 @@
 {
-  "target": "2026-10-12",
+  "target": "2026-10-19",
   "displayed": "2026-09-28",
   "current": "2026-09-28",
   "weeks": {
@@ -107,6 +107,12 @@
       "themeTitle": "AI Backlash & Policy",
       "themeBody": "Calls grow to replace blanket school AI bans with judgment-based assessment, and to go slow to go fast.",
       "lockedAt": "2026-10-12T12:09:38Z"
+    },
+    "2026-10-19": {
+      "themeKey": "people",
+      "themeTitle": "Teachers, Faculty & Students",
+      "themeBody": "Universities are hiring AI philosophers while writing-teacher groups clash over AI guidance, and districts try to keep tutoring alive.",
+      "lockedAt": "2026-10-19T12:10:49Z"
     }
   }
 }

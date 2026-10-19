@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-16T12:14:23Z",
+  "generatedAt": "2026-10-19T12:10:54Z",
   "daily": {
-    "date": "2026-10-16",
-    "topThemeKey": "ai_value",
-    "topThemeTitle": "AI Value & Evidence",
-    "topThemeBody": "New testing finds AI models do the work but struggle to support learning, echoing calls to demonstrate impact before scaling.",
+    "date": "2026-10-19",
+    "topThemeKey": "ai_policy",
+    "topThemeTitle": "AI Policy & Strategy",
+    "topThemeBody": "Only one in ten provosts report a centralized AI strategy, and Brookings urges going slow to go fast.",
     "themes": [
       {
-        "k": "ai_value",
-        "title": "AI Value & Evidence",
-        "weight": 2
+        "k": "ai_policy",
+        "title": "AI Policy & Strategy",
+        "weight": 9
       },
       {
         "k": "people",
         "title": "Teachers, Faculty & Students",
-        "weight": 2
+        "weight": 6
+      },
+      {
+        "k": "funding",
+        "title": "Funding & Infrastructure",
+        "weight": 6
       },
       {
         "k": "events",
         "title": "Fall Events",
-        "weight": 2
-      },
-      {
-        "k": "ai_policy",
-        "title": "AI Policy & Backlash",
-        "weight": 1
+        "weight": 5
       },
       {
         "k": "student_risk",
         "title": "Student Protection & Trust",
-        "weight": 1
+        "weight": 4
       },
       {
-        "k": "funding",
-        "title": "Funding & Partnerships",
-        "weight": 1
+        "k": "ai_value",
+        "title": "AI Value & Evidence",
+        "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-10-12",
-    "weekRange": "10/12-10/18",
+    "weekKey": "2026-10-19",
+    "weekRange": "10/19-10/25",
     "status": "pending",
     "displayedWeek": "2026-09-28",
     "currentImage": "assets/illustrations/hero-2026-09-28.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "ai_backlash",
-    "themeTitle": "AI Backlash & Policy",
-    "themeBody": "Calls grow to replace blanket school AI bans with judgment-based assessment, and to go slow to go fast.",
+    "themeKey": "people",
+    "themeTitle": "Teachers, Faculty & Students",
+    "themeBody": "Universities are hiring AI philosophers while writing-teacher groups clash over AI guidance, and districts try to keep tutoring alive.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Backlash & Policy - Calls grow to replace blanket school AI bans with judgment-based assessment, and to go slow to go fast.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Teachers, Faculty & Students - Universities are hiring AI philosophers while writing-teacher groups clash over AI guidance, and districts try to keep tutoring alive.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
