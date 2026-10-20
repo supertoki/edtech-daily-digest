@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T12:10:54Z",
+  "generatedAt": "2026-10-20T12:09:43Z",
   "daily": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "topThemeKey": "ai_policy",
     "topThemeTitle": "AI Policy & Strategy",
-    "topThemeBody": "Only one in ten provosts report a centralized AI strategy, and Brookings urges going slow to go fast.",
+    "topThemeBody": "Districts swing between bans and adoption, while student senators propose a national K-12 AI policy and rural teams build strategy.",
     "themes": [
       {
         "k": "ai_policy",
@@ -17,23 +17,23 @@
         "weight": 6
       },
       {
-        "k": "funding",
-        "title": "Funding & Infrastructure",
-        "weight": 6
-      },
-      {
         "k": "events",
         "title": "Fall Events",
-        "weight": 5
-      },
-      {
-        "k": "student_risk",
-        "title": "Student Protection & Trust",
-        "weight": 4
+        "weight": 6
       },
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
+        "weight": 4
+      },
+      {
+        "k": "funding",
+        "title": "Funding & Infrastructure",
+        "weight": 4
+      },
+      {
+        "k": "student_risk",
+        "title": "Student Protection & Trust",
         "weight": 3
       }
     ]
