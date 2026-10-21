@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-10-20T12:09:43Z",
+  "generatedAt": "2026-10-21T12:08:53Z",
   "daily": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "topThemeKey": "ai_policy",
-    "topThemeTitle": "AI Policy & Strategy",
-    "topThemeBody": "Districts swing between bans and adoption, while student senators propose a national K-12 AI policy and rural teams build strategy.",
+    "topThemeTitle": "AI Policy & Guardrails",
+    "topThemeBody": "Districts and states are still writing AI rules: over 30 states have guidance, but few districts have district-level policy.",
     "themes": [
       {
         "k": "ai_policy",
-        "title": "AI Policy & Strategy",
-        "weight": 9
-      },
-      {
-        "k": "people",
-        "title": "Teachers, Faculty & Students",
-        "weight": 6
-      },
-      {
-        "k": "events",
-        "title": "Fall Events",
-        "weight": 6
+        "title": "AI Policy & Guardrails",
+        "weight": 8
       },
       {
         "k": "ai_value",
@@ -27,13 +17,23 @@
         "weight": 4
       },
       {
-        "k": "funding",
-        "title": "Funding & Infrastructure",
+        "k": "people",
+        "title": "Faculty, Teachers & Students",
         "weight": 4
       },
       {
         "k": "student_risk",
-        "title": "Student Protection & Trust",
+        "title": "Privacy & Security",
+        "weight": 3
+      },
+      {
+        "k": "data",
+        "title": "Data & Interoperability",
+        "weight": 3
+      },
+      {
+        "k": "events",
+        "title": "Events & Convenings",
         "weight": 3
       }
     ]

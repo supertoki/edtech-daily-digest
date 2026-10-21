@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "dateLabel": "OCTOBER 21, 2026",
+  "headline": "Guardrails Before Gadgets",
+  "thesis": "As AI adoption outruns policy, schools and colleges are leaning on <b>governance, data privacy and interoperability</b> to keep pace.",
+  "summary": "Search coverage was thin today, with few items dated October 21, so this edition leans on recent and evergreen reporting. The through-line is <b>governance catching up to adoption</b>: CoSN data show cybersecurity and privacy topping K-12 AI worries while few districts have prepared identity and data systems; Brookings argues AI helps students only when used narrowly and designed carefully; and higher ed faculty and students remain divided on AI, with only about 10% of respondents saying their institution is handling it very well. Standards work continued as the <b>1EdTech Technical Congress</b> wrapped up in Milwaukee (Oct 19–21), and Ed-Fi's 2026 Premier Partners and state impact stories underline data interoperability as the plumbing under it all.",
+  "footnote": "Compiled from 11 curated edtech sources · October 21, 2026 · Caveat: automated search surfaced few items dated today and the source sites could not be fetched directly, so several entries are recent or evergreen rather than same-day.",
+  "themes": [
+    {"k": "ai_policy", "icon": "ti-gavel", "title": "AI Policy & Guardrails", "body": "Districts and states are still writing AI rules: <b>over 30 states</b> have guidance, but few districts have district-level policy."},
+    {"k": "student_risk", "icon": "ti-shield-bolt", "title": "Privacy & Security", "body": "CoSN finds <b>cybersecurity and data privacy</b> remain top AI concerns, with shadow AI an emerging K-12 risk."},
+    {"k": "ai_value", "icon": "ti-chart-line", "title": "AI Value & Evidence", "body": "Brookings finds AI helps when <b>narrow and well designed</b>, while general-purpose use can erode learning."},
+    {"k": "people", "icon": "ti-users", "title": "Faculty, Teachers & Students", "body": "Faculty skepticism, student ambivalence and a push for the <b>right to refuse AI</b> shape campus adoption."},
+    {"k": "data", "icon": "ti-database", "title": "Data & Interoperability", "body": "1EdTech and Ed-Fi work on <b>standards and shared data</b> that let systems and states connect."},
+    {"k": "events", "icon": "ti-calendar-event", "title": "Events & Convenings", "body": "EdTech Week NYC and the 1EdTech Technical Congress anchor a busy October calendar."}
+  ],
+  "sources": [
+    {"name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-news", "note": "No dated news found today; listing an evergreen item.", "arts": [
+      {"t": "AI Education for K-12 Schools: Preparing Students for the Future", "u": "https://ai-apac.educationtechnologyinsights.com/cxoinsights/ai-education-for-k12-schools-preparing-students-for-the-future-nid-2939.html", "s": "CXO-style perspective on preparing K-12 students for an AI-shaped future."}
+    ]},
+    {"name": "1EdTech Events", "dom": "1edtech.org", "icon": "ti-plug-connected", "arts": [
+      {"t": "2026 1EdTech Technical Congress", "u": "https://web.cvent.com/event/f4a5f3fd-7c46-445a-907b-64e22c770276/summary", "s": "Members' working meeting in Milwaukee (Oct 19–21) on moving learning context safely across systems and evolving the Security Framework.", "d": "OCT 19–21", "tag": "new", "th": ["data", "events"]},
+      {"t": "Learning Impact Conference 2027", "u": "https://www.1edtech.org/event/li/2026", "s": "The next flagship event is listed for February 8–10, 2027 in San Antonio; the 2026 edition (June 1–3, San Francisco) has concluded.", "d": "JUN 1–3", "tag": "old", "th": ["events"]}
+    ]},
+    {"name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-calendar-event", "note": "EdTech Week 2026 in New York ran earlier this month (organizer lists Oct 14–15 at Teachers College, Columbia).", "arts": [
+      {"t": "EdTech Week 2026 (New York)", "u": "https://www.luminik.io/events/edtech-week-new-york-e58b0fe91234/attendees/", "s": "Program included an AI educator summit, a CEO Summit and startup pitch sessions for 300+ investors.", "d": "OCT 14–15", "tag": "old", "th": ["events"]}
+    ]},
+    {"name": "Ed-Fi Impact Stories", "dom": "ed-fi.org", "icon": "ti-database", "note": "Undated listing; no new story confirmed today.", "arts": [
+      {"t": "Ed-Fi Insights and Resources", "u": "https://www.ed-fi.org/resources", "s": "Impact stories include Texas teacher supports, Indiana student readiness tracking and 'Snack-Pack' school transfer hand-offs.", "th": ["data"]},
+      {"t": "Ed-Fi Alliance names 2026 Premier Partners", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/", "s": "ACT, Education Analytics, EdGraph, Curriculum Associates, Infinite Campus, PowerSchool and Skyward join as Premier Partners.", "th": ["data"]}
+    ]},
+    {"name": "EdSurge", "dom": "edsurge.com", "icon": "ti-bolt", "note": "No same-day stories surfaced; items below are recent coverage.", "arts": [
+      {"t": "Lack of Guidelines and Expertise Prove Challenging for AI Use in Schools", "u": "https://www.edsurge.com/news/2025-12-02-lack-of-guidelines-and-expertise-prove-challenging-for-ai-use-in-schools", "s": "Schools adopt AI faster than they can write guidance or build staff expertise.", "th": ["ai_policy"]},
+      {"t": "Study: The National AI Policy Landscape in K–12 Education", "u": "https://www.edsurge.com/news/study-the-national-ai-policy-landscape-in-k-12-education", "s": "Most districts permit AI only when a teacher explicitly authorizes it, while nearly 30% restrict or prohibit it.", "th": ["ai_policy"]}
+    ]},
+    {"name": "THE Journal", "dom": "thejournal.com", "icon": "ti-book-2", "note": "No same-day stories surfaced; items below are recent coverage.", "arts": [
+      {"t": "CoSN: Cybersecurity and Data Privacy Remain Top AI Concerns in Education", "u": "https://thejournal.com/articles/2026/05/27/cosn-cybersecurity-and-data-privacy-remain-top-ai-concerns-in-education.aspx", "s": "75% of leaders worry about AI-enabled attacks and 62% about student data privacy, yet few have prepared identity and data systems.", "d": "MAY 27", "th": ["student_risk", "ai_policy"]},
+      {"t": "Shadow AI Is Quietly Becoming K–12's Biggest Cybersecurity Risk", "u": "https://thejournal.com/articles/2026/02/25/shadow-ai-is-quietly-becoming-k12s-biggest-cybersecurity-risk.aspx", "s": "Unvetted AI tools used by staff and students undermine oversight of where data goes.", "d": "FEB 25", "th": ["student_risk"]},
+      {"t": "3 Starting Points for Integrating AI Guardrails in K-12 Districts", "u": "https://thejournal.com/articles/2026/06/01/3-starting-points-for-integrating-ai-guardrails-in-k-12-districts.aspx", "s": "Practical first steps: inventory existing tools and set preliminary rules for vetting new ones.", "d": "JUN 1", "th": ["ai_policy"]}
+    ]},
+    {"name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-device-laptop", "note": "No same-day stories surfaced; evergreen higher ed items listed.", "arts": [
+      {"t": "25 Higher Ed Influencers to Follow in 2026", "u": "https://edtechmagazine.com/higher/article/2026/01/25-higher-ed-influencers-follow-2026", "s": "Profiles digital learning pioneers, cyber guardians and AI innovators across campuses.", "lvl": "Higher Ed"},
+      {"t": "AI Ethics in Higher Education: How Schools Are Proceeding", "u": "https://edtechmagazine.com/higher/article/2025/06/ai-ethics-higher-education-how-schools-are-proceeding-perfcon", "s": "How institutions are approaching ethical use of AI on campus.", "lvl": "Higher Ed", "th": ["ai_policy"]}
+    ]},
+    {"name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-school", "arts": [
+      {"t": "5 Ways AI Is Reshaping Student Success", "u": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/22/5-ways-ai-reshaping-student-success", "s": "Reports that only about 10% of respondents say their institution is handling the rise of AI very well.", "d": "SEP 22", "th": ["people", "ai_value"]},
+      {"t": "Writing Faculty Push for the Right to Refuse AI", "u": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/03/16/writing-faculty-push-right-refuse-ai", "s": "The CCCC passed a resolution affirming students' and faculty's right to refuse generative AI in writing classrooms.", "d": "MAR 16", "th": ["people", "ai_policy"]},
+      {"t": "Survey: Faculty Say AI Is Impactful, but Not In a Good Way", "u": "https://www.insidehighered.com/news/faculty/teaching/2026/01/21/survey-faculty-say-ai-impactful-not-good-way", "s": "Faculty largely expect generative AI to diminish students' critical thinking.", "d": "JAN 21", "th": ["people", "ai_value"]}
+    ]},
+    {"name": "ISTE", "dom": "iste.org", "icon": "ti-world", "note": "No new ISTE release found today; evergreen AI resources listed.", "arts": [
+      {"t": "ISTE: AI in Education", "u": "https://iste.org/areas-of-focus/AI-in-education", "s": "ISTE's hub of AI literacy resources and guidance for educators.", "th": ["ai_policy"]},
+      {"t": "ISTE announces first AI Explorations program for educator prep faculty", "u": "https://iste.org/news/iste-announces-first-ai-explorations-program-for-educator-prep-faculty", "s": "A new program to build AI capacity among faculty who train future teachers.", "th": ["people"]}
+    ]},
+    {"name": "Brookings (Education Technology)", "dom": "brookings.edu", "icon": "ti-building-bank", "arts": [
+      {"t": "A new direction for students in an AI world: Prosper, prepare, protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "Global task force finds AI helps when narrow and well designed, but general-purpose use risks a 'doom loop' of offloaded thinking.", "d": "JAN 2026", "th": ["ai_value", "student_risk"]},
+      {"t": "AI's future for students is in our hands", "u": "https://www.brookings.edu/articles/ais-future-for-students-is-in-our-hands/", "s": "Argues choices made now will determine whether AI widens or narrows learning gaps.", "th": ["ai_value"]}
+    ]},
+    {"name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-bulb", "note": "No same-day stories surfaced; evergreen item listed.", "arts": [
+      {"t": "AI in Schools? It's Happening—Here's the Global Plan Behind It", "u": "https://www.edtechdigest.com/2025/05/30/ai-in-schools-its-happening-heres-the-global-plan-behind-it/", "s": "Overview of the global AI literacy framework heading into classrooms.", "th": ["ai_policy"]}
+    ]}
+  ]
+}
