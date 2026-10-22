@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-21T12:08:53Z",
+  "generatedAt": "2026-10-22T12:07:30Z",
   "daily": {
-    "date": "2026-10-21",
-    "topThemeKey": "ai_policy",
-    "topThemeTitle": "AI Policy & Guardrails",
-    "topThemeBody": "Districts and states are still writing AI rules: over 30 states have guidance, but few districts have district-level policy.",
+    "date": "2026-10-22",
+    "topThemeKey": "ai_value",
+    "topThemeTitle": "AI Value & Evidence",
+    "topThemeBody": "Campus tech leaders rank proving where AI adds value first for 2027, and commentators say learning science should guide adoption.",
     "themes": [
-      {
-        "k": "ai_policy",
-        "title": "AI Policy & Guardrails",
-        "weight": 8
-      },
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
-        "weight": 4
+        "weight": 6
+      },
+      {
+        "k": "ai_policy",
+        "title": "AI Policy & Guardrails",
+        "weight": 6
       },
       {
         "k": "people",
         "title": "Faculty, Teachers & Students",
-        "weight": 4
-      },
-      {
-        "k": "student_risk",
-        "title": "Privacy & Security",
-        "weight": 3
+        "weight": 5
       },
       {
         "k": "data",
         "title": "Data & Interoperability",
-        "weight": 3
+        "weight": 5
+      },
+      {
+        "k": "security",
+        "title": "Security & Privacy",
+        "weight": 4
       },
       {
         "k": "events",
         "title": "Events & Convenings",
-        "weight": 3
+        "weight": 4
       }
     ]
   },
