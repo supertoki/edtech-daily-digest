@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-22T12:07:30Z",
+  "generatedAt": "2026-10-23T12:10:10Z",
   "daily": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "topThemeKey": "ai_value",
     "topThemeTitle": "AI Value & Evidence",
-    "topThemeBody": "Campus tech leaders rank proving where AI adds value first for 2027, and commentators say learning science should guide adoption.",
+    "topThemeBody": "A Maryland trial found an AI study assistant marginally lowered grades, and a new data set suggests campus AI integration is overhyped.",
     "themes": [
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
-        "weight": 6
+        "weight": 7
+      },
+      {
+        "k": "people",
+        "title": "Faculty, Teachers & Students",
+        "weight": 7
       },
       {
         "k": "ai_policy",
         "title": "AI Policy & Guardrails",
         "weight": 6
-      },
-      {
-        "k": "people",
-        "title": "Faculty, Teachers & Students",
-        "weight": 5
       },
       {
         "k": "data",
@@ -32,8 +32,8 @@
         "weight": 4
       },
       {
-        "k": "events",
-        "title": "Events & Convenings",
+        "k": "platforms",
+        "title": "Platforms & Vendor Power",
         "weight": 4
       }
     ]
