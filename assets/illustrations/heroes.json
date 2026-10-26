@@ -1,5 +1,5 @@
 {
-  "target": "2026-10-19",
+  "target": "2026-10-26",
   "displayed": "2026-09-28",
   "current": "2026-09-28",
   "weeks": {
@@ -113,6 +113,12 @@
       "themeTitle": "Teachers, Faculty & Students",
       "themeBody": "Universities are hiring AI philosophers while writing-teacher groups clash over AI guidance, and districts try to keep tutoring alive.",
       "lockedAt": "2026-10-19T12:10:49Z"
+    },
+    "2026-10-26": {
+      "themeKey": "ai_policy",
+      "themeTitle": "AI Policy & Guardrails",
+      "themeBody": "Districts, states and cities are pausing, guiding or requiring AI literacy as policies mature.",
+      "lockedAt": "2026-10-26T12:14:03Z"
     }
   }
 }

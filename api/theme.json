@@ -1,29 +1,24 @@
 {
-  "generatedAt": "2026-10-23T12:10:10Z",
+  "generatedAt": "2026-10-26T12:14:07Z",
   "daily": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "topThemeKey": "ai_value",
     "topThemeTitle": "AI Value & Evidence",
-    "topThemeBody": "A Maryland trial found an AI study assistant marginally lowered grades, and a new data set suggests campus AI integration is overhyped.",
+    "topThemeBody": "Leaders ask where AI adds real value, and trials and vendor reviews show adoption outrunning proof.",
     "themes": [
       {
         "k": "ai_value",
         "title": "AI Value & Evidence",
-        "weight": 7
-      },
-      {
-        "k": "people",
-        "title": "Faculty, Teachers & Students",
-        "weight": 7
+        "weight": 6
       },
       {
         "k": "ai_policy",
         "title": "AI Policy & Guardrails",
-        "weight": 6
+        "weight": 5
       },
       {
-        "k": "data",
-        "title": "Data & Interoperability",
+        "k": "people",
+        "title": "People & Skills",
         "weight": 5
       },
       {
@@ -32,23 +27,28 @@
         "weight": 4
       },
       {
+        "k": "data",
+        "title": "Data & Interoperability",
+        "weight": 3
+      },
+      {
         "k": "platforms",
-        "title": "Platforms & Vendor Power",
-        "weight": 4
+        "title": "Platforms & Sovereignty",
+        "weight": 3
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-10-19",
-    "weekRange": "10/19-10/25",
+    "weekKey": "2026-10-26",
+    "weekRange": "10/26-11/1",
     "status": "pending",
     "displayedWeek": "2026-09-28",
     "currentImage": "assets/illustrations/hero-2026-09-28.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "people",
-    "themeTitle": "Teachers, Faculty & Students",
-    "themeBody": "Universities are hiring AI philosophers while writing-teacher groups clash over AI guidance, and districts try to keep tutoring alive.",
+    "themeKey": "ai_policy",
+    "themeTitle": "AI Policy & Guardrails",
+    "themeBody": "Districts, states and cities are pausing, guiding or requiring AI literacy as policies mature.",
     "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Teachers, Faculty & Students - Universities are hiring AI philosophers while writing-teacher groups clash over AI guidance, and districts try to keep tutoring alive.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Policy & Guardrails - Districts, states and cities are pausing, guiding or requiring AI literacy as policies mature.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
