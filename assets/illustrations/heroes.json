@@ -1,7 +1,7 @@
 {
   "target": "2026-10-26",
-  "displayed": "2026-09-28",
-  "current": "2026-09-28",
+  "displayed": "2026-10-26",
+  "current": "2026-10-26",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -118,7 +118,10 @@
       "themeKey": "ai_policy",
       "themeTitle": "AI Policy & Guardrails",
       "themeBody": "Districts, states and cities are pausing, guiding or requiring AI literacy as policies mature.",
-      "lockedAt": "2026-10-26T12:14:03Z"
+      "lockedAt": "2026-10-26T12:14:03Z",
+      "file": "hero-2026-10-26.webp",
+      "theme": "ai_policy",
+      "approvedAt": "2026-10-27T14:08:22Z"
     }
   }
 }

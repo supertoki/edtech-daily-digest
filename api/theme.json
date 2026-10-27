@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-10-26",
     "weekRange": "10/26-11/1",
-    "status": "pending",
-    "displayedWeek": "2026-09-28",
-    "currentImage": "assets/illustrations/hero-2026-09-28.webp",
+    "status": "approved",
+    "displayedWeek": "2026-10-26",
+    "currentImage": "assets/illustrations/hero-2026-10-26.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "ai_policy",
     "themeTitle": "AI Policy & Guardrails",
