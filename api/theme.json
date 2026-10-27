@@ -1,19 +1,24 @@
 {
-  "generatedAt": "2026-10-26T12:14:07Z",
+  "generatedAt": "2026-10-27T12:27:19Z",
   "daily": {
-    "date": "2026-10-26",
-    "topThemeKey": "ai_value",
-    "topThemeTitle": "AI Value & Evidence",
-    "topThemeBody": "Leaders ask where AI adds real value, and trials and vendor reviews show adoption outrunning proof.",
+    "date": "2026-10-27",
+    "topThemeKey": "ai_policy",
+    "topThemeTitle": "AI Policy & Guardrails",
+    "topThemeBody": "Writers push back on bans and pauses, arguing students need AI skills and civic judgment built first.",
     "themes": [
-      {
-        "k": "ai_value",
-        "title": "AI Value & Evidence",
-        "weight": 6
-      },
       {
         "k": "ai_policy",
         "title": "AI Policy & Guardrails",
+        "weight": 9
+      },
+      {
+        "k": "ai_value",
+        "title": "AI Value & Evidence",
+        "weight": 8
+      },
+      {
+        "k": "security",
+        "title": "Security & Privacy",
         "weight": 5
       },
       {
@@ -22,19 +27,14 @@
         "weight": 5
       },
       {
-        "k": "security",
-        "title": "Security & Privacy",
-        "weight": 4
-      },
-      {
         "k": "data",
         "title": "Data & Interoperability",
-        "weight": 3
+        "weight": 4
       },
       {
         "k": "platforms",
         "title": "Platforms & Sovereignty",
-        "weight": 3
+        "weight": 1
       }
     ]
   },
