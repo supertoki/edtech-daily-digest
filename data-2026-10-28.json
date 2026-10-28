@@ -1,0 +1,48 @@
+{
+"date":"2026-10-28","dateLabel":"OCTOBER 28, 2026",
+"headline":"Evidence, Guardrails and Shared Data",
+"thesis":"With few fresh headlines today, the durable signals are <b>Brookings' warning that AI risks outweigh benefits</b> and the push for better data and clearer guidance.",
+"summary":"Search coverage was thin today and most of the 11 sources had nothing dated October 28, so this digest leans on recent and evergreen items. The strongest thread is Brookings' January report finding that, on the current trajectory, <b>AI risks to students outweigh the benefits</b>, along with its recommendation of school AI councils. ISTE's rebrand to the International Society for Transforming Education, CoSN's finding that <b>cybersecurity and data privacy</b> top leaders' priorities, and the ADA Title II deadline extension to April 2027 shape the policy and security picture. Ed-Fi's impact stories and its November 9-11 Summit in Nashville anchor the data side.",
+"footnote":"Compiled from 11 curated edtech sources · OCTOBER 28, 2026 · Search-snippet based; most sources had no items dated today, so recent or evergreen content is shown.",
+"themes":[
+{"k":"ai_value","icon":"ti-chart-line","title":"AI Value & Evidence","body":"Brookings finds <b>risks currently outweigh benefits</b> for students, while teacher AI use remains mostly productivity-focused."},
+{"k":"ai_policy","icon":"ti-gavel","title":"AI Policy & Guardrails","body":"Recommendations favor <b>tools that teach, not tell</b>, AI literacy and student voice through school AI councils."},
+{"k":"security","icon":"ti-shield-bolt","title":"Security & Privacy","body":"CoSN's survey ranks <b>cybersecurity and data privacy</b> first among leader priorities, with budget the main obstacle."},
+{"k":"people","icon":"ti-users","title":"People & Skills","body":"ISTE's rebrand and certification cohorts, plus EdTech Week gatherings, keep focus on <b>educator capacity</b>."},
+{"k":"data","icon":"ti-database","title":"Data & Interoperability","body":"Ed-Fi stories on absenteeism, transfers and readiness show <b>shared data standards</b> at work ahead of the November Summit."},
+{"k":"platforms","icon":"ti-apps","title":"Access & Compliance","body":"The ADA Title II rule deadline moved to <b>April 2027</b>, and AI spending guidance asks colleges to control cost without slowing innovation."}
+],
+"sources":[
+{"name":"Education Technology Insights","dom":"educationtechnologyinsights.com","icon":"ti-news","note":"Site not returned in search today; no dated items found. Showing a related sector report.","arts":[
+{"t":"CoSN 2026 State of EdTech report","u":"https://www.cosn.org/?p=30576","s":"Survey of 600+ leaders in 44 states ranks cybersecurity and data privacy as top priorities, with budget limits the main obstacle.","d":"MAY 2026","th":["security"]}]},
+{"name":"1EdTech Events","dom":"1edtech.org","icon":"ti-calendar-event","note":"No November 2026 webinar was confirmed; see the events page for member calls.","arts":[
+{"t":"1EdTech Events","u":"https://www.1edtech.org/events","s":"Hub for 1EdTech conferences, webinars and community meetings on standards and best practices."},
+{"t":"1EdTech Learning Impact Europe, Thessaloniki","u":"https://www.1edtech.org/events","s":"Learning Impact Europe ran September 15-17, 2026 in Greece.","d":"SEP 15-17","tag":"old"}]},
+{"name":"EdTech Week","dom":"edtechweek.com","icon":"ti-presentation","note":"Official site not reachable via search; dates come from third-party listings.","arts":[
+{"t":"EdTech Week New York 2026","u":"https://linkedin.com/company/edtechweek","s":"New York edition convened founders, investors, educators and policymakers, with a pitch round at Teachers College on October 14.","d":"OCT 14-15","tag":"old","th":["people"]}]},
+{"name":"Ed-Fi Impact Stories","dom":"ed-fi.org","icon":"ti-database","arts":[
+{"t":"Ed-Fi Insights and Resources","u":"https://www.ed-fi.org/resources","s":"Impact stories include Indiana's student readiness tracking, Texas teacher support and school-transfer hand-offs.","th":["data"]},
+{"t":"2026 Ed-Fi Alliance Summit","u":"https://www.ed-fi.org/?p=2139","s":"The Alliance Summit is set for November 9-11, 2026 in Nashville, TN.","d":"NOV 9-11","tag":"new","th":["data"]},
+{"t":"2026 Premier Partners announced","u":"https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/","s":"ACT, Infinite Campus, PowerSchool, Skyward and others named Premier Partners.","th":["data"]}]},
+{"name":"EdSurge","dom":"edsurge.com","icon":"ti-bolt","note":"No EdSurge items dated today surfaced in search; check edsurge.com directly.","arts":[
+{"t":"EdSurge","u":"https://www.edsurge.com/","s":"Latest K-12 and higher ed technology reporting and opinion."}]},
+{"name":"THE Journal","dom":"thejournal.com","icon":"ti-book-2","note":"Newest indexed items date from late September.","arts":[
+{"t":"K-12 Technology News","u":"https://thejournal.com/articles/list/news.aspx","s":"Running list of K-12 tech news, including Class CrunchLabs' free curriculum and ClassVR math and language suites.","d":"SEP 30"},
+{"t":"2026 Predictions for AI and Ed Tech in K-12 Education","u":"https://thejournal.com/articles/2026/01/29/2026-predictions-for-ai-and-ed-tech-in-k12-education-what-industry-leaders-are-saying","s":"Leaders expect AI to become core district infrastructure and districts to favor measurable ed tech investments.","th":["ai_value"]}]},
+{"name":"EdTech Magazine","dom":"edtechmagazine.com","icon":"ti-device-laptop","note":"No October 2026 articles surfaced; showing recent section content.","arts":[
+{"t":"Higher Education's Role in Supporting K-12 AI Literacy","u":"https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy","s":"How universities such as South Florida and Stanford's AI Hub for Education support K-12 AI literacy.","d":"MAY 2026","lvl":"Higher Ed","th":["people","ai_policy"]},
+{"t":"K-12 Technology News & Trends","u":"https://edtechmagazine.com/k12/","s":"K-12 coverage of cybersecurity as shared responsibility, AI accessibility and sustaining budgets after ESSER.","lvl":"K-12","th":["security"]},
+{"t":"EdTech: Focus on Higher Education","u":"https://edtechmagazine.com/higher/magazine/archives","s":"Guides on controlling AI spending and the ADA Title II rule, now extended to April 2027.","lvl":"Higher Ed","th":["platforms"]}]},
+{"name":"Inside Higher Ed","dom":"insidehighered.com","icon":"ti-school","note":"No articles dated today surfaced; see the technology section.","arts":[
+{"t":"Technology & Innovation","u":"https://www.insidehighered.com/news/tech-innovation","s":"Section covering campus AI strategy, including a Q&A with a university's first chief AI officer."}]},
+{"name":"ISTE","dom":"iste.org","icon":"ti-world","arts":[
+{"t":"ISTE News","u":"https://iste.org/news","s":"ISTE+ASCD announced it is becoming the International Society for Transforming Education.","d":"JUN 28","th":["people"]},
+{"t":"ISTE+ASCD and Pokémon Company partnership","u":"https://iste.org/news","s":"Free Pokémon Club benefit offered through ISTE+ASCD.","d":"AUG 5"},
+{"t":"Generation AI: News & Updates","u":"https://iste.org/generationai/news-updates","s":"Updates from ISTE's AI initiative for educators.","th":["ai_policy"]}]},
+{"name":"Brookings (Education Technology)","dom":"brookings.edu","icon":"ti-building-bank","arts":[
+{"t":"A new direction for students in an AI world: Prosper, prepare, protect","u":"https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/","s":"Yearlong global study finds AI risks to students currently overshadow benefits and offers 11 recommendations.","d":"JAN 2026","th":["ai_value","ai_policy"]},
+{"t":"Enhancing student agency through school AI councils","u":"https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/","s":"Proposes student AI councils to build agency in school AI decisions.","th":["ai_policy","people"]}]},
+{"name":"EdTech Digest","dom":"edtechdigest.com","icon":"ti-mail","note":"Site now appears at edtechdigest.blog; no October items found.","arts":[
+{"t":"EdTech Digest About Us","u":"https://edtechdigest.blog/about-us","s":"Outlet telling the story of 21st-century education transformation, edited by Victor Rivero."},
+{"t":"The EdTech Awards 2026 finalists and winners","u":"https://news.spill.org/en/article/the-edtech-awards-2026-finalists-winners-announced-579","s":"EdTech Digest announced finalists and winners for The EdTech Awards 2026."}]}
+]}
