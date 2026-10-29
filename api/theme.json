@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-28T12:24:24Z",
+  "generatedAt": "2026-10-29T12:30:41Z",
   "daily": {
-    "date": "2026-10-28",
-    "topThemeKey": "ai_policy",
-    "topThemeTitle": "AI Policy & Guardrails",
-    "topThemeBody": "Recommendations favor tools that teach, not tell, AI literacy and student voice through school AI councils.",
+    "date": "2026-10-29",
+    "topThemeKey": "ai_value",
+    "topThemeTitle": "AI Value & Evidence",
+    "topThemeBody": "Educause ranks where AI adds real value first, a Maryland trial saw ~15% uptake, and KPMG finds only 12% consistently weigh AI value against cost.",
     "themes": [
       {
-        "k": "ai_policy",
-        "title": "AI Policy & Guardrails",
-        "weight": 4
+        "k": "ai_value",
+        "title": "AI Value & Evidence",
+        "weight": 7
+      },
+      {
+        "k": "ai_pause",
+        "title": "AI Pauses & Proof",
+        "weight": 6
       },
       {
         "k": "people",
-        "title": "People & Skills",
-        "weight": 4
+        "title": "People, Jobs & Skills",
+        "weight": 5
       },
       {
         "k": "data",
         "title": "Data & Interoperability",
-        "weight": 3
-      },
-      {
-        "k": "ai_value",
-        "title": "AI Value & Evidence",
-        "weight": 2
+        "weight": 5
       },
       {
         "k": "security",
-        "title": "Security & Privacy",
-        "weight": 2
+        "title": "Security & Shadow AI",
+        "weight": 3
       },
       {
-        "k": "platforms",
-        "title": "Access & Compliance",
-        "weight": 1
+        "k": "civics",
+        "title": "Civics, Sovereignty & Access",
+        "weight": 3
       }
     ]
   },
