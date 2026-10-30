@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-10-29T12:30:41Z",
+  "generatedAt": "2026-10-30T12:11:22Z",
   "daily": {
-    "date": "2026-10-29",
-    "topThemeKey": "ai_value",
-    "topThemeTitle": "AI Value & Evidence",
-    "topThemeBody": "Educause ranks where AI adds real value first, a Maryland trial saw ~15% uptake, and KPMG finds only 12% consistently weigh AI value against cost.",
+    "date": "2026-10-30",
+    "topThemeKey": "evidence",
+    "topThemeTitle": "Evidence of Learning",
+    "topThemeBody": "Learning-science advocates and Brookings stress evidence over hype; 1EdTech asks what GenAI must prove.",
     "themes": [
       {
-        "k": "ai_value",
-        "title": "AI Value & Evidence",
-        "weight": 7
-      },
-      {
-        "k": "ai_pause",
-        "title": "AI Pauses & Proof",
-        "weight": 6
-      },
-      {
-        "k": "people",
-        "title": "People, Jobs & Skills",
-        "weight": 5
+        "k": "evidence",
+        "title": "Evidence of Learning",
+        "weight": 9
       },
       {
         "k": "data",
@@ -27,14 +17,24 @@
         "weight": 5
       },
       {
-        "k": "security",
-        "title": "Security & Shadow AI",
-        "weight": 3
+        "k": "ai_pause",
+        "title": "AI Pauses & Policy",
+        "weight": 4
       },
       {
-        "k": "civics",
-        "title": "Civics, Sovereignty & Access",
-        "weight": 3
+        "k": "sovereignty",
+        "title": "Sovereignty, Civics & Careers",
+        "weight": 4
+      },
+      {
+        "k": "integrity",
+        "title": "Integrity & Assessment",
+        "weight": 2
+      },
+      {
+        "k": "security",
+        "title": "Security & Shadow AI",
+        "weight": 2
       }
     ]
   },
