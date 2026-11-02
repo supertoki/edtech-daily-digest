@@ -1,5 +1,5 @@
 {
-  "target": "2026-10-26",
+  "target": "2026-11-02",
   "displayed": "2026-10-26",
   "current": "2026-10-26",
   "weeks": {
@@ -122,6 +122,12 @@
       "file": "hero-2026-10-26.webp",
       "theme": "ai_policy",
       "approvedAt": "2026-10-27T14:08:22Z"
+    },
+    "2026-11-02": {
+      "themeKey": "data",
+      "themeTitle": "Data & Interoperability",
+      "themeBody": "Ed-Fi state stories (SC, MI, NE) and 1EdTech's badges and LTI work show shared standards in practice.",
+      "lockedAt": "2026-11-02T12:22:43Z"
     }
   }
 }

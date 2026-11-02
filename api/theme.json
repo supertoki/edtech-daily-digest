@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-30T12:11:22Z",
+  "generatedAt": "2026-11-02T12:22:43Z",
   "daily": {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "topThemeKey": "evidence",
-    "topThemeTitle": "Evidence of Learning",
-    "topThemeBody": "Learning-science advocates and Brookings stress evidence over hype; 1EdTech asks what GenAI must prove.",
+    "topThemeTitle": "Evidence Over Hype",
+    "topThemeBody": "EdReports found only 1 of 10 vendors offered third-party proof for embedded AI, and 1EdTech asks what GenAI must prove.",
     "themes": [
       {
         "k": "evidence",
-        "title": "Evidence of Learning",
-        "weight": 9
+        "title": "Evidence Over Hype",
+        "weight": 6
       },
       {
-        "k": "data",
-        "title": "Data & Interoperability",
-        "weight": 5
-      },
-      {
-        "k": "ai_pause",
-        "title": "AI Pauses & Policy",
+        "k": "literacy",
+        "title": "AI Literacy & Training",
         "weight": 4
       },
       {
-        "k": "sovereignty",
-        "title": "Sovereignty, Civics & Careers",
-        "weight": 4
+        "k": "agency",
+        "title": "Student Agency & Risk",
+        "weight": 3
       },
       {
-        "k": "integrity",
-        "title": "Integrity & Assessment",
+        "k": "guidance",
+        "title": "Policy & Guidance",
         "weight": 2
       },
       {
-        "k": "security",
-        "title": "Security & Shadow AI",
+        "k": "interop",
+        "title": "Data & Interoperability",
+        "weight": 2
+      },
+      {
+        "k": "adoption",
+        "title": "Adoption Reality Check",
         "weight": 2
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-10-26",
-    "weekRange": "10/26-11/1",
-    "status": "approved",
+    "weekKey": "2026-11-02",
+    "weekRange": "11/2-11/8",
+    "status": "pending",
     "displayedWeek": "2026-10-26",
     "currentImage": "assets/illustrations/hero-2026-10-26.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "ai_policy",
-    "themeTitle": "AI Policy & Guardrails",
-    "themeBody": "Districts, states and cities are pausing, guiding or requiring AI literacy as policies mature.",
-    "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Policy & Guardrails - Districts, states and cities are pausing, guiding or requiring AI literacy as policies mature.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "themeKey": "data",
+    "themeTitle": "Data & Interoperability",
+    "themeBody": "Ed-Fi state stories (SC, MI, NE) and 1EdTech's badges and LTI work show shared standards in practice.",
+    "themeProp": "stacked data cylinders",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Data & Interoperability - Ed-Fi state stories (SC, MI, NE) and 1EdTech's badges and LTI work show shared standards in practice.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: stacked data cylinders; airy with negative space; no text."
   }
 }
