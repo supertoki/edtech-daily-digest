@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-02T12:22:43Z",
+  "generatedAt": "2026-11-03T12:11:49Z",
   "daily": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "topThemeKey": "evidence",
     "topThemeTitle": "Evidence Over Hype",
-    "topThemeBody": "EdReports found only 1 of 10 vendors offered third-party proof for embedded AI, and 1EdTech asks what GenAI must prove.",
+    "topThemeBody": "EdReports found only 1 of 10 vendors had third-party proof for embedded AI, and 1EdTech's Nov 12 session asks what GenAI must prove.",
     "themes": [
       {
         "k": "evidence",
         "title": "Evidence Over Hype",
-        "weight": 6
-      },
-      {
-        "k": "literacy",
-        "title": "AI Literacy & Training",
-        "weight": 4
-      },
-      {
-        "k": "agency",
-        "title": "Student Agency & Risk",
-        "weight": 3
+        "weight": 7
       },
       {
         "k": "guidance",
         "title": "Policy & Guidance",
-        "weight": 2
+        "weight": 5
+      },
+      {
+        "k": "highered",
+        "title": "Higher Ed & Faculty Trust",
+        "weight": 5
+      },
+      {
+        "k": "educators",
+        "title": "Educator Readiness",
+        "weight": 4
+      },
+      {
+        "k": "risk",
+        "title": "Risk & Safeguards",
+        "weight": 3
       },
       {
         "k": "interop",
         "title": "Data & Interoperability",
-        "weight": 2
-      },
-      {
-        "k": "adoption",
-        "title": "Adoption Reality Check",
-        "weight": 2
+        "weight": 3
       }
     ]
   },
