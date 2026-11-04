@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-03T12:11:49Z",
+  "generatedAt": "2026-11-04T12:08:23Z",
   "daily": {
-    "date": "2026-11-03",
-    "topThemeKey": "evidence",
-    "topThemeTitle": "Evidence Over Hype",
-    "topThemeBody": "EdReports found only 1 of 10 vendors had third-party proof for embedded AI, and 1EdTech's Nov 12 session asks what GenAI must prove.",
+    "date": "2026-11-04",
+    "topThemeKey": "guidance",
+    "topThemeTitle": "Policy & Guidance",
+    "topThemeBody": "Districts are still short on guidelines and expertise, and 82% of teachers report no formal guidance on using AI.",
     "themes": [
-      {
-        "k": "evidence",
-        "title": "Evidence Over Hype",
-        "weight": 7
-      },
       {
         "k": "guidance",
         "title": "Policy & Guidance",
-        "weight": 5
+        "weight": 7
+      },
+      {
+        "k": "evidence",
+        "title": "Evidence Over Hype",
+        "weight": 6
       },
       {
         "k": "highered",
@@ -24,17 +24,17 @@
       {
         "k": "educators",
         "title": "Educator Readiness",
-        "weight": 4
+        "weight": 5
       },
       {
         "k": "risk",
         "title": "Risk & Safeguards",
-        "weight": 3
+        "weight": 4
       },
       {
         "k": "interop",
         "title": "Data & Interoperability",
-        "weight": 3
+        "weight": 4
       }
     ]
   },
