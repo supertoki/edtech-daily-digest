@@ -1,29 +1,24 @@
 {
-  "generatedAt": "2026-11-04T12:08:23Z",
+  "generatedAt": "2026-11-05T12:09:30Z",
   "daily": {
-    "date": "2026-11-04",
-    "topThemeKey": "guidance",
-    "topThemeTitle": "Policy & Guidance",
-    "topThemeBody": "Districts are still short on guidelines and expertise, and 82% of teachers report no formal guidance on using AI.",
+    "date": "2026-11-05",
+    "topThemeKey": "educators",
+    "topThemeTitle": "Educator Readiness",
+    "topThemeBody": "43% of teachers report no AI training, and AI literacy is moving into early grades.",
     "themes": [
+      {
+        "k": "educators",
+        "title": "Educator Readiness",
+        "weight": 7
+      },
       {
         "k": "guidance",
         "title": "Policy & Guidance",
-        "weight": 7
+        "weight": 5
       },
       {
         "k": "evidence",
         "title": "Evidence Over Hype",
-        "weight": 6
-      },
-      {
-        "k": "highered",
-        "title": "Higher Ed & Faculty Trust",
-        "weight": 5
-      },
-      {
-        "k": "educators",
-        "title": "Educator Readiness",
         "weight": 5
       },
       {
@@ -35,6 +30,11 @@
         "k": "interop",
         "title": "Data & Interoperability",
         "weight": 4
+      },
+      {
+        "k": "highered",
+        "title": "Higher Ed & AI Readiness",
+        "weight": 3
       }
     ]
   },

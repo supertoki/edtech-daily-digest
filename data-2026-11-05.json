@@ -1,0 +1,58 @@
+{
+"date":"2026-11-05","dateLabel":"NOVEMBER 5, 2026",
+"headline":"Parents Say Yes to AI, With Guardrails",
+"thesis":"As parents back classroom AI <b>on condition of safeguards</b>, the training and evidence gaps behind that ask are coming into focus.",
+"summary":"A new national survey covered by EdSurge finds <b>most parents want students using AI in school with strong safeguards</b>, while <b>43% of surveyed teachers report no AI training</b>. Inside Higher Ed's recent coverage shows the same gap on campus: Educause's top-10 now leads with AI value, and Instructure data suggests <b>only 11% of instructors have comprehensive AI training</b>. Interoperability stays in view ahead of the <b>Ed-Fi Summit (Nov 9–11)</b>, and 1EdTech's Nov 12 session asks what GenAI must prove.",
+"footnote":"Compiled from 11 curated edtech sources · NOVEMBER 5, 2026 · Built from search results rather than direct site fetches; several sources had no items dated today and show recent or evergreen items.",
+"themes":[
+{"k":"guidance","icon":"ti-gavel","title":"Policy & Guidance","body":"Parents want AI in school but with <b>strong safeguards</b>, even as NYC and LA advocacy groups push bans."},
+{"k":"evidence","icon":"ti-flask","title":"Evidence Over Hype","body":"An AI tutoring study showed <b>modest math gains</b>, and 1EdTech's Nov 12 session asks what GenAI must prove."},
+{"k":"risk","icon":"ti-shield-bolt","title":"Risk & Safeguards","body":"Brookings' task force concludes AI's risks currently outweigh its benefits and proposes <b>student AI councils</b>."},
+{"k":"highered","icon":"ti-school","title":"Higher Ed & AI Readiness","body":"Educause's top 10 now leads with <b>AI value</b>, while integrated AI tools lag enterprise rollouts."},
+{"k":"interop","icon":"ti-database","title":"Data & Interoperability","body":"The <b>Ed-Fi Summit (Nov 9–11)</b> and 1EdTech's learn-to-work session spotlight shared data standards."},
+{"k":"educators","icon":"ti-users","title":"Educator Readiness","body":"<b>43% of teachers</b> report no AI training, and AI literacy is moving into early grades."}
+],
+"sources":[
+{"name":"Education Technology Insights","dom":"educationtechnologyinsights.com","icon":"ti-news","note":"No dated items surfaced today; listing the publication's evergreen hub (mostly contributor and vendor-profile content).","arts":[
+{"t":"Education Technology Insights: AI in Education Hub","u":"https://artificial-intelligence.educationtechnologyinsights.com/","s":"Magazine hub for contributor perspectives on AI in education, much of it vendor-featured."}]},
+{"name":"1EdTech Events","dom":"1edtech.org","icon":"ti-calendar-event","arts":[
+{"t":"1EdTech Labs: Show Me the Evidence! What Should GenAI in Education Have to Prove?","u":"https://www.1edtech.org/events","s":"Nov 12 session on the proof standards generative AI products should meet.","d":"NOV 12","tag":"new","th":["evidence"]},
+{"t":"Building the Learn-to-Work Ecosystem","u":"https://www.1edtech.org/events","s":"Nov 19 session on connecting learning and workforce data.","d":"NOV 19","tag":"new","th":["interop"]},
+{"t":"Events and Meetings calendar","u":"https://www.1edtech.org/events","s":"Working groups including Student Safety, LTI and Security meet through November and December; LTI Community Day is Dec 1."},
+{"t":"Learning Impact Conference 2026","u":"https://www.1edtech.org/event/li/2026","s":"The June 1–3 San Francisco conference has concluded.","tag":"old"}]},
+{"name":"EdTech Week","dom":"edtechweek.com","icon":"ti-calendar","note":"The October NYC event has concluded; nothing new this week.","arts":[
+{"t":"EDTECH WEEK 2026 (NYC)","u":"https://edtechweek.com/","s":"Mid-October programming at Teachers College, Columbia, including the CEO Summit and Shark Tank finals.","tag":"old"}]},
+{"name":"Ed-Fi Impact Stories","dom":"ed-fi.org","icon":"ti-database","arts":[
+{"t":"Ed-Fi Alliance Summit 2026","u":"https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/","s":"The Alliance's annual summit runs November 9–11.","d":"NOV 9–11","tag":"new","th":["interop"]},
+{"t":"Snack-Pack: Turning School Transfers into Seamless Hand-Offs","u":"https://www.ed-fi.org/resources/impact-stories/michigan-student-transfers/","s":"Michigan connects 250+ districts so transferring students get help within 24 hours.","th":["interop"]},
+{"t":"Keeping Students in School and Funding on Track","u":"https://www.ed-fi.org/resources/impact-stories/keeping-students-in-school-and-funding-on-track/","s":"South Carolina's real-time attendance dashboards now cover all 81 districts.","th":["interop"]},
+{"t":"Ed-Fi Alliance Announces 2026 Premier Partners","u":"https://www.ed-fi.org/resources/ideas-and-innovation/2026-premier-partners-announcement/","s":"ACT, Infinite Campus, PowerSchool, Skyward and others named Premier Partners."}]},
+{"name":"EdSurge","dom":"edsurge.com","icon":"ti-bolt","arts":[
+{"t":"Survey: Most Parents Want Students to Use AI in School — With Strong Safeguards","u":"https://www.edsurge.com/news/survey-most-parents-want-students-to-use-ai-in-school-with-strong-safeguards","s":"A national survey finds parents favor classroom AI with safeguards, while 43% of teachers report no AI training.","d":"NOV 3","tag":"new","th":["guidance","educators"]},
+{"t":"Want Students to Think With AI? Raise the Stakes.","u":"https://www.edsurge.com/news/want-students-to-think-with-ai-raise-the-stakes","s":"Mike Kentz cites modest AI-tutor math gains and argues the conversation itself should be the assessment.","d":"NOV 2","tag":"new","th":["evidence"]},
+{"t":"Finding Our Way Forward: The Struggle and Promise of AI Literacy","u":"https://www.edsurge.com/news/finding-our-way-forward-the-struggle-and-promise-of-ai-literacy","s":"A school teaches AI concepts in early grades before tool access and weighs environmental costs.","d":"NOV 4","tag":"new","th":["educators","risk"]},
+{"t":"Do Classroom Games Teach or Just Entertain?","u":"https://www.edsurge.com/news/do-classroom-games-teach-or-just-entertain","s":"An edtech executive and a professor debate whether quiz games produce real learning.","d":"NOV 4","tag":"new","th":["evidence"]}]},
+{"name":"THE Journal","dom":"thejournal.com","icon":"ti-device-laptop","note":"Few items dated this week; listing the latest surfaced items.","arts":[
+{"t":"K-12 Technology News","u":"https://thejournal.com/articles/list/news.aspx","s":"Running K-12 news feed covering AI, funding and classroom technology."},
+{"t":"AI Surpasses Cybersecurity in State Education Leader Priority List","u":"https://thejournal.com/articles/2025/09/16/ai-surpasses-cybersecurity-in-state-education-leader-priority-list.aspx","s":"SETDA survey finds AI now tops state priorities, with only 2% reporting ample cybersecurity funding.","th":["guidance"]},
+{"t":"SMART Technologies Launches Audio Accessibility Solution for SMART Boards","u":"https://thejournal.com/articles/2026/09/16/smart-technologies-launches-audio-accessibility-solution-for-smart-boards.aspx","s":"SoundFlow streams classroom audio to students' hearing aids and headphones."}]},
+{"name":"EdTech Magazine","dom":"edtechmagazine.com","icon":"ti-device-desktop","note":"No November-dated items surfaced; showing latest section coverage.","arts":[
+{"t":"K–12 Districts Anticipate New Challenges and Priorities In 2026","u":"https://edtechmagazine.com/k12/article/2025/11/k-12-districts-anticipate-new-challenges-and-priorities-2026","s":"Looks at the priorities and pressures facing district tech leaders.","lvl":"K-12","th":["guidance"]},
+{"t":"K–12 Artificial Intelligence coverage","u":"https://edtechmagazine.com/k12/artificial-intelligence","s":"Section hub for K–12 AI stories, including SETDA's finding that AI is the top priority.","lvl":"K-12","th":["guidance"]},
+{"t":"Higher Education's Role in Supporting K–12 AI Literacy","u":"https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy","s":"Universities such as Stanford support K–12 AI literacy through hubs and partnerships.","lvl":"Higher Ed","th":["educators"]}]},
+{"name":"Inside Higher Ed","dom":"insidehighered.com","icon":"ti-building-bank","arts":[
+{"t":"Assessments in Teaching and Learning in the Age of AI","u":"https://www.insidehighered.com/opinion/columns/online-trending-now/2026/10/28/assessments-teaching-and-learning-age-ai","s":"Column on rethinking assessment design as AI reshapes student work.","d":"OCT 28","th":["highered","evidence"]},
+{"t":"Higher Ed Tech Officers Navigating \"Age of Perpetual Change\"","u":"https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/10/05/higher-ed-tech-officers-navigating-age","s":"After Educause 2026, finding where AI adds real value is the first AI item to top the Educause top 10.","d":"OCT 5","th":["highered"]},
+{"t":"Higher Ed's AI Integration Overhyped, New Data Shows","u":"https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/30/higher-eds-ai-integration-overhyped-new-data","s":"Instructure data shows enterprise AI tools aren't yet embedded in courses; only 11% of instructors have comprehensive AI training.","d":"SEP 30","th":["highered","evidence","educators"]}]},
+{"name":"ISTE","dom":"iste.org","icon":"ti-world","arts":[
+{"t":"ISTE+ASCD Edtech Leader Certification","u":"https://iste.org/professional-credentials","s":"A new cohort starts November 10, with another December 17.","d":"NOV 10","tag":"new","th":["educators"]},
+{"t":"ISTE+ASCD and The Pokémon Company International Partnership","u":"https://iste.org/news","s":"Members can apply to run a free Pokémon Club at their school.","d":"AUG 5"},
+{"t":"Generation AI: News & Updates","u":"https://iste.org/generationai/news-updates","s":"ISTE's hub for AI-in-education news and resources.","th":["educators"]}]},
+{"name":"Brookings","dom":"brookings.edu","icon":"ti-building-community","arts":[
+{"t":"A new direction for students in an AI world: Prosper, prepare, protect","u":"https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/","s":"Global Task Force report finds AI's risks to students currently outweigh benefits and offers 11 recommendations.","th":["risk","guidance"]},
+{"t":"Enhancing student agency through school AI councils","u":"https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/","s":"Proposes a student AI council in every school to beta-test tools and review procurement contracts.","th":["risk","educators"]},
+{"t":"Education Technology topic page","u":"https://www.brookings.edu/topics/education-technology/","s":"Brookings' hub for edtech research and commentary."}]},
+{"name":"EdTech Digest","dom":"edtechdigest.com","icon":"ti-award","arts":[
+{"t":"The Unexplored Depths of Natasha Singer's Coding Kids","u":"https://www.edtechdigest.com/2026/11/02/the-unexplored-depths-of-natasha-singers-coding-kids/","s":"Reflection on an EDTECH WEEK session about tech companies in K–12 schools.","d":"NOV 2","tag":"new","th":["risk"]},
+{"t":"State of EdTech 2026-2027","u":"https://www.edtechdigest.com/downloads/state-of-edtech-2026-2027/","s":"Annual report on the edtech landscape."}]}
+]}
