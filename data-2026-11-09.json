@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-09",
+  "dateLabel": "NOVEMBER 9, 2026",
+  "headline": "Ed-Fi Summit Opens as AI Fluency Meets AI-Free Writing",
+  "thesis": "As Ed-Fi's Summit opens on shared data, campuses are <b>rethinking what AI should and shouldn't touch</b>, and the evidence base is still thin.",
+  "summary": "Inside Higher Ed's Nov 9 AI roundup reports that the <b>University of Chicago will require all first-years to take an AI-free writing course</b> while Eastern Illinois students petition against classroom AI. Brookings' task force argues that <b>AI's risks currently outweigh its benefits for students</b> and that evidence methods must speed up, echoing IHE's piece on the thin research base. The <b>Ed-Fi Summit (Nov 9–11)</b> opens with state case studies on attendance, transfers and reporting, and 1EdTech's Nov 12 Labs session asks what GenAI must prove.",
+  "footnote": "Compiled from 11 curated edtech sources · NOVEMBER 9, 2026 · Built from search results only; direct site fetches were blocked in this environment, so several sources show recent or evergreen items rather than items dated today.",
+  "themes": [
+    {"k": "guidance", "icon": "ti-gavel", "title": "Policy & Guidance", "body": "Districts and campuses are setting rules, from <b>AI-free writing requirements</b> to district guardrail frameworks, with few districts yet having formal guidance."},
+    {"k": "evidence", "icon": "ti-flask", "title": "Evidence Over Hype", "body": "IHE and Brookings both argue the research on AI's educational benefits is thin, and <b>1EdTech's Nov 12 session</b> asks what GenAI must prove."},
+    {"k": "risk", "icon": "ti-shield-bolt", "title": "Risk & Safeguards", "body": "Brookings finds <b>risks outweigh benefits</b> for students today, and THE Journal flags shadow AI as a K-12 security and privacy exposure."},
+    {"k": "highered", "icon": "ti-school", "title": "Higher Ed & AI Readiness", "body": "Colleges are moving to <b>AI fluency requirements</b> while others, like Chicago, carve out AI-free spaces and students push back."},
+    {"k": "interop", "icon": "ti-database", "title": "Data & Interoperability", "body": "The <b>Ed-Fi Summit (Nov 9–11)</b> showcases statewide data use from Nebraska, Michigan, South Carolina and Indiana."},
+    {"k": "educators", "icon": "ti-users", "title": "Educator Readiness", "body": "ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to <b>train educators at scale</b> as many teachers report little AI training."}
+  ],
+  "sources": [
+    {"name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-news", "note": "No dated items surfaced today; this publication is mostly contributor and vendor-profile content, so the hub is listed.", "arts": [
+      {"t": "Education Technology Insights", "u": "https://www.educationtechnologyinsights.com/", "s": "Evergreen hub of vendor profiles, contributor columns and edtech market coverage."}
+    ]},
+    {"name": "1EdTech Events", "dom": "1edtech.org", "icon": "ti-calendar-event", "arts": [
+      {"t": "1EdTech Labs: Show Me the Evidence! What Should GenAI in Education Have to Prove?", "u": "https://www.1edtech.org/events", "s": "A Nov 12 (12–1 PM EST) Labs session on the evidence bar for generative AI in education.", "d": "NOV 12", "tag": "new", "th": ["evidence"]},
+      {"t": "1EdTech in 30: Making the Most of Your 1EdTech Membership", "u": "https://www.1edtech.org/events", "s": "A short Nov 10 session on getting more value from 1EdTech membership."},
+      {"t": "Building the Learn-to-Work Ecosystem", "u": "https://www.1edtech.org/events", "s": "A Nov 19 session on connecting learning records to employment pathways.", "d": "NOV 19", "th": ["interop"]},
+      {"t": "Events and Meetings", "u": "https://www.1edtech.org/events", "s": "Full calendar including the Dec 1 LTI Member Community Day and Spanish-language LATAM webinars."}
+    ]},
+    {"name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-calendar", "note": "The October NYC event has concluded; nothing new surfaced this week.", "arts": [
+      {"t": "EdTech Week", "u": "https://www.edtechweek.com/", "s": "Home of the NYC edtech conference and ecosystem events; current edition concluded.", "tag": "old"}
+    ]},
+    {"name": "Ed-Fi Impact Stories", "dom": "ed-fi.org", "icon": "ti-database", "arts": [
+      {"t": "Ed-Fi Alliance Summit 2026", "u": "https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/", "s": "The Summit runs Nov 9–11 with case studies from Nebraska, Arizona, Delaware, South Carolina, Michigan, Texas and Indiana.", "d": "NOV 9–11", "tag": "new", "th": ["interop"]},
+      {"t": "From Framework to Insight: How Indiana Tracks Student Readiness", "u": "https://www.ed-fi.org/resources/impact-stories/from-framework-to-insight-how-indiana-tracks-student-readiness/", "s": "Indiana GPS, built on the Ed-Fi Data Standard, gives a shared statewide view of readiness indicators.", "th": ["interop"]},
+      {"t": "Keeping Students in School and Funding on Track", "u": "https://www.ed-fi.org/resources/impact-stories/keeping-students-in-school-and-funding-on-track/", "s": "South Carolina's real-time attendance dashboards now run across all 81 districts.", "th": ["interop"]},
+      {"t": "Snack-Pack: Turning School Transfers into Seamless Hand-Offs", "u": "https://www.ed-fi.org/resources/impact-stories/michigan-student-transfers/", "s": "Michigan's system helps over 90% of transferring students get support within 24 hours.", "th": ["interop"]}
+    ]},
+    {"name": "EdSurge", "dom": "edsurge.com", "icon": "ti-bolt", "arts": [
+      {"t": "Survey: Most Parents Want Students to Use AI in School — With Strong Safeguards", "u": "https://edsurge.com/news/survey-most-parents-want-students-to-use-ai-in-school-with-strong-safeguards", "s": "77% of surveyed parents want schools teaching effective AI use, while under a quarter of teachers report adequate training.", "d": "NOV 3", "th": ["guidance", "educators"]},
+      {"t": "On AI Policy, Students Have Plenty to Say", "u": "https://www.edsurge.com/news/on-ai-policy-students-have-plenty-to-say", "s": "Student leaders propose national K-12 AI guidelines, including no independent AI use before ninth grade.", "th": ["guidance"]},
+      {"t": "Teachers Forge Ahead on Integrating AI", "u": "https://www.edsurge.com/news/teachers-forge-ahead-on-integrating-ai", "s": "Turnitin data suggests teachers and administrators carry primary responsibility for AI implementation.", "th": ["educators"]}
+    ]},
+    {"name": "THE Journal", "dom": "thejournal.com", "icon": "ti-device-laptop", "note": "Few items dated this week; listing the latest surfaced items.", "arts": [
+      {"t": "3 Starting Points for Integrating AI Guardrails in K-12 Districts", "u": "https://thejournal.com/articles/2026/06/01/3-starting-points-for-integrating-ai-guardrails-in-k-12-districts.aspx", "s": "A former district CIO notes 30+ states have AI guidance but only about 40 districts have district-level guidance.", "d": "JUN 1", "th": ["guidance"]},
+      {"t": "Shadow AI Is Quietly Becoming K–12's Biggest Cybersecurity Risk", "u": "https://thejournal.com/articles/2026/02/25/shadow-ai-is-quietly-becoming-k12s-biggest-cybersecurity-risk.aspx", "s": "Unapproved AI tools create security and FERPA exposure; the piece urges tool inventories and vetted apps.", "d": "FEB 25", "th": ["risk"]},
+      {"t": "13 School and District Teams to Participate in Rural AI Strategy Lab", "u": "https://thejournal.com/articles/2026/05/11/13-school-and-district-teams-to-participate-in-rural-ai-strategy-lab.aspx", "s": "FullScale and All4Ed picked 13 teams from 34 states for a six-month rural AI program.", "d": "MAY 11", "th": ["educators"]}
+    ]},
+    {"name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-device-desktop", "note": "No November-dated items surfaced; showing latest section coverage.", "arts": [
+      {"t": "Higher Education's Role in Supporting K–12 AI Literacy", "u": "https://edtechmagazine.com/higher/article/2026/05/higher-educations-role-supporting-k-12-ai-literacy", "s": "Universities such as USF are supporting K-12 AI literacy through expertise, research and summer programs.", "d": "MAY", "lvl": "Higher Ed", "th": ["highered", "educators"]},
+      {"t": "K-12 Technology Education News & Trends", "u": "https://edtechmagazine.com/k12/", "s": "Section hub covering AI policy, cybersecurity, device programs and ISTELive 26 reporting.", "lvl": "K-12"}
+    ]},
+    {"name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-building-bank", "arts": [
+      {"t": "New in AI: Chicago Rethinks Writing, EIU Students Want Rules", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu", "s": "UChicago will require first-years to take an AI-free writing course while Eastern Illinois students petition against AI in class.", "d": "NOV 9", "tag": "new", "th": ["highered", "guidance"]},
+      {"t": "The “Nonexistent” Research on AI's Benefits for Education", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education", "s": "Argues the evidence base for AI's educational benefits is far thinner than the hype suggests.", "d": "SEP 14", "th": ["evidence"]},
+      {"t": "Report: Higher Ed's Adoption of AI Outpaces Student Guards", "u": "https://www.insidehighered.com/news/quick-takes/2026/09/18/report-higher-eds-adoption-ai-outpaces-student-guards", "s": "A SHAPE report flags bias, privacy and transparency risks as adoption outpaces student protections.", "d": "SEP 18", "th": ["risk", "highered"]},
+      {"t": "With AI Requirements and Courses, Colleges Eye AI Fluency", "u": "https://www.insidehighered.com/news/faculty/teaching/2026/08/20/ai-requirements-and-courses-colleges-eye-ai-fluency", "s": "Colleges including Ohio State and Purdue are adding AI fluency requirements.", "d": "AUG 20", "th": ["highered"]}
+    ]},
+    {"name": "ISTE", "dom": "iste.org", "icon": "ti-world", "arts": [
+      {"t": "ISTE, ASCD and Google Partner to Provide AI Literacy Training to Six Million U.S. Educators", "u": "https://iste.org/news/iste-ascd-and-google-partner-to-provide-ai-literacy-training-to-six-million-u-s-educators", "s": "A three-year initiative offers free AI literacy training to K-12 teachers and higher-ed faculty.", "th": ["educators"]},
+      {"t": "ISTE+ASCD Community of Practice Cohort 1 Wraps", "u": "https://iste.org/generationai/news-updates/cop1_wrap", "s": "94% of first-cohort participants reached at least basic AI comprehension.", "th": ["educators"]},
+      {"t": "ISTE and ASCD Awarded Grant from Microsoft to Advance AI in Teacher Preparation Programs", "u": "https://iste.org/news/iste-and-ascd-awarded-grant-from-microsoft-to-advance-ai-in-teacher-preparation-programs", "s": "Funds an AI module for future teachers in English, Spanish and Arabic.", "th": ["educators"]}
+    ]},
+    {"name": "Brookings", "dom": "brookings.edu", "icon": "ti-building-community", "arts": [
+      {"t": "A new direction for students in an AI world: Prosper, prepare, protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "The task force concludes AI's risks currently overshadow its benefits for children's education.", "th": ["risk", "evidence"]},
+      {"t": "AI is rapidly changing education and research needs to keep up", "u": "https://www.brookings.edu/articles/ai-is-rapidly-changing-education-and-research-needs-to-keep-up/", "s": "Argues slow randomized trials can't evaluate fast-changing AI tools and calls for iterative evidence.", "th": ["evidence"]},
+      {"t": "Enhancing student agency through school AI councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Proposes a student AI council in every school to help shape AI policy.", "th": ["guidance", "risk"]}
+    ]},
+    {"name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-award", "arts": [
+      {"t": "Beyond the Wow of Virtual Reality", "u": "https://edtechdigest.com/2026/11/03/beyond-the-wow-of-virtual-reality", "s": "Interview with OptimaEd's Adam Mangana on making immersive learning pedagogically meaningful.", "d": "NOV 3", "tag": "new"},
+      {"t": "2026 Finalists & Winners", "u": "https://www.edtechdigest.com/2026-finalists-winners/", "s": "The 16th-year EdTech Awards winners, announced March 31, 2026.", "tag": "old"}
+    ]}
+  ]
+}

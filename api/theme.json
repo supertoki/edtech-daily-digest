@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T12:09:30Z",
+  "generatedAt": "2026-11-09T12:10:46Z",
   "daily": {
-    "date": "2026-11-05",
+    "date": "2026-11-09",
     "topThemeKey": "educators",
     "topThemeTitle": "Educator Readiness",
-    "topThemeBody": "43% of teachers report no AI training, and AI literacy is moving into early grades.",
+    "topThemeBody": "ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to train educators at scale as many teachers report little AI training.",
     "themes": [
       {
         "k": "educators",
@@ -17,9 +17,14 @@
         "weight": 5
       },
       {
+        "k": "interop",
+        "title": "Data & Interoperability",
+        "weight": 5
+      },
+      {
         "k": "evidence",
         "title": "Evidence Over Hype",
-        "weight": 5
+        "weight": 4
       },
       {
         "k": "risk",
@@ -27,28 +32,23 @@
         "weight": 4
       },
       {
-        "k": "interop",
-        "title": "Data & Interoperability",
-        "weight": 4
-      },
-      {
         "k": "highered",
         "title": "Higher Ed & AI Readiness",
-        "weight": 3
+        "weight": 4
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-11-02",
-    "weekRange": "11/2-11/8",
+    "weekKey": "2026-11-09",
+    "weekRange": "11/9-11/15",
     "status": "pending",
     "displayedWeek": "2026-10-26",
     "currentImage": "assets/illustrations/hero-2026-10-26.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "data",
-    "themeTitle": "Data & Interoperability",
-    "themeBody": "Ed-Fi state stories (SC, MI, NE) and 1EdTech's badges and LTI work show shared standards in practice.",
-    "themeProp": "stacked data cylinders",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Data & Interoperability - Ed-Fi state stories (SC, MI, NE) and 1EdTech's badges and LTI work show shared standards in practice.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: stacked data cylinders; airy with negative space; no text."
+    "themeKey": "educators",
+    "themeTitle": "Educator Readiness",
+    "themeBody": "ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to train educators at scale as many teachers report little AI training.",
+    "themeProp": "the graduated-AI network mascot with no extra prop",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Educator Readiness - ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to train educators at scale as many teachers report little AI training.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
