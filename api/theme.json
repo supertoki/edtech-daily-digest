@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-09T12:10:46Z",
+  "generatedAt": "2026-11-10T12:09:41Z",
   "daily": {
-    "date": "2026-11-09",
-    "topThemeKey": "educators",
-    "topThemeTitle": "Educator Readiness",
-    "topThemeBody": "ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to train educators at scale as many teachers report little AI training.",
+    "date": "2026-11-10",
+    "topThemeKey": "security",
+    "topThemeTitle": "Cybersecurity",
+    "topThemeBody": "Phishing is becoming more targeted, and EdTech Magazine coverage ties AI to both threats and defenses on campus.",
     "themes": [
       {
-        "k": "educators",
-        "title": "Educator Readiness",
-        "weight": 7
-      },
-      {
-        "k": "guidance",
-        "title": "Policy & Guidance",
-        "weight": 5
-      },
-      {
-        "k": "interop",
-        "title": "Data & Interoperability",
-        "weight": 5
+        "k": "security",
+        "title": "Cybersecurity",
+        "weight": 3
       },
       {
         "k": "evidence",
         "title": "Evidence Over Hype",
-        "weight": 4
+        "weight": 3
       },
       {
-        "k": "risk",
-        "title": "Risk & Safeguards",
-        "weight": 4
+        "k": "interop",
+        "title": "Data & Interoperability",
+        "weight": 3
+      },
+      {
+        "k": "guidance",
+        "title": "Policy & Guidance",
+        "weight": 3
+      },
+      {
+        "k": "students",
+        "title": "Student Voice & Rules",
+        "weight": 2
       },
       {
         "k": "highered",
-        "title": "Higher Ed & AI Readiness",
-        "weight": 4
+        "title": "Higher Ed AI Investment",
+        "weight": 2
       }
     ]
   },
