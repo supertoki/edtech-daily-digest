@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-10T12:09:41Z",
+  "generatedAt": "2026-11-11T12:09:44Z",
   "daily": {
-    "date": "2026-11-10",
-    "topThemeKey": "security",
-    "topThemeTitle": "Cybersecurity",
-    "topThemeBody": "Phishing is becoming more targeted, and EdTech Magazine coverage ties AI to both threats and defenses on campus.",
+    "date": "2026-11-11",
+    "topThemeKey": "policy",
+    "topThemeTitle": "AI Policy & Guardrails",
+    "topThemeBody": "Districts are rewriting AI-use policies, LAUSD and NYC keep student AI pauses, and the UK floats safety certification for edtech.",
     "themes": [
       {
-        "k": "security",
-        "title": "Cybersecurity",
-        "weight": 3
+        "k": "policy",
+        "title": "AI Policy & Guardrails",
+        "weight": 6
       },
       {
-        "k": "evidence",
-        "title": "Evidence Over Hype",
-        "weight": 3
+        "k": "security",
+        "title": "Cybersecurity Pressure",
+        "weight": 5
+      },
+      {
+        "k": "teaching",
+        "title": "Human-Centered Teaching",
+        "weight": 5
       },
       {
         "k": "interop",
         "title": "Data & Interoperability",
+        "weight": 4
+      },
+      {
+        "k": "pathways",
+        "title": "Degrees & Pathways",
         "weight": 3
       },
       {
-        "k": "guidance",
-        "title": "Policy & Guidance",
-        "weight": 3
-      },
-      {
-        "k": "students",
-        "title": "Student Voice & Rules",
-        "weight": 2
-      },
-      {
-        "k": "highered",
-        "title": "Higher Ed AI Investment",
+        "k": "evidence",
+        "title": "AI Evidence & ROI",
         "weight": 2
       }
     ]
