@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-11T12:09:44Z",
+  "generatedAt": "2026-11-12T12:09:58Z",
   "daily": {
-    "date": "2026-11-11",
-    "topThemeKey": "policy",
-    "topThemeTitle": "AI Policy & Guardrails",
-    "topThemeBody": "Districts are rewriting AI-use policies, LAUSD and NYC keep student AI pauses, and the UK floats safety certification for edtech.",
+    "date": "2026-11-12",
+    "topThemeKey": "security",
+    "topThemeTitle": "AI-Era Cybersecurity",
+    "topThemeBody": "Columnists warn of agentic AI attacks after \"Black October,\" as the Vanderbilt breach and record phishing keep campuses on alert.",
     "themes": [
       {
-        "k": "policy",
-        "title": "AI Policy & Guardrails",
+        "k": "security",
+        "title": "AI-Era Cybersecurity",
         "weight": 6
       },
       {
-        "k": "security",
-        "title": "Cybersecurity Pressure",
-        "weight": 5
+        "k": "purpose",
+        "title": "Purpose & Human Learning",
+        "weight": 6
       },
       {
-        "k": "teaching",
-        "title": "Human-Centered Teaching",
+        "k": "governance",
+        "title": "AI Governance Gaps",
         "weight": 5
       },
       {
@@ -27,14 +27,14 @@
         "weight": 4
       },
       {
-        "k": "pathways",
-        "title": "Degrees & Pathways",
+        "k": "assessment",
+        "title": "Rethinking Assessment",
         "weight": 3
       },
       {
-        "k": "evidence",
-        "title": "AI Evidence & ROI",
-        "weight": 2
+        "k": "voice",
+        "title": "Student Voice in AI",
+        "weight": 1
       }
     ]
   },
