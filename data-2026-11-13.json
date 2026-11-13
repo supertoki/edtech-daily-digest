@@ -1,0 +1,70 @@
+{
+"date":"2026-11-13","dateLabel":"NOVEMBER 13, 2026",
+"headline":"AI Slop, Age-Smart Guidance and the Screen-Time Reset",
+"thesis":"Fake <b>AI-generated papers</b> under real professors' names test academic trust, as Harvard offers <b>age-based AI guidance</b> and federal officials shift the screen-time debate from minutes to <b>meaningful use</b>.",
+"summary":"Inside Higher Ed reports that little-known journals have published <b>\"AI slop\" papers under prominent academics' names</b>, including Stanford's Jure Leskovec, without their knowledge. A day earlier it covered Harvard's new <b>AI Guidance by Age matrix</b>, built from 5,000+ studies. In K-12, EdTech Magazine covers a Department of Education <b>Dear Colleague letter</b> on screen time that focuses on quality of use, not minutes, and a <b>464-signer letter urging Congress to protect E-Rate</b>. Campuses are still dealing with the <b>Vanderbilt ransomware claim</b>, while Ed-Fi's new <b>API v8.1</b> and fall roadmap push interoperability forward.",
+"footnote":"Compiled from 11 curated edtech sources · NOVEMBER 13, 2026 · Built from search results only; several sources (ISTE, Brookings, THE Journal, Education Technology Insights, EdTech Week) had no items dated this week, so recent or evergreen items are shown.",
+"themes":[
+{"k":"integrity","icon":"ti-file-alert","title":"Research & Academic Integrity","body":"Journals publishing <b>AI-written papers under real scholars' names</b> and AI peer reviews that beat humans are forcing new questions about scholarly trust."},
+{"k":"guidance","icon":"ti-compass","title":"AI Guidance & Policy","body":"Harvard's <b>age-based AI matrix</b>, Chicago's AI-free writing course and district AI-use scales show institutions moving past simple ban-or-allow rules."},
+{"k":"screens","icon":"ti-device-laptop","title":"Screen Time & Purposeful Tech","body":"A federal <b>Dear Colleague letter</b> and CoSN guidance shift the focus from minutes on screens to whether technology actually improves learning."},
+{"k":"funding","icon":"ti-wifi","title":"Connectivity & Funding","body":"<b>464 leaders from 35 states</b> urged Congress to preserve E-Rate as the FCC reviews how program-funded networks are used."},
+{"k":"security","icon":"ti-shield-bolt","title":"Campus & School Cybersecurity","body":"The <b>Vanderbilt ransomware claim</b> and K-12 recovery-vault strategies keep cyber resilience on leaders' agendas."},
+{"k":"interop","icon":"ti-database","title":"Data & Interoperability","body":"Ed-Fi shipped <b>API v8.1</b> with event streaming and set a 2027 roadmap that brings OneRoster integration."}
+],
+"sources":[
+{"name":"Education Technology Insights","dom":"educationtechnologyinsights.com","icon":"ti-news","note":"No dated items surfaced today; this publication is mostly contributor and vendor-profile content, so recent evergreen pieces are listed.","arts":[
+{"t":"Where is the Human in AI in the College Classroom?","u":"https://www.educationtechnologyinsights.com/cxoinsights/sandra-guzman-foster-nid-3249.html","s":"Contributor column arguing educators should keep decision-making authority and use AI to augment their expertise.","th":["guidance"]},
+{"t":"Transforming K–12 Classrooms with Technology","u":"https://www.educationtechnologyinsights.com/news/transforming-k%E2%80%9312-classrooms-with-technology-nid-3301.html","s":"Overview of how districts are using classroom technology and AI to personalize instruction."}
+]},
+{"name":"1EdTech Events","dom":"1edtech.org","icon":"ti-calendar-event","note":"Mostly member working-group meetings this month; the next Learning Impact Conference is February 2027 in San Antonio.","arts":[
+{"t":"Learning Impact Awards 2027 — Nominations Open","u":"https://www.1edtech.org/li/awards","s":"Nominations close November 23; winners will be recognized February 10 at the Learning Impact Conference in San Antonio.","d":"NOV 23"},
+{"t":"Webinar: Beyond Screen Time — Understanding the Value of Digital Learning","u":"https://www.1edtech.org/events/webinar-beyond-screen-time-understanding-the-value-of-digital-learning-k-12-members","s":"Member-only K-12 session on measuring the value of digital learning beyond minutes of use.","d":"NOV 3","tag":"old","th":["screens"]},
+{"t":"1EdTech and Ed-Fi: Unlocking Data to Drive Learning","u":"https://www.1edtech.org/about/partners/ed-fi","s":"How OneRoster and Ed-Fi data standards work together, showcased at this week's Ed-Fi Alliance Summit.","th":["interop"]}
+]},
+{"name":"EdTech Week","dom":"edtechweek.com","icon":"ti-calendar","note":"EdTech Week 2026 took place in October in New York; no new items today.","arts":[
+{"t":"EDTECH WEEK 2026 at Teachers College, Columbia","u":"https://www.edtechweek.com/home-1","s":"The October conference featured a CEO Summit, Shark Tank finale and Emerging EdTech Awards.","d":"OCT 13–15","tag":"old"}
+]},
+{"name":"Ed-Fi Impact Stories","dom":"ed-fi.org","icon":"ti-database","arts":[
+{"t":"Ed-Fi API v8.1: Now Available","u":"https://docs.ed-fi.org/blog/2026/11/07/","s":"The release adds cursor-based paging, read replicas, an optional document cache and Kafka event streaming; v8.0 hosts should upgrade.","d":"NOV 7","tag":"new","th":["interop"]},
+{"t":"Ed-Fi Technology Roadmap Update: Fall 2026","u":"https://docs.ed-fi.org/blog/2026/11/05/","s":"Data Standard 6.2 targets 2027-Q1, with breaking Data Standard 7.0 and OneRoster-integrated API 8.2 targeted for 2027-Q2.","d":"NOV 5","th":["interop"]},
+{"t":"Ed-Fi Alliance Summit 2026","u":"https://www.ed-fi.org/event/ed-fi-alliance-summit-2026/","s":"The annual Nashville summit for the Ed-Fi data-standard community wrapped up this week.","d":"NOV 9–11","tag":"old","th":["interop"]}
+]},
+{"name":"EdSurge","dom":"edsurge.com","icon":"ti-bolt","arts":[
+{"t":"The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning","u":"https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning","s":"A teacher replaces a single take-home essay with multistage work and \"Shark Tank\"-style pitches students defend live.","d":"NOV 11","th":["integrity","guidance"]},
+{"t":"Can Schools Prepare Students to Vote Without Telling Them What to Think?","u":"https://www.edsurge.com/news/can-schools-prepare-students-to-vote-without-telling-them-what-to-think","s":"Vote Smart's Kyle Dell discusses a source-limited civics chatbot and teachers using the midterms as a classroom civics lab.","d":"NOV 11","th":["guidance"]}
+]},
+{"name":"THE Journal","dom":"thejournal.com","icon":"ti-notebook","note":"No THE Journal items dated this week surfaced in search; recent pieces are listed.","arts":[
+{"t":"Stop Asking Whether Students Can Use AI","u":"https://thejournal.com/articles/2026/10/27/stop-asking-whether-students-can-use-ai.aspx","s":"Zion-Benton District 126 describes a four-level AI use scale that replaces a simple allowed-or-banned rule.","d":"OCT 27","th":["guidance"]},
+{"t":"Perkins V Isn't Preparing Students for an AI-Driven Workforce","u":"https://thejournal.com/articles/2026/10/12/perkins-v-isnt-preparing-students-for-an-ai-driven-workforce.aspx","s":"Opinion piece arguing career-education policy must keep pace with AI and emerging fields.","d":"OCT 12","th":["guidance"]},
+{"t":"THE Journal Events Calendar","u":"https://thejournal.com/calendar/calendar.aspx","s":"Upcoming: BrainStorm Poconos (Nov 15–17), OLC Accelerate (Nov 16–19), CITE (Nov 17–19) and NYSCATE (Nov 22–24)."}
+]},
+{"name":"EdTech Magazine","dom":"edtechmagazine.com","icon":"ti-device-desktop","arts":[
+{"t":"Classroom Technology Use: Educational vs. Personal Screen Time","u":"https://edtechmagazine.com/k12/article/2026/11/classroom-technology-use-educational-screen-time","s":"A Department of Education Dear Colleague letter says the conversation should center on which uses of technology improve learning, not screen minutes.","d":"NOV 11","tag":"new","lvl":"K-12","th":["screens"]},
+{"t":"Education and Community Leaders Urge Lawmakers To Protect E-Rate","u":"https://edtechmagazine.com/k12/article/2026/11/education-and-community-leaders-urge-lawmakers-protect-e-rate","s":"A CoSN-led letter from 464 leaders in 35 states asks Congress to preserve and strengthen E-Rate as the FCC reviews the program.","d":"NOV","tag":"new","lvl":"K-12","th":["funding"]},
+{"t":"After a Cyber Incident, IREs Get K–12 Schools Back on Track","u":"https://edtechmagazine.com/k12/article/2026/11/after-cyber-incident-ires-get-k-12-schools-back-track","s":"How isolated recovery environments help districts restore systems quickly after an attack.","d":"NOV","lvl":"K-12","th":["security"]},
+{"t":"Higher Ed's Path to Advanced Cybersecurity Maturity","u":"https://edtechmagazine.com/higher/article/2026/10/higher-eds-path-advanced-cybersecurity-maturity","s":"Colleges can move past basic defenses with zero trust, integrated threat detection and continuous exposure management.","d":"OCT","lvl":"Higher Ed","th":["security"]}
+]},
+{"name":"Inside Higher Ed","dom":"insidehighered.com","icon":"ti-building-community","arts":[
+{"t":"\"AI Slop\" Papers Published Under Prominent Academics' Names","u":"https://www.insidehighered.com/news/faculty/books-publishing/2026/11/13/ai-slop-papers-published-under-prominent-academics-names","s":"Little-known journals have published AI-generated papers attributed to professors, including Stanford's Jure Leskovec, who did not write them.","d":"NOV 13","tag":"new","th":["integrity"]},
+{"t":"New AI Learning Matrix Brings Nuance to \"Wild West\" Moment","u":"https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild","s":"Harvard's AI Guidance by Age matrix draws on 5,000+ studies to show how AI may help or hinder learning by age and domain.","d":"NOV 12","tag":"new","th":["guidance"]},
+{"t":"The Singularity, Black October & Other Lessons for Higher Ed","u":"https://www.insidehighered.com/opinion/columns/online-trending-now/2026/11/12/singularity-black-october-other-lessons-higher-ed","s":"Column urging campuses to segment critical systems and assign clear cyber ownership as AI-enabled attacks rise.","d":"NOV 12","th":["security"]},
+{"t":"Ransomware Gang Says It Hacked Vanderbilt University","u":"https://www.insidehighered.com/news/tech-innovation/administrative-tech/2026/11/11/ransomware-gang-says-it-hacked-vanderbilt","s":"Vanderbilt told users to disconnect devices from campus Wi-Fi, disrupting spring registration, after a group claimed the attack.","d":"NOV 11","th":["security"]},
+{"t":"New in AI: Chicago Rethinks Writing, EIU Students Want Rules","u":"https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu","s":"UChicago will require an AI-free first-year writing course, and Eastern Illinois students petition against faculty AI use.","d":"NOV 9","th":["guidance","integrity"]},
+{"t":"AI Article Review \"Better Than Humans at Their Best\"","u":"https://www.insidehighered.com/news/faculty/books-publishing/2026/11/05/ai-article-review-better-humans-their-best","s":"A Harvard-linked experiment found AI-generated peer reviews outperformed human ones; the paper is not yet peer reviewed.","d":"NOV 5","th":["integrity"]}
+]},
+{"name":"ISTE","dom":"iste.org","icon":"ti-school","note":"No ISTE news dated this month surfaced; the organization's store pauses shipping Nov 9–16 for inventory. Recent items are listed.","arts":[
+{"t":"ISTE+ASCD Announces New Name: International Society for Transforming Education","u":"https://iste.org/news/iste-ascd-new-press-release","s":"Announced at ISTELive 26 in Orlando, the merged organization is adopting a new name.","d":"JUN 28","tag":"old"},
+{"t":"Generation AI: News & Updates","u":"https://iste.org/generationai/news-updates","s":"ISTE's hub for AI-in-education resources and updates for educators.","th":["guidance"]}
+]},
+{"name":"Brookings (Education Technology)","dom":"brookings.edu","icon":"ti-world","note":"No new Brookings ed-tech items surfaced this week; recent research is listed.","arts":[
+{"t":"A new direction for students in an AI world: Prosper, prepare, protect","u":"https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/","s":"The Global Task Force concludes AI's risks currently outweigh its benefits for children, and urges co-designed tools that teach rather than tell.","th":["guidance"]},
+{"t":"AI is rapidly changing education and research needs to keep up","u":"https://www.brookings.edu/articles/ai-is-rapidly-changing-education-and-research-needs-to-keep-up/","s":"Argues randomized trials are too slow for fast-changing AI tools and calls for iterative evidence.","th":["integrity"]}
+]},
+{"name":"EdTech Digest","dom":"edtechdigest.com","icon":"ti-article","arts":[
+{"t":"Beyond the Wow of Virtual Reality","u":"https://www.edtechdigest.com/2026/11/03/beyond-the-wow-of-virtual-reality/","s":"OptimaEd's Adam Mangana on immersive learning, great books and why human relationships matter more as technology advances.","d":"NOV 3","th":["screens"]},
+{"t":"The Unexplored Depths of Natasha Singer's Coding Kids","u":"https://www.edtechdigest.com/2026/11/02/the-unexplored-depths-of-natasha-singers-coding-kids/","s":"Ian McCullough reviews a book examining big tech's influence in K-12 schools.","d":"NOV 2","th":["screens"]},
+{"t":"EdTech Digest Events","u":"https://www.edtechdigest.com/events/","s":"Calendar of upcoming education technology conferences, following Bett USA in Nashville (Nov 8–10)."}
+]}
+]
+}

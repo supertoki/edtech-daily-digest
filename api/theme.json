@@ -1,25 +1,30 @@
 {
-  "generatedAt": "2026-11-12T12:09:58Z",
+  "generatedAt": "2026-11-13T12:09:15Z",
   "daily": {
-    "date": "2026-11-12",
-    "topThemeKey": "security",
-    "topThemeTitle": "AI-Era Cybersecurity",
-    "topThemeBody": "Columnists warn of agentic AI attacks after \"Black October,\" as the Vanderbilt breach and record phishing keep campuses on alert.",
+    "date": "2026-11-13",
+    "topThemeKey": "guidance",
+    "topThemeTitle": "AI Guidance & Policy",
+    "topThemeBody": "Harvard's age-based AI matrix, Chicago's AI-free writing course and district AI-use scales show institutions moving past simple ban-or-allow rules.",
     "themes": [
       {
-        "k": "security",
-        "title": "AI-Era Cybersecurity",
-        "weight": 6
+        "k": "guidance",
+        "title": "AI Guidance & Policy",
+        "weight": 9
       },
       {
-        "k": "purpose",
-        "title": "Purpose & Human Learning",
-        "weight": 6
-      },
-      {
-        "k": "governance",
-        "title": "AI Governance Gaps",
+        "k": "integrity",
+        "title": "Research & Academic Integrity",
         "weight": 5
+      },
+      {
+        "k": "screens",
+        "title": "Screen Time & Purposeful Tech",
+        "weight": 4
+      },
+      {
+        "k": "security",
+        "title": "Campus & School Cybersecurity",
+        "weight": 4
       },
       {
         "k": "interop",
@@ -27,13 +32,8 @@
         "weight": 4
       },
       {
-        "k": "assessment",
-        "title": "Rethinking Assessment",
-        "weight": 3
-      },
-      {
-        "k": "voice",
-        "title": "Student Voice in AI",
+        "k": "funding",
+        "title": "Connectivity & Funding",
         "weight": 1
       }
     ]
