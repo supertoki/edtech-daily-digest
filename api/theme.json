@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-11-16",
     "weekRange": "11/16-11/22",
-    "status": "pending",
-    "displayedWeek": "2026-10-26",
-    "currentImage": "assets/illustrations/hero-2026-10-26.webp",
+    "status": "approved",
+    "displayedWeek": "2026-11-16",
+    "currentImage": "assets/illustrations/hero-2026-11-16.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "security",
     "themeTitle": "Cyber Threats Escalate",

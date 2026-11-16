@@ -1,7 +1,7 @@
 {
   "target": "2026-11-16",
-  "displayed": "2026-10-26",
-  "current": "2026-10-26",
+  "displayed": "2026-11-16",
+  "current": "2026-11-16",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -139,7 +139,10 @@
       "themeKey": "security",
       "themeTitle": "Cyber Threats Escalate",
       "themeBody": "Q3 brought 7.3 billion phishing threats and a 23% jump in ransomware victims, while agentic AI is now finding software vulnerabilities.",
-      "lockedAt": "2026-11-16T12:10:39Z"
+      "lockedAt": "2026-11-16T12:10:39Z",
+      "file": "hero-2026-11-16.webp",
+      "theme": "security",
+      "approvedAt": "2026-11-16T14:31:20Z"
     }
   }
 }
