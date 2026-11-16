@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-16",
+  "dateLabel": "NOVEMBER 16, 2026",
+  "headline": "Proof, Policy and the Phishing Surge",
+  "thesis": "As campuses write AI rules and buyers demand <b>evidence of what works</b>, record phishing volumes remind leaders that security is still the floor.",
+  "summary": "Monday's digest finds the sector moving from AI enthusiasm to <b>accountability</b>. 1EdTech and Learning Data Insights released a white paper on evaluating AI in education, and EdTech Digest argues vendors should keep measuring efficacy as the Education Department pushes evidence into procurement. On campus, the University of Chicago will require an <b>AI-free first-year writing course</b>, Eastern Illinois students are petitioning against classroom AI, and Harvard's Compass Collaborative released an age-based AI guidance matrix. Security pressure keeps climbing: Microsoft counted <b>7.3 billion phishing threats in Q3</b> and reported ransomware victims rose 23%. Ed-Fi's fall roadmap and state attendance-data stories keep interoperability in view.",
+  "footnote": "Compiled from 11 curated edtech sources · NOVEMBER 16, 2026 · Direct site access was blocked in this run's network sandbox; items were gathered via web search, and some sources (ISTE, Brookings, EdTech Week, Education Technology Insights) had no new dated items, so evergreen pieces are shown.",
+  "themes": [
+    {"k": "evidence", "icon": "ti-chart-bar", "title": "Evidence & AI Evaluation", "body": "1EdTech's new white paper and an EdTech Digest column push for <b>measurable efficacy</b> as federal guidance ties procurement to evidence."},
+    {"k": "guidance", "icon": "ti-compass", "title": "AI Guidance & Governance", "body": "Task forces, age-based matrices and survey data show institutions <b>formalizing AI policy</b> while training and guidance still lag use."},
+    {"k": "writing", "icon": "ti-pencil", "title": "Rethinking Writing & Assessment", "body": "From Chicago's <b>AI-free writing course</b> to teachers retiring the take-home essay, assessment design is being rebuilt around AI."},
+    {"k": "security", "icon": "ti-shield-bolt", "title": "Cyber Threats Escalate", "body": "Q3 brought <b>7.3 billion phishing threats</b> and a 23% jump in ransomware victims, while agentic AI is now finding software vulnerabilities."},
+    {"k": "voice", "icon": "ti-users", "title": "Student Voice & Civic Purpose", "body": "Student petitions, AI councils and civics lessons after the midterms put <b>learner agency</b> at the center of the AI debate."},
+    {"k": "interop", "icon": "ti-database", "title": "Data Standards & Interoperability", "body": "Ed-Fi's fall roadmap and state attendance dashboards show <b>shared data standards</b> turning into earlier interventions."}
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-news",
+      "note": "No dated items surfaced today; this publication is mostly contributor and vendor-profile content, so relevant evergreen pieces are listed.",
+      "arts": [
+        {"t": "Where is the Human in AI in the College Classroom?", "u": "https://www.educationtechnologyinsights.com/cxoinsights/sandra-guzman-foster-nid-3249.html", "s": "Contributor column arguing educators should keep decision-making authority and use AI to augment their expertise."},
+        {"t": "AI in Education: A Fresh Perspective on Transformative Potential", "u": "https://www.educationtechnologyinsights.com/cxoinsights/ai-in-education-a-fresh-perspective-on-transformative-potential-nid-3032.html", "s": "Practitioner view on personalized learning, teacher workload relief and the professional development needed to use AI well."}
+      ]
+    },
+    {
+      "name": "1EdTech Events", "dom": "1edtech.org", "icon": "ti-calendar-event",
+      "arts": [
+        {"t": "1EdTech and Learning Data Insights Address AI Evaluation Challenges in New White Paper", "u": "https://www.1edtech.org/about/news", "s": "New white paper offers practical guidance for institutions and suppliers on evaluating AI tools in education.", "d": "NOV 12", "tag": "new", "th": ["evidence"]},
+        {"t": "Learn & Work Ecosystem Library Joins the 1EdTech Family", "u": "https://www.1edtech.org/about/news", "s": "Finalized agreement brings the credential and pathways reference library under 1EdTech stewardship.", "d": "OCT 28", "th": ["interop"]},
+        {"t": "Learning Impact Conference 2027 — San Antonio", "u": "https://www.1edtech.org/event/li/2026", "s": "Next flagship conference, Feb 8–10, 2027, will combine Learning Impact with the Digital Credentials Summit.", "d": "FEB 2027"}
+      ]
+    },
+    {
+      "name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-calendar",
+      "note": "EdTech Week 2026 concluded in October in New York; no new announcements surfaced today.",
+      "arts": [
+        {"t": "EDTECH WEEK 2026 at Teachers College, Columbia University", "u": "https://www.edtechweek.com/home-1", "s": "Annual NYC convening with a CEO Summit, expo, Shark Tank finale and Emerging EdTech Award, held Oct 13–15.", "d": "OCT 13–15", "tag": "old"},
+        {"t": "EDTECH WEEK Outcomes Tank", "u": "https://www.edtechweek.com/outcomes-tank", "s": "Competition spotlighting edtech products that can demonstrate learning outcomes.", "tag": "old", "th": ["evidence"]}
+      ]
+    },
+    {
+      "name": "Ed-Fi Impact Stories", "dom": "ed-fi.org", "icon": "ti-database",
+      "arts": [
+        {"t": "Ed-Fi Technology Roadmap Update: Fall 2026", "u": "https://docs.ed-fi.org/blog/2026/11/05/", "s": "Roadmap confirms continued ODS/API and OneRoster support while adoption shifts to Ed-Fi API v8.", "d": "NOV 5", "tag": "new", "th": ["interop"]},
+        {"t": "Keeping Students in School and Funding on Track", "u": "https://www.ed-fi.org/resources/impact-stories/keeping-students-in-school-and-funding-on-track/", "s": "South Carolina's Ed-Fi-based attendance dashboards, now in all 81 districts, help schools intervene earlier.", "th": ["interop"]},
+        {"t": "From Vision to Action: Reflections from the 2026 Ed-Fi Technical Congress", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/from-vision-to-action-reflections-from-the-2026-ed-fi-technical-congress/", "s": "Recap notes Ed-Fi adoption across more than a quarter of states, with real-time alerts as a key impact.", "th": ["interop"]}
+      ]
+    },
+    {
+      "name": "EdSurge", "dom": "edsurge.com", "icon": "ti-bolt",
+      "arts": [
+        {"t": "For Special Education Teachers, “Everydayness Is the Enemy”", "u": "https://www.edsurge.com/news/for-special-education-teachers-everydayness-is-the-enemy", "s": "A special educator argues routine can crowd out attention to individual students and proposes a monthly “keep, change, fade” review of supports.", "d": "NOV 16", "tag": "new", "th": ["voice"]},
+        {"t": "The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning", "u": "https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning", "s": "A teacher replaces traditional essays with multistage assignments and pitch-style presentations that treat AI as a thinking partner.", "d": "NOV 11", "th": ["writing"]},
+        {"t": "Can Schools Prepare Students to Vote Without Telling Them What to Think?", "u": "https://www.edsurge.com/news/can-schools-prepare-students-to-vote-without-telling-them-what-to-think", "s": "Looks at nonpartisan civics instruction after the midterms, including an AI chatbot for candidate questions.", "d": "NOV 11", "th": ["voice"]}
+      ]
+    },
+    {
+      "name": "THE Journal", "dom": "thejournal.com", "icon": "ti-notebook",
+      "arts": [
+        {"t": "Phishing Threats Totaled 7.3 Billion in Q3 2026", "u": "https://thejournal.com/articles/2026/11/10/phishing-threats-totaled-7-3-billion-in-q3-2026.aspx", "s": "Microsoft Threat Intelligence counted 7.3 billion email phishing threats in Q3, with September up 41% from August.", "d": "NOV 10", "tag": "new", "th": ["security"]},
+        {"t": "Report: Cyber Criminals Move Toward More Targeted Phishing Attacks", "u": "https://thejournal.com/articles/2026/11/09/report-cyber-criminals-move-toward-more-targeted-phishing-attacks.aspx", "s": "Spear-phishing rose 41% over the past year as attackers target access permissions rather than passwords.", "d": "NOV 9", "th": ["security"]},
+        {"t": "Report: Global Ransomware Attacks Rise 23% in Q3", "u": "https://thejournal.com/articles/2026/11/02/report-global-ransomware-attacks-rise-23-in-q3.aspx", "s": "Reported ransomware victims climbed from 2,325 to 2,865 quarter over quarter, though September activity dipped.", "d": "NOV 2", "th": ["security"]},
+        {"t": "Webcast: Catching the Last 1% of E-mail Threats in Education", "u": "https://thejournal.com/webcasts/2026/11/abnormal-catching-the-last-1-of-email-threats.aspx", "s": "Nov 18 session on closing gaps in education email security.", "d": "NOV 18", "th": ["security"]}
+      ]
+    },
+    {
+      "name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-device-desktop",
+      "arts": [
+        {"t": "National AI Research Report Covers How Tools Are Used in Classrooms", "u": "https://edtechmagazine.com/k12/article/2026/11/national-ai-research-report-covers-how-tools-are-used-classrooms", "s": "Hanover Research survey of parents and teachers finds AI use growing while guidance and training lag.", "d": "NOV 5", "lvl": "K-12", "th": ["guidance"]},
+        {"t": "AI Task Forces Drive Policy, Adoption and Innovation in Higher Ed", "u": "https://edtechmagazine.com/higher/article/2026/11/ai-task-forces-drive-policy-adoption-and-innovation-higher-ed", "s": "Drexel, Boston University and Missouri show how cross-departmental AI committees shape policy and tool choices.", "d": "NOV 4", "lvl": "Higher Ed", "th": ["guidance"]},
+        {"t": "Higher Ed Cybersecurity Adapts to Growing AI Threats", "u": "https://edtechmagazine.com/higher/article/2026/10/higher-ed-cybersecurity-adapts-growing-ai-threats", "s": "CDW research on how campuses are adjusting defenses as attackers adopt AI.", "d": "OCT", "lvl": "Higher Ed", "th": ["security"]},
+        {"t": "Google Launches New AI Tools Purpose-Built for Education", "u": "https://edtechmagazine.com/k12/article/2026/10/google-launches-new-ai-tools-purpose-built-education", "s": "Overview of Google's new education-specific AI features for teachers and students.", "d": "OCT", "lvl": "K-12"}
+      ]
+    },
+    {
+      "name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-building-community",
+      "arts": [
+        {"t": "New AI Learning Matrix Brings Nuance to “Wild West” Moment", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild", "s": "Harvard's Compass Collaborative launches an AI Guidance by Age matrix for educators, caregivers and learners.", "d": "NOV 12", "tag": "new", "th": ["guidance"]},
+        {"t": "The Singularity, Black October & Other Lessons for Higher Ed", "u": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/11/12/singularity-black-october-other-lessons-higher-ed", "s": "Column notes agentic AI uncovering PHP vulnerabilities and urges segmentation, monitoring and rapid credential revocation.", "d": "NOV 12", "tag": "new", "th": ["security"]},
+        {"t": "The Priority? Student Success. The Challenge? Capacity.", "u": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/12/priority-student-success-challenge-capacity", "s": "Survey of 271 administrators: 74% feel effective at guiding student AI use, but 32% see no measurable AI gains yet.", "d": "NOV 12", "tag": "new", "th": ["evidence", "guidance"]},
+        {"t": "New in AI: Chicago Rethinks Writing, EIU Students Want Rules", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu", "s": "UChicago will require an AI-free first-year writing course, and Eastern Illinois students petition against classroom AI.", "d": "NOV 9", "th": ["writing", "voice"]},
+        {"t": "What Is the Purpose of College in the Age of AI?", "u": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/05/what-purpose-college-age-ai", "s": "Examines how AI is reshaping arguments about the value and aims of a college degree.", "d": "NOV 5", "th": ["voice"]},
+        {"t": "Webcast: The AI-Fluent University — Innovation Without Losing Your Voice", "u": "https://www.insidehighered.com/events/vendor-webcast/ai-fluent-university-innovation-without-losing-your-voice", "s": "Sponsored webinar on institutional AI adoption, Nov 17 at 2 p.m. ET.", "d": "NOV 17", "th": ["guidance"]}
+      ]
+    },
+    {
+      "name": "ISTE", "dom": "iste.org", "icon": "ti-school",
+      "note": "No new dated news surfaced today; recent organizational announcements are listed.",
+      "arts": [
+        {"t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "The merged organization adopted a new name under CEO Richard Culatta.", "d": "JUN 28"},
+        {"t": "Generation AI: News & Updates", "u": "https://iste.org/generationai/news-updates", "s": "ISTE's hub for AI-in-education resources and initiatives.", "th": ["guidance"]}
+      ]
+    },
+    {
+      "name": "Brookings (Education Technology)", "dom": "brookings.edu", "icon": "ti-world",
+      "note": "No new dated items today; the most relevant recent Brookings AI-and-education work is listed.",
+      "arts": [
+        {"t": "A new direction for students in an AI world: Prosper, prepare, protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "Global Task Force finds generative AI's risks currently outweigh benefits for students and recommends tools that teach, not tell.", "th": ["guidance"]},
+        {"t": "Enhancing student agency through school AI councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Argues every school should have a student AI council to move learners from dependence to agency.", "th": ["voice"]},
+        {"t": "What the research shows about generative AI in tutoring", "u": "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring/", "s": "Review finds AI tutoring can benefit students if responsibly designed.", "th": ["evidence"]}
+      ]
+    },
+    {
+      "name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-article",
+      "arts": [
+        {"t": "Edtech Evidence Season", "u": "https://www.edtechdigest.com/2026/11/13/edtech-evidence-season/", "s": "Guest column urges vendors to keep measuring efficacy as an Education Department letter ties procurement to evidence.", "d": "NOV 13", "tag": "new", "th": ["evidence"]},
+        {"t": "Beyond the Wow of Virtual Reality", "u": "https://www.edtechdigest.com/2026/11/03/beyond-the-wow-of-virtual-reality/", "s": "OptimaEd's co-founder on scaling immersive VR schooling to 2,000 students while keeping teacher relationships central.", "d": "NOV 3"},
+        {"t": "The Unexplored Depths of Natasha Singer’s Coding Kids", "u": "https://www.edtechdigest.com/2026/11/02/the-unexplored-depths-of-natasha-singers-coding-kids/", "s": "Review of a book on Big Tech's influence on K–12 computer science education.", "d": "NOV 2"}
+      ]
+    }
+  ]
+}

@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-11-13T12:09:15Z",
+  "generatedAt": "2026-11-16T12:10:43Z",
   "daily": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "topThemeKey": "guidance",
-    "topThemeTitle": "AI Guidance & Policy",
-    "topThemeBody": "Harvard's age-based AI matrix, Chicago's AI-free writing course and district AI-use scales show institutions moving past simple ban-or-allow rules.",
+    "topThemeTitle": "AI Guidance & Governance",
+    "topThemeBody": "Task forces, age-based matrices and survey data show institutions formalizing AI policy while training and guidance still lag use.",
     "themes": [
       {
         "k": "guidance",
-        "title": "AI Guidance & Policy",
-        "weight": 9
-      },
-      {
-        "k": "integrity",
-        "title": "Research & Academic Integrity",
-        "weight": 5
-      },
-      {
-        "k": "screens",
-        "title": "Screen Time & Purposeful Tech",
-        "weight": 4
+        "title": "AI Guidance & Governance",
+        "weight": 7
       },
       {
         "k": "security",
-        "title": "Campus & School Cybersecurity",
-        "weight": 4
+        "title": "Cyber Threats Escalate",
+        "weight": 6
+      },
+      {
+        "k": "evidence",
+        "title": "Evidence & AI Evaluation",
+        "weight": 5
+      },
+      {
+        "k": "voice",
+        "title": "Student Voice & Civic Purpose",
+        "weight": 5
       },
       {
         "k": "interop",
-        "title": "Data & Interoperability",
+        "title": "Data Standards & Interoperability",
         "weight": 4
       },
       {
-        "k": "funding",
-        "title": "Connectivity & Funding",
-        "weight": 1
+        "k": "writing",
+        "title": "Rethinking Writing & Assessment",
+        "weight": 2
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-11-09",
-    "weekRange": "11/9-11/15",
+    "weekKey": "2026-11-16",
+    "weekRange": "11/16-11/22",
     "status": "pending",
     "displayedWeek": "2026-10-26",
     "currentImage": "assets/illustrations/hero-2026-10-26.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "educators",
-    "themeTitle": "Educator Readiness",
-    "themeBody": "ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to train educators at scale as many teachers report little AI training.",
-    "themeProp": "the graduated-AI network mascot with no extra prop",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Educator Readiness - ISTE+ASCD's GenerationAI and a Google-backed literacy program aim to train educators at scale as many teachers report little AI training.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
+    "themeKey": "security",
+    "themeTitle": "Cyber Threats Escalate",
+    "themeBody": "Q3 brought 7.3 billion phishing threats and a 23% jump in ransomware victims, while agentic AI is now finding software vulnerabilities.",
+    "themeProp": "a shield with a keyhole",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Cyber Threats Escalate - Q3 brought 7.3 billion phishing threats and a 23% jump in ransomware victims, while agentic AI is now finding software vulnerabilities.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a shield with a keyhole; airy with negative space; no text."
   }
 }
