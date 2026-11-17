@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-17",
+  "dateLabel": "NOVEMBER 17, 2026",
+  "headline": "Trust, Tests and the E-Rate Line",
+  "thesis": "New survey data show students rewriting their work to dodge <b>AI detectors</b> while faculty confidence erodes, as K-12 leaders rally to defend <b>E-Rate</b> and harden recovery plans.",
+  "summary": "Tuesday's digest centers on a <b>trust gap</b> around AI. An Inside Higher Ed Student Voice survey of 5,034 undergraduates finds eight in ten use generative or agentic AI routinely and <b>a quarter have changed how they write to avoid false AI-detector flags</b>, while 88% of surveyed faculty say AI has hurt their confidence in the authenticity of student work. On the K-12 side, CoSN delivered a petition from <b>464 leaders in 35 states</b> urging Congress to protect E-Rate as the FCC reviews the program, and EdTech Magazine explains how isolated recovery environments help districts bounce back from ransomware. 1EdTech's new AI-evaluation white paper and EdTech Digest's \"evidence season\" column keep efficacy in focus, and the fall conference circuit (OLC Accelerate, CITE, BrainStorm) is in full swing.",
+  "footnote": "Compiled from 11 curated edtech sources · NOVEMBER 17, 2026 · Items were gathered via web search; ISTE, Brookings, EdTech Week, Ed-Fi and Education Technology Insights had no new dated items, so evergreen pieces are shown.",
+  "themes": [
+    {"k": "trust", "icon": "ti-user-check", "title": "AI Trust & Academic Integrity", "body": "A quarter of students now <b>write to avoid AI-detector flags</b>, and 88% of faculty report lower confidence in work authenticity."},
+    {"k": "assess", "icon": "ti-pencil", "title": "Redesigning Assessment", "body": "Teachers are replacing the take-home essay with <b>multistage projects and pitches</b> that treat AI as a practice partner."},
+    {"k": "funding", "icon": "ti-building-bank", "title": "E-Rate & Connectivity Funding", "body": "CoSN's petition from <b>464 leaders in 35 states</b> asks Congress to preserve E-Rate while the FCC weighs changes."},
+    {"k": "security", "icon": "ti-shield-bolt", "title": "Cyber Resilience", "body": "Isolated recovery environments, targeted phishing and <b>AI-found vulnerabilities</b> push schools and campuses toward tested recovery plans."},
+    {"k": "evidence", "icon": "ti-chart-bar", "title": "Evidence & AI Evaluation", "body": "1EdTech's AI-evaluation white paper and calls to keep <b>measuring efficacy</b> tie edtech buying to proof of impact."},
+    {"k": "governance", "icon": "ti-compass", "title": "AI Governance & Purpose", "body": "Task forces, age-based guidance and debates over <b>the purpose of college</b> shape how institutions set AI rules."}
+  ],
+  "sources": [
+    {"name": "Education Technology Insights", "dom": "educationtechnologyinsights.com", "icon": "ti-news",
+     "note": "No new dated items today; recent evergreen features shown.",
+     "arts": [
+      {"t": "Rethinking College Readiness through Diagnostic Insight", "u": "https://www.educationtechnologyinsights.com/state-of-industry/rethinking-college-readiness-through-diagnostic-insight-nid-3858.html", "s": "Argues self-regulation skills like time management and metacognition drive persistence, and recommends embedding diagnostics in required coursework."},
+      {"t": "Interactive Learning Platforms Reshaping Global Education Systems", "u": "https://www.educationtechnologyinsights.com/news/interactive-learning-platforms-reshaping-global-education-systems-nid-3566.html", "s": "Describes how cloud-based, interoperable platforms are shifting instruction from one-to-many lectures toward personalized learning."}
+     ]},
+    {"name": "1EdTech Events", "dom": "1edtech.org", "icon": "ti-calendar-event",
+     "arts": [
+      {"t": "White Paper: Evaluating AI in Education (with Learning Data Insights)", "u": "https://www.1edtech.org/", "s": "1EdTech and Learning Data Insights released guidance on how institutions and suppliers should assess AI tools in education.", "d": "NOV 12", "tag": "new", "th": ["evidence"]},
+      {"t": "Bringing the Learn & Work Ecosystem Together", "u": "https://www.1edtech.org/blog/bringing-the-learn-work-ecosystem-together", "s": "The Learn & Work Ecosystem Library joins 1EdTech Global and proposes a federated \"Library 2.0\" model discussed at UPCEA–AACRAO Convergence.", "d": "NOV 13"},
+      {"t": "2027 Learning Impact Awards — Nominations Close Nov. 23", "u": "https://www.1edtech.org/li/awards", "s": "Nominations close at 11:59 pm ET on Nov. 23; winners will be recognized at the Learning Impact Conference in San Antonio in February.", "d": "NOV 23"},
+      {"t": "LTI Project Group", "u": "https://www.1edtech.org/events/lti-project-group", "s": "The LTI Project Group meets today and again on Nov. 24 as part of 1EdTech's November standards calendar.", "d": "NOV 17"}
+     ]},
+    {"name": "EdTech Week", "dom": "edtechweek.com", "icon": "ti-calendar",
+     "note": "EdTech Week 2026 concluded in October; no new items today.",
+     "arts": [
+      {"t": "EDTECH WEEK 2026 — Teachers College, Columbia University", "u": "https://www.edtechweek.com/home-1", "s": "The October 13–15 NYC gathering featured a CEO Summit, AI for Educators Summit, expo and pitch competitions.", "d": "OCT 13–15", "tag": "old"},
+      {"t": "GHP Emerging Awards", "u": "https://www.edtechweek.com/ghp-emerging", "s": "Nine early-stage finalists presented their companies at EdTech Week in New York.", "tag": "old"}
+     ]},
+    {"name": "Ed-Fi Impact Stories", "dom": "ed-fi.org", "icon": "ti-database",
+     "note": "No new dated items since the Ed-Fi Summit (Nov. 9–11); recent releases and impact stories shown.",
+     "arts": [
+      {"t": "Ed-Fi API Publisher v1.4: Now Available", "u": "https://docs.ed-fi.org/blog/2026/10/22/", "s": "Adds support for Ed-Fi API v8 and resumable runs so failed cursor-paged transfers can continue rather than restart.", "d": "OCT 22"},
+      {"t": "Bringing Two Data Standards Together to Power Student Success", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/bringing-two-data-standards-together-to-power-student-success/", "s": "Ed-Fi and 1EdTech describe aligning OneRoster and Ed-Fi standards to cut integration friction for districts.", "th": ["evidence"]},
+      {"t": "Snack-Pack: Turning School Transfers into Seamless Hand-Offs", "u": "https://www.ed-fi.org/resources/impact-stories/michigan-student-transfers/", "s": "Michigan's transfer system gets more than 90% of transferring students the help they need within 24 hours."}
+     ]},
+    {"name": "EdSurge", "dom": "edsurge.com", "icon": "ti-bolt",
+     "arts": [
+      {"t": "For Special Education Teachers, \"Everydayness Is the Enemy\"", "u": "https://www.edsurge.com/news/for-special-education-teachers-everydayness-is-the-enemy", "s": "A special educator recommends a monthly \"keep, change, fade\" review of supports so routine doesn't crowd out attention to each student.", "d": "NOV 16", "tag": "new"},
+      {"t": "The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning", "u": "https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning", "s": "A teacher swaps take-home essays for multistage projects and \"Shark Tank\"-style pitches, using AI as a practice partner.", "d": "NOV 11", "th": ["assess", "trust"]}
+     ]},
+    {"name": "THE Journal", "dom": "thejournal.com", "icon": "ti-notebook",
+     "arts": [
+      {"t": "Building Secure, AI-Ready K-12 Schools Through Intelligent Networking and Operations", "u": "https://thejournal.com/whitepapers/2026/11/hpe-building-secure-ai-ready-k12-schools.aspx", "s": "A sponsored white paper on network automation, visibility and zero-trust principles for AI-ready districts.", "d": "NOV", "th": ["security"]},
+      {"t": "Catching the Last 1% of E-mail Threats (Webcast)", "u": "https://thejournal.com/webcasts/2026/11/abnormal-catching-the-last-1-of-email-threats.aspx", "s": "A Nov. 18 webcast on closing e-mail security gaps in education as phishing volumes hit records.", "d": "NOV 18", "th": ["security"]},
+      {"t": "OLC Accelerate 2026", "u": "https://thejournal.com/calendar/2026/11/olc-accelerate.aspx", "s": "The Online Learning Consortium's digital-learning conference runs Nov. 16–19 in Orlando, alongside CITE (Anaheim) this week.", "d": "NOV 16–19"},
+      {"t": "K-12 Technology News", "u": "https://thejournal.com/articles/list/news.aspx", "s": "Recent coverage includes Microsoft's 7.3 billion Q3 phishing threats and KnowBe4's finding that attackers are shifting to targeted campaigns.", "th": ["security"]}
+     ]},
+    {"name": "EdTech Magazine", "dom": "edtechmagazine.com", "icon": "ti-device-desktop",
+     "arts": [
+      {"t": "Education and Community Leaders Urge Lawmakers To Protect E-Rate", "u": "https://edtechmagazine.com/k12/article/2026/11/education-and-community-leaders-urge-lawmakers-protect-e-rate", "s": "CoSN delivered a petition from 464 leaders in 35 states asking Congress to preserve E-Rate as the FCC reviews the program.", "d": "NOV 12", "tag": "new", "lvl": "K-12", "th": ["funding"]},
+      {"t": "After a Cyber Incident, IREs Get K–12 Schools Back on Track", "u": "https://edtechmagazine.com/k12/article/2026/11/after-cyber-incident-ires-get-k-12-schools-back-track", "s": "Isolated recovery environments act as a \"safe room\" for critical data and are now available to smaller districts as a managed service.", "d": "NOV 9", "lvl": "K-12", "th": ["security"]},
+      {"t": "AI Task Forces Drive Policy, Adoption and Innovation in Higher Ed", "u": "https://edtechmagazine.com/higher/article/2026/11/ai-task-forces-drive-policy-adoption-and-innovation-higher-ed", "s": "Drexel, Boston University and Missouri show how cross-campus AI committees set policy, including advice not to rely on AI detectors.", "d": "NOV 4", "lvl": "Higher Ed", "th": ["governance", "trust"]}
+     ]},
+    {"name": "Inside Higher Ed", "dom": "insidehighered.com", "icon": "ti-building-community",
+     "arts": [
+      {"t": "AI Changing College; Old Challenges Persist", "u": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist", "s": "A Student Voice survey of 5,034 undergraduates finds 8 in 10 use AI routinely and a quarter have changed their writing to avoid false detector flags.", "d": "NOV 17", "tag": "new", "th": ["trust"]},
+      {"t": "The Priority? Student Success. The Challenge? Capacity.", "u": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/12/priority-student-success-challenge-capacity", "s": "74% of student success administrators say their institution helps students understand AI use, but 32% see no measurable gains yet.", "d": "NOV 12", "th": ["evidence", "governance"]},
+      {"t": "New AI Learning Matrix Brings Nuance to \"Wild West\" Moment", "u": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild", "s": "A Harvard Graduate School of Education group launched an AI Guidance by Age matrix built from 5,000+ research pieces.", "d": "NOV 12", "th": ["governance"]},
+      {"t": "The Singularity, Black October & Other Lessons for Higher Ed", "u": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/11/12/singularity-black-october-other-lessons-higher-ed", "s": "An opinion column treats an October AI-driven vulnerability episode as a warning to segment systems and rehearse incident recovery.", "d": "NOV 12", "th": ["security"]},
+      {"t": "What Is the Purpose of College in the Age of AI?", "u": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/05/what-purpose-college-age-ai", "s": "UVA dean Christa Acampora argues AI clarifies rather than changes college's purpose and warns against heavy surveillance of AI use.", "d": "NOV 5", "th": ["governance", "trust"]}
+     ]},
+    {"name": "ISTE", "dom": "iste.org", "icon": "ti-school",
+     "note": "No new dated news this month; organizational updates shown.",
+     "arts": [
+      {"t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "The merged organization adopted the International Society for Transforming Education name as of June 2026."},
+      {"t": "Generation AI: News & Updates", "u": "https://iste.org/generationai/news-updates", "s": "ISTE's hub for AI-in-education resources, guidance and educator programs.", "th": ["governance"]}
+     ]},
+    {"name": "Brookings (Education Technology)", "dom": "brookings.edu", "icon": "ti-world",
+     "note": "No new dated items today; recent task-force work shown.",
+     "arts": [
+      {"t": "Enhancing Student Agency Through School AI Councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Recommends a student AI council in every school to beta-test tools and review procurement, noting nearly 85% of high schoolers use AI for schoolwork.", "th": ["governance"]},
+      {"t": "Brookings Global Task Force on AI in Education", "u": "https://www.brookings.edu/projects/brookings-global-task-force-on-ai-in-education/", "s": "The task force's \"prosper, prepare, protect\" report finds AI's current risks to students outweigh benefits but says the trajectory can change."}
+     ]},
+    {"name": "EdTech Digest", "dom": "edtechdigest.com", "icon": "ti-article",
+     "arts": [
+      {"t": "Edtech Evidence Season", "u": "https://www.edtechdigest.com/2026/11/13/edtech-evidence-season/", "s": "Matt Pasternack urges vendors to keep measuring efficacy as an Education Department letter folds evidence into procurement decisions.", "d": "NOV 13", "th": ["evidence"]},
+      {"t": "Beyond the Wow of Virtual Reality", "u": "https://www.edtechdigest.com/2026/11/03/beyond-the-wow-of-virtual-reality/", "s": "OptimaEd's Adam Mangana on immersive learning, growing from 150 to 2,000 full-time students while keeping teacher relationships central.", "d": "NOV 3"},
+      {"t": "The Unexplored Depths of Natasha Singer's Coding Kids", "u": "https://www.edtechdigest.com/2026/11/02/the-unexplored-depths-of-natasha-singers-coding-kids/", "s": "A review of Singer's book on tech companies' influence in K-12 argues it raises key questions it leaves unanswered.", "d": "NOV 2", "th": ["governance"]}
+     ]}
+  ]
+}

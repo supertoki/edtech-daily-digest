@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-16T12:10:43Z",
+  "generatedAt": "2026-11-17T12:08:57Z",
   "daily": {
-    "date": "2026-11-16",
-    "topThemeKey": "guidance",
-    "topThemeTitle": "AI Guidance & Governance",
-    "topThemeBody": "Task forces, age-based matrices and survey data show institutions formalizing AI policy while training and guidance still lag use.",
+    "date": "2026-11-17",
+    "topThemeKey": "governance",
+    "topThemeTitle": "AI Governance & Purpose",
+    "topThemeBody": "Task forces, age-based guidance and debates over the purpose of college shape how institutions set AI rules.",
     "themes": [
       {
-        "k": "guidance",
-        "title": "AI Guidance & Governance",
+        "k": "governance",
+        "title": "AI Governance & Purpose",
         "weight": 7
       },
       {
         "k": "security",
-        "title": "Cyber Threats Escalate",
-        "weight": 6
+        "title": "Cyber Resilience",
+        "weight": 5
+      },
+      {
+        "k": "trust",
+        "title": "AI Trust & Academic Integrity",
+        "weight": 4
       },
       {
         "k": "evidence",
         "title": "Evidence & AI Evaluation",
-        "weight": 5
-      },
-      {
-        "k": "voice",
-        "title": "Student Voice & Civic Purpose",
-        "weight": 5
-      },
-      {
-        "k": "interop",
-        "title": "Data Standards & Interoperability",
         "weight": 4
       },
       {
-        "k": "writing",
-        "title": "Rethinking Writing & Assessment",
-        "weight": 2
+        "k": "assess",
+        "title": "Redesigning Assessment",
+        "weight": 1
+      },
+      {
+        "k": "funding",
+        "title": "E-Rate & Connectivity Funding",
+        "weight": 1
       }
     ]
   },
