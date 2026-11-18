@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-17T12:08:57Z",
+  "generatedAt": "2026-11-18T12:09:20Z",
   "daily": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "topThemeKey": "governance",
-    "topThemeTitle": "AI Governance & Purpose",
-    "topThemeBody": "Task forces, age-based guidance and debates over the purpose of college shape how institutions set AI rules.",
+    "topThemeTitle": "AI Governance on Campus",
+    "topThemeBody": "Task forces, age-based guidance and student AI councils are how institutions are setting the rules of the road.",
     "themes": [
       {
         "k": "governance",
-        "title": "AI Governance & Purpose",
+        "title": "AI Governance on Campus",
         "weight": 7
       },
       {
-        "k": "security",
-        "title": "Cyber Resilience",
-        "weight": 5
+        "k": "teach",
+        "title": "AI & Teacher Judgment",
+        "weight": 6
       },
       {
-        "k": "trust",
-        "title": "AI Trust & Academic Integrity",
-        "weight": 4
+        "k": "security",
+        "title": "Phishing & AI-Agent Risk",
+        "weight": 6
+      },
+      {
+        "k": "data",
+        "title": "Interoperability & Learn-to-Work Data",
+        "weight": 5
       },
       {
         "k": "evidence",
         "title": "Evidence & AI Evaluation",
-        "weight": 4
+        "weight": 5
       },
       {
-        "k": "assess",
-        "title": "Redesigning Assessment",
-        "weight": 1
-      },
-      {
-        "k": "funding",
-        "title": "E-Rate & Connectivity Funding",
-        "weight": 1
+        "k": "aid",
+        "title": "Student Aid & Federal Pressure",
+        "weight": 3
       }
     ]
   },
