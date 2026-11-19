@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-18T12:09:20Z",
+  "generatedAt": "2026-11-19T12:08:55Z",
   "daily": {
-    "date": "2026-11-18",
-    "topThemeKey": "governance",
-    "topThemeTitle": "AI Governance on Campus",
-    "topThemeBody": "Task forces, age-based guidance and student AI councils are how institutions are setting the rules of the road.",
+    "date": "2026-11-19",
+    "topThemeKey": "aiclass",
+    "topThemeTitle": "AI in the Classroom",
+    "topThemeBody": "Teachers split between grading students' AI chats and keeping AI out, as researchers ask what AI should never take away.",
     "themes": [
       {
-        "k": "governance",
-        "title": "AI Governance on Campus",
-        "weight": 7
-      },
-      {
-        "k": "teach",
-        "title": "AI & Teacher Judgment",
+        "k": "aiclass",
+        "title": "AI in the Classroom",
         "weight": 6
-      },
-      {
-        "k": "security",
-        "title": "Phishing & AI-Agent Risk",
-        "weight": 6
-      },
-      {
-        "k": "data",
-        "title": "Interoperability & Learn-to-Work Data",
-        "weight": 5
       },
       {
         "k": "evidence",
-        "title": "Evidence & AI Evaluation",
+        "title": "Evidence & Outcome-Led Buying",
         "weight": 5
       },
       {
-        "k": "aid",
-        "title": "Student Aid & Federal Pressure",
-        "weight": 3
+        "k": "data",
+        "title": "Interoperability & Data Standards",
+        "weight": 5
+      },
+      {
+        "k": "enroll",
+        "title": "Enrollment Comebacks & Access",
+        "weight": 4
+      },
+      {
+        "k": "governance",
+        "title": "AI Guardrails & Governance",
+        "weight": 4
+      },
+      {
+        "k": "security",
+        "title": "Security & Platform Hardening",
+        "weight": 4
       }
     ]
   },
