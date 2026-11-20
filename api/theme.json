@@ -1,15 +1,25 @@
 {
-  "generatedAt": "2026-11-19T12:08:55Z",
+  "generatedAt": "2026-11-20T12:09:26Z",
   "daily": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "topThemeKey": "aiclass",
     "topThemeTitle": "AI in the Classroom",
-    "topThemeBody": "Teachers split between grading students' AI chats and keeping AI out, as researchers ask what AI should never take away.",
+    "topThemeBody": "Teachers and districts are working out how to keep student thinking central, from grade-banded AI expectations to AI-free writing courses.",
     "themes": [
       {
         "k": "aiclass",
         "title": "AI in the Classroom",
-        "weight": 6
+        "weight": 8
+      },
+      {
+        "k": "governance",
+        "title": "AI Governance & Vendor Accountability",
+        "weight": 8
+      },
+      {
+        "k": "data",
+        "title": "Interoperability & Data Standards",
+        "weight": 8
       },
       {
         "k": "evidence",
@@ -17,24 +27,14 @@
         "weight": 5
       },
       {
-        "k": "data",
-        "title": "Interoperability & Data Standards",
-        "weight": 5
+        "k": "aisearch",
+        "title": "Big Tech AI Defaults in Schools",
+        "weight": 2
       },
       {
-        "k": "enroll",
-        "title": "Enrollment Comebacks & Access",
-        "weight": 4
-      },
-      {
-        "k": "governance",
-        "title": "AI Guardrails & Governance",
-        "weight": 4
-      },
-      {
-        "k": "security",
-        "title": "Security & Platform Hardening",
-        "weight": 4
+        "k": "access",
+        "title": "Admissions & Access",
+        "weight": 2
       }
     ]
   },
