@@ -1,7 +1,7 @@
 {
   "target": "2026-11-23",
-  "displayed": "2026-11-16",
-  "current": "2026-11-16",
+  "displayed": "2026-11-23",
+  "current": "2026-11-23",
   "weeks": {
     "2026-07-06": {
       "themeKey": "skills",
@@ -148,7 +148,10 @@
       "themeKey": "governance",
       "themeTitle": "AI Governance & Vendor Accountability",
       "themeBody": "Districts are building AI tool inventories and risk tiers, and want vendors to give notice before adding AI to approved products.",
-      "lockedAt": "2026-11-23T12:09:15Z"
+      "lockedAt": "2026-11-23T12:09:15Z",
+      "file": "hero-2026-11-23.webp",
+      "theme": "governance",
+      "approvedAt": "2026-11-23T21:31:15Z"
     }
   }
 }

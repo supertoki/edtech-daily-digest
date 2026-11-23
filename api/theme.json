@@ -41,9 +41,9 @@
   "heroWeek": {
     "weekKey": "2026-11-23",
     "weekRange": "11/23-11/29",
-    "status": "pending",
-    "displayedWeek": "2026-11-16",
-    "currentImage": "assets/illustrations/hero-2026-11-16.webp",
+    "status": "approved",
+    "displayedWeek": "2026-11-23",
+    "currentImage": "assets/illustrations/hero-2026-11-23.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
     "themeKey": "governance",
     "themeTitle": "AI Governance & Vendor Accountability",
