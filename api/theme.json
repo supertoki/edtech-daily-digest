@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-11-20T12:09:26Z",
+  "generatedAt": "2026-11-23T12:09:19Z",
   "daily": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "topThemeKey": "aiclass",
-    "topThemeTitle": "AI in the Classroom",
-    "topThemeBody": "Teachers and districts are working out how to keep student thinking central, from grade-banded AI expectations to AI-free writing courses.",
+    "topThemeTitle": "AI in Teaching & Learning",
+    "topThemeBody": "Educators are moving from banning AI to assessing how students use it, with grade-banded expectations, graded chat transcripts and age-based guidance.",
     "themes": [
       {
         "k": "aiclass",
-        "title": "AI in the Classroom",
-        "weight": 8
+        "title": "AI in Teaching & Learning",
+        "weight": 10
       },
       {
-        "k": "governance",
-        "title": "AI Governance & Vendor Accountability",
-        "weight": 8
-      },
-      {
-        "k": "data",
+        "k": "standards",
         "title": "Interoperability & Data Standards",
-        "weight": 8
+        "weight": 7
       },
       {
-        "k": "evidence",
-        "title": "Evidence & Outcome-Led Buying",
+        "k": "security",
+        "title": "Cybersecurity & AI Governance",
+        "weight": 6
+      },
+      {
+        "k": "integrity",
+        "title": "Research Integrity in the AI Era",
         "weight": 5
       },
       {
-        "k": "aisearch",
-        "title": "Big Tech AI Defaults in Schools",
-        "weight": 2
+        "k": "policy",
+        "title": "Higher Ed Policy & Politics",
+        "weight": 3
       },
       {
-        "k": "access",
-        "title": "Admissions & Access",
+        "k": "aidefaults",
+        "title": "Big Tech AI Defaults in Schools",
         "weight": 2
       }
     ]
   },
   "heroWeek": {
-    "weekKey": "2026-11-16",
-    "weekRange": "11/16-11/22",
-    "status": "approved",
+    "weekKey": "2026-11-23",
+    "weekRange": "11/23-11/29",
+    "status": "pending",
     "displayedWeek": "2026-11-16",
     "currentImage": "assets/illustrations/hero-2026-11-16.webp",
     "styleGuideUrl": "https://supertoki.github.io/edtech-daily-digest/api/hero-style.json",
-    "themeKey": "security",
-    "themeTitle": "Cyber Threats Escalate",
-    "themeBody": "Q3 brought 7.3 billion phishing threats and a 23% jump in ransomware victims, while agentic AI is now finding software vulnerabilities.",
-    "themeProp": "a shield with a keyhole",
-    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: Cyber Threats Escalate - Q3 brought 7.3 billion phishing threats and a 23% jump in ransomware victims, while agentic AI is now finding software vulnerabilities.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: a shield with a keyhole; airy with negative space; no text."
+    "themeKey": "governance",
+    "themeTitle": "AI Governance & Vendor Accountability",
+    "themeBody": "Districts are building AI tool inventories and risk tiers, and want vendors to give notice before adding AI to approved products.",
+    "themeProp": "the graduated-AI network mascot with no extra prop",
+    "promptSeed": "Flat minimal editorial vector illustration for an EdTech digest hero. Theme: AI Governance & Vendor Accountability - Districts are building AI tool inventories and risk tiers, and want vendors to give notice before adding AI to approved products.. Follow the published style guide (palette, composition, negative prompt). Centered graduated-AI network mascot on a soft teal disc; one theme prop: the graduated-AI network mascot with no extra prop; airy with negative space; no text."
   }
 }
