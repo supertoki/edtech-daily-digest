@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-23T12:09:19Z",
+  "generatedAt": "2026-11-24T12:09:26Z",
   "daily": {
-    "date": "2026-11-23",
-    "topThemeKey": "aiclass",
-    "topThemeTitle": "AI in Teaching & Learning",
-    "topThemeBody": "Educators are moving from banning AI to assessing how students use it, with grade-banded expectations, graded chat transcripts and age-based guidance.",
+    "date": "2026-11-24",
+    "topThemeKey": "aik12",
+    "topThemeTitle": "AI in K-12 Classrooms",
+    "topThemeBody": "Districts are setting grade-banded AI expectations and pushing back on Google's AI-by-default search for student accounts.",
     "themes": [
       {
-        "k": "aiclass",
-        "title": "AI in Teaching & Learning",
-        "weight": 10
+        "k": "aik12",
+        "title": "AI in K-12 Classrooms",
+        "weight": 8
       },
       {
         "k": "standards",
-        "title": "Interoperability & Data Standards",
+        "title": "Interoperability & Standards",
         "weight": 7
       },
       {
-        "k": "security",
-        "title": "Cybersecurity & AI Governance",
+        "k": "buying",
+        "title": "Trust, Evidence & EdTech Buying",
         "weight": 6
       },
       {
-        "k": "integrity",
-        "title": "Research Integrity in the AI Era",
+        "k": "aitrust",
+        "title": "AI, Writing & Academic Trust",
         "weight": 5
       },
       {
         "k": "policy",
-        "title": "Higher Ed Policy & Politics",
-        "weight": 3
+        "title": "Federal Policy & Enrollment",
+        "weight": 5
       },
       {
-        "k": "aidefaults",
-        "title": "Big Tech AI Defaults in Schools",
-        "weight": 2
+        "k": "security",
+        "title": "Cybersecurity & Governance",
+        "weight": 4
       }
     ]
   },

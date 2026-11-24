@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-24",
+  "dateLabel": "NOVEMBER 24, 2026",
+  "headline": "Trust Is the New Currency",
+  "thesis": "From faculty afraid to disclose AI use to districts that now <b>buy on trust over features</b>, today's stories show education deciding <b>whom and what to believe</b>.",
+  "summary": "Tuesday's digest centers on <b>trust</b>. Inside Higher Ed reports that most faculty now use AI in some form, but with <b>no shared line between AI-assisted writing and misconduct</b>, fear is discouraging disclosure in what it calls an AI 'witch hunt.' A companion opinion piece asks what colleges' claims of <b>'AI leadership'</b> really mean. On the K-12 side, an EdTech Digest column built on interviews with twelve district leaders finds they now <b>weigh vendor trust above price or features</b>, with some moving to outcomes-based contracts. Federal policy also moved: Inside Higher Ed lays out <b>where the international student crackdown stands</b> after court losses, with a proposed OPT fee as the next fight. A Philadelphia Fed study suggests <b>new graduate loan caps are unlikely to reduce defaults</b>, and NSF data show first-time science and health grad enrollment fell about 10%. On standards, 1EdTech's Learning Impact Award nominations have closed, with finalists to be notified by Nov. 30, and the <b>QTI survey closes the same day</b>.",
+  "footnote": "Compiled from 11 curated edtech sources · NOVEMBER 24, 2026 · Items were gathered through web search because direct page fetches were blocked in this run. Several sources published nothing new today and show their most recent items.",
+  "themes": [
+    {"k": "aitrust", "icon": "ti-writing", "title": "AI, Writing & Academic Trust", "body": "Faculty use AI widely but lack <b>shared rules on disclosure</b>, and detector false flags are changing how both students and professors write."},
+    {"k": "aik12", "icon": "ti-chalkboard", "title": "AI in K-12 Classrooms", "body": "Districts are setting <b>grade-banded AI expectations</b> and pushing back on Google's AI-by-default search for student accounts."},
+    {"k": "buying", "icon": "ti-shopping-cart", "title": "Trust, Evidence & EdTech Buying", "body": "District leaders now rank <b>vendor trust above features</b>, and evidence requirements and screen-time rules are reshaping purchases."},
+    {"k": "policy", "icon": "ti-gavel", "title": "Federal Policy & Enrollment", "body": "Court rulings on <b>international students</b>, new graduate loan caps and a <b>10% drop in new STEM-health grad students</b> are the main federal pressures on colleges."},
+    {"k": "security", "icon": "ti-shield-bolt", "title": "Cybersecurity & Governance", "body": "With <b>half of K-12 schools</b> reporting a cyber incident and phishing growing more targeted, governance lags behind the threat."},
+    {"k": "standards", "icon": "ti-plug-connected", "title": "Interoperability & Standards", "body": "The <b>QTI survey</b>, Blackboard's <b>Dec. 31 LTI 1.3 deadline</b> and the Ed-Fi API v8.1 rollout set the year-end standards agenda."}
+  ],
+  "sources": [
+    {
+      "name": "Education Technology Insights",
+      "dom": "educationtechnologyinsights.com",
+      "icon": "ti-news",
+      "note": "No new dated items since Nov. 12; recent features shown.",
+      "arts": [
+        {"t": "The AI-Driven Evolution of Education", "u": "https://www.educationtechnologyinsights.com/news/the-aidriven-evolution-of-education-nid-3295.html", "s": "A feature on how AI is changing instruction, assessment and school administration.", "d": "NOV 12", "th": ["aik12"]},
+        {"t": "Enhancing Educational Outcomes with Learning Management System", "u": "https://www.educationtechnologyinsights.com/news/enhancing-educational-outcomes-with-learning-management-system-nid-4029.html", "s": "How LMS platforms support personalized learning and data-informed teaching.", "d": "NOV 10"},
+        {"t": "Transforming Higher Education Payments with Scalable Digital Solutions", "u": "https://www.educationtechnologyinsights.com/news/transforming-higher-education-payments-with-scalable-digital-solutions-nid-3773.html", "s": "An evergreen look at modernizing campus payment systems."}
+      ]
+    },
+    {
+      "name": "1EdTech Events",
+      "dom": "1edtech.org",
+      "icon": "ti-calendar-event",
+      "arts": [
+        {"t": "LTI Project Group meeting", "u": "https://www.1edtech.org/events/lti-project-group", "s": "The weekly LTI Project Group meets today at noon ET, alongside a Student Safety Task Force session for contributing members.", "d": "NOV 24", "tag": "new", "th": ["standards"]},
+        {"t": "Question & Test Interoperability (QTI) survey", "u": "https://www.1edtech.org/standards/qti", "s": "The Assessment Product Steering Committee's QTI feedback survey closes Nov. 30.", "d": "DUE NOV 30", "th": ["standards"]},
+        {"t": "The Path to LTI 1.3 — Blackboard key dates", "u": "https://www.1edtech.org/sites/default/files/media/docs/2026/blackboard_path-to-ltiv1p3.pdf", "s": "New LTI 1.0/1.1 tools can no longer be registered in Blackboard after Dec. 31, 2026, so integrations need to move to LTI 1.3.", "d": "DEC 31", "th": ["standards"]},
+        {"t": "2027 Learning Impact Awards — nominations closed", "u": "https://www.1edtech.org/li/awards", "s": "Nominations closed Nov. 23; finalists will be notified by Nov. 30 and recognized at Learning Impact in San Antonio on Feb. 10.", "d": "NOV 23", "tag": "old", "th": ["standards"]},
+        {"t": "Events and Meetings calendar", "u": "https://www.1edtech.org/events", "s": "December meetings include an LTI Member Community Day (Dec. 1), a CLR Task Force session (Dec. 3), and Edu-API and Digital Credentials groups (Dec. 9–10)."}
+      ]
+    },
+    {
+      "name": "EdTech Week",
+      "dom": "edtechweek.com",
+      "icon": "ti-building-skyscraper",
+      "note": "EDTECH WEEK 2026 took place in October; the site now lists a 2027 edition (October, NYC). No new items today.",
+      "arts": [
+        {"t": "EDTECH WEEK — 2027 festival", "u": "https://www.edtechweek.com/", "s": "The next edition of the NYC edtech festival is planned for October 2027."},
+        {"t": "EDTECH WEEK 2026 — Agenda at a Glance", "u": "https://www.edtechweek.com/agenda-at-a-glance-2026", "s": "The program from this year's festival.", "d": "OCT 13–15", "tag": "old"},
+        {"t": "GHP Emerging EdTech Awards", "u": "https://www.edtechweek.com/ghp-emerging", "s": "An awards program for early-stage education companies."}
+      ]
+    },
+    {
+      "name": "Ed-Fi Impact Stories",
+      "dom": "ed-fi.org",
+      "icon": "ti-database",
+      "note": "No new posts since Nov. 7; recent releases and roadmap shown.",
+      "arts": [
+        {"t": "Ed-Fi API v8.1: Now Available", "u": "https://docs.ed-fi.org/blog/2026/11/07/", "s": "v8.1 adds partitioned cursor paging, read replicas, an optional DocumentCache and opt-in Kafka event streaming; v8.0 sites should upgrade.", "d": "NOV 7", "th": ["standards"]},
+        {"t": "Ed-Fi Technology Roadmap Update: Fall 2026", "u": "https://docs.ed-fi.org/blog/2026/11/05/", "s": "Targets Data Standard 6.2 for 2027-Q1 and a breaking Data Standard 7.0, available only on API v8, for 2027-Q2.", "d": "NOV 5", "th": ["standards"]},
+        {"t": "Ed-Fi Admin App 4.1 and Admin API 2.4 Released", "u": "https://docs.ed-fi.org/blog/2026/11/06/admin-app-and-admin-api-release/", "s": "Admin API 2.4 adds a v3 mode matching the v8 Management API spec and requires a database migration on .NET 10.", "d": "NOV 6", "th": ["standards"]},
+        {"t": "From Vision to Action: Reflections from the 2026 Ed-Fi Technical Congress", "u": "https://www.ed-fi.org/resources/ideas-and-innovation/from-vision-to-action-reflections-from-the-2026-ed-fi-technical-congress/", "s": "Takeaways from the community's technical gathering."}
+      ]
+    },
+    {
+      "name": "EdSurge",
+      "dom": "edsurge.com",
+      "icon": "ti-news",
+      "arts": [
+        {"t": "If Representation Matters, Then Authenticity Does Too", "u": "https://www.edsurge.com/news/if-representation-matters-then-authenticity-does-too", "s": "A Black male kindergarten teacher argues schools should let teachers be authentic rather than conform to one style.", "d": "NOV 23", "tag": "new"},
+        {"t": "Google Says Schools Can't Have Search Without AI. Some Are Finding a Way.", "u": "https://www.edsurge.com/news/google-says-schools-cant-have-search-without-ai-some-are-finding-a-way", "s": "Google will switch AI and Search off by default for student accounts in early 2027; LAUSD and filter vendors are blocking AI Overviews, and Google must answer Sen. Markey by Nov. 30.", "d": "NOV 19", "th": ["aik12"]},
+        {"t": "A New Classroom Use for Artificial Intelligence: Grade the Chat, Not Just the Answer", "u": "https://www.edsurge.com/news/a-new-classroom-use-for-artificial-intelligence-grade-the-chat-not-just-the-answer", "s": "Teachers are assessing students' AI conversation transcripts to see their thinking, not just their final answers.", "d": "NOV 18", "th": ["aik12"]},
+        {"t": "AI Has a Place in Education, Just Not in My Classroom", "u": "https://www.edsurge.com/news/ai-has-a-place-in-education-just-not-in-my-classroom", "s": "A seventh-grade literacy teacher explains returning to a low-tech approach while still trying one AI word-mapping activity.", "d": "NOV 18", "th": ["aik12"]}
+      ]
+    },
+    {
+      "name": "THE Journal",
+      "dom": "thejournal.com",
+      "icon": "ti-device-desktop",
+      "note": "No new dated articles found since Nov. 18; recent items and this week's events shown.",
+      "arts": [
+        {"t": "NYSCATE Annual Conference", "u": "https://thejournal.com/calendar/calendar.aspx", "s": "New York's K-12 edtech conference in Verona, NY, wraps up today.", "d": "NOV 22–24"},
+        {"t": "THE Journal Reveals 2026 Product of the Year Winners", "u": "https://thejournal.com/articles/2026/11/18/the-journal-reveals-2026-product-of-the-year-winners.aspx", "s": "The publication's annual awards for K-12 technology products.", "d": "NOV 18", "th": ["buying"]},
+        {"t": "K-12 Technology News: Phishing and Targeted Attacks", "u": "https://thejournal.com/articles/list/news.aspx", "s": "Microsoft counted 7.3 billion phishing threats in Q3, and KnowBe4 reports attackers shifting toward targeted attacks that use trusted services.", "d": "NOV 10", "th": ["security"]},
+        {"t": "Department of Education Issues New Guidance on Education Technology and Screen Time", "u": "https://thejournal.com/articles/2026/08/20/department-of-education-issues-new-guidance-on-education-technology-and-screen-time.aspx", "s": "Background: ED's Dear Colleague letter urges judging ed tech by learning outcomes and separating recreational from instructional screen-time rules.", "d": "AUG 20", "th": ["buying"]}
+      ]
+    },
+    {
+      "name": "EdTech Magazine",
+      "dom": "edtechmagazine.com",
+      "icon": "ti-book-2",
+      "note": "No new K-12 or Higher Ed articles found since Nov. 19; recent items shown.",
+      "arts": [
+        {"t": "New Report Reveals Half of K–12 Schools Had a Cybersecurity Incident Last Year", "u": "https://edtechmagazine.com/k12/article/2026/11/new-report-reveals-half-k-12-schools-had-cybersecurity-incident-last-year", "s": "A Center for Internet Security report finds half of K-12 schools had an incident, and just over 3 in 10 have a formal AI policy.", "d": "NOV 19", "lvl": "K-12", "th": ["security"]},
+        {"t": "University Hackathon Aims To Foster AI Skills Among IT Staff", "u": "https://edtechmagazine.com/higher/article/2026/11/university-hackathon-aims-foster-ai-skills-among-it-staff", "s": "At a University of Chicago hackathon, 81 non-developer IT staff in 17 teams built more than a dozen working AI prototypes, some still in use.", "d": "NOV 19", "lvl": "Higher Ed", "th": ["aitrust"]},
+        {"t": "Manage AI Feature Creep in Ed Tech", "u": "https://edtechmagazine.com/k12/article/2026/11/how-manage-ai-feature-creep-k-12-ed-tech", "s": "How districts can keep track of AI features that vendors add to tools the district already uses.", "d": "NOV 18", "lvl": "K-12", "th": ["security", "buying"]},
+        {"t": "How To Ensure Artificial Intelligence Is Enriching Student Learning", "u": "https://edtechmagazine.com/k12/article/2026/11/how-ensure-artificial-intelligence-enriching-student-learning", "s": "A Wichita district trains teachers first and then sets grade-banded AI expectations for students.", "d": "NOV 17", "lvl": "K-12", "th": ["aik12"]},
+        {"t": "Higher Ed's Path to Advanced Cybersecurity Maturity", "u": "https://edtechmagazine.com/higher/article/2026/10/higher-eds-path-advanced-cybersecurity-maturity", "s": "Steps colleges are taking to move from basic security controls to a mature program.", "d": "OCT", "lvl": "Higher Ed", "th": ["security"]}
+      ]
+    },
+    {
+      "name": "Inside Higher Ed",
+      "dom": "insidehighered.com",
+      "icon": "ti-school",
+      "arts": [
+        {"t": "What's Really Fueling Higher Ed's AI \"Witch Hunt\"?", "u": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt", "s": "Most faculty now use AI, but with no shared line between assisted writing and misconduct, fear discourages disclosure; the piece also covers a Dartmouth provost's resignation after a detector flagged his writing.", "d": "NOV 24", "tag": "new", "th": ["aitrust"]},
+        {"t": "What Does AI Leadership Even Mean? (opinion)", "u": "https://www.insidehighered.com/opinion/views/2026/11/24/what-does-ai-leadership-even-mean-opinion", "s": "An opinion piece argues that colleges' claims to 'AI leadership' are mostly reactive and tied to corporate interests.", "d": "NOV 24", "tag": "new", "th": ["aitrust"]},
+        {"t": "Where Trump's International Student Crackdown Stands Now", "u": "https://www.insidehighered.com/news/global/international-students-us/2026/11/24/where-trumps-international-student-crackdown", "s": "Courts have blocked several rules, including a duration-of-stay cap that is now on appeal; a proposed fee of more than $70,000 per OPT applicant is the next fight.", "d": "NOV 24", "tag": "new", "th": ["policy"]},
+        {"t": "Loan Limits Unlikely to Reduce Defaults, New Data Shows", "u": "https://www.insidehighered.com/news/government/student-aid-policy/2026/11/24/loan-limits-unlikely-reduce-defaults-new-data-shows", "s": "A Philadelphia Fed study finds the new graduate loan caps mainly limit access, because loan size alone is a weak signal of repayment risk.", "d": "NOV 24", "tag": "new", "th": ["policy"]},
+        {"t": "New Enrollees in Science, Health Grad Programs Dropped 10%", "u": "https://www.insidehighered.com/news/quick-takes/2026/11/24/new-enrollees-science-health-grad-programs-dropped-10", "s": "NSF data show first-time, full-time science, engineering and health grad enrollment fell about 10% from 2024 to 2025, led by temporary visa holders.", "d": "NOV 24", "tag": "new", "th": ["policy"]},
+        {"t": "5 Findings on Gen Z's Changing Priorities", "u": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/24/5-findings-gen-zs-changing-priorities", "s": "New survey findings on how Gen Z students' priorities for college and careers are shifting.", "d": "NOV 24", "tag": "new"},
+        {"t": "Number of Students From Crisis-Stricken Countries Rising", "u": "https://insidehighered.com/news/global/international-students-us/2026/11/23/number-students-crisis-stricken-countries-rising", "s": "The number of U.S. students from crisis-stricken countries has grown since 2024.", "d": "NOV 23", "th": ["policy"]},
+        {"t": "Accreditor Will Endorse Colleges for Short-Term Credentials", "u": "https://www.insidehighered.com/news/quick-takes/2026/11/20/accreditor-will-endorse-colleges-short-term-credentials", "s": "The Higher Learning Commission is creating an endorsement for colleges that offer short-term credentials.", "d": "NOV 20", "th": ["policy"]},
+        {"t": "AI Changing College; Old Challenges Persist", "u": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist", "s": "A Student Voice survey of 5,034 undergraduates finds most use AI routinely, and a quarter have changed how they write to avoid false detector flags.", "d": "NOV 17", "th": ["aitrust"]}
+      ]
+    },
+    {
+      "name": "ISTE",
+      "dom": "iste.org",
+      "icon": "ti-world",
+      "note": "No new dated ISTE+ASCD news today; the latest press release is from August. Recent evergreen items shown.",
+      "arts": [
+        {"t": "ISTE+ASCD Announces New Name: International Society for Transforming Education", "u": "https://iste.org/news/iste-ascd-new-press-release", "s": "The merged organization is renaming itself the International Society for Transforming Education."},
+        {"t": "GenerationAI: News & Updates", "u": "https://iste.org/generationai/news-updates", "s": "ISTE+ASCD's hub for AI-in-education guidance and updates.", "th": ["aik12"]},
+        {"t": "ISTE+ASCD News", "u": "https://iste.org/news", "s": "Press releases, including the August launch of free official Pokémon Clubs as a member benefit."}
+      ]
+    },
+    {
+      "name": "Brookings (Education Technology)",
+      "dom": "brookings.edu",
+      "icon": "ti-building-bank",
+      "note": "No new dated edtech items today; recent related research shown.",
+      "arts": [
+        {"t": "How new governors and legislators can ready their states for the AI transition", "u": "https://www.brookings.edu/articles/how-new-governors-and-legislators-can-ready-their-states-for-the-ai-transition/", "s": "Points to Mississippi's voluntary statewide AI framework, with shared competencies from K-12 through careers, as a model for new state leaders.", "d": "NOV 18", "th": ["aik12"]},
+        {"t": "A new direction for students in an AI world: Prosper, prepare, protect", "u": "https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/", "s": "A framework for how schools can help students benefit from AI while protecting them from its risks.", "th": ["aik12"]},
+        {"t": "Enhancing student agency through school AI councils", "u": "https://www.brookings.edu/articles/enhancing-student-agency-through-school-ai-councils/", "s": "Makes the case for student-inclusive AI councils to shape school AI policy."}
+      ]
+    },
+    {
+      "name": "EdTech Digest",
+      "dom": "edtechdigest.com",
+      "icon": "ti-message-2",
+      "arts": [
+        {"t": "The Pulse of K-12 EdTech: What Leaders Told Me When They Weren't Selling Anything", "u": "https://www.edtechdigest.com/2026/11/23/the-pulse-of-k-12-edtech-what-leaders-told-me-when-they-werent-selling-anything/", "s": "Twelve district edtech leaders say trust now outranks price and features; some are moving to outcomes-based deals (e.g., 60% upfront, the rest tied to results) and expect more consolidation.", "d": "NOV 23", "tag": "new", "th": ["buying"]},
+        {"t": "Future Ready Starts with Getting the Basics Right", "u": "https://www.edtechdigest.com/2026/11/18/future-ready-starts-with-getting-the-basics-right/", "s": "Bluum's Rob Gag on how smaller districts with thin IT support can reduce tool sprawl and turn purchases into classroom results.", "d": "NOV 18", "th": ["buying"]},
+        {"t": "Edtech Evidence Season", "u": "https://www.edtechdigest.com/2026/11/13/edtech-evidence-season/", "s": "Asks whether ED's Dear Colleague letter urging evidence-based edtech purchasing will have a lasting effect.", "d": "NOV 13", "th": ["buying"]},
+        {"t": "Why AI Readiness Is Higher Education's Next Workforce Imperative", "u": "https://www.edtechdigest.com/2026/11/04/why-ai-readiness-is-higher-educations-next-workforce-imperative/", "s": "Argues that preparing graduates for AI is a workforce challenge that depends on faculty development and employer partnerships.", "d": "NOV 4", "th": ["aitrust"]}
+      ]
+    }
+  ]
+}
