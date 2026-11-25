@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-24T12:09:26Z",
+  "generatedAt": "2026-11-25T12:08:45Z",
   "daily": {
-    "date": "2026-11-24",
-    "topThemeKey": "aik12",
-    "topThemeTitle": "AI in K-12 Classrooms",
-    "topThemeBody": "Districts are setting grade-banded AI expectations and pushing back on Google's AI-by-default search for student accounts.",
+    "date": "2026-11-25",
+    "topThemeKey": "standards",
+    "topThemeTitle": "Interoperability & Standards",
+    "topThemeBody": "The QTI survey (Nov. 30), the CLR 2.0 showcase (Dec. 3) and the LTI 1.3 cutover (Dec. 31) set the year-end agenda.",
     "themes": [
-      {
-        "k": "aik12",
-        "title": "AI in K-12 Classrooms",
-        "weight": 8
-      },
       {
         "k": "standards",
         "title": "Interoperability & Standards",
         "weight": 7
       },
       {
-        "k": "buying",
-        "title": "Trust, Evidence & EdTech Buying",
-        "weight": 6
+        "k": "aik12",
+        "title": "AI Access in K-12",
+        "weight": 5
       },
       {
-        "k": "aitrust",
-        "title": "AI, Writing & Academic Trust",
+        "k": "buying",
+        "title": "Trust, Evidence & EdTech Buying",
         "weight": 5
       },
       {
         "k": "policy",
-        "title": "Federal Policy & Enrollment",
+        "title": "Federal Policy & Campus Governance",
         "weight": 5
       },
       {
         "k": "security",
-        "title": "Cybersecurity & Governance",
+        "title": "Cybersecurity & Infrastructure",
         "weight": 4
+      },
+      {
+        "k": "aitrust",
+        "title": "AI, Writing & Academic Trust",
+        "weight": 2
       }
     ]
   },
