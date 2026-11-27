@@ -1,25 +1,30 @@
 {
-  "generatedAt": "2026-11-26T12:08:24Z",
+  "generatedAt": "2026-11-27T12:08:15Z",
   "daily": {
-    "date": "2026-11-26",
-    "topThemeKey": "aigov",
-    "topThemeTitle": "Governing AI Inside School Tools",
-    "topThemeBody": "Districts are urged to inventory AI features, assign risk tiers and require vendor notice before AI is added to already-approved tools.",
+    "date": "2026-11-27",
+    "topThemeKey": "standards",
+    "topThemeTitle": "Interoperability & Standards",
+    "topThemeBody": "The QTI survey (Nov. 30), the CLR 2.0 showcase (Dec. 3), the LTI 1.3 cutover (Dec. 31) and Ed-Fi API v8.1 set the year-end agenda.",
     "themes": [
-      {
-        "k": "aigov",
-        "title": "Governing AI Inside School Tools",
-        "weight": 8
-      },
       {
         "k": "standards",
         "title": "Interoperability & Standards",
-        "weight": 8
+        "weight": 10
       },
       {
-        "k": "aik12",
-        "title": "AI Access & Equity in K-12",
-        "weight": 6
+        "k": "aiclass",
+        "title": "AI in Classrooms & Academic Trust",
+        "weight": 9
+      },
+      {
+        "k": "aigov",
+        "title": "Governing AI Inside School Tools",
+        "weight": 7
+      },
+      {
+        "k": "higher",
+        "title": "Higher Ed Enrollment & Governance",
+        "weight": 7
       },
       {
         "k": "buying",
@@ -27,14 +32,9 @@
         "weight": 6
       },
       {
-        "k": "higher",
-        "title": "Higher Ed Enrollment & Governance",
-        "weight": 6
-      },
-      {
-        "k": "aitrust",
-        "title": "AI, Writing & Academic Trust",
-        "weight": 2
+        "k": "security",
+        "title": "Cybersecurity Operations",
+        "weight": 5
       }
     ]
   },
